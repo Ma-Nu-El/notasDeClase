@@ -1,0 +1,24 @@
+* opti
+** Clase 1
+[2020-05-04 lun 14:43]
+
+El profe dijo que sacaria scanners de las hojas.
+
+*** Leer conferencias
+
+
+* org for lectures
+** org multi language?
+https://unix.stackexchange.com/questions/341714/use-multi-language-dictionary-with-aspell
+
+Spanish was missing.
+
+Solve with
+
+#+begin_example
+sudo apt install aspell-LANGUAGE
+#+end_example
+** Org latex
+Just for math notation.
+** Org mail
+** USB C HUB
