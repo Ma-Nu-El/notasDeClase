@@ -1,0 +1,5 @@
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
+
+* termo
