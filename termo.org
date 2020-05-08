@@ -23,4 +23,7 @@ Estados y procesos termodinámicos.
 
 - Isobárico, iso-aquí, iso-acá
 - Reversible e irreversible
+- Cuasi-estático?
+
 ** Clase
+Ley cero.
