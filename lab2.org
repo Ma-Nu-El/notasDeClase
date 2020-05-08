@@ -5,6 +5,7 @@
 Multilanguageeeee!!
 Latex for maths
 
+Modelo vista controlador (MVC)?
 
 Java
 UML (Class)
