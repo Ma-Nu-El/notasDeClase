@@ -28,6 +28,7 @@ sudo apt install aspell-LANGUAGE
 Just for math notation.
 ** Org mail
 ** USB C HUB
+** GNU Video editing?
 
 
 
