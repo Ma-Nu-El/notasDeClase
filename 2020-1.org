@@ -2,8 +2,6 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
-
-
 * org for lectures
 ** org multi language?
 https://unix.stackexchange.com/questions/341714/use-multi-language-dictionary-with-aspell
@@ -20,6 +18,7 @@ Just for math notation.
 ** Org mail
 ** USB C HUB
 ** GNU Video editing?
+kdenlive
 
 
 
