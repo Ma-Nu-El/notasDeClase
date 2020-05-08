@@ -2,6 +2,8 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
+#+OPTION: toc: 3
+
 * [2020-05-08 vie 11:05]
 Segunda clase.
 
