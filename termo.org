@@ -2,4 +2,25 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
-* termo
+* [2020-05-08 vie 11:05]
+Segunda clase.
+
+Las grabaciones no involucran los repasos por el peso de las
+grabaciones. 
+
+** Repaso clase pasada
+
+Equilibro térmico vs termodinámico
+
+Adiabático. Permeabilidad.
+
+Definir un sistema en función de las 3 fundamentales:
+- Temperatura
+- Presión
+- Volumen.
+  
+Estados y procesos termodinámicos.
+
+- Isobárico, iso-aquí, iso-acá
+- Reversible e irreversible
+** Clase
