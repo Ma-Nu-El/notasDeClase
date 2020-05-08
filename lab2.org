@@ -2,12 +2,15 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
+
+Miércoles de 12 a 13
+
 Multilanguageeeee!!
 Latex for maths
 
 Modelo vista controlador (MVC)?
 
-Java
+Java (netbeans, eclipse, jetbrains ...)
 UML (Class)
 Databases
 
