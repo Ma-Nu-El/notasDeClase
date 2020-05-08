@@ -27,3 +27,6 @@ Estados y procesos termodinámicos.
 
 ** Clase
 Ley cero.
+Fuente: LEY CERO_U1.pdf
+
+Seguimiento Clase 2
