@@ -3,9 +3,12 @@
 # End:
 
 #+OPTION: toc: 3
+#+EXPORT_FILE_NAME: ../docs/test.html
 
 * [2020-05-08 vie 11:05]
 Segunda clase.
+
+This is a test.
 
 Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
