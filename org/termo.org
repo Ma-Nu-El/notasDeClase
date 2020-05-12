@@ -3,7 +3,7 @@
 # End:
 
 #+OPTION: toc: 3
-#+EXPORT_FILE_NAME: ../docs/index.html
+#+EXPORT_FILE_NAME: ../html/termodinamica.html
 #+LANGUAGE: es
 
 * [2020-05-08 vie 11:05]
