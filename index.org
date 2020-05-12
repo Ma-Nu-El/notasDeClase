@@ -1,0 +1,10 @@
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
+
+#+OPTION: toc: 3
+#+EXPORT_FILE_NAME: index.html
+#+LANGUAGE: es
+
+* 2020-1
+** [[file:org/termo.org][Termodinámica]]
