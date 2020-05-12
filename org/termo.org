@@ -6,13 +6,14 @@
 #+EXPORT_FILE_NAME: ../html/termodinamica.html
 #+LANGUAGE: es
 
-* [2020-05-08 vie 11:05]
-Segunda clase.
+* Termodinámica
+** Segunda clase
+[2020-05-08 vie 11:05]
 
 Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
 
-** Repaso clase pasada
+*** Repaso clase pasada
 
 Equilibro térmico vs termodinámico
 
@@ -29,7 +30,7 @@ Estados y procesos termodinámicos.
 - Reversible e irreversible
 - Cuasi-estático?
 
-** Clase
+*** Clase
 Ley cero.
 Fuente: LEY CERO_U1.pdf (campus virtual)
 Indagaron harto en el punto triple.
@@ -37,4 +38,4 @@ Indagaron harto en el punto triple.
 
 Seguimiento Clase 2
 
-** Tarea
+*** Tarea
