@@ -6,5 +6,4 @@
 #+EXPORT_FILE_NAME: index.html
 #+LANGUAGE: es
 
-* 2020-1
-** [[file:html/termodinamica.html][Termodinámica]]
+#+INCLUDE: "org/termo.org"
