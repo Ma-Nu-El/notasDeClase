@@ -50,8 +50,8 @@ Ejercicio
 - física2
 
 Ecuacion de calor
-Q(m,q_e,???)
-
+Q(m,C_e,deltaT)
+Q=m*C_p*deltaT
 
 
 ** Evaluaciones
