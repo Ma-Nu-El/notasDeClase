@@ -49,5 +49,10 @@ Ejercicio
 - punto triple
 - física2
 
+Ecuacion de calor
+Q(m,q_e,???)
+
+
+
 ** Evaluaciones
 Las evaluaciones quedarán para el 11 de junio.
