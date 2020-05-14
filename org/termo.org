@@ -7,8 +7,9 @@
 #+LANGUAGE: es
 
 * Termodinámica
-** Segunda clase
-[2020-05-08 vie 11:05]
+** clase 2
+
+[2020-05-08 vie 10:50]
 
 Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
@@ -40,7 +41,10 @@ Seguimiento Clase 2
 
 *** Tarea
 
-** Clase 3
+** clase 3
+
+[2020-05-14 jue 09:00]
+
 Ejercicio
 - punto triple
 - física2
