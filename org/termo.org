@@ -49,9 +49,7 @@ Ejercicio
 - punto triple
 - física2
 
-Ecuacion de calor
-Q(m,C_e,deltaT)
-Q=m*C_p*deltaT
+PPT Intercambio de calor sensible
 
 
 ** Evaluaciones
