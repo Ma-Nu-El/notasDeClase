@@ -68,13 +68,13 @@ en varias lineas */
 -- tabla PaginaWeb
 CREATE TABLE nombre_tabla (
     id INT UNSIGNED NOT NULL,
-	PUBLIC void main()
-	PUBLIC void bienvenida()
-	PUBLIC void reserva()
-	PUBLIC void consultar()
-	PUBLIC void compraPasaje()
-	PUBLIC void modificarVenta()
-	PUBLIC void registro()
+	PUBLIC void main(),
+	PUBLIC void bienvenida(),
+	PUBLIC void reserva(),
+	PUBLIC void consultar(),
+	PUBLIC void compraPasaje(),
+	PUBLIC void modificarVenta(),
+	PUBLIC void registro(),
 	PRIMARY KEY (main) 
 );
 
@@ -83,6 +83,17 @@ CREATE TABLE Viaje (
 	id INT UNSIGNED NOT NULL,
 	horaSalida DATETIME NOT NULL,
 	horaLlegada DATETIME NOT NULL,
-	estado VARCHAR (45)
+	estado VARCHAR (45),
+	PRIMARY KEY (id),
+);
+
+
+-- tabla Terminal
+CREATE TABLE Viaje (
+	id INT UNSIGNED NOT NULL,
+	pais VARCHAR (45),
+	nombre VARCHAR (45),
+	ciudad VARCHAR (45),
+	region VARCHAR (45),
 	PRIMARY KEY (id) 
 );
