@@ -135,6 +135,40 @@ Geraldine Henriquez
 	  PRIMARY KEY (id) 
   );
 
+  -- tabla Tarifa
+  CREATE TABLE Tarifa (
+	  id INT UNSIGNED NOT NULL,
+	  km DOUBLE UNSIGNED NOT NULL,
+	  PRIMARY KEY (id) 
+  -- funciones en sql?
+  CREATE PUBLIC FUNCTION calcularPrecio(@km DECIMAL(7,2))
+  RETURNS Decimal(7,2)  
+  Begin  
+    DECLARE @Result DOUBLE(7,2)  
+    SET @Result = @Num1 + @Num2  
+    RETURN @Result  
+  end  
+  );
+  
+  -- tabla Asiento
+  CREATE TABLE Tarifa (
+	  id INT UNSIGNED NOT NULL,
+	  numeroAsiento INT UNSIGNED NOT NULL,
+          tipo VARCHAR(45) NOT NULL,
+          estadoAsiento BIT DEFAULT 0,
+	  PRIMARY KEY (id) 
+  -- funciones en sql?
+  CREATE PUBLIC FUNCTION estadoAsiento(@estadoAsiento BIT(0,1))
+  RETURNS (0,1)  
+  Begin  
+    DECLARE @Result BIT(0,1)  
+    RETURN @Result  
+  end  
+  );
+
 
 
 #+end_src
+
+
+
