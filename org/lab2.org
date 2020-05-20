@@ -33,7 +33,7 @@ Geraldine Henriquez
 
 #+header: :results silent
 #+header: :padline no
-#+header: :tangle ./2020-1-lab2-nivelacion-sql-1
+#+header: :tangle ./2020-1-lab2-nivelacion-sql-1.sql
 #+begin_src sql
 -- actualizar presionando f5
 
