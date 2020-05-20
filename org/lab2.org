@@ -35,89 +35,94 @@ Geraldine Henriquez
 #+header: :padline no
 #+header: :tangle ./2020-1-lab2-nivelacion-sql-1.sql
 #+begin_src sql
--- actualizar presionando f5
+  -- actualizar presionando f5
 
--- ejemplo de la ultima prueba de base de datos 
--- 2019-2
-CREATE TABLE marca (
-    id INT UNSIGNED NOT NULL,
-    marca VARCHAR(45) NOT NULL,
-    PRIMARY KEY (id)
-);
+  -- ejemplo de la ultima prueba de base de datos 
+  -- 2019-2
+  CREATE TABLE marca (
+      id INT UNSIGNED NOT NULL,
+      marca VARCHAR(45) NOT NULL,
+      PRIMARY KEY (id)
+  );
 
-CREATE TABLE tipo (
-    id INT UNSIGNED NOT NULL,
-    nombre VARCHAR(45) NOT NULL,
-    PRIMARY KEY (id)  
-);
+  CREATE TABLE tipo (
+      id INT UNSIGNED NOT NULL,
+      nombre VARCHAR(45) NOT NULL,
+      PRIMARY KEY (id)  
+  );
 
-CREATE TABLE modelo (
-    id INT UNSIGNED NOT NULL,
-    modelo VARCHAR(45),
-    tipo_id INT UNSIGNED NOT NULL,
-    marca_id INT UNSIGNED NOT NULL,
-    PRIMARY KEY (id)
-);
+  CREATE TABLE modelo (
+      id INT UNSIGNED NOT NULL,
+      modelo VARCHAR(45),
+      tipo_id INT UNSIGNED NOT NULL,
+      marca_id INT UNSIGNED NOT NULL,
+      PRIMARY KEY (id)
+  );
 
-CREATE TABLE ubicacion (
-    id INT UNSIGNED NOT NULL,
-    direccion VARCHAR(200),
-    numero VARCHAR(6),
-    postal VARCHAR(20),
-    PRIMARY KEY (id)
-);
+  CREATE TABLE ubicacion (
+      id INT UNSIGNED NOT NULL,
+      direccion VARCHAR(200),
+      numero VARCHAR(6),
+      postal VARCHAR(20),
+      PRIMARY KEY (id)
+  );
 
-CREATE TABLE sensor (
-    codigo INT UNSIGNED NOT NULL,
-    estado TINYINT NOT NULL,
-    fecha_instalacion DATE,
-    modelo_id INT UNSIGNED NOT NULL,
-    ubicacion_id INT UNSIGNED NOT NULL,
-    PRIMARY KEY(codigo)  
-);
+  CREATE TABLE sensor (
+      codigo INT UNSIGNED NOT NULL,
+      estado TINYINT NOT NULL,
+      fecha_instalacion DATE,
+      modelo_id INT UNSIGNED NOT NULL,
+      ubicacion_id INT UNSIGNED NOT NULL,
+      PRIMARY KEY(codigo)  
+  );
 
-CREATE TABLE datos (
-    id INT UNSIGNED NOT NULL,
-    tipo_id INT UNSIGNED NOT NULL,
-    fecha_registro TIMESTAMP NOT NULL,
-    temperatura FLOAT,
-    nivel_gases FLOAT,
-    luz FLOAT,
-    sensor_codigo INT UNSIGNED NOT NULL,
-    PRIMARY KEY (id)
-);
+  CREATE TABLE datos (
+      id INT UNSIGNED NOT NULL,
+      tipo_id INT UNSIGNED NOT NULL,
+      fecha_registro TIMESTAMP NOT NULL,
+      temperatura FLOAT,
+      nivel_gases FLOAT,
+      luz FLOAT,
+      sensor_codigo INT UNSIGNED NOT NULL,
+      PRIMARY KEY (id)
+  );
 
+   CREATE TABLE datos (
+      id INT UNSIGNED NOT NULL,
+      tipo_id INT UNSIGNED NOT NULL,
+      fecha_registro TIMESTAMP NOT NULL,
+      temperatura FLOAT,
+      nivel_gases FLOAT,
+      luz FLOAT,
+      sensor_codigo INT UNSIGNED NOT NULL,
+      PRIMARY KEY (id)
+  );
 
- CREATE TABLE datos (
-    id INT UNSIGNED NOT NULL,
-    tipo_id INT UNSIGNED NOT NULL,
-    fecha_registro TIMESTAMP NOT NULL,
-    temperatura FLOAT,
-    nivel_gases FLOAT,
-    luz FLOAT,
-    sensor_codigo INT UNSIGNED NOT NULL,
-    PRIMARY KEY (id)
-);
+  -- asi se comenta en sql
+  /* Lo mismo pero comentado
+  en varias lineas */
 
--- asi se comenta en sql
-/* Lo mismo pero comentado
-en varias lineas */
+  -- tabla PaginaWeb
+  CREATE TABLE nombre_tabla (
+      id INT UNSIGNED NOT NULL,
+	  PUBLIC void main()
+	  PUBLIC void bienvenida()
+	  PUBLIC void reserva()
+	  PUBLIC void consultar()
+	  PUBLIC void compraPasaje()
+	  PUBLIC void modificarVenta()
+	  PUBLIC void registro()
+	  PRIMARY KEY (main) 
+  );
 
--- tabla PaginaWeb
-CREATE TABLE nombre_tabla (
-    id INT UNSIGNED NOT NULL,
-	PUBLIC void main()
-	PUBLIC void bienvenida()
-	PUBLIC void reserva()
-	PUBLIC void consultar()
-	PUBLIC void compraPasaje()
-	PUBLIC void modificarVenta()
-	PUBLIC void registro()
-	PRIMARY KEY (main) 
-);
-
--- tabla 
-
+  -- tabla Viaje
+  CREATE TABLE Viaje (
+	  id INT UNSIGNED NOT NULL,
+	  horaSalida DATETIME NOT NULL,
+	  horaLlegada DATETIME NOT NULL,
+	  estado VARCHAR (45)
+	  PRIMARY KEY (id) 
+  );
 
 
 

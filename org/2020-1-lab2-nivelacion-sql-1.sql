@@ -50,7 +50,6 @@ CREATE TABLE datos (
     PRIMARY KEY (id)
 );
 
-
  CREATE TABLE datos (
     id INT UNSIGNED NOT NULL,
     tipo_id INT UNSIGNED NOT NULL,
@@ -79,4 +78,11 @@ CREATE TABLE nombre_tabla (
 	PRIMARY KEY (main) 
 );
 
--- tabla
+-- tabla Viaje
+CREATE TABLE Viaje (
+	id INT UNSIGNED NOT NULL,
+	horaSalida DATETIME NOT NULL,
+	horaLlegada DATETIME NOT NULL,
+	estado VARCHAR (45)
+	PRIMARY KEY (id) 
+);
