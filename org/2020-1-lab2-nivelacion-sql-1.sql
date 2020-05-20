@@ -128,3 +128,17 @@ Begin
   RETURN @Result  
 end  
 );
+
+-- tabla Bus
+CREATE TABLE Tarifa (
+	id INT UNSIGNED NOT NULL,
+        capacidad VARCHAR(45) NOT NULL,
+        modelo VARCHAR(45) NOT NULL,
+        anio INT(45) NOT NULL,
+        marca VARCHAR(45) NOT NULL,
+        empresa VARCHAR(45) NOT NULL,
+	numeroAsiento INT UNSIGNED NOT NULL,
+        tipo VARCHAR(45) NOT NULL,
+        estadoAsiento BIT DEFAULT 0,
+	PRIMARY KEY (id) 
+);
