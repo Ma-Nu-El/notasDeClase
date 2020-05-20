@@ -2,7 +2,6 @@
 
 -- ejemplo de la ultima prueba de base de datos 
 -- 2019-2
-
 CREATE TABLE marca (
     id INT UNSIGNED NOT NULL,
     marca VARCHAR(45) NOT NULL,
@@ -77,5 +76,7 @@ CREATE TABLE nombre_tabla (
 	PUBLIC void compraPasaje()
 	PUBLIC void modificarVenta()
 	PUBLIC void registro()
-	PRIMARY KEY (id) 
+	PRIMARY KEY (main) 
 );
+
+-- tabla
