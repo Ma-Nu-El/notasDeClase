@@ -1,0 +1,19 @@
+[2020-05-23 Sat]
+
+* Source
+https://www.youtube.com/watch?v=eIrMbAQSU34
+
+* code
+
+The "smallest building block" in java are functions. Every function is
+contained inside a class.
+
+A class is a container for one or more related functions.
+
+#+begin_example java
+class className {
+	returnType functionName(parameterType parameterName, ... ) {
+	// body; this is comment
+	}	
+}
+#+end_example
