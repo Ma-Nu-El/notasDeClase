@@ -34,19 +34,123 @@ is easy for the JDK to read and execute the code you write.
 
 * code
 
-The "smallest building block" in java are functions. Every function is
-contained inside a class.
+The "smallest building blocks" in java are functions. Every function
+is contained inside a class.
 
 A class is a container for one or more related functions.
 
+A package is a container for one or more related classes.
+
+So, for instance, you could have one singular file with its
+correspondent .java extension that could contain something like this:
+
 #+begin_example java
-class className {
-	returnType functionName(parameterType parameterName, ... ) {
-	// body; this is comment
+class ClassName {
+	accessModifier returnType functionName(parameterType parameterName, ... ) {
+	// body; this is a comment
 	}	
 	
-	returnType functionName2(parameterType parameterName, ... ) {
-	// body; this is comment
+        accessModifier returnType functionName2(parameterType parameterName, ... ) {
+	// body; this is a comment
 	}	
 }
 #+end_example
+
+and you would have written your first java project.
+
+** returnType:
+- int (primitive)
+- boolean (primitive)
+- String (non-primitive)
+  
+** parameterType: same as returnType
+** accessModifier: determines the access to the information contained in
+this particular class.
+
+- public
+- protected
+- private
+
+its use is related to OOP Inheritance.
+
+** the Main class and main function
+
+Every Java project contains at least one class containing one
+function: Main.
+
+#+begin_example java
+class Main {
+	public static void main() {
+	// body; this is a comment
+	}	
+}
+#+end_example
+
+And now considering you could find projects that contain literally
+thousands of classes, you could group them in packages by writing:
+
+#+begin_example java
+package com.codingisawesome;
+
+class Main {
+	public static void main(String[] args) {
+	// body; this is a comment
+	}	
+}
+#+end_example
+
+This is read: "this .java file pertains to a package whose name is
+~com.codingisawesome~".
+
+The ~public static void main(String[] args)~ part is read: "this is a
+~public~ method that returns no value (~void~), and actually is the
+method I first need to see when executing this program (~main~). Also,
+this method can take as parameters an array (~[]~) named ~args~ that
+contains variables of type ~String~".
+
+~class Main {~ : "the following are a set of functions (~class~) that
+are all related to the ~main~ part of the project".
+
+#+begin_comment
+The ~static~ part is related to memory allocation, a topic a little
+more advanced: it's related to the way the computer actually stores
+the information.
+#+end_comment
+
+By now your project should look like this:
+
+#+begin_example
+yourProjectName/
+└── com.codingisawesome
+    └── yourJavaFile.java
+#+end_example
+
+where:
+- ~yourProjectName/~ is a directory(folder)
+- ~com.codingisawesome~ is a fancy directory that contains only .java files.
+- ~yourJavaFile.java~ is an actual file; a .java file.
+
+#+begin_comment
+Wait, how do classes fit in this diagram?
+
+TLDR: Restrict yourself to one class per file.
+
+long: One .java file may contain as many classes as you want, but for
+convenience purposes it's common to write only one class per file to
+allow modularity, a key factor when you discover your project can
+expand to areas you wouldn't think of and now you need more
+flexibility.
+#+end_comment
+
+** Naming conventions
+
+https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+
+| Classes  | PascalNamingConvention    |
+| Methods  | camelNamingConvention     |
+| Packages | com.yourCompanyName[fn:1] |
+
+[fn:1] Your company domain name reversed. 
+
+| company domain name | package name        |
+| codingisawesome.com | com.codingisawesome |
