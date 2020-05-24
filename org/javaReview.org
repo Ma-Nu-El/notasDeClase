@@ -206,7 +206,7 @@ native code, which is the one that the machine actually can read[fn:2].
 This is done with
 
 #+begin_example shell
-$ java ~/yourProjectName/com.codingisawesome/Main.class
+$ java src/com.codingisawesome/Main.class
 Hello World!
 #+end_example
 The ~.class~ extension is optional: ~$ java~ won't execute a ~.java~
