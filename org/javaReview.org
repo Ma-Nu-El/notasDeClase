@@ -1,7 +1,36 @@
+Started:
 [2020-05-23 Sat]
 
 * Source
 https://www.youtube.com/watch?v=eIrMbAQSU34
+
+
+* Software required
+** A java development kit (JDK)
+
+A JDK contains all necessary tools for the computer to process Java
+code like a compiler and runtime (...?)
+
+** A text editor
+If you want to learn the syntax, any will do. If you want to write
+useful things, you will need to get an IDE like IntelliJ IDEA,
+Netbeans or Eclipse. There are other IDE's also, but the ones I named
+are the ones that are optimized to handle a project written in
+Java: you could even write a Java project with pen and paper, but
+erasing and moving things around would be really cumbersome.
+
+In practice, when you code, you make mistakes, and when you keep
+practicing, you make even deeper mistakes; that's when an IDE pays its
+convenience by fixing your errors in a smart way for you to focus on
+coding and letting the machine do the things that are already
+automated. Read about refactoring and debugging.
+
+** Putting it together
+
+You use the IDE to write, edit and debug code, but the IDE itself
+doesn't actually execute the code; the entity that does that job is
+the JDK. What the IDE really does is help you write code in a way that
+is easy for the JDK to read and execute the code you write.
 
 * code
 
@@ -13,6 +42,10 @@ A class is a container for one or more related functions.
 #+begin_example java
 class className {
 	returnType functionName(parameterType parameterName, ... ) {
+	// body; this is comment
+	}	
+	
+	returnType functionName2(parameterType parameterName, ... ) {
 	// body; this is comment
 	}	
 }
