@@ -228,3 +228,20 @@ IDE.
 (JVM) contained inside the JRE.
 
 [fn:3] The same idea is implemented for Python and C#.
+
+* Java editions 
+
+Java SE: Standard Edition
+The core of every other Java edition. 
+
+The one you have most likely used. As of March 2019 they are in Java
+SE12.
+
+Java EE: Enterprise Edition
+Optimized for large projects.
+
+Java EE: Micro Edition
+Optimized for mobile apps development (Android).
+
+Java Card:
+Optimized for cards.
