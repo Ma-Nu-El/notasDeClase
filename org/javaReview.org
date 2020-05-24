@@ -154,3 +154,13 @@ https://www.oracle.com/java/technologies/javase/codeconventions-namingconvention
 
 | company domain name | package name        |
 | codingisawesome.com | com.codingisawesome |
+
+** Calling methods from other classes
+
+Just like using/calling a command in Bash.
+
+~packageName.className.functionName(optionalParam);~
+
+The ~optionalParam~ is because you might be calling a ~void~ function;
+requires no parameters.
+
