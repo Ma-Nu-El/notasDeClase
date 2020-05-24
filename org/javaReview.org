@@ -164,3 +164,67 @@ Just like using/calling a command in Bash.
 The ~optionalParam~ is because you might be calling a ~void~ function;
 requires no parameters.
 
+** The flow of code
+
+From the moment it's written to the moment it's executed.
+
+1. Write project (code) with help of IDE.
+2. IDE passes the code to the Java compiler.
+
+This is the same if you manually did (for every file):
+
+#+begin_example shell
+$ pwd
+~/yourProjectName/com.codingisawesome/
+
+$ ls
+Main.java
+
+$ javac Main.java
+
+(...)
+
+$ ls
+Main.java
+Main.class
+#+end_example
+
+Now you have your compiled Main.class file! This file is a byte-code
+representation of your .java file.
+
+The particular thing about the .class file is that it's platform
+independent. Any machine with a Java Runtime Enviroment (JRE)
+installed could run your freshly compiled .class file! The JRE comes
+bundled with your JDK.
+
+3. Byte-code to native-code
+   
+Next, your IDE takes this byte-code and feeds it into the JRE. The JRE
+converts your platform independent byte-code into a platform dependent
+native code, which is the one that the machine actually can read[fn:2].
+
+This is done with
+
+#+begin_example shell
+$ java ~/yourProjectName/com.codingisawesome/Main.class
+Hello World!
+#+end_example
+The ~.class~ extension is optional: ~$ java~ won't execute a ~.java~
+file.
+
+That is the reason why Java is a WORE language: Write Once and Run
+Everywhere.
+
+You could write your app in Windows and run it without a problem in
+Linux/Mac OS and vice versa: as long as the machines involved have a
+JRE installed[fn:3]. 
+
+And, of course, all this complexity is hidden from you by the "Run"
+button of your IDE, so you just worry about writing beautiful code and
+running it; the compilation and execution are made by the JDK via you
+IDE.
+
+[fn:2] This step is done specifically by the Java Virtual Machine
+(JVM) contained inside the JRE.
+
+[fn:3] The same idea is implemented for Python and C#.
