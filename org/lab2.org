@@ -2,6 +2,11 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
+#+OPTION: toc: 3
+#+EXPORT_FILE_NAME: ../html/termodinamica.html
+#+LANGUAGE: es
+
+
 * Primera clase
 Miércoles de 12 a 13
 
@@ -28,6 +33,15 @@ Geraldine Henriquez
 +56985335906
 
 * Tareas
+** Tarea2 UML
+
+This linea 
+
+El ministerio de defensa desea disenar una base de datos para llevar
+un cierto control de los soldades que realizan el serivia militac.
+
+
+
 ** SQL como nivelación 
 
 
@@ -181,6 +195,3 @@ Geraldine Henriquez
   );
 
 #+end_src
-
-
-

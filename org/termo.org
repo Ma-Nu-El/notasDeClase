@@ -51,6 +51,17 @@ Ejercicio
 
 PPT Intercambio de calor sensible
 
+** clase
+[2020-05-28 jue]
+
+Concepto de trabajo (en forma de integral).
+
+Campus PDF:
+TRABAJO_U2.pdf
+
+
+
 
 ** Evaluaciones
-Las evaluaciones quedarán para el 11 de junio.
+La primera prueba se fijó para el viernes 12 de junio.
+
