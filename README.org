@@ -1,0 +1,5 @@
+#+TITLE: README
+
+#+INCLUDE: termo.org
+#+INCLUDE: opti.org
+#+INCLUDE: lab2.org
