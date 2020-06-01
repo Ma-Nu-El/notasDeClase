@@ -7,9 +7,6 @@
 
 * lab2
 ** notas clases
-Miércoles de 12 a 13
-
-Latex for maths
 
 Modelo vista controlador (MVC)?
 
@@ -37,4 +34,4 @@ mierc 1200 - 1300
 *** Clases
 vier  0900 - ~1030
 
-** fechas evaluaciones
+** TODO fechas evaluaciones

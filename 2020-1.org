@@ -4,6 +4,7 @@
 
 * org for lectures
 ** org multi language?
+
 https://unix.stackexchange.com/questions/341714/use-multi-language-dictionary-with-aspell
 
 Spanish was missing.
@@ -16,6 +17,7 @@ sudo apt install aspell-LANGUAGE
 ** Org latex
 Just for math notation.
 ** Org mail
+Doom Emacs mu4e
 ** USB C HUB
 
 
