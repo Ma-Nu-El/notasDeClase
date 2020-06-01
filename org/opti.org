@@ -1,9 +1,21 @@
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
+
+
 * opti
 ** Clase 1
 [2020-05-04 lun 14:43]
 
-El profe dijo que sacaria scanners de las hojas.
+El profe dijo que sacaría scanners de las hojas.
 
 *** Leer conferencias
 
+** fecha evaluaciones
 
+*** prueba1 : Lunes 8 de junio 2020
+*** prueba2 : Lunes 20 de julio 2020
+*** prueba3 : Lunes 17 de agosto 2020
+*** examen  : Lunes 31 de agosto 2020
+*** comentario evaluaciones
+Cuando empiezan las clases presenciales, empiezan las pruebas presenciales.

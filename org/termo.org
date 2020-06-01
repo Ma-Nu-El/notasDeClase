@@ -6,7 +6,7 @@
 #+EXPORT_FILE_NAME: ../html/termodinamica.html
 #+LANGUAGE: es
 
-* Termodinámica
+* termo
 ** clase 2
 
 [2020-05-08 vie 10:50]

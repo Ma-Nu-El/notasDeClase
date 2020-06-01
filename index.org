@@ -7,3 +7,5 @@
 #+LANGUAGE: es
 
 #+INCLUDE: "org/termo.org"
+#+INCLUDE: "org/opti.org"
+#+INCLUDE: "org/lab2.org"
