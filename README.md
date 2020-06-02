@@ -1,41 +1,42 @@
 
 # &Iacute;ndice
 
-1.  [termo](#org3b9a3bb)
-    1.  [clase 2](#org7c6cec5)
-        1.  [Repaso clase pasada](#orgfc4a64f)
-        2.  [Clase](#org7817957)
-        3.  [Tarea](#org91ff0c8)
-    2.  [clase 3](#org10f40de)
-    3.  [clase](#org911081e)
-    4.  [Evaluaciones](#orgf028f5e)
-2.  [opti](#orgc6475d0)
-    1.  [Clase 1](#orgfca4ef9)
-        1.  [Leer conferencias](#orgbaaded1)
-    2.  [fecha evaluaciones](#org7a49810)
-        1.  [prueba1](#org8588b98)
-        2.  [prueba2](#org7f1bc61)
-        3.  [prueba3](#org637d282)
-        4.  [examen](#orge42f262)
-        5.  [comentario evaluaciones](#orgedcfcb4)
-3.  [lab2](#org558a368)
-    1.  [notas clases](#orgc2c9f44)
-    2.  [contacto](#org6c48940)
-        1.  [profesor:](#org702f111)
-        2.  [ayudante:](#orga9431a0)
-    3.  [horario clases](#org36be614)
-        1.  [Ayudantía](#orgb651408)
-        2.  [Clases](#org6500977)
-    4.  [fechas evaluaciones](#org10b65ba)
+1.  [termo](#org01f8dba)
+    1.  [clase 2](#org1a40da8)
+        1.  [Repaso clase pasada](#org3dd672b)
+        2.  [Clase](#org7d8fc58)
+        3.  [Tarea](#org80ceade)
+    2.  [clase 3](#orgb2b364b)
+    3.  [clase](#org0a80d24)
+    4.  [Evaluaciones](#org3ca4fab)
+2.  [opti](#org98cb98c)
+    1.  [Clase 1](#org5fde3ba)
+        1.  [Leer conferencias](#orgda1b76f)
+    2.  [fecha evaluaciones](#orgba8402e)
+        1.  [prueba1](#org0e69c7e)
+        2.  [prueba2](#org42a0caf)
+        3.  [prueba3](#org6c62a29)
+        4.  [examen](#orgeeef8c5)
+        5.  [comentario evaluaciones](#orgb19e8de)
+3.  [lab2](#org5bb6a75)
+    1.  [notas clases](#orgec56dd3)
+    2.  [contacto](#org7698af8)
+        1.  [profesor:](#orgb714ee2)
+        2.  [ayudante:](#orgbe7cc35)
+    3.  [horario clases](#orgaa49289)
+        1.  [Ayudantía](#orgef93741)
+        2.  [Clases](#org9c436da)
+    4.  [fechas evaluaciones](#orgf52df2b)
+
+This is a test
 
 
-
-<a id="org3b9a3bb"></a>
+<a id="org01f8dba"></a>
 
 # termo
 
 
-<a id="org7c6cec5"></a>
+<a id="org1a40da8"></a>
 
 ## clase 2
 
@@ -45,7 +46,7 @@ Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
 
 
-<a id="orgfc4a64f"></a>
+<a id="org3dd672b"></a>
 
 ### Repaso clase pasada
 
@@ -66,7 +67,7 @@ Estados y procesos termodinámicos.
 -   Cuasi-estático?
 
 
-<a id="org7817957"></a>
+<a id="org7d8fc58"></a>
 
 ### Clase
 
@@ -77,12 +78,12 @@ Indagaron harto en el punto triple.
 Seguimiento Clase 2
 
 
-<a id="org91ff0c8"></a>
+<a id="org80ceade"></a>
 
 ### Tarea
 
 
-<a id="org10f40de"></a>
+<a id="orgb2b364b"></a>
 
 ## clase 3
 
@@ -96,7 +97,7 @@ Ejercicio
 PPT Intercambio de calor sensible
 
 
-<a id="org911081e"></a>
+<a id="org0a80d24"></a>
 
 ## clase
 
@@ -108,19 +109,19 @@ Campus PDF:
 TRABAJO<sub>U2.pdf</sub>
 
 
-<a id="orgf028f5e"></a>
+<a id="org3ca4fab"></a>
 
 ## Evaluaciones
 
 La primera prueba se fijó para el viernes 12 de junio.
 
 
-<a id="orgc6475d0"></a>
+<a id="org98cb98c"></a>
 
 # opti
 
 
-<a id="orgfca4ef9"></a>
+<a id="org5fde3ba"></a>
 
 ## Clase 1
 
@@ -129,57 +130,57 @@ La primera prueba se fijó para el viernes 12 de junio.
 El profe dijo que sacaría scanners de las hojas.
 
 
-<a id="orgbaaded1"></a>
+<a id="orgda1b76f"></a>
 
 ### Leer conferencias
 
 
-<a id="org7a49810"></a>
+<a id="orgba8402e"></a>
 
 ## fecha evaluaciones
 
 
-<a id="org8588b98"></a>
+<a id="org0e69c7e"></a>
 
 ### prueba1
 
 Lunes 8 de junio 2020 (.35)
 
 
-<a id="org7f1bc61"></a>
+<a id="org42a0caf"></a>
 
 ### prueba2
 
 Lunes 20 de julio 2020 (.30)
 
 
-<a id="org637d282"></a>
+<a id="org6c62a29"></a>
 
 ### prueba3
 
 Lunes 17 de agosto 2020 (.35)
 
 
-<a id="orge42f262"></a>
+<a id="orgeeef8c5"></a>
 
 ### examen
 
 Lunes 31 de agosto 2020
 
 
-<a id="orgedcfcb4"></a>
+<a id="orgb19e8de"></a>
 
 ### comentario evaluaciones
 
 Cuando empiezan las clases presenciales, empiezan las pruebas presenciales.
 
 
-<a id="org558a368"></a>
+<a id="org5bb6a75"></a>
 
 # lab2
 
 
-<a id="orgc2c9f44"></a>
+<a id="orgec56dd3"></a>
 
 ## notas clases
 
@@ -196,19 +197,19 @@ CSS
 Bootstrap?
 
 
-<a id="org6c48940"></a>
+<a id="org7698af8"></a>
 
 ## contacto
 
 
-<a id="org702f111"></a>
+<a id="orgb714ee2"></a>
 
 ### profesor:
 
 blas.castel@ufrontera.cl 
 
 
-<a id="orga9431a0"></a>
+<a id="orgbe7cc35"></a>
 
 ### ayudante:
 
@@ -216,26 +217,26 @@ Geraldine Henriquez
 +56985335906
 
 
-<a id="org36be614"></a>
+<a id="orgaa49289"></a>
 
 ## horario clases
 
 
-<a id="orgb651408"></a>
+<a id="orgef93741"></a>
 
 ### Ayudantía
 
 mierc 1200 - 1300
 
 
-<a id="org6500977"></a>
+<a id="org9c436da"></a>
 
 ### Clases
 
 vier  0900 - ~1030
 
 
-<a id="org10b65ba"></a>
+<a id="orgf52df2b"></a>
 
 ## TODO fechas evaluaciones
 

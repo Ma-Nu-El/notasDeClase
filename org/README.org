@@ -1,4 +1,7 @@
 #+TITLE: README
+#+EXPORT_FILE_NAME: ../README
+
+This is a test
 
 #+INCLUDE: termo.org
 #+INCLUDE: opti.org
