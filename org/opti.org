@@ -2,11 +2,39 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
+#+LANGUAGE: es
+
 * opti
+** Conferencias
+***  prueba1
+**** 1
+***** conf1 intro y forma estándar
+- Presentación de la asignatura, requerimientos básicos, fechas, etc...
 
-** Leer conferencias
+Implementando notación Latexxxxx
 
-**  Conferencias prueba1
+Esto \(a=b\) debería ser una ecuación.
+
+Estas deberían ser varias ecuaciones.
+
+\[
+opti=mizar \\
+este=sistema
+\]
+
+Y más texto.
+
+
+***** conf2 modelación1
+**** 2
+***** conf3 modelación2
+**** 3
+***** conf4 solución gráfica
+***** conf5 convexidad y puntos extremales
+**** 4
+***** conf6 direcciones extremales
+**** 5
+
 
 ** fecha evaluaciones
 
