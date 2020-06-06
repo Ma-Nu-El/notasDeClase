@@ -4,6 +4,19 @@
 
 #+LANGUAGE: es
 
+* probando notación LaTeX
+
+  Esto \(a=b\) debería ser una ecuación.
+
+  Estas deberían ser varias ecuaciones.
+
+  \[
+  opti=mizar
+  este=sistema
+  \]
+
+  Con algunas fallas pero funciona.
+
 * opti
 ** Conferencias
 ***  prueba1
@@ -11,16 +24,6 @@
 ***** conf1 intro y forma estándar
 - Presentación de la asignatura, requerimientos básicos, fechas, etc...
 
-Implementando notación Latexxxxx
-
-Esto \(a=b\) debería ser una ecuación.
-
-Estas deberían ser varias ecuaciones.
-
-\[
-opti=mizar \\
-este=sistema
-\]
 
 Y más texto.
 
@@ -33,7 +36,6 @@ Y más texto.
 **** 4
 ***** conf6 direcciones extremales
 **** 5
-
 
 ** fecha evaluaciones
 
