@@ -1,42 +1,42 @@
 
 # &Iacute;ndice
 
-1.  [termo](#org01f8dba)
-    1.  [clase 2](#org1a40da8)
-        1.  [Repaso clase pasada](#org3dd672b)
-        2.  [Clase](#org7d8fc58)
-        3.  [Tarea](#org80ceade)
-    2.  [clase 3](#orgb2b364b)
-    3.  [clase](#org0a80d24)
-    4.  [Evaluaciones](#org3ca4fab)
-2.  [opti](#org98cb98c)
-    1.  [Clase 1](#org5fde3ba)
-        1.  [Leer conferencias](#orgda1b76f)
-    2.  [fecha evaluaciones](#orgba8402e)
-        1.  [prueba1](#org0e69c7e)
-        2.  [prueba2](#org42a0caf)
-        3.  [prueba3](#org6c62a29)
-        4.  [examen](#orgeeef8c5)
-        5.  [comentario evaluaciones](#orgb19e8de)
-3.  [lab2](#org5bb6a75)
-    1.  [notas clases](#orgec56dd3)
-    2.  [contacto](#org7698af8)
-        1.  [profesor:](#orgb714ee2)
-        2.  [ayudante:](#orgbe7cc35)
-    3.  [horario clases](#orgaa49289)
-        1.  [Ayudantía](#orgef93741)
-        2.  [Clases](#org9c436da)
-    4.  [fechas evaluaciones](#orgf52df2b)
+1.  [termo](#org8c4ae8c)
+    1.  [clase 2](#org1929818)
+        1.  [Repaso clase pasada](#org11ba257)
+        2.  [Clase](#orgad2a3fe)
+        3.  [Tarea](#org92e0932)
+    2.  [clase 3](#org09d4d35)
+    3.  [clase](#org5f73e9b)
+    4.  [Evaluaciones](#org613e343)
+2.  [opti](#org0f34bd5)
+    1.  [Conferencias](#org6a0cf24)
+        1.  [prueba1](#orgfa5d084)
+    2.  [fecha evaluaciones](#orgb934520)
+        1.  [prueba1](#org56f1d0e)
+        2.  [prueba2](#org93c2567)
+        3.  [prueba3](#orgc9238c0)
+        4.  [examen](#org9b4a58f)
+        5.  [comentario evaluaciones](#orgf27fe1a)
+3.  [lab2](#org646d73c)
+    1.  [notas clases](#orga7617f9)
+    2.  [contacto](#org0315378)
+        1.  [profesor:](#orgdd1e6a4)
+        2.  [ayudante:](#org20e05ac)
+    3.  [horario clases](#org93f9ce8)
+        1.  [Ayudantía](#org41c5ecd)
+        2.  [Clases](#org8ba558e)
+    4.  [fechas evaluaciones](#org661f9cc)
+        1.  [proyecto1](#orga5ae555)
 
-This is a test
 
 
-<a id="org01f8dba"></a>
+<a id="org8c4ae8c"></a>
 
 # termo
 
 
-<a id="org1a40da8"></a>
+<a id="org1929818"></a>
 
 ## clase 2
 
@@ -46,7 +46,7 @@ Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
 
 
-<a id="org3dd672b"></a>
+<a id="org11ba257"></a>
 
 ### Repaso clase pasada
 
@@ -67,7 +67,7 @@ Estados y procesos termodinámicos.
 -   Cuasi-estático?
 
 
-<a id="org7d8fc58"></a>
+<a id="orgad2a3fe"></a>
 
 ### Clase
 
@@ -78,12 +78,12 @@ Indagaron harto en el punto triple.
 Seguimiento Clase 2
 
 
-<a id="org80ceade"></a>
+<a id="org92e0932"></a>
 
 ### Tarea
 
 
-<a id="orgb2b364b"></a>
+<a id="org09d4d35"></a>
 
 ## clase 3
 
@@ -97,7 +97,7 @@ Ejercicio
 PPT Intercambio de calor sensible
 
 
-<a id="org0a80d24"></a>
+<a id="org5f73e9b"></a>
 
 ## clase
 
@@ -109,78 +109,111 @@ Campus PDF:
 TRABAJO<sub>U2.pdf</sub>
 
 
-<a id="org3ca4fab"></a>
+<a id="org613e343"></a>
 
 ## Evaluaciones
 
 La primera prueba se fijó para el viernes 12 de junio.
 
 
-<a id="org98cb98c"></a>
+<a id="org0f34bd5"></a>
 
 # opti
 
 
-<a id="org5fde3ba"></a>
+<a id="org6a0cf24"></a>
 
-## Clase 1
-
-<span class="timestamp-wrapper"><span class="timestamp">[2020-05-04 lun 14:43]</span></span>
-
-El profe dijo que sacaría scanners de las hojas.
+## Conferencias
 
 
-<a id="orgda1b76f"></a>
+<a id="orgfa5d084"></a>
 
-### Leer conferencias
+### prueba1
+
+1.  1
+
+    1.  conf1 intro y forma estándar
+    
+        -   Presentación de la asignatura, requerimientos básicos, fechas, etc&#x2026;
+        
+        Implementando notación Latexxxxx
+        
+        Esto \(a=b\) debería ser una ecuación.
+        
+        Estas deberían ser varias ecuaciones.
+        
+        \[
+        opti=mizar \\
+        este=sistema
+        \]
+        
+        Y más texto.
+    
+    2.  conf2 modelación1
+
+2.  2
+
+    1.  conf3 modelación2
+
+3.  3
+
+    1.  conf4 solución gráfica
+    
+    2.  conf5 convexidad y puntos extremales
+
+4.  4
+
+    1.  conf6 direcciones extremales
+
+5.  5
 
 
-<a id="orgba8402e"></a>
+<a id="orgb934520"></a>
 
 ## fecha evaluaciones
 
 
-<a id="org0e69c7e"></a>
+<a id="org56f1d0e"></a>
 
 ### prueba1
 
 Lunes 8 de junio 2020 (.35)
 
 
-<a id="org42a0caf"></a>
+<a id="org93c2567"></a>
 
 ### prueba2
 
 Lunes 20 de julio 2020 (.30)
 
 
-<a id="org6c62a29"></a>
+<a id="orgc9238c0"></a>
 
 ### prueba3
 
 Lunes 17 de agosto 2020 (.35)
 
 
-<a id="orgeeef8c5"></a>
+<a id="org9b4a58f"></a>
 
 ### examen
 
 Lunes 31 de agosto 2020
 
 
-<a id="orgb19e8de"></a>
+<a id="orgf27fe1a"></a>
 
 ### comentario evaluaciones
 
 Cuando empiezan las clases presenciales, empiezan las pruebas presenciales.
 
 
-<a id="org5bb6a75"></a>
+<a id="org646d73c"></a>
 
 # lab2
 
 
-<a id="orgec56dd3"></a>
+<a id="orga7617f9"></a>
 
 ## notas clases
 
@@ -197,19 +230,19 @@ CSS
 Bootstrap?
 
 
-<a id="org7698af8"></a>
+<a id="org0315378"></a>
 
 ## contacto
 
 
-<a id="orgb714ee2"></a>
+<a id="orgdd1e6a4"></a>
 
 ### profesor:
 
 blas.castel@ufrontera.cl 
 
 
-<a id="orgbe7cc35"></a>
+<a id="org20e05ac"></a>
 
 ### ayudante:
 
@@ -217,26 +250,60 @@ Geraldine Henriquez
 +56985335906
 
 
-<a id="orgaa49289"></a>
+<a id="org93f9ce8"></a>
 
 ## horario clases
 
 
-<a id="orgef93741"></a>
+<a id="org41c5ecd"></a>
 
 ### Ayudantía
 
 mierc 1200 - 1300
 
 
-<a id="org9c436da"></a>
+<a id="org8ba558e"></a>
 
 ### Clases
 
 vier  0900 - ~1030
 
 
-<a id="orgf52df2b"></a>
+<a id="org661f9cc"></a>
 
-## TODO fechas evaluaciones
+## fechas evaluaciones
+
+
+<a id="orga5ae555"></a>
+
+### proyecto1
+
+1.  Requerimientos
+
+    Individual. Realizable en una semana.
+    
+    Código y UML.
+    
+    1 herencia
+    1 interfaz
+    1 ventana
+    5 clases
+    5 funciones
+    
+    Bien documentado.
+    Permitido extracción de código de internet, las fuentes deben ser mencionadas.
+    Comentarios no deben superar 35% del código.
+    
+    UML se envía máximo dos días antes de la fecha de entrega del código.
+    
+    UML 1.0 y 2.0: para comparación de avance.
+    El 2.0 se envía con el proyecto final.
+
+2.  fecha entrega
+
+    Semana 15 de junio.
+    
+    Entrega final, martes 23 de junio a las 2359
+    
+    El UML 1.0 se sube como plazo final el domingo previo. El UML final se sube con el proyecto final.
 

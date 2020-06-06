@@ -1,0 +1,65 @@
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
+
+#+OPTION: toc: 3
+#+LANGUAGE: es
+
+* lab2
+** notas clases
+
+Modelo vista controlador (MVC)?
+
+Java (netbeans, eclipse, jetbrains(IntelliJ) ...)
+UML (Class)
+Databases
+
+HTML
+JavaScript
+CSS
+
+Bootstrap?
+
+** contacto
+*** profesor:
+blas.castel@ufrontera.cl 
+
+*** ayudante:
+Geraldine Henriquez
++56985335906
+
+** horario clases
+*** Ayudantía
+mierc 1200 - 1300
+*** Clases
+vier  0900 - ~1030
+
+** fechas evaluaciones
+*** proyecto1
+**** Requerimientos
+
+     Individual. Realizable en una semana.
+
+     Código y UML.
+
+     1 herencia
+     1 interfaz
+     1 ventana
+     5 clases
+     5 funciones
+
+     Bien documentado.
+     Permitido extracción de código de internet, las fuentes deben ser mencionadas.
+     Comentarios no deben superar 35% del código.
+
+     UML se envía máximo dos días antes de la fecha de entrega del código.
+
+     UML 1.0 y 2.0: para comparación de avance.
+     El 2.0 se envía con el proyecto final.
+
+**** fecha entrega
+     Semana 15 de junio.
+
+     Entrega final, martes 23 de junio a las 2359
+
+     El UML 1.0 se sube como plazo final el domingo previo. El UML final se sube con el proyecto final.

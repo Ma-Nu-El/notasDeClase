@@ -1,0 +1,18 @@
+#+TITLE: Uni
+
+General structure of project.
+
+The directories in this level point to subjects ordered by semester.
+
+* Each folder will contain at least:
+  1. one org file named the same as the folder (the actual readme)
+  This is the file that you use to include other files.
+  2. one org README file
+  This is to generate README files in different formats like .md and the like.
+  3. the actual generated README file(s) from the README.org file
+
+  All this just because GitHub automatically displays your README file in your repo page. This naming convention takes advantage of that automation.
+
+* If you want to know something
+
+  Visit the file that is named the same as the folder, the READMEs are for export purposes.

@@ -24,7 +24,6 @@ este=sistema
 
 Y más texto.
 
-
 ***** conf2 modelación1
 **** 2
 ***** conf3 modelación2
