@@ -4,20 +4,20 @@
 
 #+LANGUAGE: es
 
-* probando notación LaTeX
-
-  Esto \(a=b\) debería ser una ecuación.
-
-  Estas deberían ser varias ecuaciones.
-
-  \[
-  opti=mizar
-  este=sistema
-  \]
-
-  Con algunas fallas pero funciona.
-
 * opti
+** probando notación LaTeX
+
+   Esto \(a=b\) debería ser una ecuación.
+
+   Estas deberían ser varias ecuaciones.
+
+   \[
+   opti=mizar
+   este=sistema
+   \]
+
+   Con algunas fallas pero funciona.
+
 ** Conferencias
 ***  prueba1
 **** 1
