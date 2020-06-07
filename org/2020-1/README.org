@@ -1,4 +1,3 @@
-#+TITLE: README
 #+INCLUDE: termo/termo.org
 #+INCLUDE: opti/opti.org
 #+INCLUDE: lab2/lab2.org

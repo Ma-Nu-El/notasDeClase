@@ -1,2 +1,1 @@
-#+TITLE: Readme
 #+INCLUDE: 2020-1/README.org

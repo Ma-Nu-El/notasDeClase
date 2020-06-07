@@ -1,3 +1,2 @@
-#+TITLE: Index
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+INCLUDE: ../README.org
