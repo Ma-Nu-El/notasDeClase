@@ -7,7 +7,7 @@
 * opti
 ** probando notación LaTeX
 
-La ultima linea.
+   La ultima linea.
 
    Esto \( a=b \) debería ser una ecuación.
 
