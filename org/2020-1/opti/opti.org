@@ -43,6 +43,8 @@ either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
      Teorema de Caratheodory.
 
+     Video: IMA300 25 de mayo_2.mp4 : 22:33 minutos.
+
 ** fecha evaluaciones
 
 *** prueba1
