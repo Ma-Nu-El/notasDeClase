@@ -7,7 +7,7 @@
 * opti
 ** probando notación LaTeX
 
-   La ultima linea.
+   La ultima línea.
 
    Esto \( a=b \) debería ser una ecuación.
 
@@ -23,22 +23,25 @@ either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
 ** Conferencias
 ***  prueba1
-**** 1
-***** conf1 intro y forma estándar
-- Presentación de la asignatura, requerimientos básicos, fechas, etc...
+**** 1 intro y forma estándar
+- Presentación de la asignatura, requerimientos básicos, fechas, etc.
 
+  Diferenciación entre notación canónica y estándar.
 
-Y más texto.
+**** 2 modelación1
+     Ejemplos de como modelar problemas estáticos y dinámicos.
+**** 3 modelación2
+     Más problemas.
+**** 4 solución gráfica
+     - Conjunto factible
+     - Función objetivo
+     - Solución gráfica
+**** 5 convexidad y puntos extremales
 
-***** conf2 modelación1
-**** 2
-***** conf3 modelación2
-**** 3
-***** conf4 solución gráfica
-***** conf5 convexidad y puntos extremales
-**** 4
-***** conf6 direcciones extremales
-**** 5
+    
+**** 6 direcciones extremales
+
+     Teorema de Caratheodory.
 
 ** fecha evaluaciones
 
