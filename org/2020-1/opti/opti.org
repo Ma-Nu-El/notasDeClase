@@ -7,6 +7,8 @@
 * opti
 ** probando notación LaTeX
 
+La ultima linea.
+
    Esto \( a=b \) debería ser una ecuación.
 
    Estas deberían ser varias ecuaciones.
