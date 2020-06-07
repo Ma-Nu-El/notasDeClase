@@ -1,0 +1,6 @@
+:PROPERTIES:
+:EXPORT_FILE_NAME: docs/index.html
+:END:
+
+#+TITLE: Index
+#+INCLUDE: README.org
