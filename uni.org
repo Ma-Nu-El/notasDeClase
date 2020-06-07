@@ -4,6 +4,8 @@ General structure of project.
 
 The directories in this level point to subjects ordered by semester.
 
+The /docs folder exists to be supported by Github Pages.
+
 * Each folder will contain at least:
   1. one org file named the same as the folder (the actual readme)
   This is the file that you use to include other files.
