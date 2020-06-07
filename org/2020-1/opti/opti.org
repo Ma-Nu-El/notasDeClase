@@ -11,12 +11,16 @@
 
    Estas deberían ser varias ecuaciones.
 
+#+begin_export latex
    \[
    opti=mizar
    este=sistema
    \]
+#+end_export
 
    Con algunas fallas pero funciona.
+
+
 
 ** Conferencias
 ***  prueba1

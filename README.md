@@ -1,43 +1,43 @@
 
 # &Iacute;ndice
 
-1.  [termo](#orgf33c2ff)
-    1.  [clase 2](#org74f3cd9)
-        1.  [Repaso clase pasada](#org1dd09e7)
-        2.  [Clase](#orgbcff79d)
-        3.  [Tarea](#org9bc7588)
-    2.  [clase 3](#orga0f39a5)
-    3.  [clase](#org62d4f37)
-    4.  [Evaluaciones](#org800b065)
-2.  [opti](#orgb2fa62d)
-    1.  [probando notación LaTeX](#org0525e83)
-    2.  [Conferencias](#org25579e2)
-        1.  [prueba1](#org4dc6157)
-    3.  [fecha evaluaciones](#orge68b548)
-        1.  [prueba1](#org98cfcdc)
-        2.  [prueba2](#orgc936759)
-        3.  [prueba3](#org461f3ab)
-        4.  [examen](#orga81329d)
-        5.  [comentario evaluaciones](#orgbcc33fe)
-3.  [lab2](#org365b8af)
-    1.  [notas clases](#orgf76b803)
-    2.  [contacto](#org2c4c0e1)
-        1.  [profesor:](#org8cffdd4)
-        2.  [ayudante:](#orgd522dac)
-    3.  [horario clases](#orgca98141)
-        1.  [Ayudantía](#org2e765b8)
-        2.  [Clases](#org4537bf7)
-    4.  [fechas evaluaciones](#orge4d9d9a)
-        1.  [proyecto1](#org9df4446)
+1.  [termo](#orgf16be5f)
+    1.  [clase 2](#org6f4d1fb)
+        1.  [Repaso clase pasada](#org3060037)
+        2.  [Clase](#org265bf27)
+        3.  [Tarea](#orgabe269e)
+    2.  [clase 3](#org3f24a90)
+    3.  [clase](#orge89a70a)
+    4.  [Evaluaciones](#orge378016)
+2.  [opti](#org2935422)
+    1.  [probando notación LaTeX](#org46ec8c9)
+    2.  [Conferencias](#org6688c1d)
+        1.  [prueba1](#org816ae99)
+    3.  [fecha evaluaciones](#orgb832315)
+        1.  [prueba1](#orgb29956b)
+        2.  [prueba2](#org0a21f9f)
+        3.  [prueba3](#org440386a)
+        4.  [examen](#org073f66c)
+        5.  [comentario evaluaciones](#org25c8cd1)
+3.  [lab2](#org51a8045)
+    1.  [notas clases](#orgf5b4e0a)
+    2.  [contacto](#org19b4f3c)
+        1.  [profesor:](#orgd6beef4)
+        2.  [ayudante:](#org88f619b)
+    3.  [horario clases](#org58909c7)
+        1.  [Ayudantía](#org10dcdad)
+        2.  [Clases](#orgd965dd9)
+    4.  [fechas evaluaciones](#orge4c18a6)
+        1.  [proyecto1](#org3dfb08d)
 
 
 
-<a id="orgf33c2ff"></a>
+<a id="orgf16be5f"></a>
 
 # termo
 
 
-<a id="org74f3cd9"></a>
+<a id="org6f4d1fb"></a>
 
 ## clase 2
 
@@ -47,7 +47,7 @@ Las grabaciones no involucran los repasos por el peso de las
 grabaciones. 
 
 
-<a id="org1dd09e7"></a>
+<a id="org3060037"></a>
 
 ### Repaso clase pasada
 
@@ -68,7 +68,7 @@ Estados y procesos termodinámicos.
 -   Cuasi-estático?
 
 
-<a id="orgbcff79d"></a>
+<a id="org265bf27"></a>
 
 ### Clase
 
@@ -79,12 +79,12 @@ Indagaron harto en el punto triple.
 Seguimiento Clase 2
 
 
-<a id="org9bc7588"></a>
+<a id="orgabe269e"></a>
 
 ### Tarea
 
 
-<a id="orga0f39a5"></a>
+<a id="org3f24a90"></a>
 
 ## clase 3
 
@@ -98,7 +98,7 @@ Ejercicio
 PPT Intercambio de calor sensible
 
 
-<a id="org62d4f37"></a>
+<a id="orge89a70a"></a>
 
 ## clase
 
@@ -110,19 +110,19 @@ Campus PDF:
 TRABAJO<sub>U2.pdf</sub>
 
 
-<a id="org800b065"></a>
+<a id="orge378016"></a>
 
 ## Evaluaciones
 
 La primera prueba se fijó para el viernes 12 de junio.
 
 
-<a id="orgb2fa62d"></a>
+<a id="org2935422"></a>
 
 # opti
 
 
-<a id="org0525e83"></a>
+<a id="org46ec8c9"></a>
 
 ## probando notación LaTeX
 
@@ -130,20 +130,15 @@ Esto \(a=b\) debería ser una ecuación.
 
 Estas deberían ser varias ecuaciones.
 
-\[
-   opti=mizar
-   este=sistema
-   \]
-
 Con algunas fallas pero funciona.
 
 
-<a id="org25579e2"></a>
+<a id="org6688c1d"></a>
 
 ## Conferencias
 
 
-<a id="org4dc6157"></a>
+<a id="org816ae99"></a>
 
 ### prueba1
 
@@ -174,52 +169,52 @@ Con algunas fallas pero funciona.
 5.  5
 
 
-<a id="orge68b548"></a>
+<a id="orgb832315"></a>
 
 ## fecha evaluaciones
 
 
-<a id="org98cfcdc"></a>
+<a id="orgb29956b"></a>
 
 ### prueba1
 
 Lunes 8 de junio 2020 (.35)
 
 
-<a id="orgc936759"></a>
+<a id="org0a21f9f"></a>
 
 ### prueba2
 
 Lunes 20 de julio 2020 (.30)
 
 
-<a id="org461f3ab"></a>
+<a id="org440386a"></a>
 
 ### prueba3
 
 Lunes 17 de agosto 2020 (.35)
 
 
-<a id="orga81329d"></a>
+<a id="org073f66c"></a>
 
 ### examen
 
 Lunes 31 de agosto 2020
 
 
-<a id="orgbcc33fe"></a>
+<a id="org25c8cd1"></a>
 
 ### comentario evaluaciones
 
 Cuando empiezan las clases presenciales, empiezan las pruebas presenciales.
 
 
-<a id="org365b8af"></a>
+<a id="org51a8045"></a>
 
 # lab2
 
 
-<a id="orgf76b803"></a>
+<a id="orgf5b4e0a"></a>
 
 ## notas clases
 
@@ -236,19 +231,19 @@ CSS
 Bootstrap?
 
 
-<a id="org2c4c0e1"></a>
+<a id="org19b4f3c"></a>
 
 ## contacto
 
 
-<a id="org8cffdd4"></a>
+<a id="orgd6beef4"></a>
 
 ### profesor:
 
 blas.castel@ufrontera.cl 
 
 
-<a id="orgd522dac"></a>
+<a id="org88f619b"></a>
 
 ### ayudante:
 
@@ -256,31 +251,31 @@ Geraldine Henriquez
 +56985335906
 
 
-<a id="orgca98141"></a>
+<a id="org58909c7"></a>
 
 ## horario clases
 
 
-<a id="org2e765b8"></a>
+<a id="org10dcdad"></a>
 
 ### Ayudantía
 
 mierc 1200 - 1300
 
 
-<a id="org4537bf7"></a>
+<a id="orgd965dd9"></a>
 
 ### Clases
 
 vier  0900 - ~1030
 
 
-<a id="orge4d9d9a"></a>
+<a id="orge4c18a6"></a>
 
 ## fechas evaluaciones
 
 
-<a id="org9df4446"></a>
+<a id="org3dfb08d"></a>
 
 ### proyecto1
 
