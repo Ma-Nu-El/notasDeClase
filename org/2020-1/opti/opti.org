@@ -7,19 +7,16 @@
 * opti
 ** probando notación LaTeX
 
-   Esto \(a=b\) debería ser una ecuación.
+   Esto \( a=b \) debería ser una ecuación.
 
    Estas deberían ser varias ecuaciones.
 
-#+begin_export latex
-   \[
-   opti=mizar
-   este=sistema
-   \]
-#+end_export
+   \begin{equation}
+   x=\sqrt{b}
+   \end{equation}
 
-   Con algunas fallas pero funciona.
-
+   If $a^2=b$ and \( b=2 \), then the solution must be
+either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
 
 ** Conferencias
