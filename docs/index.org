@@ -1,2 +1,2 @@
 #+TITLE: Index
-#+INCLUDE: README.org
+#+INCLUDE: ../README.org
