@@ -1,2 +1,3 @@
 #+TITLE: Index
+#+SETUPFILE: styles/setup/THEME-NAME-local.setup
 #+INCLUDE: ../README.org
