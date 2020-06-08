@@ -18,3 +18,7 @@ The /docs folder exists to be supported by Github Pages.
 * If you want to know something
 
   Visit the file that is named the same as the folder, the READMEs are for export purposes.
+
+
+* See the project at:
+  https://ma-nu-el.github.io/uni/
