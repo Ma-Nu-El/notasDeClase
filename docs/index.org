@@ -1,7 +1,6 @@
-:PROPERTIES:
-:EXPORT_TITLE: uni
-:DESCRIPTION: personal university notes
-:EXPORT_AUTHOR: ma
-:END:
+#+TITLE: uni
+#+DESCRIPTION: personal university notes
+#+AUTHOR: ma
+
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+INCLUDE: ../README.org
