@@ -1,3 +1,3 @@
 #+TITLE: Org
 
-The directories in level point to different subjects.
+The directories in this level point to different subjects.
