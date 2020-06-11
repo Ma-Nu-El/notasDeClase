@@ -2,66 +2,67 @@
 # ispell-local-dictionary: "espanol"
 # End:
 
-#+OPTION: toc: 3
-#+EXPORT_FILE_NAME: ../html/termodinamica.html
 #+LANGUAGE: es
 
 * termo
-** clase 2
+** conferencias
+*** prueba1
+**** clase 2
 
-[2020-05-08 vie 10:50]
+  [2020-05-08 vie 10:50]
 
-Las grabaciones no involucran los repasos por el peso de las
-grabaciones. 
+  Las grabaciones no involucran los repasos por el peso de las
+  grabaciones.
 
-*** Repaso clase pasada
+***** Repaso clase pasada
 
-Equilibro térmico vs termodinámico
+  Equilibro térmico vs termodinámico
 
-Adiabático. Permeabilidad.
+  Adiabático. Permeabilidad.
 
-Definir un sistema en función de las 3 fundamentales:
-- Temperatura
-- Presión
-- Volumen.
+  Definir un sistema en función de las 3 fundamentales:
+  - Temperatura
+  - Presión
+  - Volumen.
   
-Estados y procesos termodinámicos.
+  Estados y procesos termodinámicos.
 
-- Isobárico, iso-aquí, iso-acá
-- Reversible e irreversible
-- Cuasi-estático?
+  - Isobárico, iso-aquí, iso-acá
+  - Reversible e irreversible
+  - Cuasi-estático?
 
-*** Clase
-Ley cero.
-Fuente: LEY CERO_U1.pdf (campus virtual)
-Indagaron harto en el punto triple.
+***** Clase
+  Ley cero.
+  Fuente: LEY CERO_U1.pdf (campus virtual)
+  Indagaron harto en el punto triple.
 
 
-Seguimiento Clase 2
+  Seguimiento Clase 2
 
-*** Tarea
+**** clase 3
 
-** clase 3
+  [2020-05-14 jue 09:00]
 
-[2020-05-14 jue 09:00]
+  Ejercicio
+  - punto triple
+  - física2
 
-Ejercicio
-- punto triple
-- física2
+  PPT Intercambio de calor sensible
 
-PPT Intercambio de calor sensible
+**** clase
+  [2020-05-28 jue]
 
-** clase
-[2020-05-28 jue]
+  Concepto de trabajo (en forma de integral).
 
-Concepto de trabajo (en forma de integral).
-
-Campus PDF:
-TRABAJO_U2.pdf
+  Campus PDF:
+  TRABAJO_U2.pdf
 
 
 
-
-** Evaluaciones
-La primera prueba se fijó para el viernes 12 de junio.
-
+** fechas evaluaciones
+*** prueba1
+Viernes 19 de junio
+*** prueba2
+*** prueba3
+*** comentarios evaluaciones
+La prueba1 puede ser en pareja o individual. Se cambió del 12 al 19.
