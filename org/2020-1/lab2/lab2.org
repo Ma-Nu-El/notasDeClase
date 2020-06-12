@@ -19,7 +19,7 @@ JavaScript
 CSS
 
 Bootstrap?
-
+** vuelta a clases en zoom 26 de junio
 ** contacto
 *** profesor:
 blas.castel@ufrontera.cl 
@@ -34,7 +34,7 @@ mierc 1200 - 1300
 *** Clases
 vier  0900 - ~1030
 
-** fechas evaluaciones
+** evaluaciones
 *** proyecto1
 **** Requerimientos
 
@@ -42,20 +42,20 @@ vier  0900 - ~1030
 
      Código y UML.
 
-     1 herencia
-     1 interfaz
-     1 ventana
-     5 clases
-     5 funciones
+ - 1 herencia
+ - 1 interfaz
+ - 1 ventana
+ - 5 clases
+ - 5 funciones
 
-     Bien documentado.
-     Permitido extracción de código de internet, las fuentes deben ser mencionadas.
-     Comentarios no deben superar 35% del código.
+ Bien documentado.
+ Permitido extracción de código de internet, las fuentes deben ser mencionadas.
+ Comentarios no deben superar 35% del código.
 
-     UML se envía máximo dos días antes de la fecha de entrega del código.
+ UML se envía máximo dos días antes de la fecha de entrega del código.
 
-     UML 1.0 y 2.0: para comparación de avance.
-     El 2.0 se envía con el proyecto final.
+ UML 1.0 y 2.0: para comparación de avance.
+ El 2.0 se envía con el proyecto final.
 
 **** fecha entrega
      Semana 15 de junio.
