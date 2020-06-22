@@ -1,5 +1,5 @@
 # Local Variables:
-# ispell-local-dictionary: "espanol"
+# ispell-local-dictionary: "español"
 # End:
 
 #+OPTION: toc: 3
@@ -14,11 +14,21 @@ Java (netbeans, eclipse, jetbrains(IntelliJ) ...)
 UML (Class)
 Databases
 
+Bootstrap?
+
 HTML
 JavaScript
 CSS
 
-Bootstrap?
+*** [2020-06-12 Fri]
+
+paradigms
+- MVC?
+- OOP?
+filetypes?
+-log
+-svc
+
 ** vuelta a clases en zoom 26 de junio
 ** contacto
 *** profesor:
