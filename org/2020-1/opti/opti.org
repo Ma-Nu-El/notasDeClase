@@ -46,7 +46,7 @@ either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
 ** fecha evaluaciones
 *** prueba1
-Viernes 19 de junio 2020 (.35)
+Viernes 19 de junio 2020 (.35) TTT
 *** prueba2
 Lunes 20 de julio 2020 (.30)
 *** prueba3
