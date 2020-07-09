@@ -1,0 +1,3 @@
+#+title: Controller
+
+Gear between Model and View.
