@@ -1,1 +1,3 @@
-#+title: user
+#+title: User
+
+The human that uses the program.
