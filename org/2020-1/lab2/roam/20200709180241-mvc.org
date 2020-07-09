@@ -1,5 +1,5 @@
 #+title: MVC
 
-Model - View - Controller
+[[file:20200709180424-model.org][Model]] - [[file:20200709180753-view.org][View]] - [[file:20200709180841-controller.org][Controller]]
 
 A programming design pattern.

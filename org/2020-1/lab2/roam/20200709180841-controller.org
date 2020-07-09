@@ -1,3 +1,3 @@
 #+title: Controller
 
-Gear between Model and View.
+Gear between [[file:20200709180424-model.org][Model]] and [[file:20200709180753-view.org][View]]. It's what the [[file:20200709182105-user.org][user]] interacts with. It's an interface.
