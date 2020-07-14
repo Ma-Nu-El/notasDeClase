@@ -1,3 +1,5 @@
 #+title: Model
 
 Apply all your [[file:20200709181821-oop.org][OOP]] knowledge.
+
+Controls the logic steps between Controller and View.
