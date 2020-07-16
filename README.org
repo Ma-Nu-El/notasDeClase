@@ -1,2 +1,2 @@
-# for actual info see uni.org
+# for actual info see about.org
 #+INCLUDE: org/README.org
