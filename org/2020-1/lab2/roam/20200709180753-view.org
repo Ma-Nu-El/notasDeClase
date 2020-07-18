@@ -1,3 +1,5 @@
 #+title: View
 
 Insert your [[file:20200709181621-javafx.org][JavaFX]] goodies.
+
+Never interacts directly with Model.
