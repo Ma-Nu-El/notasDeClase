@@ -57,12 +57,23 @@
   Campus PDF:
   TRABAJO_U2.pdf
 
+**** clase [2020-07-23 Thu] 
+     
+    2da ley de la termodinámica. 
+    Balance de energía en sistema aislados, cerrados y abiertos.
 
-
-** fechas evaluaciones
+    Una palabra sobre el volumen de control (no cambia).
+    
+** evaluaciones
+   
+   Todas las fechas cambiaron por paro.
+   
 *** prueba1
-Viernes 19 de junio
-*** prueba2
-*** prueba3
+    
+    Temario en campus.
+    El jueves previo es consultas antes de la prueba1.
+    Prueba el próximo viernes en la mañana.
+
 *** comentarios evaluaciones
-La prueba1 puede ser en pareja o individual. Se cambió del 12 al 19.
+    
+    La prueba1 puede ser en pareja o individual. +La prueba1 se cambió del 12 al 19+.
