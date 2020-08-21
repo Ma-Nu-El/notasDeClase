@@ -29,7 +29,8 @@ filetypes?
 -log
 -svc
 
-** vuelta a clases en zoom 26 de junio
+patrón DAO 
+
 ** contacto
 *** profesor:
 blas.castel@ufrontera.cl 
