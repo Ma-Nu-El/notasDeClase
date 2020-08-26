@@ -1,4 +1,3 @@
-
 # Local Variables:
 # ispell-local-dictionary: "espanol"
 # End:
@@ -21,33 +20,31 @@
    If $a^2=b$ and \( b=2 \), then the solution must be
 either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
-** Conferencias
-*** prueba1
-**** 1 intro y forma estándar
+** prueba1
+*** 1 intro y forma estándar
 - Presentación de la asignatura, requerimientos básicos, fechas, etc.
 
   Diferenciación entre notación canónica y estándar.
 
-**** 2 modelación1
-     Ejemplos de como modelar problemas estáticos y dinámicos.
-**** 3 modelación2
-     Más problemas.
-**** 4 solución gráfica
-     - Conjunto factible
-     - Función objetivo
-     - Solución gráfica
-**** 5 convexidad y puntos extremales
+*** 2 modelación1
+    Ejemplos de como modelar problemas estáticos y dinámicos.
+*** 3 modelación2
+    Más problemas.
+*** 4 solución gráfica
+    - Conjunto factible
+    - Función objetivo
+    - Solución gráfica
+*** 5 convexidad y puntos extremales
 
     
-**** 6 direcciones extremales
+*** 6 direcciones extremales
 
-     Teorema de Caratheodory.
+    Teorema de Caratheodory.
 
-     Video: IMA300 25 de mayo_2.mp4 : 22:33 minutos.
+    Video: IMA300 25 de mayo_2.mp4 : 22:33 minutos.
 
-*** prueba2
-
-    Dominar notación explícita.
+** prueba2
+*** Dominar notación explícita.
 
     Una vez el problema esta anotado en notación explícita, se puede resolver de varias formas dependiendo del estado de sus restricciones. Además, la notación explícita ayuda a resolver problemas de post-optimización, materia que se debería ver en la 3era prueba.
     
@@ -59,17 +56,23 @@ either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 [fn:1]
 En internet se comenta que el método de Dos Fases es una alternativa al método de Gran M, pero por lo menos en este curso no lo vemos.
 
-***** fecha evaluaciones
-****** prueba1
-   Viernes 19 de junio 2020 (.35)
-****** prueba2
-   Lunes 20 de julio 2020 (.30)
-****** prueba3
-   Lunes 17 de agosto 2020 (.35)
-****** examen
-   Lunes 31 de agosto 2020
-****** comentario evaluaciones
-   Cuando empiezan las clases presenciales, empiezan las pruebas presenciales. Pero probablemente no ocurra (el rector lo afirmo en su cuenta de Twitter).
+**** fecha evaluaciones
+***** prueba1
+  Viernes 19 de junio 2020 (.35)
+***** prueba2
+  Lunes 20 de julio 2020 (.30)
+***** prueba3
+  Lunes 17 de agosto 2020 (.35)
+***** examen
+  Lunes 31 de agosto 2020
+***** comentario evaluaciones
+  Cuando empiezan las clases presenciales, empiezan las pruebas presenciales. Pero probablemente no ocurra (el rector lo afirmo en su cuenta de Twitter).
 
-   La prueba1 puede ser en pareja o individual.
-   Se cambió del 8 al 19.
+  La prueba1 puede ser en pareja o individual.
+  Se cambió del 8 al 19.
+
+*** DONE Simplex
+*** Simplex Dual
+*** 2 fases
+*** Holguras complementarias
+*** Teorema Dual fuerte
