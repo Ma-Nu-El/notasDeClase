@@ -64,6 +64,10 @@
 
     Una palabra sobre el volumen de control (no cambia).
     
+:PROPERTIES:
+3c22b336-8012-4718-8ae8-5cef32afd14
+:END:
+
 ** evaluaciones
    
    Todas las fechas cambiaron por paro.
@@ -73,6 +77,12 @@
     Temario en campus.
     El jueves previo es consultas antes de la prueba1.
     Prueba el próximo viernes en la mañana.
+
+*** prueba2
+**** Unidad 6: ciclos de potencia
+     [2020-08-27 Thu]
+
+     La clase consistió en hacer un ejercicio que integraba las materias anteriores.
 
 *** comentarios evaluaciones
     
