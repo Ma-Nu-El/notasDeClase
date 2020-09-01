@@ -74,3 +74,13 @@ vier  0900 - ~1030
      Entrega final, martes 23 de junio a las 2359
 
      El UML 1.0 se sube como plazo final el domingo previo. El UML final se sube con el proyecto final.
+
+*** prueba lab2
+
+  global
+  - todo lo del semestre
+  - herencia
+  - PMV & DAO
+  - hoy, prox y subsiguiente
+  - preguntas sobre workflow
+  Nexo entre controlador, vistas, bases de datos, etc.
