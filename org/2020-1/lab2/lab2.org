@@ -75,6 +75,19 @@ vier  0900 - ~1030
 
      El UML 1.0 se sube como plazo final el domingo previo. El UML final se sube con el proyecto final.
 
+*** proyecto2
+    Integrar:
+
+**** DONE HTML
+     CLOSED: [2020-09-03 Thu 16:44]
+     :LOGBOOK:
+     - State "DONE"       from              [2020-09-03 Thu 16:44] \\
+       Thanks to org mode export to html
+     :END:
+**** CSS
+**** JS (probablemente no)
+**** Base de Datos (XAMPP)
+**** Java
 *** prueba lab2
 
   global
