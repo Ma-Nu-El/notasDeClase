@@ -1,10 +1,16 @@
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
-
+#+EXCLUDE_TAGS: noexport
 #+LANGUAGE: es
 
 * termo
+** demo imagen :ATTACH:
+   :PROPERTIES:
+   :ID:       48909ced-c666-4665-a2f7-7334ea3397f4
+   :END:
+
+   Abajo deberia aparecer una imagen.
+
+#+CAPTION: Consejo legal.
+[[./lawerDog.jpg]]
 ** conferencias
 *** prueba1
 **** clase 2
@@ -84,6 +90,98 @@
 
      La clase consistió en hacer un ejercicio que integraba las materias anteriores.
 
+*** tarea final
+**** Enunciado
+     \\
+    Un dispositivo cilindro-pistón vertical, inicialmente contiene 0,01 m3de vapor de agua a 200ºC. La  masa  del  pistón  libre  de  fricción  es  tal  que  mantiene  una  presión  constante  de  500kPa  en  elinterior. Luego se permite que entre 0,00498 (m3) de vapor a 1MPa y 350ºC al cilindro desde unalínea  de  alimentación,  haciendo  que  el  volumen  en  el  interior  del  cilindro-pistón  se  duplique. Ignorando cualquier transferencia de calor que pudiera ocurrir durante el proceso, determine: a) latemperatura final delvapor en el cilindro y b) la cantidad de masa que ha entrado al dispositivo.
+     \\ 
+     \\
+***** Dentro del pistón
+      \\
+      | \(V_{inicial}\) | \(0.01 m^3\)     |
+      | \(V_{final}\)   | \(2V_{inicial}\) |
+      | \(T_{inicial}\) | \(200\) °\(C\)   |
+      | \(T_{final}\)   | \(?\)            |
+      | \(P_{inicial}\) | \(P_{final}\)    |
+      | \(P\)           | \(500 kPa\)      |
+      \\
+***** Ingreso
+      \\ 
+      | \(V_{ingreso}\) | \(0.00498 m^3\) |
+      | \(T_{ingreso}\) | \(350\) °\(C\)  |
+      | \(P_{ingreso}\) | \(1000 kPa\)    |
+      \\ 
+**** Determinar
+     \\
+      - Tipo de sistema
+      - Tipo de paredes
+      - Interacciones energéticas con el entorno
+      - Propiedades intensivas y extensivas
+      - Suposiciones
+      - Balance de energía
+      - Principio de conservación de masa
+      - Procedimientos
+      - Resultados
+        - \(T_{final}\)
+        - Masa de vapor de agua ingresada
+      \\
+**** Solución
+     \\
+***** Tipo de sistema
+      \\
+      Considerando el sistema:
+      
+      Pistón - Linea de alimentación:
+      
+      - En ningún lado se habla de transferencia de masa con el exterior: se descarta sistema abierto.
+      - Del enunciado: "... ignorando cualquier transferencia de calor ..."
+      \\
+      ∴ Sistema aislado.
+      \\
+      \\
+***** Tipo de paredes
+     \\
+     Dado que no hay transferencia de calor con el exterior, las paredes se consideran rígidas, impermeables y adiabáticas.
+     \\
+     \\
+***** Interacciones energéticas con el entorno
+     \\
+     \\
+***** Propiedades intensivas y extensivas
+      \\
+      Intensivas:
+      - Presión: constante.
+      - Temperatura: variable.
+
+      Extensivas:
+      - Masa: constante.
+      - Volumen: variable.
+      \\
+***** Suposiciones
+     \\
+     - Proceso isobárico
+     \\
+***** Balance de energía
+     \\
+      Insertar balance de energía para sistema aislado.
+     \\
+     \\
+***** Principio de conservación de masa
+     \\
+     \\
+***** Procedimientos
+     \\
+***** Resultados
+     \\
+****** \(T_{final}\)
+     \\
+****** Masa de vapor de agua ingresada.
+     \\
 *** comentarios evaluaciones
     
     La prueba1 puede ser en pareja o individual. +La prueba1 se cambió del 12 al 19+.
+
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

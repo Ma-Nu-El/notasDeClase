@@ -6,20 +6,29 @@
 #+LANGUAGE: es
 
 * lab2
+
+** Requerimientos:
+  - Java
+  - POO
+  - UML
+  - Base de Datos
+
+** Se introduce:
+ - Patrón MVC (Model, View, Controller)
+ - Patrón DAO
+ - HTML
+ - CSS
+ - JavaScript
+
+ [[https://getbootstrap.com/][Bootstrap]]: esqueleto para html's y css's.
+ https://getbootstrap.com/
+
+** Proyecto final
+   Demo de sitio web.
+
+   Se integra todo lo del semestre.
+
 ** notas clases
-
-Modelo vista controlador (MVC)?
-
-Java (netbeans, eclipse, jetbrains(IntelliJ) ...)
-UML (Class)
-Databases
-
-Bootstrap?
-
-HTML
-JavaScript
-CSS
-
 *** [2020-06-12 Fri]
 
 paradigms
@@ -84,10 +93,6 @@ vier  0900 - ~1030
      - State "DONE"       from              [2020-09-03 Thu 16:44] \\
        Thanks to org mode export to html
      :END:
-**** CSS
-**** JS (probablemente no)
-**** Base de Datos (XAMPP)
-**** Java
 *** prueba lab2
 
   global
