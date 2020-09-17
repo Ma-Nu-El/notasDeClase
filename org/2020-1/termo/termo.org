@@ -176,6 +176,8 @@
       \\
 ****** \(T_{final}\)
        \\
+       Calcular temperatura final del vapor dentro del pistón.
+       
        Balance de energía para un sistema aislado.
 
        \[U_i+W_i = U_f+W_f\]
@@ -196,9 +198,10 @@
        | \(P\)           | \(500 kPa\)      |
 
        De las tablas:
-       \[U_i(200 °C, 500kPa) = 2643.3 kJ/kg\]
+       
+       \[U_i (200 °C, 500kPa) = 2643.3 kJ/kg\]
 
-       M_vaporInicial = V_inicial / VespInicialPiston.
+       \[M_{vaporInicial} = V_{inicial} / V_{espInicialPiston}\]
 
        De las tablas:
        VespInicialPiston(200 °C, 500kPa) = 0.42503 m^3/kg

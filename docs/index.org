@@ -1,6 +1,6 @@
 #+TITLE: uni
 #+DESCRIPTION: personal university notes
-#+AUTHOR: ma
+#+AUTHOR: Manuel Fuica Morales
 
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+INCLUDE: ../README.org
