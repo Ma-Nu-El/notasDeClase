@@ -204,42 +204,47 @@
        \[M_{vaporInicial} = V_{inicial} / V_{espInicialPiston}\]
 
        De las tablas:
-       VespInicialPiston(200 °C, 500kPa) = 0.42503 m^3/kg
+       
+       \[V_{espInicialPiston} (200 °C, 500kPa) = 0.42503\ m^3/kg\]
 
        Luego:
-       M_vaporInicial = 0.01 m^3 / 0.42503 m^3/kg
-       = 0.02353 kg.
+       
+       \[M_{vaporInicial} = 0.01\ m^3 / 0.42503\ m^3/kg\]
+       \[= 0.02353\ kg\]
 
        Luego:
-       2643.3 kJ/kg * 0.02353 kg = UiPiston
-       62.19685 kJ = UiPiston.
+       
+       \[2643.3\ kJ/kg * 0.02353 kg = U_{iPiston}\]
+       \[62.19685\ kJ = U_{iPiston}\]
 
 
-       2) UiAlimentacion:
+       2) \(U_{iAlimentacion}\):
 
        | \(V_{ingreso}\) | \(0.00498 m^3\) |
        | \(T_{ingreso}\) | \(350\) °\(C\)  |
        | \(P_{ingreso}\) | \(1000 kPa\)    |
 
        De las tablas:
-       UiAlimentacion(350 °C, 1MPa) = 2875.7 kJ/kg.
-
-       M_vaporInicialAlimentacion
+       
+       \[U_{iAlimentacion}\ (350 °C, 1MPa) = 2875.7\ kJ/kg\]
+       \[M_{vaporInicialAlimentacion}\]
        \[0.01763 kg = M_{vaporIngreso}\]
+       
        (Desarrollé el último primero, por lo tanto este valor ya lo tenía calculado).
 
        Luego:
-       UiAlimentacion = 2875.7 kJ/kg * 0.01763 kg
-       UiAlimentacion = 50.6986 kJ
+       
+       \[U_{iAlimentacion} = 2875.7\ kJ/kg * 0.01763\ kg\]
+       \[U_{iAlimentacion} = 50.6986\ kJ\]
 
-       3) UfPiston:
+       3) \(U_{fPiston}\):
+          
+       \[62.19685\ kJ = U_{iPiston}\]
+       \[50.6986\  kJ = U_{iAlimentacion}\]
 
-          62.19685 kJ = UiPiston
-          50.6986  kJ = UiAlimentacion
+       \[U_{iPiston} + U_{iAlimentacion} = U_{fPiston}\]
 
-       _UiPiston + UiAlimentacion = UfPiston_
-
-       UfPiston = 112.8955 kJ.
+       \[UfPiston = 112.8955\ kJ\]
 
        Además, condiciones finales conocidas del pistón:
 
@@ -250,19 +255,20 @@
        | \(P_{inicial}\) | \(P_{final}\)    |
        | \(P\)           | \(500 kPa\)      |
 
-       V_final = 0.02 m^3
-       P_final = 500kPa
-       T_final = ?
+       \[V_final = 0.02 m^3\]
+       \[P_final = 500kPa\]
+       \[T_final = ?\]
 
-       Luego, obtenemos UintFinPiston:
-       UfPiston/M_finalVaporPiston =
-       112.8955 kJ / M_finalVaporPiston =
+       Luego, obtenemos U_{intFinPiston}:
+       
+       \[U_{fPiston}/M_{finalVaporPiston} =\]
+       \[112.8955\ kJ / M_{finalVaporPiston} =\]
 
-       M_finalVaporPiston = M_vaporInicial + M_vaporInicialAlimentacion
-       M_finalVaporPiston = 0.02353 + 0.01763
-       M_finalVaporPiston = 0.04116 kg
+       \[M_{finalVaporPiston} = M_{vaporInicial} + M_{vaporInicialAlimentacion}\]
+       \[M_{finalVaporPiston} = 0.02353 + 0.01763\]
+       \[M_{finalVaporPiston} = 0.04116 kg\]
 
-       112.8955 kJ / 0.04116 kg = 2,742.845 kJ/kg
+       \[112.8955\ kJ / 0.04116\ kg = 2,742.845\ kJ/kg\]
 
        Buscando la coincidencia en las tablas:
        Vapor @ 500kPa:
@@ -277,8 +283,8 @@
        | 250 | 2723.8 |
        |   x | 2742.8 |
 
-       x = 250 * 2742.8 / 2723.8
-       x = 251.74 °C
+       \[x = 250 * 2742.8 / 2723.8\]
+       \[x = 251.74 °C\]
 
        ∴ la temperatura final del vapor dentro del pistón es aproximadamente 250 °C.
 
