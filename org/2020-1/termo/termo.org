@@ -147,6 +147,7 @@
      \\
 ***** Interacciones energéticas con el entorno
      \\
+     Sistema aislado -> no hay interacción con el entorno.
      \\
 ***** Propiedades intensivas y extensivas
       \\
@@ -161,16 +162,21 @@
 ***** Suposiciones
      \\
      - Proceso isobárico
-     \\
+     - Sistema aislado
+      \\
 ***** Balance de energía
      \\
-      Insertar balance de energía para sistema aislado.
+      Se aplica balance de energía para sistemas aislados en [[*Resultados][Resultados]].
+
      \\
      \\
 ***** Principio de conservación de masa
      \\
+     Sistema aislado -> no intercambia masa ni calor con el entorno.
      \\
 ***** Procedimientos
+     \\
+     Detalle en [[*Resultados][Resultados]]
      \\
 ***** Resultados
       \\
