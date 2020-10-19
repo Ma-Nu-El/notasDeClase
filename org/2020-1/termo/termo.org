@@ -320,10 +320,3 @@
 # Local Variables:
 # ispell-local-dictionary: "espanol"
 # End:
-:PROPERTIES:
-:EXPORT_AUTHOR: Manuel Fuica Morales
-:END:
-#+TITLE: Tarea Final
-#+EXCLUDE_TAGS: noexport
-#+LANGUAGE: es
-#+AUTHOR: Manuel Fuica Morales
