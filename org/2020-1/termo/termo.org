@@ -3,15 +3,13 @@
 #+AUTHOR: Manuel Fuica Morales
 
 * termo
-** demo imagen :ATTACH:
+** demo imagen
    :PROPERTIES:
    :ID:       48909ced-c666-4665-a2f7-7334ea3397f4
    :END:
 
    Abajo deberia aparecer una imagen.
 
-#+CAPTION: Consejo legal.
-[[./lawerDog.jpg]]
 ** conferencias
 *** prueba1
 **** clase 2
