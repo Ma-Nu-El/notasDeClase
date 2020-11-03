@@ -1,0 +1,52 @@
+#+TITLE: Investigación Operacional
+#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
+#+EXCLUDE_TAGS: noexport
+
+* Mon Nov  2 08:33:12 2020
+  Primera clase
+  Lunes clase de repaso
+** Repaso
+   - Materia de optimización
+   - Repaso PL
+     - Continuidad
+     - Proporcionalidad
+     - Aditividad
+     - No negatividad
+     - Determinismo
+   - Función de ganancia (objetivo)
+
+     \[Z = Ganancia - Costos \\
+     ; Costos = mano de obra, materia prima\]
+
+   - Matrices
+   - Método gráfico
+   - Repasamos simplex, dos fases y dual
+   - Vemos big M method
+   - Veremos problemas de transporte igualmente
+
+   - minimización = isocosto
+   - maximización = isoganancia
+
+*** TODO big M method
+
+    Mismo propósito de método de dos fases.
+
+*** TODO excel como calculadora para simplex
+** próxima clase
+   Jueves a las 0830
+   Tema: excel.
+* horario
+  Lunes de 8 a 11. Clase
+  Jueves de 0930 a 1030 práctica.
+  - solo esta semana (primera)
+  Jueves de 0830 a 1000 esta semana nomas para excel.
+* Vocabulario
+  - Estadigrafo de certeza?
+  - Isocosto, isoganancia
+  - precio sombra?
+    Algo de costo de oportunidad por producto no utilizado o algo así.
+
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

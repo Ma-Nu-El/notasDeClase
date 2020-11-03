@@ -1,0 +1,11 @@
+#+TITLE: title
+#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:
+
+* Contenido
+* Contacto
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

@@ -1,0 +1,66 @@
+#+TITLE: Probabilidad y Estadística
+#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:probability:statistics:
+
+* Cátedras
+** Mon Nov  2 11:32:32 2020
+*** TODO Lenguaje de programación
+    - R
+
+    [[https://www.youtube.com/results?search_query=R+for+probability+and+statistiscs][youtube: R for probability and statistiscs]]
+  
+*** Conceptos
+    :PROPERTIES:
+    :ID:       77a7d1ab-a4d4-493a-b257-207283072bab
+    :END:
+    - Experimento:
+      Ejecución de instrucciones de la cual se obtiene un resultado.
+      
+    - Experimento aleatorio:
+      1) No se conoce el resultado antes de ejecutarlo
+      2) Se conocen todos los posibles resultados
+      3) Idéntico resultado para idénticas condiciones de ejecución
+
+    - Espacio muestral Ω:
+
+      Conjunto de resultados posibles al ejecutar un experimento.
+
+      #+begin_quote
+      "El vacío es subconjunto de cualquier conjunto, además, el vacío es conjunto imposible, pues imposible que no ocurra algo en un experimento."
+      Sonia Salvo
+      Mon Nov  2 12:32:03 2020
+      #+end_quote
+
+    - Evento:
+
+    - Leyes de Morgan:
+
+    - Axiomática de álgebra:
+
+    Revisar apunte campus
+
+* Material de estudio
+
+  Viene libro.
+
+  Por mientras está por capítulos en campus virtual.
+ 
+* Evaluaciones
+
+  - Alternativas.
+  - Sincrónica.
+
+  - (.7) teórica & (.3) práctica (campus)
+
+  - 18 nov (.30)
+  - 23 dic (.35)
+  - 27 ene (.35)
+* Contacto
+** sonia.salvo@ufrontera.cl
+* Vocabulario
+   - sistemas estocásticos
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
