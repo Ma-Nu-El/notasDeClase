@@ -1,0 +1,19 @@
+#+TITLE: Resistencia de materiales
+#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:
+
+* Contenido
+** Tue Nov  3 08:37:22 2020 
+*** Repaso
+    - Producto cruz y ejemplo
+* Evaluación
+* Contacto
+** profe
+  Ignacio Ríos
+  ignacio.rios@ufrontera.cl
+  ICI-M
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
