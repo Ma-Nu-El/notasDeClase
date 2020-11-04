@@ -27,7 +27,7 @@
       Conjunto de resultados posibles al ejecutar un experimento.
 
       #+begin_quote
-      "El vacío es subconjunto de cualquier conjunto, además, el vacío es conjunto imposible, pues imposible que no ocurra algo en un experimento."
+      "El vacío es subconjunto de cualquier conjunto, además, el vacío es suceso imposible, pues imposible que no ocurra algo en un experimento."
       Sonia Salvo
       Mon Nov  2 12:32:03 2020
       #+end_quote
