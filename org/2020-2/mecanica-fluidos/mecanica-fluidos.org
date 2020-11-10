@@ -17,13 +17,14 @@
       
     Gamma = rho * g
     
-** Tue Nov  3 10:58:52 2020 
+** Tue Nov  3 10:58:52 2020
 
    Al ejercer una presión, la reacción interior del cuerpo presionado se conoce como esfuerzo.
    
    - Esfuerzo normal (F ⟂ A: clásica presión)
    - Esfuerzo cortante (F ∥ A: frotar las manos, arrastrar los pies)
 
+** Mon Nov  9 14:49:50 2020 
 * Evaluación
 * Contacto
   Mario Guzmán

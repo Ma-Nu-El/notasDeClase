@@ -35,6 +35,10 @@
 ** próxima clase
    Jueves a las 0830
    Tema: excel.
+* Mon Nov  9 08:04:57 2020
+** PPT
+  - Análisis de dualidad y sensibilidad
+  - Optimización lineal.
 * horario
   Lunes de 8 a 11. Clase
   Jueves de 0930 a 1030 práctica.
