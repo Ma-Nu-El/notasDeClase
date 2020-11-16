@@ -7,9 +7,17 @@
 ** Tue Nov  3 08:37:22 2020 
 *** Repaso
     - Producto cruz y ejemplo
+* Horario
+** Ayudantia
+   Viernes por medio, 15:40 horas
+   Mismo link de clases
+   Mañana viernes 13 de nov primera ayudantía
+* Links
+** Cátedra y ayudantía
+   - https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09
 * Evaluación
 * Contacto
-** profe
+** Profe
   Ignacio Ríos
   ignacio.rios@ufrontera.cl
   ICI-M

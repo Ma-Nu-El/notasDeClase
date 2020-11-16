@@ -1,49 +1,68 @@
 #+TITLE: Investigación Operacional
 #+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
+#+filetags: :uni:
 
-* Mon Nov  2 08:33:12 2020
-  Primera clase
-  Lunes clase de repaso
-** Repaso
-   - Materia de optimización
-   - Repaso PL
-     - Continuidad
-     - Proporcionalidad
-     - Aditividad
-     - No negatividad
-     - Determinismo
-   - Función de ganancia (objetivo)
+* Contenidos
+** Prueba1
+*** Mon Nov  2 08:33:12 2020
+    Primera clase
+    Lunes clase de repaso
+**** Repaso
+     - Materia de optimización
+     - Repaso PL
+       - Continuidad
+       - Proporcionalidad
+       - Aditividad
+       - No negatividad
+       - Determinismo
+     - Función de ganancia (objetivo)
 
-     \[Z = Ganancia - Costos \\
-     ; Costos = mano de obra, materia prima\]
+       \[Z = Ganancia - Costos \\
+       ; Costos = mano de obra, materia prima\]
 
-   - Matrices
-   - Método gráfico
-   - Repasamos simplex, dos fases y dual
-   - Vemos big M method
-   - Veremos problemas de transporte igualmente
+     - Matrices
+     - Método gráfico
+     - Repasamos simplex, dos fases y dual
+     - Vemos big M method
+     - Veremos problemas de transporte igualmente
 
-   - minimización = isocosto
-   - maximización = isoganancia
+     - minimización = isocosto
+     - maximización = isoganancia
 
-*** TODO big M method
+***** TODO big M method
 
-    Mismo propósito de método de dos fases.
+      Mismo propósito de método de dos fases.
 
-*** TODO excel como calculadora para simplex
-** próxima clase
-   Jueves a las 0830
-   Tema: excel.
-* Mon Nov  9 08:04:57 2020
-** PPT
-  - Análisis de dualidad y sensibilidad
-  - Optimización lineal.
-* horario
-  Lunes de 8 a 11. Clase
-  Jueves de 0930 a 1030 práctica.
-  - solo esta semana (primera)
-  Jueves de 0830 a 1000 esta semana nomas para excel.
+***** TODO excel como calculadora para simplex
+**** próxima clase
+     Jueves a las 0830
+     Tema: excel.
+*** Mon Nov  9 08:04:57 2020
+**** PPT
+    - Análisis de dualidad y sensibilidad
+    - Optimización lineal.
+** Ayudantía
+*** Carpeta Google Drive
+    https://drive.google.com/drive/folders/1sw44-YOjSPYNX4SZ6XreFvnGsHAWEFZG
+*** Video
+    https://drive.google.com/file/d/1pKqCwgfe4uKy9uIrpgzZ-r0KtEAAsSPr/view
+* Horario :schedule:
+** Cátedra
+*** Lunes 08:00 a 10:40
+   - Originalmente de 08:30 a 10:40, pero teníamos conflicto de horario con otros ramos.
+   https://reuna.zoom.us/j/85818738252?pwd=QVFaMkhRcmVCS1Jaa1docTI1Wmtxdz09
+
+*** Lunes 11:00 a 13:00 (opcional, otro módulo)
+https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
+
+*** Jueves 08:30 a 10:40 (cancelada)
+    - Por conflicto de horario se cancela y se hace una clase larga el lunes.
+    https://reuna.zoom.us/j/88983963727?pwd=N2dlYmpLVTlrdnV4cngzZ05NTlI5dz09
+
+** Ayudantía
+   Jueves 10:00
+   https://reuna.zoom.us/j/89833514729
 * Vocabulario
   - Estadigrafo de certeza?
   - Isocosto, isoganancia

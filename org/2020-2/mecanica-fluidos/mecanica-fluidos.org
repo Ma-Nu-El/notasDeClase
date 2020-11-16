@@ -26,6 +26,9 @@
 
 ** Mon Nov  9 14:49:50 2020 
 * Evaluación
+* Links
+** Cátedra y ayudantía
+  - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
 * Contacto
   Mario Guzmán
 * Local variables :noexport:
