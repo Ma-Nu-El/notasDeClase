@@ -1,0 +1,15 @@
+Evaluaciones 2020-2
+mecanica de fluidos se va viendo en el camino.
+proba: Act campus
+io:    t1 14 nov                                     
+proba: p1 18 nov 
+io:    t2 28 nov                                
+resis: p1 1  dic                                         
+io:    p1 5  dic                                 
+io:    t3 19 dic                                     
+proba: p2 23 dic
+io:    t1 11 ene                                     
+resis: p2 12 ene 
+io:    p2 23 ene 
+proba: p3 27 ene 
+resis: p3 2  mar 
