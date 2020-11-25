@@ -15,7 +15,10 @@
 * Links
 ** Cátedra y ayudantía
    - https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09
-* Evaluación
+* Evaluación :exam:
+** TODO [#A] 1 dic
+** TODO 12 ene 2021
+** TODO 2 mar 2021
 * Contacto
 ** Profe
   Ignacio Ríos

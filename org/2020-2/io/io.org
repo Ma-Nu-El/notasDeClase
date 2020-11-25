@@ -1,7 +1,7 @@
 #+TITLE: Investigación Operacional
 #+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
-#+filetags: :uni:
+#+filetags: :university:
 
 * Contenidos
 ** Prueba1
@@ -63,6 +63,17 @@ https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
 ** Ayudantía
    Jueves 10:00
    https://reuna.zoom.us/j/89833514729
+* Evaluación :exam:
+*** TODO [#A] prueba1 5 dic
+*** TODO prueba2 23 ene 2021
+*** DONE taller1 14 nov
+    CLOSED: [2020-11-23 Mon 18:04]
+    :LOGBOOK:
+    - State "DONE"       from              [2020-11-23 Mon 18:04]
+    :END:
+*** TODO [#A] taller2 28 nov
+*** TODO taller3 19 dic
+*** TODO taller1 11 ene
 * Vocabulario
   - Estadigrafo de certeza?
   - Isocosto, isoganancia

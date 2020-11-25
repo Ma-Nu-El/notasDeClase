@@ -2,36 +2,129 @@
 #+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
+# latex goodies
+# spacing
+# https://tex.stackexchange.com/questions/74353/what-commands-are-there-for-horizontal-spacing
+# nice looking emptyset
+# https://tex.stackexchange.com/questions/22798/nice-looking-empty-set
+* TOC :TOC:
+- [[#contenido][Contenido]]
+  - [[#material-de-estudio-primera-prueba][Material de Estudio Primera Prueba]]
+- [[#evaluación][Evaluación]]
+- [[#links][Links]]
+  - [[#cátedra-y-ayudantía][Cátedra y ayudantía]]
+- [[#contacto][Contacto]]
 
 * Contenido
-** Mon Nov  2 14:38:56 2020
-*** Introducción
-    Revisar video.
-    
-    file:~/Videos/
-    
-    Gamma=w/V (peso/volumen)
-    - Volumen especifico especifica
-    - Densidad especifica
-    - Densidad relativa
-      
-    Gamma = rho * g
-    
-** Tue Nov  3 10:58:52 2020
+** Material de Estudio Primera Prueba
 
-   Al ejercer una presión, la reacción interior del cuerpo presionado se conoce como esfuerzo.
-   
-   - Esfuerzo normal (F ⟂ A: clásica presión)
-   - Esfuerzo cortante (F ∥ A: frotar las manos, arrastrar los pies)
+   #+BEGIN_QUOTE
+   Estimados estudiantes de acuerdo con lo que el curso acordó, el martes 24 de noviembre es la primera prueba de Mecánica de Fluidos.
 
-** Mon Nov  9 14:49:50 2020 
+   El temas:
+
+   1. Cálculo de Fuerzas sobre paredes planas
+   2. Cálculo de Centros de presión.
+
+   Con las pautas enviadas anteriormente, es suficiente para presentarse a la prueba.
+   #+END_QUOTE
+
+
+   Las pautas:
+   file:~/myDrive/files/uni/2020-2/mecanica-de-fluidos/prueba1/
+
+*** Apuntes
+**** Capitulo 1: Unidades de Medida utilizadas en diseños ingenieriles
+     Repaso de unidades de medida.
+**** Capitulo 2: Generalidades de la mecánica de fluidos.
+***** Densidad específica (o absoluta)
+    
+      \[
+      \rho
+      =
+      \frac
+      {m}
+      {V}
+      \]
+
+      \[
+      [\,\rho\,]
+      =
+      \frac
+      {[\,kg\,]}
+      {[\,m^3\,]}
+      \]
+    
+***** Peso específico
+    
+      \[
+      \gamma
+      =
+      \frac
+      {m\cdot g}
+      {V}
+      \quad
+      \rightarrow
+      \quad
+      \gamma
+      =
+      g\cdot \rho
+      \quad
+      ;
+      \quad
+      m \cdot g = W
+      \]
+
+      \[
+      [\,\gamma\,]
+      =
+      \frac
+      {[\,N\,]}
+      {[\,m^\,3]}
+      \]
+
+***** Densidad relativa
+
+      Se mide respecto de la densidad del agua.
+
+      \[
+      \delta
+      =
+      \frac
+      {W_{substancia}}
+      {W_{agua}}
+      =
+      \frac
+      {\rho_{substancia}}
+      {\rho_{agua}}
+      =
+      \frac
+      {\gamma_{substancia}}
+      {\gamma_{agua}}
+      \]
+
+      Es prudente decir que esta medida no tiene unidad, pues habla de la relación entre dos entes de misma dimensión.
+
+      \[
+      [\,\delta\,]
+      =
+      \varnothing
+      \]
+
+***** Viscosidad dinámica
+      Puede definirse como la resistencia de un fluido a fluir. Se analizan las fuerzas involucradas.
+***** Viscosidad cinemática
+      Mas menos misma historia, pero ahora se analiza el movimiento del fluido.
+
+**** Capitulo 3: Hidrostática
+     (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
 * Evaluación
 * Links
 ** Cátedra y ayudantía
-  - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
+   - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
 * Contacto
   Mario Guzmán
 * Local variables :noexport:
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:
