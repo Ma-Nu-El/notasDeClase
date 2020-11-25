@@ -2,9 +2,14 @@
 #+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
+* TOC :TOC:
+- [[#contenido][Contenido]]
+- [[#contacto][Contacto]]
+- [[#evaluación][Evaluación]]
 
 * Contenido
 * Contacto
+* Evaluación
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"
