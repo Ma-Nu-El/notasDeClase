@@ -1,5 +1,8 @@
 Evaluaciones 2020-2
-mecanica de fluidos se va viendo en el camino.
+mecanica de fluidos y
+talleres de resistencia
+se van viendo en el camino.
+
 proba: Act campus
 io:    t1 14 nov                                     
 proba: p1 18 nov 
