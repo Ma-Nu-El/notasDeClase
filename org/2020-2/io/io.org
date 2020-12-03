@@ -18,8 +18,10 @@
        - Determinismo
      - Función de ganancia (objetivo)
 
-       \[Z = Ganancia - Costos \\
-       ; Costos = mano de obra, materia prima\]
+       \[
+       Z = Ganancia - Costos \\
+       ; Costos = mano de obra, materia prima
+       \]
 
      - Matrices
      - Método gráfico
@@ -30,31 +32,62 @@
      - minimización = isocosto
      - maximización = isoganancia
 
-***** TODO big M method
+***** CANCELED big M method
+      CLOSED: [2020-11-27 Fri 23:36]
+      :LOGBOOK:
+      - State "CANCELED"   from "TODO"       [2020-11-27 Fri 23:36] \\
+        supongo que al saber 2 fases estas listo...?; hay algo que el gran M entrega que el dos fases no?
+      :END:
 
       Mismo propósito de método de dos fases.
 
-***** TODO excel como calculadora para simplex
+***** TODO excel como calculadora para simplex: solver
 **** próxima clase
      Jueves a las 0830
      Tema: excel.
 *** Mon Nov  9 08:04:57 2020
 **** PPT
-    - Análisis de dualidad y sensibilidad
-    - Optimización lineal.
+     - Análisis de dualidad y sensibilidad
+     - Optimización lineal.
 ** Ayudantía
 *** Carpeta Google Drive
     https://drive.google.com/drive/folders/1sw44-YOjSPYNX4SZ6XreFvnGsHAWEFZG
-*** Video
-    https://drive.google.com/file/d/1pKqCwgfe4uKy9uIrpgzZ-r0KtEAAsSPr/view
+*** Método de 2 fases
+    Después de pasar a forma estándar:
+
+**** Fase 1
+
+     1) \(min\quad z=\sum A_i\)
+     2) Convertir las columnas de auxiliares en su correspondiente columna de variable básica\\
+        Para esto simplemente hay que sumar las filas.
+     3) Iterar como simplex
+     4) Dos posibles resultados
+        - Fila del z queda igual que al inicio pero con \(\bar z=0\)\\
+          El problema es tiene solución.
+        - Fila del z _no_ queda igual que al inicio, independiente del valor de \(\bar z\)\\
+          El problema no tiene solución (o quizás no tiene solución usando las herramientas conocidas hasta ahora?).
+     5) Suponiendo que tiene solución\\
+        Pasamos a fase 2.
+
+
+**** Fase 2
+    
+     1) Eliminar columnas de auxiliares
+     2) Reemplazar fila del \(z\) actual con función objetivo original
+     3) Establecer columnas de variables básicas\\
+        Nuevamente, fila de variable básica \(\rightarrow\) \(1\) en su fila y \(0\) en todas las demás hacia abajo y arriba.
+     4) Resolver por simplex
+
+     En otras palabras, la fase 1, entre otras cosas, modifica las filas de restricciones y luego la fase 2 se aprovecha de esas modificaciones para resolver por simplex, con certeza de existencia de una solución.
+
 * Horario :schedule:
 ** Cátedra
 *** Lunes 08:00 a 10:40
-   - Originalmente de 08:30 a 10:40, pero teníamos conflicto de horario con otros ramos.
-   https://reuna.zoom.us/j/85818738252?pwd=QVFaMkhRcmVCS1Jaa1docTI1Wmtxdz09
+    - Originalmente de 08:30 a 10:40, pero teníamos conflicto de horario con otros ramos.
+    https://reuna.zoom.us/j/85818738252?pwd=QVFaMkhRcmVCS1Jaa1docTI1Wmtxdz09
 
 *** Lunes 11:00 a 13:00 (opcional, otro módulo)
-https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
+    https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
 
 *** Jueves 08:30 a 10:40 (cancelada)
     - Por conflicto de horario se cancela y se hace una clase larga el lunes.
@@ -81,6 +114,6 @@ https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
     Algo de costo de oportunidad por producto no utilizado o algo así.
 
 * Local variables :noexport:
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:
