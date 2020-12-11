@@ -80,6 +80,23 @@
 
      En otras palabras, la fase 1, entre otras cosas, modifica las filas de restricciones y luego la fase 2 se aprovecha de esas modificaciones para resolver por simplex, con certeza de existencia de una solución.
 
+** Resumen
+   - Sensibilidad y dualidad
+     - Recopilar datos de tabla inicial y tabla óptima
+
+
+   Obtener el b inicial: correspondiente a la columna de limites de restricciones.
+  
+       - Obtener bases de tabla óptima
+
+
+   Obtener el Cb: teniendo la base de la tabla óptima, se puede determinar el \(Cb\), que corresponde a los valores en \(Z\) de la tabla inicial para las bases de la tabla óptima. Ejemplo, si en la tabla óptima, la base es x2 y x3, entonces el Cb corresponde a los valores correspondientes a esas columnas de la tabla inicial en la fila del Z.
+
+   Obtener el B: Exactamente el mismo procedimiento para obtener la base B. La diferencia es que en vez de seleccionar una fila, se selecciona la matriz. Ejemplo, si la tabla óptima entrega como bases x2 y x3, entonces la matriz base se obtiene a partir de la matriz debajo del x2 y x3 de la tabla inicial.
+
+   Obtener el B^-1: invertir la B obtenida antes. _No_ es recomendable obtener el B-1 por otros métodos pues la información puede no estar completa, mientras que si lo obtenemos a partir del B, la información la obtenemos sin obstrucciones.
+
+
 * Horario :schedule:
 ** Cátedra
 *** Lunes 08:00 a 10:40
