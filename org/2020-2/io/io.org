@@ -149,14 +149,22 @@
    Jueves 10:00
    https://reuna.zoom.us/j/89833514729
 * Evaluación :exam:
-*** TODO [#A] prueba1 5 dic
+*** DONE [#A] prueba1 5 dic
+    CLOSED: [2020-12-27 Sun 15:53]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
+    :END:
 *** TODO prueba2 23 ene 2021
 *** DONE taller1 14 nov
     CLOSED: [2020-11-23 Mon 18:04]
     :LOGBOOK:
     - State "DONE"       from              [2020-11-23 Mon 18:04]
     :END:
-*** TODO [#A] taller2 28 nov
+*** DONE [#A] taller2 28 nov
+    CLOSED: [2020-12-27 Sun 15:53]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
+    :END:
 *** TODO taller3 19 dic
 *** TODO taller1 11 ene
 * Vocabulario
