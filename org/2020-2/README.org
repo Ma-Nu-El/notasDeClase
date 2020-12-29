@@ -1,2 +1,1 @@
-#+INCLUDE: io/io.org
-#+INCLUDE: proba/proba.org
+#+INCLUDE: proba/apuntes.org
