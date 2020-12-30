@@ -1,5 +1,5 @@
 #+TITLE: Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
-#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: ~/Downloads/org-html-themes/org/theme-readtheorg-local.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probability:statistics:notes:
 # Sources for latex math notation:
@@ -438,7 +438,7 @@
 
 *** Poisson
    #+BEGIN_QUOTE
-   Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́cu- las emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
+   Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́culas emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
 
   Aquellos experimentos que cumplen las condiciones anteriores se ajustan a un proceso de Poisson, que se denota con \(X \sim \text{Poisson}(\lambda)\).
    #+END_QUOTE
@@ -459,10 +459,9 @@ e ^{-\lambda}
 **** Propiedades
     #+BEGIN_CENTER
      \begin{align*}
-           E[X]&=n \cdot p,\qquad \text{donde } p=\frac{m}{N}\\
-           Var[X]&=n \cdot p \cdot q \cdot \frac{N-m}{N-1}
+           E[X]&=\lambda \\
+           Var[X]&=\lambda
      \end{align*}
-     donde \( p=\frac{m}{N} \) y \( q=1-p \)
     #+END_CENTER
 **** Aproximación a Binomial por Poisson
 *** Comparación de distribuciones discretas
