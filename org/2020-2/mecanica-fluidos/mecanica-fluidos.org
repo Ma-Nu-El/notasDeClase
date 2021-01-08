@@ -7,13 +7,6 @@
 # https://tex.stackexchange.com/questions/74353/what-commands-are-there-for-horizontal-spacing
 # nice looking emptyset
 # https://tex.stackexchange.com/questions/22798/nice-looking-empty-set
-* TOC :TOC:
-- [[#contenido][Contenido]]
-  - [[#material-de-estudio-primera-prueba][Material de Estudio Primera Prueba]]
-- [[#evaluación][Evaluación]]
-- [[#links][Links]]
-  - [[#cátedra-y-ayudantía][Cátedra y ayudantía]]
-- [[#contacto][Contacto]]
 
 * Contenido
 ** Material de Estudio Primera Prueba
@@ -119,6 +112,8 @@
 **** Capitulo 3: Hidrostática
      (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
 * Evaluación
+** prueba2
+   DEADLINE: <2021-01-12 Tue 10:50>
 * Links
 ** Cátedra y ayudantía
    - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09

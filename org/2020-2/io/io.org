@@ -154,7 +154,8 @@
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
     :END:
-*** TODO prueba2 23 ene 2021
+*** prueba2
+    DEADLINE: <2021-01-23 Sat>
 *** DONE taller1 14 nov
     CLOSED: [2020-11-23 Mon 18:04]
     :LOGBOOK:
@@ -165,8 +166,14 @@
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
     :END:
-*** TODO taller3 19 dic
-*** TODO taller1 11 ene
+*** CANCELED taller3 19 dic
+    CLOSED: [2021-01-07 Thu 20:44]
+    :LOGBOOK:
+    - State "CANCELED"   from "TODO"       [2021-01-07 Thu 20:44] \\
+      Ultimo taller fue de coeficiente 2.
+    :END:
+*** taller3
+    DEADLINE: <2021-01-16 Sat 09:00>
 * Vocabulario
   - Estadigrafo de certeza?
   - Isocosto e isoganancia\\

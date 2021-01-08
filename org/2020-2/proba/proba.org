@@ -51,7 +51,12 @@
 
   - (.7) teórica & (.3) práctica (campus)
 
-** TODO Actividades Campus
+** DONE Actividades Campus
+   CLOSED: [2021-01-08 Fri 17:38]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2021-01-08 Fri 17:38] \\
+     Might have done a better job, but I passed anyway.
+   :END:
 ** DONE 18 nov (.30)
    CLOSED: [2020-11-23 Mon 18:03]
    :LOGBOOK:
@@ -62,7 +67,9 @@
    :LOGBOOK:
    - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
    :END:
-** TODO 27 ene (.35)
+** TODO prueba3
+   DEADLINE: <2021-01-27 Wed>
+   35%
 * Contacto
 ** sonia.salvo@ufrontera.cl
 * Vocabulario

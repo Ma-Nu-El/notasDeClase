@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-12-30 Wed 07:18 -->
+<!-- 2021-01-08 Fri 19:12 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>uni Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</title>
+<title>uni Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias Resistencia de materiales</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Manuel Fuica Morales" />
 <meta name="description" content="personal university notes"
@@ -42,7 +42,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -208,25 +208,23 @@
 <script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="src/readtheorg_theme/js/readtheorg.js"></script>
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
      function CodeHighlightOn(elem, id)
      {
        var target = document.getElementById(id);
        if(null != target) {
-         elem.cacheClassElem = elem.className;
-         elem.cacheClassTarget = target.className;
-         target.className = "code-highlighted";
-         elem.className   = "code-highlighted";
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
        }
      }
      function CodeHighlightOff(elem, id)
      {
        var target = document.getElementById(id);
-       if(elem.cacheClassElem)
-         elem.className = elem.cacheClassElem;
-       if(elem.cacheClassTarget)
-         target.className = elem.cacheClassTarget;
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
      }
     /*]]>*///-->
 // @license-end
@@ -256,83 +254,120 @@
 </head>
 <body>
 <div id="content">
-<h1 class="title">uni Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</h1>
+<h1 class="title">uni Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias Resistencia de materiales</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga85be97">1. Apuntes libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</a></li>
-<li><a href="#org35e6e36">2. Requisitos</a></li>
-<li><a href="#org4c11ad0">3. Capítulo 1: Probabilidad</a>
+<li><a href="#org27a83f9">1. Apuntes libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</a></li>
+<li><a href="#orgd29987a">2. Requisitos</a></li>
+<li><a href="#org0aee0ab">3. Capítulo 1: Probabilidad</a>
 <ul>
-<li><a href="#org8a9f404">3.1. Objetivo</a></li>
-<li><a href="#orgb35c5ce">3.2. Experimento</a></li>
-<li><a href="#org4476938">3.3. Experimento aleatorio</a>
+<li><a href="#org386051a">3.1. Objetivo</a></li>
+<li><a href="#orge5eadf9">3.2. Experimento</a></li>
+<li><a href="#org0303a67">3.3. Experimento aleatorio</a>
 <ul>
-<li><a href="#org5ea596e">3.3.1. Ejemplos</a></li>
+<li><a href="#org9596cca">3.3.1. Ejemplos</a></li>
 </ul>
 </li>
-<li><a href="#orgf8c4c18">3.4. Espacio muestral: &Omega;</a>
+<li><a href="#org8b67658">3.4. Espacio muestral: &Omega;</a>
 <ul>
-<li><a href="#orgf62d0e4">3.4.1. Relación entre eventos</a></li>
+<li><a href="#orgad77bb9">3.4.1. Relación entre eventos</a></li>
 </ul>
 </li>
-<li><a href="#org5e2e724">3.5. Evento aleatorio</a></li>
-<li><a href="#org5130698">3.6. Coeficiente binomial</a></li>
-<li><a href="#org6771372">3.7. Axiomas de probabilidad</a></li>
-<li><a href="#org7a40206">3.8. Propiedades de la función de probabilidad</a>
+<li><a href="#org1497f7b">3.5. Evento aleatorio</a></li>
+<li><a href="#org1036841">3.6. Coeficiente binomial</a></li>
+<li><a href="#org972d052">3.7. Axiomas de probabilidad</a></li>
+<li><a href="#orge602f7a">3.8. Propiedades de la función de probabilidad</a>
 <ul>
-<li><a href="#orgc70b987">3.8.1. del vacío</a></li>
-<li><a href="#org78613b3">3.8.2. de eventos disjuntos finitos</a></li>
-<li><a href="#orgfc8c438">3.8.3. de la unión</a></li>
-<li><a href="#org6e440c6">3.8.4. del complemento</a></li>
-<li><a href="#org01883af">3.8.5. del subconjunto</a></li>
+<li><a href="#orgc30a73c">3.8.1. del vacío</a></li>
+<li><a href="#org882f14a">3.8.2. de eventos disjuntos finitos</a></li>
+<li><a href="#org4fcc58e">3.8.3. de la unión</a></li>
+<li><a href="#orgb83e7b2">3.8.4. del complemento</a></li>
+<li><a href="#org4b42649">3.8.5. del subconjunto</a></li>
 </ul>
 </li>
-<li><a href="#org22003ef">3.9. Probabilidad Condicional</a></li>
-<li><a href="#org3b40220">3.10. Independencia de eventos</a></li>
-<li><a href="#org6c21397">3.11. Probabilidad Total</a></li>
-<li><a href="#org12d768f">3.12. Teorema de Bayes</a></li>
+<li><a href="#orgb157a3b">3.9. Probabilidad Condicional</a></li>
+<li><a href="#org669a984">3.10. Independencia de eventos</a></li>
+<li><a href="#orgd85cbfb">3.11. Probabilidad Total</a></li>
+<li><a href="#org225c2dd">3.12. Teorema de Bayes</a></li>
 </ul>
 </li>
-<li><a href="#org2332f00">4. Capítulo 2: Variables Aleatorias Unidimensionales</a>
+<li><a href="#orgba47af3">4. Capítulo 2: Variables Aleatorias Unidimensionales</a>
 <ul>
-<li><a href="#org0768940">4.1. Función Generadora de Momentos</a></li>
-<li><a href="#org2fca906">4.2. Esperanza</a>
+<li><a href="#org5c9eb14">4.1. Función Generadora de Momentos</a></li>
+<li><a href="#orga69b07c">4.2. Esperanza</a>
 <ul>
-<li><a href="#org246bd20">4.2.1. Propiedad</a></li>
+<li><a href="#org97820de">4.2.1. Propiedad</a></li>
 </ul>
 </li>
-<li><a href="#org340a403">4.3. Varianza</a>
+<li><a href="#org41b5317">4.3. Varianza</a>
 <ul>
-<li><a href="#org1762eb4">4.3.1. Propiedad</a></li>
+<li><a href="#org7fcb97b">4.3.1. Propiedad</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org8dcb937">5. Capítulo 3: Distribuciones</a>
+<li><a href="#org553abf8">5. Capítulo 3: Distribuciones</a>
 <ul>
-<li><a href="#org2e6542e">5.1. Discretas</a>
+<li><a href="#orga7a3704">5.1. Discretas</a>
 <ul>
-<li><a href="#orgf3be4cd">5.1.1. Bernoulli</a></li>
-<li><a href="#org5791c3d">5.1.2. Binomial</a></li>
-<li><a href="#org088d6d0">5.1.3. Geométrica</a></li>
-<li><a href="#orgdf39669">5.1.4. Binomial Negativa</a></li>
-<li><a href="#org7092b87">5.1.5. Hiper Geométrica</a></li>
-<li><a href="#org49730d2">5.1.6. Poisson</a></li>
-<li><a href="#org2cbcf87">5.1.7. Comparación de distribuciones discretas</a></li>
+<li><a href="#org21f284b">5.1.1. Bernoulli</a></li>
+<li><a href="#orgb630665">5.1.2. Binomial</a></li>
+<li><a href="#orga815656">5.1.3. Geométrica</a></li>
+<li><a href="#org99651e1">5.1.4. Binomial Negativa</a></li>
+<li><a href="#org364937e">5.1.5. Hiper Geométrica</a></li>
+<li><a href="#org2731b7f">5.1.6. Poisson</a></li>
+<li><a href="#orgda033a3">5.1.7. Comparación de distribuciones discretas</a></li>
 </ul>
 </li>
-<li><a href="#org80e5e3b">5.2. Continuas</a>
+<li><a href="#org48fc7b2">5.2. Continuas</a>
 <ul>
-<li><a href="#org1946a26">5.2.1. Normal</a></li>
-<li><a href="#org8384c6f">5.2.2. Normal Estándar</a></li>
-<li><a href="#orgb639666">5.2.3. Uniforme</a></li>
-<li><a href="#orga9720e2">5.2.4. Gamma</a></li>
-<li><a href="#org3876cb4">5.2.5. Beta</a></li>
-<li><a href="#orgd3655a8">5.2.6. Otras continuas</a></li>
+<li><a href="#org6c618fa">5.2.1. Normal</a></li>
+<li><a href="#orgb3d4b4a">5.2.2. Normal Estándar</a></li>
+<li><a href="#org58a9947">5.2.3. Uniforme</a></li>
+<li><a href="#orgbf02e85">5.2.4. Gamma</a></li>
+<li><a href="#org1ee9855">5.2.5. Beta</a></li>
+<li><a href="#org8235d99">5.2.6. Otras continuas</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><a href="#org7c5aa42">6. Contenido</a>
+<ul>
+<li><a href="#org6c9400f">6.1. Tue Nov  3 08:37:22 2020</a>
+<ul>
+<li><a href="#org0266675">6.1.1. Repaso</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2640357">7. Horario</a>
+<ul>
+<li><a href="#orga9ce806">7.1. Ayudantia</a></li>
+</ul>
+</li>
+<li><a href="#org5bad9a0">8. Links</a>
+<ul>
+<li><a href="#org7e947fb">8.1. Cátedra y ayudantía</a></li>
+</ul>
+</li>
+<li><a href="#org6c608db">9. Evaluación&#xa0;&#xa0;&#xa0;<span class="tag"><span class="exam">exam</span></span></a>
+<ul>
+<li><a href="#org877eb0e">9.1. <span class="done DONE">DONE</span> 1 dic</a></li>
+<li><a href="#org05bafd4">9.2. prueba2</a>
+<ul>
+<li><a href="#org343fe71">9.2.1. clase 8: deformación</a></li>
+</ul>
+</li>
+<li><a href="#org47d2e02">9.3. prueba3</a></li>
+<li><a href="#org80e280e">9.4. taller2</a></li>
+<li><a href="#orgbbbe112">9.5. taller3</a></li>
+</ul>
+</li>
+<li><a href="#orgd689672">10. Contacto</a>
+<ul>
+<li><a href="#org101e825">10.1. Profe</a></li>
 </ul>
 </li>
 </ul>
@@ -349,8 +384,8 @@
 \newcommand\given[1][]{\:#1\vert\:}
 \]
 </p>
-<div id="outline-container-orga85be97" class="outline-2">
-<h2 id="orga85be97"><span class="section-number-2">1</span> Apuntes libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</h2>
+<div id="outline-container-org27a83f9" class="outline-2">
+<h2 id="org27a83f9"><span class="section-number-2">1</span> Apuntes libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <a href="file:///home/ma/myDrive/uni/2020-2/proba/">file:///home/ma/myDrive/uni/2020-2/proba/</a>
@@ -363,8 +398,8 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org35e6e36" class="outline-2">
-<h2 id="org35e6e36"><span class="section-number-2">2</span> Requisitos</h2>
+<div id="outline-container-orgd29987a" class="outline-2">
+<h2 id="orgd29987a"><span class="section-number-2">2</span> Requisitos</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li>Lógica</li>
@@ -374,28 +409,28 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org4c11ad0" class="outline-2">
-<h2 id="org4c11ad0"><span class="section-number-2">3</span> Capítulo 1: Probabilidad</h2>
+<div id="outline-container-org0aee0ab" class="outline-2">
+<h2 id="org0aee0ab"><span class="section-number-2">3</span> Capítulo 1: Probabilidad</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org8a9f404" class="outline-3">
-<h3 id="org8a9f404"><span class="section-number-3">3.1</span> Objetivo</h3>
+<div id="outline-container-org386051a" class="outline-3">
+<h3 id="org386051a"><span class="section-number-3">3.1</span> Objetivo</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Introducir nociones básicas de probabilidad
 </p>
 </div>
 </div>
-<div id="outline-container-orgb35c5ce" class="outline-3">
-<h3 id="orgb35c5ce"><span class="section-number-3">3.2</span> Experimento</h3>
+<div id="outline-container-orge5eadf9" class="outline-3">
+<h3 id="orge5eadf9"><span class="section-number-3">3.2</span> Experimento</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 Ejecución de instrucciones de la cual se obtiene un resultado.
 </p>
 </div>
 </div>
-<div id="outline-container-org4476938" class="outline-3">
-<h3 id="org4476938"><span class="section-number-3">3.3</span> Experimento aleatorio</h3>
+<div id="outline-container-org0303a67" class="outline-3">
+<h3 id="org0303a67"><span class="section-number-3">3.3</span> Experimento aleatorio</h3>
 <div class="outline-text-3" id="text-3-3">
 <ul class="org-ul">
 <li>Se conocen todos los posibles resultados.</li>
@@ -403,8 +438,8 @@ Ejecución de instrucciones de la cual se obtiene un resultado.
 <li>Idéntico resultado para idénticas condiciones de ejecución.</li>
 </ul>
 </div>
-<div id="outline-container-org5ea596e" class="outline-4">
-<h4 id="org5ea596e"><span class="section-number-4">3.3.1</span> Ejemplos</h4>
+<div id="outline-container-org9596cca" class="outline-4">
+<h4 id="org9596cca"><span class="section-number-4">3.3.1</span> Ejemplos</h4>
 <div class="outline-text-4" id="text-3-3-1">
 <ul class="org-ul">
 <li>Lanzar una moneda y observar el resultado.</li>
@@ -417,20 +452,20 @@ Ejecución de instrucciones de la cual se obtiene un resultado.
 </div>
 </div>
 </div>
-<div id="outline-container-orgf8c4c18" class="outline-3">
-<h3 id="orgf8c4c18"><span class="section-number-3">3.4</span> Espacio muestral: &Omega;</h3>
+<div id="outline-container-org8b67658" class="outline-3">
+<h3 id="org8b67658"><span class="section-number-3">3.4</span> Espacio muestral: &Omega;</h3>
 <div class="outline-text-3" id="text-3-4">
 <p>
 Conjunto de resultados posibles al ejecutar un experimento.
 </p>
 </div>
 
-<div id="outline-container-orgf62d0e4" class="outline-4">
-<h4 id="orgf62d0e4"><span class="section-number-4">3.4.1</span> Relación entre eventos</h4>
+<div id="outline-container-orgad77bb9" class="outline-4">
+<h4 id="orgad77bb9"><span class="section-number-4">3.4.1</span> Relación entre eventos</h4>
 <div class="outline-text-4" id="text-3-4-1">
 </div>
 <ol class="org-ol">
-<li><a id="orga3d1f59"></a>Unión<br />
+<li><a id="orge74ad00"></a>Unión<br />
 <div class="outline-text-5" id="text-3-4-1-1">
 <p>
 Ocurre A o B.
@@ -440,7 +475,7 @@ Ocurre A o B.
 </p>
 </div>
 </li>
-<li><a id="orgf293bf6"></a>Intersección<br />
+<li><a id="org4175d8f"></a>Intersección<br />
 <div class="outline-text-5" id="text-3-4-1-2">
 <p>
 Ocurre A y B.
@@ -450,7 +485,7 @@ Ocurre A y B.
 </p>
 </div>
 </li>
-<li><a id="org43852ed"></a>Subconjunto<br />
+<li><a id="org1721c05"></a>Subconjunto<br />
 <div class="outline-text-5" id="text-3-4-1-3">
 <p>
 B contiene a A; A está contenido dentro de B, A es subconjunto de B.
@@ -464,8 +499,8 @@ Cabe decir que si ocurre A, entonces ocurre B, pero no viceversa.
 </ol>
 </div>
 </div>
-<div id="outline-container-org5e2e724" class="outline-3">
-<h3 id="org5e2e724"><span class="section-number-3">3.5</span> Evento aleatorio</h3>
+<div id="outline-container-org1497f7b" class="outline-3">
+<h3 id="org1497f7b"><span class="section-number-3">3.5</span> Evento aleatorio</h3>
 <div class="outline-text-3" id="text-3-5">
 <p>
 Evento asociado a un experimento aleatorio.
@@ -483,8 +518,8 @@ Revisar apunte campus
 </div>
 </div>
 
-<div id="outline-container-org5130698" class="outline-3">
-<h3 id="org5130698"><span class="section-number-3">3.6</span> Coeficiente binomial</h3>
+<div id="outline-container-org1036841" class="outline-3">
+<h3 id="org1036841"><span class="section-number-3">3.6</span> Coeficiente binomial</h3>
 <div class="outline-text-3" id="text-3-6">
 <p>
 \[
@@ -499,8 +534,8 @@ Revisar apunte campus
 </p>
 </div>
 </div>
-<div id="outline-container-org6771372" class="outline-3">
-<h3 id="org6771372"><span class="section-number-3">3.7</span> Axiomas de probabilidad</h3>
+<div id="outline-container-org972d052" class="outline-3">
+<h3 id="org972d052"><span class="section-number-3">3.7</span> Axiomas de probabilidad</h3>
 <div class="outline-text-3" id="text-3-7">
 <p>
 También conocidos como axiomas de \(\mbox{Kolmogorov}\).
@@ -541,15 +576,15 @@ que se lee así:
 </div>
 </div>
 
-<div id="outline-container-org7a40206" class="outline-3">
-<h3 id="org7a40206"><span class="section-number-3">3.8</span> Propiedades de la función de probabilidad</h3>
+<div id="outline-container-orge602f7a" class="outline-3">
+<h3 id="orge602f7a"><span class="section-number-3">3.8</span> Propiedades de la función de probabilidad</h3>
 <div class="outline-text-3" id="text-3-8">
 <p>
 Estas propiedades se demuestran usando los 3 axiomas de probabilidad.
 </p>
 </div>
-<div id="outline-container-orgc70b987" class="outline-4">
-<h4 id="orgc70b987"><span class="section-number-4">3.8.1</span> del vacío</h4>
+<div id="outline-container-orgc30a73c" class="outline-4">
+<h4 id="orgc30a73c"><span class="section-number-4">3.8.1</span> del vacío</h4>
 <div class="outline-text-4" id="text-3-8-1">
 <p>
 &ldquo;La probabilidad de un evento vacío es cero&rdquo; … porque la probabilidad de que no ocurra <span class="underline">nada</span> en un experimento es nula.
@@ -563,8 +598,8 @@ Estas propiedades se demuestran usando los 3 axiomas de probabilidad.
 </div>
 </div>
 
-<div id="outline-container-org78613b3" class="outline-4">
-<h4 id="org78613b3"><span class="section-number-4">3.8.2</span> de eventos disjuntos finitos</h4>
+<div id="outline-container-org882f14a" class="outline-4">
+<h4 id="org882f14a"><span class="section-number-4">3.8.2</span> de eventos disjuntos finitos</h4>
 <div class="outline-text-4" id="text-3-8-2">
 <p>
 Básicamente lo mismo que el tercer axioma pero a diferencia que esta propiedad especifica un conjunto <span class="underline">finito</span> de eventos, mientras que el axioma es para un conjunto <span class="underline">infinito</span> de eventos.
@@ -591,8 +626,8 @@ Básicamente lo mismo que el tercer axioma pero a diferencia que esta propiedad 
 </div>
 </div>
 
-<div id="outline-container-orgfc8c438" class="outline-4">
-<h4 id="orgfc8c438"><span class="section-number-4">3.8.3</span> de la unión</h4>
+<div id="outline-container-org4fcc58e" class="outline-4">
+<h4 id="org4fcc58e"><span class="section-number-4">3.8.3</span> de la unión</h4>
 <div class="outline-text-4" id="text-3-8-3">
 <p>
 Aquí, en ningún momento se asume que los eventos son disjuntos. Diagramas de Venn y demostraciones con los axiomas hacen la demostración más evidente, pero aquí solo se presentará la propiedad sin demostración.
@@ -618,8 +653,8 @@ Además, durante la demostración de esta propiedad se desprenden otros ítems q
 </div>
 </div>
 
-<div id="outline-container-org6e440c6" class="outline-4">
-<h4 id="org6e440c6"><span class="section-number-4">3.8.4</span> del complemento</h4>
+<div id="outline-container-orgb83e7b2" class="outline-4">
+<h4 id="orgb83e7b2"><span class="section-number-4">3.8.4</span> del complemento</h4>
 <div class="outline-text-4" id="text-3-8-4">
 <p>
 \[
@@ -629,8 +664,8 @@ Además, durante la demostración de esta propiedad se desprenden otros ítems q
 </div>
 </div>
 
-<div id="outline-container-org01883af" class="outline-4">
-<h4 id="org01883af"><span class="section-number-4">3.8.5</span> del subconjunto</h4>
+<div id="outline-container-org4b42649" class="outline-4">
+<h4 id="org4b42649"><span class="section-number-4">3.8.5</span> del subconjunto</h4>
 <div class="outline-text-4" id="text-3-8-5">
 <p>
 \[
@@ -645,8 +680,8 @@ Si A es subconjunto de B, entonces la ocurrencia de A implica la ocurrencia de B
 </div>
 </div>
 
-<div id="outline-container-org22003ef" class="outline-3">
-<h3 id="org22003ef"><span class="section-number-3">3.9</span> Probabilidad Condicional</h3>
+<div id="outline-container-orgb157a3b" class="outline-3">
+<h3 id="orgb157a3b"><span class="section-number-3">3.9</span> Probabilidad Condicional</h3>
 <div class="outline-text-3" id="text-3-9">
 <p>
 Sean A y B eventos tal que \( \PP (B) > 0 \). La probabilidad de que ocurra A dado que ocurrió B se expresa así:
@@ -678,8 +713,8 @@ A partir de aquí se puede obtener también que
 </div>
 </div>
 
-<div id="outline-container-org3b40220" class="outline-3">
-<h3 id="org3b40220"><span class="section-number-3">3.10</span> Independencia de eventos</h3>
+<div id="outline-container-org669a984" class="outline-3">
+<h3 id="org669a984"><span class="section-number-3">3.10</span> Independencia de eventos</h3>
 <div class="outline-text-3" id="text-3-10">
 <p>
 Si los eventos A y B son independientes, significa que la ocurrencia de uno no afecta las probabilidades de ocurrencia del otro. Luego, mezclándolo con la probabilidad condicional obtenemos la siguiente propiedad de eventos independientes.
@@ -719,16 +754,16 @@ Lo mismo se desprende para los complementos:
 </div>
 </div>
 
-<div id="outline-container-org6c21397" class="outline-3">
-<h3 id="org6c21397"><span class="section-number-3">3.11</span> Probabilidad Total</h3>
+<div id="outline-container-orgd85cbfb" class="outline-3">
+<h3 id="orgd85cbfb"><span class="section-number-3">3.11</span> Probabilidad Total</h3>
 <div class="outline-text-3" id="text-3-11">
 <p>
 <a href="https://www.youtube.com/watch?v=F3y8qupFfUs">https://www.youtube.com/watch?v=F3y8qupFfUs</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org12d768f" class="outline-3">
-<h3 id="org12d768f"><span class="section-number-3">3.12</span> Teorema de Bayes</h3>
+<div id="outline-container-org225c2dd" class="outline-3">
+<h3 id="org225c2dd"><span class="section-number-3">3.12</span> Teorema de Bayes</h3>
 <div class="outline-text-3" id="text-3-12">
 <ul class="org-ul">
 <li>presentación</li>
@@ -758,12 +793,12 @@ Lo mismo se desprende para los complementos:
 </div>
 </div>
 
-<div id="outline-container-org2332f00" class="outline-2">
-<h2 id="org2332f00"><span class="section-number-2">4</span> Capítulo 2: Variables Aleatorias Unidimensionales</h2>
+<div id="outline-container-orgba47af3" class="outline-2">
+<h2 id="orgba47af3"><span class="section-number-2">4</span> Capítulo 2: Variables Aleatorias Unidimensionales</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org0768940" class="outline-3">
-<h3 id="org0768940"><span class="section-number-3">4.1</span> Función Generadora de Momentos</h3>
+<div id="outline-container-org5c9eb14" class="outline-3">
+<h3 id="org5c9eb14"><span class="section-number-3">4.1</span> Función Generadora de Momentos</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 La que te sirve para calcular la Esperanza, Varianza y Desviación Estándar de cualquier función de probabilidad.
@@ -771,8 +806,8 @@ La que te sirve para calcular la Esperanza, Varianza y Desviación Estándar de 
 </div>
 </div>
 
-<div id="outline-container-org2fca906" class="outline-3">
-<h3 id="org2fca906"><span class="section-number-3">4.2</span> Esperanza</h3>
+<div id="outline-container-orga69b07c" class="outline-3">
+<h3 id="orga69b07c"><span class="section-number-3">4.2</span> Esperanza</h3>
 <div class="outline-text-3" id="text-4-2">
 <blockquote>
 <p>
@@ -808,8 +843,8 @@ Para una distribución continua se toma la integral:
 </p>
 </div>
 
-<div id="outline-container-org246bd20" class="outline-4">
-<h4 id="org246bd20"><span class="section-number-4">4.2.1</span> Propiedad</h4>
+<div id="outline-container-org97820de" class="outline-4">
+<h4 id="org97820de"><span class="section-number-4">4.2.1</span> Propiedad</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
 Sea \(g(X)=c_1 + c_2X\) con \(c_1\) y \(c_2\) constantes reales y \(X\) variable aleatoria.
@@ -826,8 +861,8 @@ La esperanza de \(g(X)\) se define como:
 </div>
 </div>
 
-<div id="outline-container-org340a403" class="outline-3">
-<h3 id="org340a403"><span class="section-number-3">4.3</span> Varianza</h3>
+<div id="outline-container-org41b5317" class="outline-3">
+<h3 id="org41b5317"><span class="section-number-3">4.3</span> Varianza</h3>
 <div class="outline-text-3" id="text-4-3">
 <blockquote>
 <p>
@@ -864,8 +899,8 @@ por lo que para el análisis usual en un curso de Probabilidad y Estadística pa
 </p>
 </div>
 
-<div id="outline-container-org1762eb4" class="outline-4">
-<h4 id="org1762eb4"><span class="section-number-4">4.3.1</span> Propiedad</h4>
+<div id="outline-container-org7fcb97b" class="outline-4">
+<h4 id="org7fcb97b"><span class="section-number-4">4.3.1</span> Propiedad</h4>
 <div class="outline-text-4" id="text-4-3-1">
 <p>
 Sea \(k\) una constante real y \(X\) una variable aleatoria:
@@ -879,16 +914,16 @@ Sea \(k\) una constante real y \(X\) una variable aleatoria:
 </div>
 </div>
 
-<div id="outline-container-org8dcb937" class="outline-2">
-<h2 id="org8dcb937"><span class="section-number-2">5</span> Capítulo 3: Distribuciones</h2>
+<div id="outline-container-org553abf8" class="outline-2">
+<h2 id="org553abf8"><span class="section-number-2">5</span> Capítulo 3: Distribuciones</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org2e6542e" class="outline-3">
-<h3 id="org2e6542e"><span class="section-number-3">5.1</span> Discretas</h3>
+<div id="outline-container-orga7a3704" class="outline-3">
+<h3 id="orga7a3704"><span class="section-number-3">5.1</span> Discretas</h3>
 <div class="outline-text-3" id="text-5-1">
 </div>
-<div id="outline-container-orgf3be4cd" class="outline-4">
-<h4 id="orgf3be4cd"><span class="section-number-4">5.1.1</span> Bernoulli</h4>
+<div id="outline-container-org21f284b" class="outline-4">
+<h4 id="org21f284b"><span class="section-number-4">5.1.1</span> Bernoulli</h4>
 <div class="outline-text-4" id="text-5-1-1">
 <blockquote>
 <p>
@@ -921,7 +956,7 @@ Luego, la función de distribución para el ensayo de Bernoulli se denota de la 
 </div>
 
 <ol class="org-ol">
-<li><a id="org7b743e0"></a>Propiedades<br />
+<li><a id="orgbd9a4ff"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-1-1">
 <p>
 A partir de la función se puede obtener la función generadora de momentos, y a partir de ella la esperanza y varianza.
@@ -942,8 +977,8 @@ A partir de la función se puede obtener la función generadora de momentos, y a
 </ol>
 </div>
 
-<div id="outline-container-org5791c3d" class="outline-4">
-<h4 id="org5791c3d"><span class="section-number-4">5.1.2</span> Binomial</h4>
+<div id="outline-container-orgb630665" class="outline-4">
+<h4 id="orgb630665"><span class="section-number-4">5.1.2</span> Binomial</h4>
 <div class="outline-text-4" id="text-5-1-2">
 <blockquote>
 <p>
@@ -964,7 +999,7 @@ X &\sim \text{Binomial}(n,p),\quad n > 0,\; 0 < p < 1 \\
 </div>
 
 <ol class="org-ol">
-<li><a id="org6048bb7"></a>Propiedades<br />
+<li><a id="org2b73208"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-2-1">
 <div class="org-center">
 \begin{align*}
@@ -981,8 +1016,8 @@ X &\sim \text{Binomial}(n,p),\quad n > 0,\; 0 < p < 1 \\
 </ol>
 </div>
 
-<div id="outline-container-org088d6d0" class="outline-4">
-<h4 id="org088d6d0"><span class="section-number-4">5.1.3</span> Geométrica</h4>
+<div id="outline-container-orga815656" class="outline-4">
+<h4 id="orga815656"><span class="section-number-4">5.1.3</span> Geométrica</h4>
 <div class="outline-text-4" id="text-5-1-3">
 <blockquote>
 <p>
@@ -999,7 +1034,7 @@ X \sim \text{Geométrica}(p)=\,&p(x)\\
 </div>
 
 <ol class="org-ol">
-<li><a id="org007fddd"></a>Propiedades<br />
+<li><a id="org2524813"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-3-1">
 <div class="org-center">
 \begin{align*}
@@ -1012,8 +1047,8 @@ X \sim \text{Geométrica}(p)=\,&p(x)\\
 </ol>
 </div>
 
-<div id="outline-container-orgdf39669" class="outline-4">
-<h4 id="orgdf39669"><span class="section-number-4">5.1.4</span> Binomial Negativa</h4>
+<div id="outline-container-org99651e1" class="outline-4">
+<h4 id="org99651e1"><span class="section-number-4">5.1.4</span> Binomial Negativa</h4>
 <div class="outline-text-4" id="text-5-1-4">
 <blockquote>
 <p>
@@ -1033,7 +1068,7 @@ al \(k\)-ésimo éxito, con probabilidad de éxito \(p\).
 </div>
 
 <ol class="org-ol">
-<li><a id="orgbde14fe"></a>Propiedades<br />
+<li><a id="org9d146f2"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-4-1">
 <div class="org-center">
 \begin{align*}
@@ -1049,8 +1084,8 @@ para \(k = 2,3, \cdots\).
 </ol>
 </div>
 
-<div id="outline-container-org7092b87" class="outline-4">
-<h4 id="org7092b87"><span class="section-number-4">5.1.5</span> Hiper Geométrica</h4>
+<div id="outline-container-org364937e" class="outline-4">
+<h4 id="org364937e"><span class="section-number-4">5.1.5</span> Hiper Geométrica</h4>
 <div class="outline-text-4" id="text-5-1-5">
 <blockquote>
 <p>
@@ -1073,7 +1108,7 @@ X \sim \text{Hiperg}(N,m,n)=\,&p(x)\\
 </div>
 
 <ol class="org-ol">
-<li><a id="org264a9ac"></a>Propiedades<br />
+<li><a id="orgba64057"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-5-1">
 <div class="org-center">
 \begin{align*}
@@ -1089,8 +1124,8 @@ donde \( p=\frac{m}{N} \) y \( q=1-p \)
 </ol>
 </div>
 
-<div id="outline-container-org49730d2" class="outline-4">
-<h4 id="org49730d2"><span class="section-number-4">5.1.6</span> Poisson</h4>
+<div id="outline-container-org2731b7f" class="outline-4">
+<h4 id="org2731b7f"><span class="section-number-4">5.1.6</span> Poisson</h4>
 <div class="outline-text-4" id="text-5-1-6">
 <blockquote>
 <p>
@@ -1117,7 +1152,7 @@ e ^{-\lambda}
 </div>
 
 <ol class="org-ol">
-<li><a id="orgf94b650"></a>Propiedades<br />
+<li><a id="orgefc42fa"></a>Propiedades<br />
 <div class="outline-text-5" id="text-5-1-6-1">
 <div class="org-center">
 \begin{align*}
@@ -1127,50 +1162,193 @@ e ^{-\lambda}
 </div>
 </div>
 </li>
-<li><a id="orgc6ea31b"></a>Aproximación a Binomial por Poisson<br /></li>
+<li><a id="org123ebac"></a>Aproximación a Binomial por Poisson<br /></li>
 </ol>
 </div>
-<div id="outline-container-org2cbcf87" class="outline-4">
-<h4 id="org2cbcf87"><span class="section-number-4">5.1.7</span> Comparación de distribuciones discretas</h4>
+<div id="outline-container-orgda033a3" class="outline-4">
+<h4 id="orgda033a3"><span class="section-number-4">5.1.7</span> Comparación de distribuciones discretas</h4>
 </div>
 </div>
-<div id="outline-container-org80e5e3b" class="outline-3">
-<h3 id="org80e5e3b"><span class="section-number-3">5.2</span> Continuas</h3>
+<div id="outline-container-org48fc7b2" class="outline-3">
+<h3 id="org48fc7b2"><span class="section-number-3">5.2</span> Continuas</h3>
 <div class="outline-text-3" id="text-5-2">
 </div>
-<div id="outline-container-org1946a26" class="outline-4">
-<h4 id="org1946a26"><span class="section-number-4">5.2.1</span> Normal</h4>
+<div id="outline-container-org6c618fa" class="outline-4">
+<h4 id="org6c618fa"><span class="section-number-4">5.2.1</span> Normal</h4>
 </div>
-<div id="outline-container-org8384c6f" class="outline-4">
-<h4 id="org8384c6f"><span class="section-number-4">5.2.2</span> Normal Estándar</h4>
+<div id="outline-container-orgb3d4b4a" class="outline-4">
+<h4 id="orgb3d4b4a"><span class="section-number-4">5.2.2</span> Normal Estándar</h4>
 </div>
-<div id="outline-container-orgb639666" class="outline-4">
-<h4 id="orgb639666"><span class="section-number-4">5.2.3</span> Uniforme</h4>
+<div id="outline-container-org58a9947" class="outline-4">
+<h4 id="org58a9947"><span class="section-number-4">5.2.3</span> Uniforme</h4>
 </div>
-<div id="outline-container-orga9720e2" class="outline-4">
-<h4 id="orga9720e2"><span class="section-number-4">5.2.4</span> Gamma</h4>
+<div id="outline-container-orgbf02e85" class="outline-4">
+<h4 id="orgbf02e85"><span class="section-number-4">5.2.4</span> Gamma</h4>
 </div>
-<div id="outline-container-org3876cb4" class="outline-4">
-<h4 id="org3876cb4"><span class="section-number-4">5.2.5</span> Beta</h4>
+<div id="outline-container-org1ee9855" class="outline-4">
+<h4 id="org1ee9855"><span class="section-number-4">5.2.5</span> Beta</h4>
 </div>
-<div id="outline-container-orgd3655a8" class="outline-4">
-<h4 id="orgd3655a8"><span class="section-number-4">5.2.6</span> Otras continuas</h4>
+<div id="outline-container-org8235d99" class="outline-4">
+<h4 id="org8235d99"><span class="section-number-4">5.2.6</span> Otras continuas</h4>
 <div class="outline-text-4" id="text-5-2-6">
 <p>
 En el texto de referencia, solo se presentan pero no se hacen las demostraciones correspondientes.
 </p>
 </div>
 <ol class="org-ol">
-<li><a id="org492fbc3"></a>Weibull<br /></li>
-<li><a id="orga49d94c"></a>Log-normal<br /></li>
+<li><a id="orgdf89d69"></a>Weibull<br /></li>
+<li><a id="org02d3f26"></a>Log-normal<br /></li>
 </ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org7c5aa42" class="outline-2">
+<h2 id="org7c5aa42"><span class="section-number-2">6</span> Contenido</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org6c9400f" class="outline-3">
+<h3 id="org6c9400f"><span class="section-number-3">6.1</span> Tue Nov  3 08:37:22 2020</h3>
+<div class="outline-text-3" id="text-6-1">
+</div>
+<div id="outline-container-org0266675" class="outline-4">
+<h4 id="org0266675"><span class="section-number-4">6.1.1</span> Repaso</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<ul class="org-ul">
+<li>Producto cruz y ejemplo</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2640357" class="outline-2">
+<h2 id="org2640357"><span class="section-number-2">7</span> Horario</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-orga9ce806" class="outline-3">
+<h3 id="orga9ce806"><span class="section-number-3">7.1</span> Ayudantia</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Viernes por medio, 15:40 horas
+Mismo link de clases
+Mañana viernes 13 de nov primera ayudantía
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5bad9a0" class="outline-2">
+<h2 id="org5bad9a0"><span class="section-number-2">8</span> Links</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org7e947fb" class="outline-3">
+<h3 id="org7e947fb"><span class="section-number-3">8.1</span> Cátedra y ayudantía</h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li><a href="https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09">https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6c608db" class="outline-2">
+<h2 id="org6c608db"><span class="section-number-2">9</span> Evaluación&#xa0;&#xa0;&#xa0;<span class="tag"><span class="exam">exam</span></span></h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-org877eb0e" class="outline-3">
+<h3 id="org877eb0e"><span class="section-number-3">9.1</span> <span class="done DONE">DONE</span> 1 dic</h3>
+<div class="outline-text-3" id="text-9-1">
+</div>
+</div>
+<div id="outline-container-org05bafd4" class="outline-3">
+<h3 id="org05bafd4"><span class="section-number-3">9.2</span> prueba2</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Desde semana 4(corresponde a clase 8) a última de diciembre
+</p>
+</div>
+<div id="outline-container-org343fe71" class="outline-4">
+<h4 id="org343fe71"><span class="section-number-4">9.2.1</span> clase 8: deformación</h4>
+<div class="outline-text-4" id="text-9-2-1">
+<p>
+Cuando se le aplica fuerza a un objeto y producto de ello éste cambia su forma.
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org9136dd1"></a>Deformación unitaria normal<br />
+<div class="outline-text-5" id="text-9-2-1-1">
+<p>
+Cuánto varía una distancia entre dos puntos de una recta.
+\[
+     \frac{Variación}{Distancia\ inicial}
+     \]
+</p>
+</div>
+</li>
+<li><a id="org59b3fca"></a>Deformación unitaria cortante<br />
+<div class="outline-text-5" id="text-9-2-1-2">
+<p>
+Para este se ocupan 3 puntos que forman una dupla de rectas perpendiculares. Luego, la <i>deformación unitaria cortante</i> se calcula restando el ángulo inicial, 90° menos el ángulo final.
+</p>
+
+<div class="org-center">
+<p>
+\[
+     \gamma= \frac{\pi}{2} - \theta'
+     \]
+</p>
+
+<p>
+donde \(\ \pi/2 \ \) sería  \(\theta_0\): ángulo inicial y \(\theta'\) el ángulo final entre las rectas originalmente perpendiculares.
+</p>
+</div>
+
+
+<p>
+Observación: contrario al cálculo común de variaciones, en este caso la variación se toma como &ldquo;inicial menos final&rdquo; en vez del común &ldquo;final - inicial&rdquo;. Esto probablemente se debe a la conveniencia de signos.
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org47d2e02" class="outline-3">
+<h3 id="org47d2e02"><span class="section-number-3">9.3</span> prueba3</h3>
+<div class="outline-text-3" id="text-9-3">
+</div>
+</div>
+<div id="outline-container-org80e280e" class="outline-3">
+<h3 id="org80e280e"><span class="section-number-3">9.4</span> taller2</h3>
+<div class="outline-text-3" id="text-9-4">
+</div>
+</div>
+<div id="outline-container-orgbbbe112" class="outline-3">
+<h3 id="orgbbbe112"><span class="section-number-3">9.5</span> taller3</h3>
+<div class="outline-text-3" id="text-9-5">
+<p>
+Opcional, pero yo lo voy a dar igual.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd689672" class="outline-2">
+<h2 id="orgd689672"><span class="section-number-2">10</span> Contacto</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-org101e825" class="outline-3">
+<h3 id="org101e825"><span class="section-number-3">10.1</span> Profe</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+Ignacio Ríos
+ignacio.rios@ufrontera.cl
+ICI-M
+</p>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Manuel Fuica Morales</p>
-<p class="date">Created: 2020-12-30 Wed 07:18</p>
+<p class="date">Created: 2021-01-08 Fri 19:12</p>
 </div>
 </body>
 </html>

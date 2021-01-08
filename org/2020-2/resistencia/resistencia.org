@@ -3,29 +3,78 @@
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
 
-* Contenido
-** Tue Nov  3 08:37:22 2020 
-*** Repaso
-    - Producto cruz y ejemplo
-* Horario
-** Ayudantia
-   Viernes por medio, 15:40 horas
-   Mismo link de clases
-   Mañana viernes 13 de nov primera ayudantía
-* Links
-** Cátedra y ayudantía
-   - https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09
-* Evaluación :exam:
-** TODO 1 dic
-** TODO 12 ene 2021
-    desde semana 4(corresponde a clase 8) a ultima de diciembre
-** TODO 2 mar 2021
-* Contacto
-** Profe
-  Ignacio Ríos
-  ignacio.rios@ufrontera.cl
-  ICI-M
-* Local variables :noexport:
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
+* Resistencia de materiales
+** Contenido
+*** Tue Nov  3 08:37:22 2020
+**** Repaso
+     - Producto cruz y ejemplo
+** Horario
+*** Ayudantia
+    Viernes por medio, 15:40 horas
+    Mismo link de clases
+    Mañana viernes 13 de nov primera ayudantía
+** Links
+*** Cátedra y ayudantía
+    - https://reuna.zoom.us/j/89482086920?pwd=bFZtWUpqZ2hoaW5KaGFTSkRrakFTUT09
+** Evaluación :exam:
+*** DONE 1 dic
+    CLOSED: [2021-01-07 Thu 20:46]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-01-07 Thu 20:46]
+    :END:
+*** prueba2
+    DEADLINE: <2021-01-12 Tue 08:30>
+    Desde semana 4(corresponde a clase 8) a última de diciembre
+**** clase 8: deformación
+     Cuando se le aplica fuerza a un objeto y producto de ello éste cambia su forma.
+
+***** Deformación unitaria normal
+      Cuánto varía una distancia entre dos puntos de una recta.
+      #+begin_center
+      \[
+      \epsilon_{promedio}=\frac{Variación}{Distancia\ inicial}
+      =\frac
+      {\Delta s' - \Delta s}
+      {\Delta s}
+      \]
+
+      donde \(\ \Delta s'\ \) es la distancia final y \(\ \Delta s \ \) es la distancia inicial.
+
+      Y si despejamos para \(\Delta s' \) tenemos:
+      \[
+      \Delta s' = (1 + \epsilon ) \delta s
+      \]
+
+      Este despeje lo hace el profesor y es conveniente tenerlo a mano.
+      #+end_center
+
+***** Deformación unitaria cortante
+      Para este se ocupan 3 puntos que forman una dupla de rectas perpendiculares. Luego, la /deformación unitaria cortante/ se calcula restando el ángulo inicial, 90° menos el ángulo final.
+
+      #+begin_center
+      \[
+      \gamma= \frac{\pi}{2} - \theta'
+      \]
+
+      donde \(\ \pi/2 \ \) sería  \(\theta_0\): ángulo inicial y \(\theta'\) el ángulo final entre las rectas originalmente perpendiculares.
+      #+end_center
+
+
+      Observación: contrario al cálculo común de variaciones, en este caso la variación se toma como "inicial menos final" en vez del común "final - inicial". Esto probablemente se debe a la conveniencia de signos.
+
+*** prueba3
+    DEADLINE: <2021-03-02 Tue>
+*** taller2
+    DEADLINE: <2021-01-20 Wed>
+*** taller3
+    DEADLINE: <2021-01-27 Wed>
+    Opcional, pero mejor darlo igual.
+** Contacto
+*** Profe
+    Ignacio Ríos
+    ignacio.rios@ufrontera.cl
+    ICI-M
+** Local variables :noexport:
+   # Local Variables:
+   # ispell-local-dictionary: "espanol"
+   # End:
