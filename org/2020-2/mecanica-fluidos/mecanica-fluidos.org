@@ -8,118 +8,151 @@
 # nice looking emptyset
 # https://tex.stackexchange.com/questions/22798/nice-looking-empty-set
 
-* Contenido
-** Material de Estudio Primera Prueba
+* Mecánica de Fluidos
+** Contenido
+*** prueba 1
 
-   #+BEGIN_QUOTE
-   Estimados estudiantes de acuerdo con lo que el curso acordó, el martes 24 de noviembre es la primera prueba de Mecánica de Fluidos.
+    #+BEGIN_QUOTE
+    Estimados estudiantes de acuerdo con lo que el curso acordó, el martes 24 de noviembre es la primera prueba de Mecánica de Fluidos.
 
-   El temas:
+    El temas:
 
-   1. Cálculo de Fuerzas sobre paredes planas
-   2. Cálculo de Centros de presión.
+    1. Cálculo de Fuerzas sobre paredes planas
+    2. Cálculo de Centros de presión.
 
-   Con las pautas enviadas anteriormente, es suficiente para presentarse a la prueba.
-   #+END_QUOTE
+    Con las pautas enviadas anteriormente, es suficiente para presentarse a la prueba.
+    #+END_QUOTE
 
 
-   Las pautas:
-   file:~/myDrive/files/uni/2020-2/mecanica-de-fluidos/prueba1/
+    Las pautas:
+    file:~/myDrive/files/uni/2020-2/mecanica-de-fluidos/prueba1/
 
-*** Apuntes
-**** Capitulo 1: Unidades de Medida utilizadas en diseños ingenieriles
-     Repaso de unidades de medida.
-**** Capitulo 2: Generalidades de la mecánica de fluidos.
-***** Densidad específica (o absoluta)
+**** Apuntes
+***** Capitulo 1: Unidades de Medida utilizadas en diseños ingenieriles
+      Repaso de unidades de medida.
+***** Capitulo 2: Generalidades de la mecánica de fluidos.
+****** Densidad específica (o absoluta)
     
-      \[
-      \rho
-      =
-      \frac
-      {m}
-      {V}
-      \]
+       \[
+       \rho
+       =
+       \frac
+       {m}
+       {V}
+       \]
 
-      \[
-      [\,\rho\,]
-      =
-      \frac
-      {[\,kg\,]}
-      {[\,m^3\,]}
-      \]
+       \[
+       [\,\rho\,]
+       =
+       \frac
+       {[\,kg\,]}
+       {[\,m^3\,]}
+       \]
     
-***** Peso específico
+****** Peso específico
     
-      \[
-      \gamma
-      =
-      \frac
-      {m\cdot g}
-      {V}
-      \quad
-      \rightarrow
-      \quad
-      \gamma
-      =
-      g\cdot \rho
-      \quad
-      ;
-      \quad
-      m \cdot g = W
-      \]
+       \[
+       \gamma
+       =
+       \frac
+       {m\cdot g}
+       {V}
+       \quad
+       \rightarrow
+       \quad
+       \gamma
+       =
+       g\cdot \rho
+       \quad
+       ;
+       \quad
+       m \cdot g = W
+       \]
 
-      \[
-      [\,\gamma\,]
-      =
-      \frac
-      {[\,N\,]}
-      {[\,m^\,3]}
-      \]
+       \[
+       [\,\gamma\,]
+       =
+       \frac
+       {[\,N\,]}
+       {[\,m^\,3]}
+       \]
 
-***** Densidad relativa
+****** Densidad relativa
 
-      Se mide respecto de la densidad del agua.
+       Se mide respecto de la densidad del agua.
 
-      \[
-      \delta
-      =
-      \frac
-      {W_{substancia}}
-      {W_{agua}}
-      =
-      \frac
-      {\rho_{substancia}}
-      {\rho_{agua}}
-      =
-      \frac
-      {\gamma_{substancia}}
-      {\gamma_{agua}}
-      \]
+       \[
+       \delta
+       =
+       \frac
+       {W_{substancia}}
+       {W_{agua}}
+       =
+       \frac
+       {\rho_{substancia}}
+       {\rho_{agua}}
+       =
+       \frac
+       {\gamma_{substancia}}
+       {\gamma_{agua}}
+       \]
 
-      Es prudente decir que esta medida no tiene unidad, pues habla de la relación entre dos entes de misma dimensión.
+       Es prudente decir que esta medida no tiene unidad, pues habla de la relación entre dos entes de misma dimensión.
 
-      \[
-      [\,\delta\,]
-      =
-      \varnothing
-      \]
+       \[
+       [\,\delta\,]
+       =
+       \varnothing
+       \]
 
-***** Viscosidad dinámica
-      Puede definirse como la resistencia de un fluido a fluir. Se analizan las fuerzas involucradas.
-***** Viscosidad cinemática
-      Mas menos misma historia, pero ahora se analiza el movimiento del fluido.
+****** Viscosidad dinámica
+       Puede definirse como la resistencia de un fluido a fluir. Se analizan las fuerzas involucradas.
+****** Viscosidad cinemática
+       Mas menos misma historia, pero ahora se analiza el movimiento del fluido.
 
-**** Capitulo 3: Hidrostática
-     (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
-* Evaluación
-** prueba2
-   DEADLINE: <2021-01-12 Tue 10:50>
-* Links
-** Cátedra y ayudantía
-   - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
-* Contacto
-  Mario Guzmán
-* Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+***** Capitulo 3: Hidrostática
+      (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
+*** prueba 2
+    Bernulli, sin pérdidas.
+**** 30 noviembre
+***** Hidrodinámica
+****** Bernoulli Ideal
+      #+begin_center
+      Ecuación de Bernulli sin perdidas: Ideal \\
+      Ecuación Fundamental de la Hidrodinámica.
+      \begin{align*}
+ \frac{P_1}{\gamma}
+ +
+ \frac{V_1^2}{2g}
+ +
+ z_1
+ &=
+ \frac{P_2}{\gamma}
+ +
+ \frac{V_2^2}{2g}
+ +
+ z_2
+      \end{align*}
+
+      donde \(\gamma = \rho \cdot g\ \).
+      #+end_center
+
+      - \(P/\gamma\ \) se conoce como /altura de presión/ o /altura específica/ o /energía específica de presión/.
+      - \( V^2/2g \) se conoce como /velocidad de presión/ o /altura dinámica/ o /altura de velocidades/.
+      - \( z \) se conoce como /altura geodésica/: la distancia medida desde la superficie de la Tiera.
+
+        Bernoulli Generalizado
+** Evaluación
+*** prueba2
+    <2021-01-19 Tue 10:50>
+** Links
+*** Cátedra y ayudantía
+    - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
+**** Clases grabadas
+     https://drive.google.com/drive/folders/1JczG_zXbs9rUVke_3bZdGdAXDVdgBArk
+** Contacto
+   Mario Guzmán
+** Local variables :noexport:
+   # Local Variables:
+   # ispell-local-dictionary: "espanol"
+   # End:

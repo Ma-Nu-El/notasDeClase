@@ -3,185 +3,188 @@
 #+EXCLUDE_TAGS: noexport
 #+filetags: :university:operationsresearch:
 
-* Contenidos
-** Prueba1
-*** Mon Nov  2 08:33:12 2020
-    Primera clase
-    Lunes clase de repaso
-**** Repaso
-     - Materia de optimización
-     - Repaso PL
-       - Continuidad
-       - Proporcionalidad
-       - Aditividad
-       - No negatividad
-       - Determinismo
-     - Función de ganancia (objetivo)
+* IO
+** Contenidos
+*** Prueba1
+**** Mon Nov  2 08:33:12 2020
+     Primera clase
+     Lunes clase de repaso
+***** Repaso
+      - Materia de optimización
+      - Repaso PL
+        - Continuidad
+        - Proporcionalidad
+        - Aditividad
+        - No negatividad
+        - Determinismo
+      - Función de ganancia (objetivo)
 
-       \[
-       Z = Ganancia - Costos \\
-       ; Costos = mano de obra, materia prima
-       \]
+        \[
+        Z = Ganancia - Costos \\
+        ; Costos = mano de obra, materia prima
+        \]
 
-     - Matrices
-     - Método gráfico
-     - Repasamos simplex, dos fases y dual
-     - Vemos big M method
-     - Veremos problemas de transporte igualmente
+      - Matrices
+      - Método gráfico
+      - Repasamos simplex, dos fases y dual
+      - Vemos big M method
+      - Veremos problemas de transporte igualmente
 
-     - minimización = isocosto
-     - maximización = isoganancia
+      - minimización = isocosto
+      - maximización = isoganancia
 
-***** CANCELED big M method
-      CLOSED: [2020-11-27 Fri 23:36]
-      :LOGBOOK:
-      - State "CANCELED"   from "TODO"       [2020-11-27 Fri 23:36] \\
-        supongo que al saber 2 fases estas listo...?; hay algo que el gran M entrega que el dos fases no?
-      :END:
+****** CANCELED big M method
+       CLOSED: [2020-11-27 Fri 23:36]
+       :LOGBOOK:
+       - State "CANCELED"   from "TODO"       [2020-11-27 Fri 23:36] \\
+       supongo que al saber 2 fases estas listo...?; hay algo que el gran M entrega que el dos fases no?
+       :END:
 
-      Mismo propósito de método de dos fases.
+       Mismo propósito de método de dos fases.
 
-***** TODO excel como calculadora para simplex: solver
-**** próxima clase
-     Jueves a las 0830
-     Tema: excel.
-*** Mon Nov  9 08:04:57 2020
-**** PPT
-     - Análisis de dualidad y sensibilidad
-     - Optimización lineal.
-** Ayudantía
-*** Carpeta Google Drive
-    https://drive.google.com/drive/folders/1sw44-YOjSPYNX4SZ6XreFvnGsHAWEFZG
-*** Método de 2 fases
-    Después de pasar a forma estándar:
+****** TODO excel como calculadora para simplex: solver
+***** próxima clase
+      Jueves a las 0830
+      Tema: excel.
+**** Mon Nov  9 08:04:57 2020
+***** PPT
+      - Análisis de dualidad y sensibilidad
+      - Optimización lineal.
+*** Ayudantía
+**** Carpeta Google Drive
+     https://drive.google.com/drive/folders/1sw44-YOjSPYNX4SZ6XreFvnGsHAWEFZG
+**** Método de 2 fases
+     Después de pasar a forma estándar:
 
-**** Fase 1
+***** Fase 1
 
-     1) \(min\quad z=\sum A_i\)
-     2) Convertir las columnas de auxiliares en su correspondiente columna de variable básica\\
-        Para esto simplemente hay que sumar las filas.
-     3) Iterar como simplex
-     4) Dos posibles resultados
-        - Fila del z queda igual que al inicio pero con \(\bar z=0\)\\
-          El problema es tiene solución.
-        - Fila del z _no_ queda igual que al inicio, independiente del valor de \(\bar z\)\\
-          El problema no tiene solución (o quizás no tiene solución usando las herramientas conocidas hasta ahora?).
-     5) Suponiendo que tiene solución\\
-        Pasamos a fase 2.
+      1) \(min\quad z=\sum A_i\)
+      2) Convertir las columnas de auxiliares en su correspondiente columna de variable básica\\
+         Para esto simplemente hay que sumar las filas.
+      3) Iterar como simplex
+      4) Dos posibles resultados
+         - Fila del z queda igual que al inicio pero con \(\bar z=0\)\\
+           El problema es tiene solución.
+         - Fila del z _no_ queda igual que al inicio, independiente del valor de \(\bar z\)\\
+           El problema no tiene solución (o quizás no tiene solución usando las herramientas conocidas hasta ahora?).
+      5) Suponiendo que tiene solución\\
+         Pasamos a fase 2.
 
 
-**** Fase 2
+***** Fase 2
     
-     1) Eliminar columnas de auxiliares
-     2) Reemplazar fila del \(z\) actual con función objetivo original
-     3) Establecer columnas de variables básicas\\
-        Nuevamente, fila de variable básica \(\rightarrow\) \(1\) en su fila y \(0\) en todas las demás hacia abajo y arriba.
-     4) Resolver por simplex
+      1) Eliminar columnas de auxiliares
+      2) Reemplazar fila del \(z\) actual con función objetivo original
+      3) Establecer columnas de variables básicas\\
+         Nuevamente, fila de variable básica \(\rightarrow\) \(1\) en su fila y \(0\) en todas las demás hacia abajo y arriba.
+      4) Resolver por simplex
 
-     En otras palabras, la fase 1, entre otras cosas, modifica las filas de restricciones y luego la fase 2 se aprovecha de esas modificaciones para resolver por simplex, con certeza de existencia de una solución.
+      En otras palabras, la fase 1, entre otras cosas, modifica las filas de restricciones y luego la fase 2 se aprovecha de esas modificaciones para resolver por simplex, con certeza de existencia de una solución.
 
-** Resumen
-   - Sensibilidad y dualidad
-     - Recopilar datos de tabla inicial y tabla óptima
+*** Resumen
+    - Sensibilidad y dualidad
+      - Recopilar datos de tabla inicial y tabla óptima
 
 
-   Obtener el \( b \) inicial: correspondiente a la columna de limites de restricciones.
+    Obtener el \( b \) inicial: correspondiente a la columna de limites de restricciones.
   
-   - Obtener bases de tabla óptima
+    - Obtener bases de tabla óptima
 
 
-   Obtener el \(C_B\): teniendo la tabla óptima, se puede determinar el \(C_B\) que corresponde a los valores en la fila del \(Z\) de la tabla inicial para las bases de la tabla óptima. Ejemplo, si en la tabla óptima, la base es x2 y x3, entonces el \(C_B\) corresponde a los valores correspondientes a esas columnas de la tabla inicial en la fila del Z.
+    Obtener el \(C_B\): teniendo la tabla óptima, se puede determinar el \(C_B\) que corresponde a los valores en la fila del \(Z\) de la tabla inicial para las bases de la tabla óptima. Ejemplo, si en la tabla óptima, la base es x2 y x3, entonces el \(C_B\) corresponde a los valores correspondientes a esas columnas de la tabla inicial en la fila del Z.
 
-   Obtener el \( B \): Exactamente el mismo procedimiento para obtener la base \( B \). La diferencia es que en vez de seleccionar una fila, se selecciona la matriz. Ejemplo, si la tabla óptima entrega como bases x2 y x3, entonces la matriz base se obtiene a partir de la matriz debajo del x2 y x3 de la tabla inicial.
+    Obtener el \( B \): Exactamente el mismo procedimiento para obtener la base \( B \). La diferencia es que en vez de seleccionar una fila, se selecciona la matriz. Ejemplo, si la tabla óptima entrega como bases x2 y x3, entonces la matriz base se obtiene a partir de la matriz debajo del x2 y x3 de la tabla inicial.
 
-   Obtener el \(B^{-1}\): invertir la \( B \) obtenida antes. _No_ es recomendable obtener el \( B-1 \) por otros métodos pues la información puede no estar completa, mientras que si lo obtenemos a partir del \( B \), la información la obtenemos sin obstrucciones.
+    Obtener el \(B^{-1}\): invertir la \( B \) obtenida antes. _No_ es recomendable obtener el \( B-1 \) por otros métodos pues la información puede no estar completa, mientras que si lo obtenemos a partir del \( B \), la información la obtenemos sin obstrucciones.
 
-   Dualidad: la axiomática de Dualidad nos dice que la función del Dual \( Y \) es igual a la multiplicación matricial del vector \(C_B\) multiplicado por la matriz inversa del \(B\). Se puede expresar de la siguiente forma:
+    Dualidad: la axiomática de Dualidad nos dice que la función del Dual \( Y \) es igual a la multiplicación matricial del vector \(C_B\) multiplicado por la matriz inversa del \(B\). Se puede expresar de la siguiente forma:
 
-   \[ Y=C_{B} \cdot B^{-1} \]
+    \[ Y=C_{B} \cdot B^{-1} \]
 
-   Y completamos el Teorema de Dualidad Fuerte:
+    Y completamos el Teorema de Dualidad Fuerte:
 
-   \[ Z=C_{B} \cdot B^{-1} \cdot b \]
+    \[ Z=C_{B} \cdot B^{-1} \cdot b \]
 
-  Luego de modelar y optimizar el problema, tenemos una tabla que se puede expresar de la siguiente manera, tabla que nos permite analizar la sensibilidad del problema de forma matricial y por lo tanto, de forma mas eficiente:
+   Luego de modelar y optimizar el problema, tenemos una tabla que se puede expresar de la siguiente manera, tabla que nos permite analizar la sensibilidad del problema de forma matricial y por lo tanto, de forma mas eficiente:
 
-#+BEGIN_CENTER
-|    <c>    |                 <c>                  |          <c>           |                <c>                |
-|           |             \( X_{NB} \)             |      \( X_{B} \)       | Lado derecho de las restricciones |
-|-----------+--------------------------------------+------------------------+-----------------------------------|
-|     /     |                  <                   |           <            |                 <                 |
-| \( X_B \) |        \( B^{-1} \cdot A_j \)        |         \(I\)          |        \(B^{-1} \cdot b\)         |
-|-----------+--------------------------------------+------------------------+-----------------------------------|
-|   \(Z\)   | \(C_B \cdot B^{-1} \cdot A_j - C_j\) | \(\overrightarrow{0}\) |   \(C_B \cdot B^{-1} \cdot b\)    |
-#+END_CENTER
+ #+BEGIN_CENTER
+ |    <c>    |                 <c>                  |          <c>           |                <c>                |
+ |           |             \( X_{NB} \)             |      \( X_{B} \)       | Lado derecho de las restricciones |
+ |-----------+--------------------------------------+------------------------+-----------------------------------|
+ |     /     |                  <                   |           <            |                 <                 |
+ | \( X_B \) |        \( B^{-1} \cdot A_j \)        |         \(I\)          |        \(B^{-1} \cdot b\)         |
+ |-----------+--------------------------------------+------------------------+-----------------------------------|
+ |   \(Z\)   | \(C_B \cdot B^{-1} \cdot A_j - C_j\) | \(\overrightarrow{0}\) |   \(C_B \cdot B^{-1} \cdot b\)    |
+ #+END_CENTER
 
 
-** Cátedras
+*** Cátedras
 
-   Requisito: Álgebra lineal, Optimización.
+    Requisito: Álgebra lineal, Optimización.
 
-   El curso se trata de la interpretación en el mundo real de los resultados matemáticos que obtenemos. Al igual que en optimización, la parte mas difícil del curso es modelar los problemas de formas convenientes. La segunda parte mas difícil es interpretar los resultados; el ramo hace hincapié en la interpretación de los resultados.
+    El curso se trata de la interpretación en el mundo real de los resultados matemáticos que obtenemos. Al igual que en optimización, la parte mas difícil del curso es modelar los problemas de formas convenientes. La segunda parte mas difícil es interpretar los resultados; el ramo hace hincapié en la interpretación de los resultados.
 
-   La clave para modelar bien los problemas es simplemente practicar harto, el algoritmo es simple y es siempre el mismo, pero traspasar del papel a los modelos matemáticos es la parte complicada.
+    La clave para modelar bien los problemas es simplemente practicar harto, el algoritmo es simple y es siempre el mismo, pero traspasar del papel a los modelos matemáticos es la parte complicada.
 
-*** Clase 1 Revisión Modelo de Programación Lineal
-*** Clase 1.1 Entorno Excel
-*** Clase 2 Dualidad y Sensibilidad
-*** Clase 3 Ejercicios Dualidad y Sensibilidad
-*** Clase 4 Método Gráfico
-*** Clase 5 Transporte y Transbordo
-*** Clase 6 Ejercicios Misceláneos de Sensibilidad
-* Horario :schedule:
-** Cátedra
-*** Lunes 08:00 a 10:40
-    - Originalmente de 08:30 a 10:40, pero teníamos conflicto de horario con otros ramos.
-    https://reuna.zoom.us/j/85818738252?pwd=QVFaMkhRcmVCS1Jaa1docTI1Wmtxdz09
+**** Clase 1 Revisión Modelo de Programación Lineal
+**** Clase 1.1 Entorno Excel
+**** Clase 2 Dualidad y Sensibilidad
+**** Clase 3 Ejercicios Dualidad y Sensibilidad
+**** Clase 4 Método Gráfico
+**** Clase 5 Transporte y Transbordo
+**** Clase 6 Ejercicios Misceláneos de Sensibilidad
+** Horario :schedule:
+*** Cátedra
+**** Lunes 08:00 a 10:40
+     - Originalmente de 08:30 a 10:40, pero teníamos conflicto de horario con otros ramos.
+     https://reuna.zoom.us/j/85818738252?pwd=QVFaMkhRcmVCS1Jaa1docTI1Wmtxdz09
 
-*** Lunes 11:00 a 13:00 (opcional, otro módulo)
-    https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
+**** Lunes 11:00 a 13:00 (opcional, otro módulo)
+     https://reuna.zoom.us/j/87913696867pwd=cWUvTnBDb0R6U2xFZW9YQ0JUbGcyQT09
 
-*** Jueves 08:30 a 10:40 (cancelada)
-    - Por conflicto de horario se cancela y se hace una clase larga el lunes.
-    https://reuna.zoom.us/j/88983963727?pwd=N2dlYmpLVTlrdnV4cngzZ05NTlI5dz09
+**** Jueves 08:30 a 10:40 (cancelada)
+     - Por conflicto de horario se cancela y se hace una clase larga el lunes.
+     https://reuna.zoom.us/j/88983963727?pwd=N2dlYmpLVTlrdnV4cngzZ05NTlI5dz09
 
-** Ayudantía
-   Jueves 10:00
-   https://reuna.zoom.us/j/89833514729
-* Evaluación :exam:
-*** DONE [#A] prueba1 5 dic
-    CLOSED: [2020-12-27 Sun 15:53]
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
-    :END:
-*** prueba2
-    DEADLINE: <2021-01-23 Sat>
-*** DONE taller1 14 nov
-    CLOSED: [2020-11-23 Mon 18:04]
-    :LOGBOOK:
-    - State "DONE"       from              [2020-11-23 Mon 18:04]
-    :END:
-*** DONE [#A] taller2 28 nov
-    CLOSED: [2020-12-27 Sun 15:53]
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
-    :END:
-*** CANCELED taller3 19 dic
-    CLOSED: [2021-01-07 Thu 20:44]
-    :LOGBOOK:
-    - State "CANCELED"   from "TODO"       [2021-01-07 Thu 20:44] \\
-      Ultimo taller fue de coeficiente 2.
-    :END:
-*** taller3
-    DEADLINE: <2021-01-16 Sat 09:00>
-* Vocabulario
-  - Estadigrafo de certeza?
-  - Isocosto e isoganancia\\
-    Corresponden a las curvas de restricciones de la representación gráfica de un modelo de programación lineal. Cuando el modelo esta maximizando la función objetivo, se dice que las restricciones corresponden a las curvas de isoganancia, y cuando minimiza, a curvas de isocosto. Matemáticamente representan lo mismo, pero la interpretación en el mundo real es diferente.
-  - Precio Sombra
-    Algo de costo de oportunidad por producto no utilizado o algo así.
+*** Ayudantía
+    Jueves 10:00
+    https://reuna.zoom.us/j/89833514729
+** Evaluación :exam:
+**** DONE [#A] prueba1 5 dic
+     CLOSED: [2020-12-27 Sun 15:53]
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
+     :END:
+**** prueba2
+     <2021-01-23 Sat>
+**** DONE taller1 14 nov
+     CLOSED: [2020-11-23 Mon 18:04]
+     :LOGBOOK:
+     - State "DONE"       from              [2020-11-23 Mon 18:04]
+     :END:
+**** DONE [#A] taller2 28 nov
+     CLOSED: [2020-12-27 Sun 15:53]
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
+     :END:
+**** CANCELED taller3 19 dic
+     CLOSED: [2021-01-07 Thu 20:44]
+     :LOGBOOK:
+     - State "CANCELED"   from "TODO"       [2021-01-07 Thu 20:44] \\
+     Ultimo taller fue de coeficiente 2.
+     :END:
+**** taller3
+     <2021-01-16 Sat 09:00>
+**** examen
+     <2021-01-25 Mon>
+** Vocabulario
+   - Estadigrafo de certeza?
+   - Isocosto e isoganancia\\
+     Corresponden a las curvas de restricciones de la representación gráfica de un modelo de programación lineal. Cuando el modelo esta maximizando la función objetivo, se dice que las restricciones corresponden a las curvas de isoganancia, y cuando minimiza, a curvas de isocosto. Matemáticamente representan lo mismo, pero la interpretación en el mundo real es diferente.
+   - Precio Sombra
+     Algo de costo de oportunidad por producto no utilizado o algo así.
 
-* Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+** Local variables :noexport:
+   # Local Variables:
+   # ispell-local-dictionary: "espanol"
+   # End:

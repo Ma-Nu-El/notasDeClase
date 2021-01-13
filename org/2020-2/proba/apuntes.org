@@ -1,4 +1,4 @@
-#+TITLE: Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
+#+TITLE: Proba
 #+SETUPFILE: ~/Downloads/org-html-themes/org/theme-readtheorg-local.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probability:statistics:notes:
@@ -17,7 +17,8 @@
 \[
 \newcommand\given[1][]{\:#1\vert\:}
 \]
-* Apuntes libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
+* Probabilidad y Estadística
+Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
  file:~/myDrive/uni/2020-2/proba/
 
  - Sonia Salvo
