@@ -19,11 +19,11 @@
     - State "DONE"       from              [2021-01-12 Tue 01:11]
     :END:
 *** DONE prueba2
-    CLOSED: [2021-01-12 Tue 10:36] DEADLINE: <2021-01-12 Tue 08:30>
+    CLOSED: [2021-01-12 Tue 10:36] <2021-01-12 Tue 08:30>
     :LOGBOOK:
     - State "DONE"       from              [2021-01-12 Tue 10:36]
     :END:
-    Desde semana 4 (corresponde a clase 8) hasta última de diciembre (corresponde a clase 13).
+    Desde semana 4 (corresponde a clase 8) hasta última de diciembre (clase 13 creo?).
 **** clase 8: deformación
      Cuando se le aplica fuerza a un objeto y producto de ello éste cambia su forma.
 
@@ -121,12 +121,44 @@
       \end{align*}
       #+end_center
 
-*** prueba3
-    DEADLINE: <2021-03-02 Tue>
-*** taller2
-    <2021-01-20 Wed>
-*** taller3
-    <2021-01-27 Wed>
+*** TODO prueba3
+    <2021-03-02 Tue>
+*** DONE taller2: listo, enviar hoy.
+    CLOSED: [2021-01-20 Wed 23:18]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-01-20 Wed 23:18] \\
+      Envia3
+    :END:
+    <2021-01-20 Wed>\\
+    Segunda lectura complementaria.
+**** Concentraciones de esfuerzos
+
+     Desde el inicio del curso se ha hablado de esfuerzos normales y cortantes para diferentes geometrías. Más aún, estos esfuerzos son considerados uniformes, por lo que los cálculos no involucran sumas de elementos infinitesimales y se reducen a que el esfuerzo \(\sigma\) es directamente proporcional a la fuerza aplicada \(F\) e inversamente proporcional al área \(A\) donde se aplica dicha fuerza:
+
+     \[
+     \sigma=\frac{F}{A}
+     \]
+
+     Sin embargo, esto en realidad es una simplificación conveniente de la realidad, pues lo que ocurre en efecto es que se considera un esfuerzo \(\sigma\) como un esfuerzo promedio \(\sigma = \sigma_{promedio}\).
+
+     En esta sección se explica el comportamiento del esfuerzo en zonas donde justamente, este esfuerzo no puede ser catalogado como uniforme. Esta situación ocurre específicamente en puntos cercanos al punto de aplicación de la fuerza, lo que provoca que el esfuerzo se distribuya de forma _no_ uniforme.
+
+     Empíricamente se observa que generalmente, la distancia para que el esfuerzo se asuma efectivamente uniforme debe ser por lo menos igual a la mayor distancia transversal a la que se aplica la fuerza \(F\), medida desde el punto de aplicación de la fuerza. Dicho en otras palabras, es muy seguro que el esfuerzo a distancias menores a la mayor distancia transversal a la que se aplica una fuerza \(F\), el esfuerzo transversal no sea uniforme.
+
+     De esta idea también se desprende que el esfuerzo va a ser máximo donde la sección transversal sea mínima.
+
+     Combinando todo tenemos que existe el cálculo de un esfuerzo promedio junto con el cálculo de un esfuerzo máximo que depende del área transversal cargada. Esta combinación recibe un nombre que ayuda a tener una idea de la relación entre el esfuerzo máximo localizado en un punto y el esfuerzo promedio en todo el cuerpo que sufre un material cuando se le aplica una fuerza.
+
+     #+begin_center
+     \[K=\frac{\sigma_{max}}{\sigma_{promedio}}\]
+     donde \(K\) se conoce como *factor de concentración de esfuerzos*.
+     #+end_center
+
+*** TODO taller3
+    :PROPERTIES:
+    :ID:       d7c17032-4c4d-41d9-ab1b-06d50e3fe8db
+    :END:
+    <2021-01-27 Wed 08:30>
     Opcional, pero mejor darlo igual.
 ** Contacto
 *** Profe

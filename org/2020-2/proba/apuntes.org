@@ -476,6 +476,30 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
      En el texto de referencia, solo se presentan pero no se hacen las demostraciones correspondientes.
 ***** Weibull
 ***** Log-normal
+** prueba3
+   :PROPERTIES:
+   :ID:       6e8802b2-715c-49fb-9228-80e5a05b6665
+   :END:
+   Desde clase del 4 de enero.
+
+   - Estimación de parámetros
+   - Intervalos de confianza
+   - Pruebas de hipótesis
+
+
+   Inferencia Estadística se compone de:
+   - Estimación de parámetros
+   - Pruebas de Hipótesis
+
+*** Métodos de Estimación de parámetros
+
+    #+begin_quote
+    Generalmente en un problema de estimación de parámetros se dispone una muestra aleatoria de una variable poblacional X, cuya distribución de probabilidades se supone conocida, salvo por algunos parámetros que son desconocidos.
+    #+end_quote
+
+**** por Momentos
+     Sinceramente no caché.
+**** Máximo Verosímil
 ** Local variables :noexport:
    # Local Variables:
    # ispell-local-dictionary: "espanol"

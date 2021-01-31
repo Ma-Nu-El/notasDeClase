@@ -9,8 +9,8 @@
 # https://tex.stackexchange.com/questions/22798/nice-looking-empty-set
 
 * Mecánica de Fluidos
-** Contenido
-*** prueba 1
+** Evaluación :exam:
+*** prueba1
 
     #+BEGIN_QUOTE
     Estimados estudiantes de acuerdo con lo que el curso acordó, el martes 24 de noviembre es la primera prueba de Mecánica de Fluidos.
@@ -32,25 +32,21 @@
       Repaso de unidades de medida.
 ***** Capitulo 2: Generalidades de la mecánica de fluidos.
 ****** Densidad específica (o absoluta)
-    
+
        \[
        \rho
        =
        \frac
        {m}
        {V}
-       \]
-
-       \[
-       [\,\rho\,]
        =
        \frac
        {[\,kg\,]}
        {[\,m^3\,]}
        \]
-    
+
 ****** Peso específico
-    
+
        \[
        \gamma
        =
@@ -110,46 +106,63 @@
 ****** Viscosidad cinemática
        Mas menos misma historia, pero ahora se analiza el movimiento del fluido.
 
+****** Notaciones convenientes
+      #+begin_center
+      \[
+      P = \frac{F}{A} = \gamma \cdot h
+      = \rho \cdot g \cdot h
+      \]
+
+      donde \(h\) es la altura del fluido encima del punto de medición.
+      #+end_center
+
 ***** Capitulo 3: Hidrostática
       (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
-*** prueba 2
+*** DONE prueba2
+    CLOSED: [2021-01-19 Tue 17:00]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-01-19 Tue 17:00] \\
+      For the blue, but could have been even better; how to get the pressure when you have the flow?
+    :END:
+    <2021-01-19 Tue 10:50>
     Bernulli, sin pérdidas.
 **** 30 noviembre
 ***** Hidrodinámica
 ****** Bernoulli Ideal
-      #+begin_center
-      Ecuación de Bernulli sin perdidas: Ideal \\
-      Ecuación Fundamental de la Hidrodinámica.
-      \begin{align*}
- \frac{P_1}{\gamma}
- +
- \frac{V_1^2}{2g}
- +
- z_1
- &=
- \frac{P_2}{\gamma}
- +
- \frac{V_2^2}{2g}
- +
- z_2
-      \end{align*}
+       #+begin_center
+       Ecuación de Bernulli sin perdidas: Ideal \\
+       Ecuación Fundamental de la Hidrodinámica.
+       \begin{align*}
+       \frac{P_1}{\gamma}
+       +
+       \frac{V_1^2}{2g}
+       +
+       z_1
+       &=
+       \frac{P_2}{\gamma}
+       +
+       \frac{V_2^2}{2g}
+       +
+       z_2
+       =
+       H
+       \end{align*}
 
-      donde \(\gamma = \rho \cdot g\ \).
-      #+end_center
+       donde \(\gamma = \rho \cdot g\ \).
+       #+end_center
 
-      - \(P/\gamma\ \) se conoce como /altura de presión/ o /altura específica/ o /energía específica de presión/.
-      - \( V^2/2g \) se conoce como /velocidad de presión/ o /altura dinámica/ o /altura de velocidades/.
-      - \( z \) se conoce como /altura geodésica/: la distancia medida desde la superficie de la Tiera.
+       - \(P/\gamma\ \) se conoce como /altura de presión/ o /altura específica/ o /energía específica de presión/.
+       - \( V^2/2g \) se conoce como /velocidad de presión/ o /altura dinámica/ o /altura de velocidades/.
+       - \( z \) se conoce como /altura geodésica/: la distancia medida desde la superficie de la Tiera.
 
-        Bernoulli Generalizado
-** Evaluación
-*** prueba2
-    <2021-01-19 Tue 10:50>
+         Bernoulli Generalizado
+*** TODO prueba3
+    <2021-02-01 Mon>
 ** Links
 *** Cátedra y ayudantía
     - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
-**** Clases grabadas
-     https://drive.google.com/drive/folders/1JczG_zXbs9rUVke_3bZdGdAXDVdgBArk
+*** Clases grabadas
+    https://drive.google.com/drive/folders/1JczG_zXbs9rUVke_3bZdGdAXDVdgBArk
 ** Contacto
    Mario Guzmán
 ** Local variables :noexport:

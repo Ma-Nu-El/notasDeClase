@@ -42,7 +42,7 @@
 
        Mismo propósito de método de dos fases.
 
-****** TODO excel como calculadora para simplex: solver
+****** excel como calculadora para simplex: solver
 ***** próxima clase
       Jueves a las 0830
       Tema: excel.
@@ -155,8 +155,13 @@
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2020-12-27 Sun 15:53]
      :END:
-**** prueba2
-     <2021-01-23 Sat>
+**** DONE prueba2
+     CLOSED: [2021-01-17 Sun 01:31]
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2021-01-17 Sun 01:31] \\
+       There was actually some pretty interesting stuff in there. Like the CPM(Critical Path Method) or the PERT-thing; one is probabilistic and the other one is deterministic; I wonder if there's a Java or Python Library for those because they seem SO useful actually.
+     :END:
+     <2021-01-16 Sat 21:00>
 **** DONE taller1 14 nov
      CLOSED: [2020-11-23 Mon 18:04]
      :LOGBOOK:
@@ -173,10 +178,8 @@
      - State "CANCELED"   from "TODO"       [2021-01-07 Thu 20:44] \\
      Ultimo taller fue de coeficiente 2.
      :END:
-**** taller3
-     <2021-01-16 Sat 09:00>
-**** examen
-     <2021-01-25 Mon>
+**** TODO examen
+    <2021-03-01 Mon 08:30>
 ** Vocabulario
    - Estadigrafo de certeza?
    - Isocosto e isoganancia\\

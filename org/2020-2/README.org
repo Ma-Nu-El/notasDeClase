@@ -2,4 +2,4 @@
 #+INCLUDE: proba/apuntes.org
 #+INCLUDE: resistencia/resistencia.org
 #+INCLUDE: io/io.org
-#+INCLUDE: mecanica-fluidos/mecanica-fluidos.org
+#+INCLUDE: mec-fluid/mec-fluid.org
