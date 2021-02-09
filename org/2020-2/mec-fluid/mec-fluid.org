@@ -107,14 +107,14 @@
        Mas menos misma historia, pero ahora se analiza el movimiento del fluido.
 
 ****** Notaciones convenientes
-      #+begin_center
-      \[
-      P = \frac{F}{A} = \gamma \cdot h
-      = \rho \cdot g \cdot h
-      \]
+       #+begin_center
+       \[
+       P = \frac{F}{A} = \gamma \cdot h
+       = \rho \cdot g \cdot h
+       \]
 
-      donde \(h\) es la altura del fluido encima del punto de medición.
-      #+end_center
+       donde \(h\) es la altura del fluido encima del punto de medición.
+       #+end_center
 
 ***** Capitulo 3: Hidrostática
       (Supongo que el capítulo 4 se tratará sobre hidrodinámica.)
@@ -156,8 +156,94 @@
        - \( z \) se conoce como /altura geodésica/: la distancia medida desde la superficie de la Tiera.
 
          Bernoulli Generalizado
-*** TODO prueba3
-    <2021-02-01 Mon>
+*** CANCELED prueba3
+    CLOSED: [2021-02-01 Mon 14:38] SCHEDULED: <2021-02-01 Mon 14:30>
+    :LOGBOOK:
+    - State "CANCELED"   from "TODO"       [2021-02-01 Mon 14:38] \\
+      Failed again, but keep punching.
+    :END:
+
+    Bernulli con pérdidas.
+
+**** Caudal
+     #+begin_center
+     \[
+     Q=A\cdot V=\frac{\text{Volumen}}{t}
+     \]
+
+     \begin{align*}
+     A&: \text{área}\\
+     V&: \text{velocidad del fluido}
+     \end{align*}
+     #+end_center
+
+**** Conservación de energía por caudal
+     #+begin_center
+     \[
+     V_{entrada}=
+     \left(
+     \frac
+     {D_{salida}}
+     {D_{entrada}}
+     \right)
+     ^2
+     \cdot
+     V_{salida}
+     \]
+
+     \begin{align*}
+     V&: \text{velocidad del fluido}\\
+     D&: \text{diámetro}
+     \end{align*}
+     #+end_center
+
+**** Velocidad de salida para un tubo de Pitot
+
+    #+begin_center
+    \[
+    V_{salida}=
+    \sqrt{
+    2 \cdot g \cdot \Delta h_{Pitot}
+    \cdot
+    \frac
+    {
+    (\gamma_{Pitot}- \gamma_{Exterior})
+    }
+    {\gamma_{Exterior}}
+    }
+    \]
+    #+end_center
+
+**** Reynolds
+    #+begin_center
+    \[
+    \text{Re}=\frac{V \cdot D}{\nu}
+    \]
+
+    \begin{align*}
+    V&: \text{velocidad del fluido}\\
+    D&: \text{diámetro}\\
+    \nu&: \text{viscosidad cinemática}
+    \end{align*}
+    #+end_center
+
+**** Pérdida de energía en un tubo
+    #+begin_center
+    \[
+    \text{Hrp}=\lambda \cdot
+    \frac{L}{D} \cdot
+    \frac{V^2}{2\cdot g}
+    \]
+
+    \begin{align*}
+    \lambda&: \text{coeficiente de fricción}\\
+    L&: \text{longitud del tubo}\\
+    D&: \text{diámetro}\\
+    V&: \text{velocidad del fluido}\\
+    \nu&: \text{viscosidad cinemática}
+    \end{align*}
+    #+end_center
+
 ** Links
 *** Cátedra y ayudantía
     - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
