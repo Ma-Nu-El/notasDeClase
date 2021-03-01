@@ -1,5 +1,4 @@
 #+TITLE: Investigación Operacional
-#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
 #+filetags: :university:operationsresearch:
 

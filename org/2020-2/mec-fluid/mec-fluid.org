@@ -1,5 +1,4 @@
 #+TITLE: Mecánica de Fluidos
-#+SETUPFILE: ~/Downloads/org-html-themes/setup/theme-readtheorg.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
 # latex goodies
