@@ -177,7 +177,12 @@
      - State "CANCELED"   from "TODO"       [2021-01-07 Thu 20:44] \\
      Ultimo taller fue de coeficiente 2.
      :END:
-**** TODO examen
+**** DONE examen
+     CLOSED: [2021-03-01 Mon 13:51]
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2021-03-01 Mon 13:51] \\
+       Excel in Linuxxxxxxx!!!!
+     :END:
     <2021-03-01 Mon 08:30>
 ** Vocabulario
    - Estadigrafo de certeza?

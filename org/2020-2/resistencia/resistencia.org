@@ -120,7 +120,12 @@
       \end{align*}
       #+end_center
 
-*** TODO prueba3
+*** CANCELED prueba3
+    CLOSED: [2021-03-02 Tue 11:45]
+    :LOGBOOK:
+    - State "CANCELED"   from "TODO"       [2021-03-02 Tue 11:45] \\
+      Fuck it
+    :END:
     <2021-03-02 Tue>
 *** DONE taller2: listo, enviar hoy.
     CLOSED: [2021-01-20 Wed 23:18]

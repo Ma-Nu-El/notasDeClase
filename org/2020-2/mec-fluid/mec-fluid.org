@@ -157,6 +157,9 @@
          Bernoulli Generalizado
 *** CANCELED prueba3
     CLOSED: [2021-02-01 Mon 14:38] SCHEDULED: <2021-02-01 Mon 14:30>
+    :PROPERTIES:
+    :ID:       2fab939e-6859-454b-a5e9-301ce09b29a3
+    :END:
     :LOGBOOK:
     - State "CANCELED"   from "TODO"       [2021-02-01 Mon 14:38] \\
       Failed again, but keep punching.
@@ -243,6 +246,11 @@
     \end{align*}
     #+end_center
 
+*** examen
+    SCHEDULED: <2021-03-04 Thu 18:00>
+    - Lo mismo que [[id:2fab939e-6859-454b-a5e9-301ce09b29a3][prueba3]].
+    - Bernulli con pérdidas.
+    - Se reemplaza prueba mas mala con esta nota.
 ** Links
 *** Cátedra y ayudantía
     - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
