@@ -1,6 +1,6 @@
 #+TITLE: Mecánica de Fluidos
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
+#+EXCLUDE_TAGS: noexport
 # latex goodies
 # spacing
 # https://tex.stackexchange.com/questions/74353/what-commands-are-there-for-horizontal-spacing
@@ -123,8 +123,8 @@
     - State "DONE"       from "TODO"       [2021-01-19 Tue 17:00] \\
       For the blue, but could have been even better; how to get the pressure when you have the flow?
     :END:
-    <2021-01-19 Tue 10:50>
-    Bernulli, sin pérdidas.
+    - [2021-01-19 Tue 10:50]
+    - Bernulli, sin pérdidas.
 **** 30 noviembre
 ***** Hidrodinámica
 ****** Bernoulli Ideal
@@ -165,7 +165,7 @@
       Failed again, but keep punching.
     :END:
 
-    Bernulli con pérdidas.
+    - Bernulli con pérdidas.
 
 **** Caudal
      #+begin_center
@@ -175,7 +175,8 @@
 
      \begin{align*}
      A&: \text{área}\\
-     V&: \text{velocidad del fluido}
+     V&: \text{velocidad del fluido}\\
+     t&: \text{tiempo}
      \end{align*}
      #+end_center
 
@@ -191,63 +192,91 @@
      ^2
      \cdot
      V_{salida}
+     =
+     \frac
+     {A_{salida}}
+     {A_{entrada}}
+     \cdot
+     V_{salida}
      \]
 
      \begin{align*}
      V&: \text{velocidad del fluido}\\
-     D&: \text{diámetro}
+     D&: \text{diámetro}\\
+     A&: \text{área}
      \end{align*}
      #+end_center
 
 **** Velocidad de salida para un tubo de Pitot
 
-    #+begin_center
-    \[
-    V_{salida}=
-    \sqrt{
-    2 \cdot g \cdot \Delta h_{Pitot}
-    \cdot
-    \frac
-    {
-    (\gamma_{Pitot}- \gamma_{Exterior})
-    }
-    {\gamma_{Exterior}}
-    }
-    \]
-    #+end_center
+     #+begin_center
+     \[
+     V_{salida}=
+     \sqrt{
+     2 \cdot g \cdot \Delta h_{Pitot}
+     \cdot
+     \frac
+     {
+     (\gamma_{Pitot}- \gamma_{Exterior})
+     }
+     {\gamma_{Exterior}}
+     }
+     \]
+     #+end_center
 
-**** Reynolds
-    #+begin_center
-    \[
-    \text{Re}=\frac{V \cdot D}{\nu}
-    \]
+**** Número de Reynolds
+     - Número que sirve para clasificar a los fluidos y su comportamiento.
+     #+begin_center
+     \[
+     \text{Re}
+     =\frac
+     {\text{Fzas Inerciales}}
+     {\text{Fzas Viscosas}}
+     =\frac
+     {V \cdot D}
+     {\nu}
+     \]
 
-    \begin{align*}
-    V&: \text{velocidad del fluido}\\
-    D&: \text{diámetro}\\
-    \nu&: \text{viscosidad cinemática}
-    \end{align*}
-    #+end_center
+     \begin{align*}
+     V&: \text{velocidad del fluido}\\
+     D&: \text{diámetro del tubo}\\
+     \nu&: \text{viscosidad cinemática}
+     \end{align*}
+
+     Además
+
+     \begin{align*}
+     \frac
+     {\text{Viscosidad dinámica}}
+     {\text{Densidad específica}}
+     &= \text{Viscosidad cinemática}
+     \\
+     \frac
+     {\mu}{\rho} &=\nu
+     \end{align*}
+     #+end_center
 
 **** Pérdida de energía en un tubo
-    #+begin_center
-    \[
-    \text{Hrp}=\lambda \cdot
-    \frac{L}{D} \cdot
-    \frac{V^2}{2\cdot g}
-    \]
+     #+begin_center
+     \[
+     \text{Hrp}=\lambda \cdot
+     \frac{L}{D} \cdot
+     \frac{V^2}{2\cdot g}
+     \]
 
-    \begin{align*}
-    \lambda&: \text{coeficiente de fricción}\\
-    L&: \text{longitud del tubo}\\
-    D&: \text{diámetro}\\
-    V&: \text{velocidad del fluido}\\
-    \nu&: \text{viscosidad cinemática}
-    \end{align*}
-    #+end_center
+     \begin{align*}
+     \lambda&: \text{coeficiente de fricción}\\
+     L&: \text{longitud del tubo}\\
+     D&: \text{diámetro del tubo}\\
+     V&: \text{velocidad del fluido}\\
+     \end{align*}
+     #+end_center
 
-*** examen
-    SCHEDULED: <2021-03-04 Thu 18:00>
+*** DONE examen
+    CLOSED: [2021-03-04 Thu 19:51] SCHEDULED: <2021-03-04 Thu 18:00>
+    :LOGBOOK:
+    - State "DONE"       from              [2021-03-04 Thu 19:51]
+    :END:
     - Lo mismo que [[id:2fab939e-6859-454b-a5e9-301ce09b29a3][prueba3]].
     - Bernulli con pérdidas.
     - Se reemplaza prueba mas mala con esta nota.
@@ -255,9 +284,9 @@
 *** Cátedra y ayudantía
     - https://reuna.zoom.us/j/88660177029?pwd=d3FBVE1vdjQ1Q012OEt6SDMvOXRUdz09
 *** Clases grabadas
-    https://drive.google.com/drive/folders/1JczG_zXbs9rUVke_3bZdGdAXDVdgBArk
+    - https://drive.google.com/drive/folders/1JczG_zXbs9rUVke_3bZdGdAXDVdgBArk
 ** Contacto
-   Mario Guzmán
+   - Mario Guzmán
 ** Local variables :noexport:
    # Local Variables:
    # ispell-local-dictionary: "espanol"
