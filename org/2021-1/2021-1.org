@@ -1,0 +1,10 @@
+#+TITLE: 2021-1
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:
+
+Este semestre la nota mínima para irse a examen es 3.0.
+
+* Local variables :noexport:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:

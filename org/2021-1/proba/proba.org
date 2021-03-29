@@ -1,15 +1,54 @@
-#+TITLE: title
+#+TITLE: Probabilidad y Estadística
 #+EXCLUDE_TAGS: noexport
-#+FILETAGS: :university:
+#+FILETAGS: :university:probabilidadYEstadistica:2021-1:
 * TOC :TOC:
+- [[#cátedras][Cátedras]]
+  - [[#lunes-y-miercoles-1050][Lunes y Miercoles 1050]]
 - [[#contenido][Contenido]]
 - [[#contacto][Contacto]]
 - [[#evaluación][Evaluación]]
+  - [[#teorica-80][Teorica 80%]]
+  - [[#practica-20][Practica 20%]]
 
+* Cátedras
+** Lunes y Miercoles 1050
+  - Lunes primera hora de clases y segunda hora de ayudantía.
+  - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 * Contenido
+  Apuntes del libro de los profesores mas las clases.
+  - [[id:b97e8bdd-ee04-493f-acf5-a5af9f98819f][apuntes.org]]
 * Contacto
+  - Sonia Salvo
+    - sonia.salvo@ufrontera.cl
 * Evaluación
+** Teorica 80% :test:
+*** prueba1
+    DEADLINE: <2021-05-19 Wed -21d>
+    - Unidad 1-3
+*** prueba2
+    DEADLINE: <2021-06-21 Mon -21d>
+    - Unidad 4-6
+** Practica 20% :workshop:
+   6 pruebas cortas no recuperables. Se borra las más baja al final. La 6ta nota es actitudinal por actividad en campus virtual.
+   - 12 abril
+   - 3 mayo
+   - 17 mayo
+   - 14 junio
+   - 5 julio
+   - 19 julio
+*** Taller 1
+    DEADLINE: <2021-04-12 Mon -21d>
+*** Taller 2
+    DEADLINE: <2021-05-03 Mon -21d>
+*** Taller 3
+    DEADLINE: <2021-05-17 Mon -21d>
+*** Taller 4
+    DEADLINE: <2021-06-14 Mon -21d>
+*** Taller 5
+    DEADLINE: <2021-07-05 Mon -21d>
+*** Taller 6
+    DEADLINE: <2021-07-19 Mon -21d>
 * Local variables :noexport:
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:
