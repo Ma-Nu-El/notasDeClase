@@ -1,4 +1,4 @@
-#+TITLE: title
+#+TITLE: Resistencia de Materiales
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
 * TOC :TOC:
@@ -8,7 +8,7 @@
 
 * Contenido
 * Contacto
-* Evaluación
+* Evaluación :grade:
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

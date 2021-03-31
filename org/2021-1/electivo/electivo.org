@@ -1,0 +1,34 @@
+#+TITLE: Estrategias Comunicativas para el Mundo Laboral
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:electivo:
+
+* Contenido
+** [2021-03-29 Mon 17:00]
+*** Introducción
+    - Desarrollar habilidades comunicativas.
+*** Resultados de aprendizaje
+    1) Redactar textos coherentes, cohesionados, respetando reglas ortográficas y contextualizados al ámbito laboral.
+    2) Emplear herramientas tecnológicas para la productividad y comunicación, centrados en el ámbito laboral.
+    3) Comunicar oralmente las ideas de manera efectiva, considerando el contexto y situación comunicativa.
+* Links
+** Lunes 1650
+  - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
+* Contacto
+  - Javiera Ibaceta Carreño
+    - javiera.ibaceta@ufrontera.cl
+    - _Prioridad_ campus como plataforma de comunicación.
+* Evaluación :grade:
+  - Detalles en [[https://campusvirtual.ufro.cl/][campus virtual]] e [[https://intranet.ufro.cl/][intranet]].
+  - Todas las cátedras grabadas. Subidas a campus. Google Drive.
+  - Todas las evaluaciones son asincrónicas.
+  - Grupal online
+** Teórico
+** Práctico :workshop:
+*** TODO Portfolio
+    DEADLINE: <2021-04-05 Mon -7d>
+    - En .jpg
+    - Antes de la clase.
+* Local variables :noexport:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:

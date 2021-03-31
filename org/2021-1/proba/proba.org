@@ -1,6 +1,6 @@
 #+TITLE: Probabilidad y Estadística
 #+EXCLUDE_TAGS: noexport
-#+FILETAGS: :university:probabilidadYEstadistica:2021-1:
+#+FILETAGS: :university:probabilidadYEstadistica:20211:
 * TOC :TOC:
 - [[#cátedras][Cátedras]]
   - [[#lunes-y-miercoles-1050][Lunes y Miercoles 1050]]
@@ -20,12 +20,14 @@
 * Contacto
   - Sonia Salvo
     - sonia.salvo@ufrontera.cl
-* Evaluación
+* Evaluación :grade:
 ** Teorica 80% :test:
-*** prueba1
-    DEADLINE: <2021-05-19 Wed -21d>
+*** TODO prueba1
+    DEADLINE: <2021-05-17 Mon -21d>
+    - Era el miércoles 19 pero los de física tenían topón.
+      + El pasa lo mismo con la otra prueba y un taller.
     - Unidad 1-3
-*** prueba2
+*** TODO prueba2
     DEADLINE: <2021-06-21 Mon -21d>
     - Unidad 4-6
 ** Practica 20% :workshop:
@@ -36,17 +38,17 @@
    - 14 junio
    - 5 julio
    - 19 julio
-*** Taller 1
+*** TODO Taller 1
     DEADLINE: <2021-04-12 Mon -21d>
-*** Taller 2
+*** TODO Taller 2
     DEADLINE: <2021-05-03 Mon -21d>
-*** Taller 3
+*** TODO Taller 3
     DEADLINE: <2021-05-17 Mon -21d>
-*** Taller 4
+*** TODO Taller 4
     DEADLINE: <2021-06-14 Mon -21d>
-*** Taller 5
+*** TODO Taller 5
     DEADLINE: <2021-07-05 Mon -21d>
-*** Taller 6
+*** TODO Taller 6
     DEADLINE: <2021-07-19 Mon -21d>
 * Local variables :noexport:
   # Local Variables:

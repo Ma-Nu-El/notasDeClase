@@ -5,15 +5,13 @@
 #+SETUPFILE: ~/Downloads/org-html-themes/org/theme-readtheorg-local.setup
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probability:statistics:notes:
-* Sources for latex math notation: :noexport:
-# https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
-# https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
-# https://jblevins.org/log/greek
-
-* Latex preamble :noexport:
+# Latex preamble
 # for probability definition
 \[
 \def\PP{{\mathbb P}}
+\]
+\[
+\def\emptyset{{\varnothing}}
 \]
 
 # given that
@@ -21,17 +19,24 @@
 \[
 \newcommand\given[1][]{\:#1\vert\:}
 \]
-* Probabilidad y Estadística
-Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
- file:~/myDrive/uni/2020-2/proba/
 
- - Sonia Salvo
- - Antonio Sanhueza Campos
- - Rodrigo Puchi-Ancasay
+
+* Sources for latex math notation: :noexport:
+# https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
+# https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+# https://jblevins.org/log/greek
+
+* Probabilidad y Estadística
+  Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias
+  file:~/myDrive/uni/2020-2/proba/
+
+  - Sonia Salvo
+  - Antonio Sanhueza Campos
+  - Rodrigo Puchi-Ancasay
 ** Requisitos
    - Lógica
    - Teoría de Conjuntos
-   - Leyes de DeMorgan
+   - Leyes de De Morgan
    - Cálculo
 ** Capítulo 1: Probabilidad
 *** Objetivo
@@ -77,7 +82,7 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
       Cabe decir que si ocurre A, entonces ocurre B, pero no viceversa.
 *** Evento aleatorio
     - Evento asociado a un experimento aleatorio.
-    - Leyes de Morgan.
+    - Leyes de De Morgan.
     - Axiomática de álgebra.
 *** Coeficiente binomial
     # https://tex.stackexchange.com/questions/127707/displaying-the-binomial-coefficient-symbol-in-math-mode
@@ -94,9 +99,10 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
     
     También conocidos como axiomas de \(\mbox{Kolmogorov}\).
 
-    1) \(\PP (A)\geq 0 \)
-    2) \(\PP(\Omega)=1 \)
-    3) \(A_i \cap A_j = \varnothing \) con \( i\neq j \) ; entonces
+    1) Para todo suceso \(A\), \(0 \leq P(A) \leq 1\).
+    2) \(\PP (A)\geq 0 \)
+    3) \(\PP(\Omega)=1 \)
+    4) \(A_i \cap A_j = \emptyset \) con \( i\neq j \) ; entonces
     # https://tex.stackexchange.com/questions/205125/formatting-the-union-of-sets
     # https://tex.stackexchange.com/questions/38868/big-parenthesis-in-an-equation
     \[
@@ -127,7 +133,7 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
      "La probabilidad de un evento vacío es cero" … porque la probabilidad de que no ocurra _nada_ en un experimento es nula.
        
      \[
-     \PP(\varnothing)=0
+     \PP(\emptyset)=0
      \]
        
 **** de eventos disjuntos finitos
@@ -230,6 +236,10 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
 *** Probabilidad Total
     https://www.youtube.com/watch?v=F3y8qupFfUs
 *** Teorema de Bayes
+    - Bayes vs Laplace?
+      + Laplace es teoría frecuentista vs Bayes que es ...?
+
+
 
     - presentación
     https://www.youtube.com/watch?v=XQoLVl31ZfQ
@@ -311,40 +321,40 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
 ** Capítulo 3: Distribuciones
 *** Discretas
 **** Bernoulli
-      #+BEGIN_QUOTE
-      Un experimento se dice que es de tipo Bernoulli (o ensayo de Bernoulli) si solo consta de dos resultados posibles mutuamente excluyentes, éxito y fracaso, con una cierta probabilidad en la población de estudio. Por tratarse de eventos complementarios, éxito y fracaso, la suma de las probabilidades asociadas a cada uno de estos eventos debe ser 1.
-      #+END_QUOTE
+     #+BEGIN_QUOTE
+     Un experimento se dice que es de tipo Bernoulli (o ensayo de Bernoulli) si solo consta de dos resultados posibles mutuamente excluyentes, éxito y fracaso, con una cierta probabilidad en la población de estudio. Por tratarse de eventos complementarios, éxito y fracaso, la suma de las probabilidades asociadas a cada uno de estos eventos debe ser 1.
+     #+END_QUOTE
 
-      #+BEGIN_CENTER
-      \begin{align*}
-      p(x) =
-      \begin{cases}
-        p, &\quad\text{si}\; \text{x}=1,\;\text{éxito}\\
-        1-p, &\quad\text{si}\; \text{x}=0,\;\text{fracaso}\\
-      \end{cases}
-      \end{align*}
-      #+END_CENTER
+     #+BEGIN_CENTER
+     \begin{align*}
+     p(x) =
+     \begin{cases}
+       p, &\quad\text{si}\; \text{x}=1,\;\text{éxito}\\
+       1-p, &\quad\text{si}\; \text{x}=0,\;\text{fracaso}\\
+     \end{cases}
+     \end{align*}
+     #+END_CENTER
 
-      Luego, la función de distribución para el ensayo de Bernoulli se denota de la siguiente forma:
-      #+BEGIN_CENTER
-      \begin{align*}
-      X \sim \text{Bernoulli}(p)&=p(x)\; 0 < p < 1\\
- \iff p(x)&=p^x(1-p)^{1-x},\; x=0,1
-      \end{align*}
-      ; para una proporción de éxito \(p\).
-      #+END_CENTER
+     Luego, la función de distribución para el ensayo de Bernoulli se denota de la siguiente forma:
+     #+BEGIN_CENTER
+     \begin{align*}
+     X \sim \text{Bernoulli}(p)&=p(x)\; 0 < p < 1\\
+\iff p(x)&=p^x(1-p)^{1-x},\; x=0,1
+     \end{align*}
+     ; para una proporción de éxito \(p\).
+     #+END_CENTER
 
 ***** Propiedades
-       A partir de la función se puede obtener la función generadora de momentos, y a partir de ella la esperanza y varianza.
+      A partir de la función se puede obtener la función generadora de momentos, y a partir de ella la esperanza y varianza.
 
-       #+BEGIN_CENTER
- \begin{align*}
-       E[X]&=p \\
-       E[X^2]&=p \\
-       Var[X]&=p \cdot q
-       \end{align*}
- ; donde \(1-p=q\)
-       #+END_CENTER
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=p \\
+            E[X^2]&=p \\
+            Var[X]&=p \cdot q
+            \end{align*}
+      ; donde \(1-p=q\)
+      #+END_CENTER
 
 **** Binomial
      #+BEGIN_QUOTE
@@ -385,12 +395,12 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
 
 ***** Propiedades
 
-     #+BEGIN_CENTER
+      #+BEGIN_CENTER
       \begin{align*}
             E[X]&=p^{-1} \\
             Var[X]&=(1-p)p^{-2}
       \end{align*}
-     #+END_CENTER
+      #+END_CENTER
 
 **** Binomial Negativa
      #+BEGIN_QUOTE
@@ -406,13 +416,13 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
      #+END_CENTER
 
 ***** Propiedades
-     #+BEGIN_CENTER
+      #+BEGIN_CENTER
       \begin{align*}
             E[X]&=\frac{k}{p}\\
             Var[X]&=k \cdot q \cdot p^{-2}
       \end{align*}
       para \(k = 2,3, \cdots\).
-     #+END_CENTER
+      #+END_CENTER
    
 **** Hiper Geométrica
      #+BEGIN_QUOTE
@@ -433,20 +443,20 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
      #+END_CENTER
 
 ***** Propiedades
-     #+BEGIN_CENTER
+      #+BEGIN_CENTER
       \begin{align*}
             E[X]&=n \cdot p,\qquad \text{donde } p=\frac{m}{N}\\
             Var[X]&=n \cdot p \cdot q \cdot \frac{N-m}{N-1}
       \end{align*}
       donde \( p=\frac{m}{N} \) y \( q=1-p \)
-     #+END_CENTER
+      #+END_CENTER
 
 **** Poisson
-    #+BEGIN_QUOTE
-    Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́culas emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
+     #+BEGIN_QUOTE
+     Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́culas emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
 
-   Aquellos experimentos que cumplen las condiciones anteriores se ajustan a un proceso de Poisson, que se denota con \(X \sim \text{Poisson}(\lambda)\).
-    #+END_QUOTE
+     Aquellos experimentos que cumplen las condiciones anteriores se ajustan a un proceso de Poisson, que se denota con \(X \sim \text{Poisson}(\lambda)\).
+     #+END_QUOTE
 
      #+BEGIN_CENTER
      \begin{align*}
@@ -462,12 +472,12 @@ Apuntes Libro: Probabilidad y Estadística con Aplicaciones a Ingeniería y Cien
      #+END_CENTER
 
 ***** Propiedades
-     #+BEGIN_CENTER
+      #+BEGIN_CENTER
       \begin{align*}
             E[X]&=\lambda \\
             Var[X]&=\lambda
       \end{align*}
-     #+END_CENTER
+      #+END_CENTER
 ***** Aproximación a Binomial por Poisson
 **** Comparación de distribuciones discretas
 *** Continuas

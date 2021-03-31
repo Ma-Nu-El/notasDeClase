@@ -23,7 +23,7 @@
     - ricardo.sepulveda@ufrontera.cl
   - Investigación Operacional
   - F: +56 9 98455040
-* Evaluación
+* Evaluación :grade:
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"
