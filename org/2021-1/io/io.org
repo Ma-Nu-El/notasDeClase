@@ -1,16 +1,7 @@
 #+TITLE: Investigación Operacional
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
-* TOC :TOC:
-- [[#cátedras][Cátedras]]
-  - [[#lunes-0830-a-1030][Lunes 0830 a 1030]]
-  - [[#lunes-1050-a-1300][Lunes 1050 a 1300]]
-  - [[#jueves-1050-a-1300][Jueves 1050 a 1300]]
-- [[#contenido][Contenido]]
-- [[#contacto][Contacto]]
-- [[#evaluación][Evaluación]]
-
-* Cátedras
+* Links
 ** Lunes 0830 a 1030
   - https://reuna.zoom.us/j/87076003324?pwd=UjlnSmRHdWdTbDJPMzlNU2xJL0doZz09
 ** Lunes 1050 a 1300
