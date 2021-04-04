@@ -25,7 +25,7 @@
 ** Teórico
 ** Práctico :workshop:
 *** TODO Portfolio
-    DEADLINE: <2021-04-05 Mon -7d>
+    DEADLINE: <2021-04-04 Sun -7d>
     - En .jpg
     - Antes de la clase.
 * Local variables :noexport:
