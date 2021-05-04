@@ -1,19 +1,10 @@
 #+TITLE: Probabilidad y Estadística
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probabilidadYEstadistica:20211:
-* TOC :TOC:
-- [[#cátedras][Cátedras]]
-  - [[#lunes-y-miercoles-1050][Lunes y Miercoles 1050]]
-- [[#contenido][Contenido]]
-- [[#contacto][Contacto]]
-- [[#evaluación][Evaluación]]
-  - [[#teorica-80][Teorica 80%]]
-  - [[#practica-20][Practica 20%]]
-
 * Cátedras
 ** Lunes y Miercoles 1050
-  - Lunes primera hora de clases y segunda hora de ayudantía.
-  - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
+   - Lunes primera hora de clases y segunda hora de ayudantía.
+   - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 * Contenido
   Apuntes del libro de los profesores mas las clases.
   - [[id:b97e8bdd-ee04-493f-acf5-a5af9f98819f][apuntes.org]]
@@ -21,6 +12,8 @@
   - Sonia Salvo
     - sonia.salvo@ufrontera.cl
 * Evaluación :grade:
+** Plan de vuelo
+   - file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
 ** Teorica 80% :test:
 *** TODO prueba1
     DEADLINE: <2021-05-17 Mon -21d>
@@ -38,10 +31,35 @@
    - 14 junio
    - 5 julio
    - 19 julio
-*** TODO Taller 1
-    DEADLINE: <2021-04-12 Mon -21d>
-*** TODO Taller 2
-    DEADLINE: <2021-05-03 Mon -21d>
+*** DONE Taller 1
+    CLOSED: [2021-04-14 Wed 11:46] DEADLINE: <2021-04-12 Mon -21d>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-04-14 Wed 11:46] \\
+      Study moreeeeee
+    :END:
+*** DONE Taller 2
+    CLOSED: [2021-05-03 Mon 20:50] DEADLINE: <2021-05-03 Mon 12:00 -21d>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-05-03 Mon 20:50] \\
+      Maybe 7/7?
+    :END:
+    - file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Cap2.pdf
+    - file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Conferencia_VariableAleatoria.pdf
+
+
+    - ver planificacion
+      - no entran distribuciones especiales
+        + hasta variable aleatoria sin especial
+        + hasta bernulli
+      - el próximo taller es exclusivo especiales probablemente
+      - pero en este próximo
+        + fun dens?
+        + fun prob?
+          - axiomas
+        + condicionales quizás
+        + Esp,Var
+        + Func getrimomento?
+
 *** TODO Taller 3
     DEADLINE: <2021-05-17 Mon -21d>
 *** TODO Taller 4
@@ -50,6 +68,14 @@
     DEADLINE: <2021-07-05 Mon -21d>
 *** TODO Taller 6
     DEADLINE: <2021-07-19 Mon -21d>
+*** DONE Unidad 1 en campus
+    CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-04-19 Mon 22:53] \\
+      nailed it
+    :END:
+*** TODO Unidad 2 en campus
+    DEADLINE: <2021-05-09 Sun -3w>
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"

@@ -69,7 +69,6 @@
       5) Suponiendo que tiene solución\\
          Pasamos a fase 2.
 
-
 ***** Fase 2
     
       1) Eliminar columnas de auxiliares
@@ -115,7 +114,6 @@
  |-----------+--------------------------------------+------------------------+-----------------------------------|
  |   \(Z\)   | \(C_B \cdot B^{-1} \cdot A_j - C_j\) | \(\overrightarrow{0}\) |   \(C_B \cdot B^{-1} \cdot b\)    |
  #+END_CENTER
-
 
 *** Cátedras
 

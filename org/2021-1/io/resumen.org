@@ -1,0 +1,39 @@
+* Resumen primera prueba
+  - [X] Teniendo claro simplex y dos fases
+
+
+
+  - Sensibilidad y dualidad
+    - Recopilar datos de tabla inicial y tabla óptima
+
+
+  Obtener el \( b \) inicial: correspondiente a la columna de limites de restricciones.
+
+  - Obtener bases de tabla óptima
+
+
+  Obtener el \(C_B\): teniendo la tabla óptima, se puede determinar el \(C_B\) que corresponde a los valores en la fila del \(Z\) de la tabla inicial para las bases de la tabla óptima. Ejemplo, si en la tabla óptima, la base es x2 y x3, entonces el \(C_B\) corresponde a los valores correspondientes a esas columnas de la tabla inicial en la fila del Z.
+
+  Obtener el \( B \): Exactamente el mismo procedimiento para obtener la base \( B \). La diferencia es que en vez de seleccionar una fila, se selecciona la matriz. Ejemplo, si la tabla óptima entrega como bases x2 y x3, entonces la matriz base se obtiene a partir de la matriz debajo del x2 y x3 de la tabla inicial.
+
+  Obtener el \(B^{-1}\): invertir la \( B \) obtenida antes. _No_ es recomendable obtener el \( B-1 \) por otros métodos pues la información puede no estar completa, mientras que si lo obtenemos a partir del \( B \), la información la obtenemos sin obstrucciones.
+
+  Dualidad: la axiomática de Dualidad nos dice que la función del Dual \( Y \) es igual a la multiplicación matricial del vector \(C_B\) multiplicado por la matriz inversa del \(B\). Se puede expresar de la siguiente forma:
+
+  \[ Y=C_{B} \cdot B^{-1} \]
+
+  Y completamos el Teorema de Dualidad Fuerte:
+
+  \[ Z=C_{B} \cdot B^{-1} \cdot b \]
+
+  Luego de modelar y optimizar el problema, tenemos una tabla que se puede expresar de la siguiente manera, tabla que nos permite analizar la sensibilidad del problema de forma matricial y por lo tanto, de forma mas eficiente:
+
+  #+BEGIN_CENTER
+  |    <c>    |                 <c>                  |          <c>           |                <c>                |
+  |           |             \( X_{NB} \)             |      \( X_{B} \)       | Lado derecho de las restricciones |
+  |-----------+--------------------------------------+------------------------+-----------------------------------|
+  |     /     |                  <                   |           <            |                 <                 |
+  | \( X_B \) |        \( B^{-1} \cdot A_j \)        |         \(I\)          |        \(B^{-1} \cdot b\)         |
+  |-----------+--------------------------------------+------------------------+-----------------------------------|
+  |   \(Z\)   | \(C_B \cdot B^{-1} \cdot A_j - C_j\) | \(\overrightarrow{0}\) |   \(C_B \cdot B^{-1} \cdot b\)    |
+  #+END_CENTER

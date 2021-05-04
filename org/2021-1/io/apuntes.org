@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       8ecda01d-0c22-426e-9260-f486d5df1217
+:END:
+#+TITLE: Apuntes
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:io:apuntes:
+* Simplex ejemplo :simplex:linearProgramming:lp:example:
+** Enunciado
+
+   En una pequeña planta de manufactura se produce 3 elementos de transmisión de potencia mecánica de gran tamaño y dimensionamiento estándar, para un astillero local, quien es su principal cliente.
+
+   Para su producción se requiere  6, 4 y 5 horas en maestranza para cada engranaje, polea y acoplamiento lo cual se disponen de una capacidad máxima de 400 horas de maestranza en el mes.
+
+   Cada producto requiere además pasar el proceso de acabado, requiriéndose 3, 4 y 5 horas para cada engranaje, polea y acoplamiento, el subcontrato exige como mínimo 320 horas mensuales.
+
+   Así mismo la cantidad de acero especial que se requiere es de 2, 3 y 3 toneladas por engranaje, polea y acoplamiento a producir, con un stock mínimo comprometido de 210 toneladas mensuales.
+
+   Los costos de producción por cada engranaje, polea y acoplamiento tienen un precio de venta de 6, 4 y 10 MM$ por cada unidad.
+
+   Dado lo anterior se requiere minimizar los costos mensuales de producción.
+
+** Preguntas
+
+   Se le solicita a usted que elabore un informe que
+
+  1) Formule el problema de programación, y especifique la función objetivo y las restricciones para este problema, especificando claramente unidades de medida para cada variable, coeficientes tecnológicos y de la función objetivo, disponibilidad y FO (8 puntos)
+  2) Resuelva el problema utilizando el método simplex, para ello es necesario que itere usando Excel para tal propósito. (8 puntos)
+  3) Resuelva el problema utilizando solver xls (8 puntos)
+  4) Responda a las siguientes preguntas ¿Cuánto debe estar dispuesta a pagar la empresa Astaire por una hora adicional de maestranza ? ¿Ingreso marginal por cada hora subcontratada de acabado? ¿ingreso marginal por la adquisición adicional  de  cada tonelada de acero especial? (8 puntos) justifique y analice.
+  5) Adicionalmente realice un Análisis de Sensibilidad utilizando los informes que tiene Excel para tal propósito, explique cada una de las variables revisadas, su significado indicando sobre todo los márgenes de optimalidad y factibilidad para cada una de las variables
+
+* Solver ejemplo :solver:example:excel:libreoffice:university:operationsResearch:
+  - https://www.youtube.com/watch?v=PiBYFUOP-GI
+  - https://www.youtube.com/watch?v=6xa1x_Iqjzg
+* Contenidos
+** Resumen primera prueba
+   - [X] Teniendo claro simplex y dos fases
+
+
+
+   - Sensibilidad y dualidad
+     - Recopilar datos de tabla inicial y tabla óptima
+
+
+   Obtener el \( b \) inicial: correspondiente a la columna de limites de restricciones.
+
+   - Obtener bases de tabla óptima
+
+
+   Obtener el \(C_B\): teniendo la tabla óptima, se puede determinar el \(C_B\) que corresponde a los valores en la fila del \(Z\) de la tabla inicial para las bases de la tabla óptima. Ejemplo, si en la tabla óptima, la base es x2 y x3, entonces el \(C_B\) corresponde a los valores correspondientes a esas columnas de la tabla inicial en la fila del Z.
+
+   Obtener el \( B \): Exactamente el mismo procedimiento para obtener la base \( B \). La diferencia es que en vez de seleccionar una fila, se selecciona la matriz. Ejemplo, si la tabla óptima entrega como bases x2 y x3, entonces la matriz base se obtiene a partir de la matriz debajo del x2 y x3 de la tabla inicial.
+
+   Obtener el \(B^{-1}\): invertir la \( B \) obtenida antes. _No_ es recomendable obtener el \( B-1 \) por otros métodos pues la información puede no estar completa, mientras que si lo obtenemos a partir del \( B \), la información la obtenemos sin obstrucciones.
+
+   Dualidad: la axiomática de Dualidad nos dice que la función del Dual \( Y \) es igual a la multiplicación matricial del vector \(C_B\) multiplicado por la matriz inversa del \(B\). Se puede expresar de la siguiente forma:
+
+   \[ Y=C_{B} \cdot B^{-1} \]
+
+   Y completamos el Teorema de Dualidad Fuerte:
+
+   \[ Z=C_{B} \cdot B^{-1} \cdot b \]
+
+   Luego de modelar y optimizar el problema, tenemos una tabla que se puede expresar de la siguiente manera, tabla que nos permite analizar la sensibilidad del problema de forma matricial y por lo tanto, de forma mas eficiente:
+
+   #+BEGIN_CENTER
+   |    <c>    |                 <c>                  |          <c>           |                <c>                |
+   |           |             \( X_{NB} \)             |      \( X_{B} \)       | Lado derecho de las restricciones |
+   |-----------+--------------------------------------+------------------------+-----------------------------------|
+   |     /     |                  <                   |           <            |                 <                 |
+   | \( X_B \) |        \( B^{-1} \cdot A_j \)        |         \(I\)          |        \(B^{-1} \cdot b\)         |
+   |-----------+--------------------------------------+------------------------+-----------------------------------|
+   |   \(Z\)   | \(C_B \cdot B^{-1} \cdot A_j - C_j\) | \(\overrightarrow{0}\) |   \(C_B \cdot B^{-1} \cdot b\)    |
+   #+END_CENTER
+
+* Cátedras
+
+  Requisito: Álgebra lineal, Optimización.
+
+  El curso se trata de la interpretación en el mundo real de los resultados matemáticos que obtenemos. Al igual que en optimización, la parte mas difícil del curso es modelar los problemas de formas convenientes. La segunda parte mas difícil es interpretar los resultados; el ramo hace hincapié en la interpretación de los resultados.
+
+  La clave para modelar bien los problemas es simplemente practicar harto, el algoritmo es simple y es siempre el mismo, pero traspasar del papel a los modelos matemáticos es la parte complicada.
+
+** Clase 1 Revisión Modelo de Programación Lineal
+** Clase 1.1 Entorno Excel
+** Clase 2 Dualidad y Sensibilidad
+** Clase 3 Ejercicios Dualidad y Sensibilidad
+** Clase 4 Método Gráfico
+** Clase 5 Transporte y Transbordo
+** Clase 6 Ejercicios Misceláneos de Sensibilidad
+* Local variables :noexport:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:

@@ -1,14 +1,36 @@
 #+TITLE: Resistencia de Materiales
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
-* TOC :TOC:
-- [[#contenido][Contenido]]
-- [[#contacto][Contacto]]
-- [[#evaluación][Evaluación]]
-
 * Contenido
 * Contacto
 * Evaluación :grade:
+  - https://campusvirtual.ufro.cl/pluginfile.php/1201581/mod_resource/content/3/Clase%200%20Estructura%20de%20la%20%20Asignatura.pdf
+** Teórico 80%
+*** TODO prueba1 33%
+    DEADLINE: <2021-05-04 Tue 08:30 -3w>
+    - Materia hasta martes [2021-04-27 Tue] correspodiente a clase 7.
+    - Solo me falta ver clase 6.
+*** TODO prueba2 33%
+    DEADLINE: <2021-06-15 Tue -3w>
+*** TODO prueba3 34%
+    DEADLINE: <2021-07-27 Tue -3w>
+** Práctico 20%
+   - 3 a 5 talleres
+   - Tentativamente los viernes
+   - 24 horas para entregar
+   - 1 semana de anticipación de aviso mínimo
+*** DONE taller 1
+    CLOSED: [2021-04-29 Thu 12:41] DEADLINE: <2021-04-28 Wed -3w>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-04-29 Thu 12:41]
+    :END:
+    - Mierc o viernes de la semana del 26
+    - Materia del taller clase del [2021-04-15 Thu 17:57]
+    - El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
+*** contenido :university:grade:resistencia:
+    - [2021-04-16 Fri 08:00]
+    - Materia de hoy [2021-04-15 Thu 17:57]
+    - El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

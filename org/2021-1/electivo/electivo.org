@@ -10,9 +10,18 @@
     1) Redactar textos coherentes, cohesionados, respetando reglas ortográficas y contextualizados al ámbito laboral.
     2) Emplear herramientas tecnológicas para la productividad y comunicación, centrados en el ámbito laboral.
     3) Comunicar oralmente las ideas de manera efectiva, considerando el contexto y situación comunicativa.
+** robo [2021-04-05 Mon 18:37]
+   Funcionario de seguridad ejecuta robo millonario.
+
+   El hecho habría ocurrido después de que el equipo de seguridad de la empresa Brinks retirara 60 millones de pesos de una sucursal del Banco de Crédito e Inversiones.
+
+   Presuntamente, fue uno de los guardias que aprovechó un descuido para escapar con el monto durante la vuelta del camión blindado a su casa central.
+
+   El resto de los trabajadores llamaron a carabineros al percatarse del robo y se están haciendo las pericias correspondientes para dar con el paradero del sospechoso.
+
 * Links
 ** Lunes 1650
-  - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
+   - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
 * Contacto
   - Javiera Ibaceta Carreño
     - javiera.ibaceta@ufrontera.cl
@@ -24,9 +33,12 @@
   - Grupal online
 ** Teórico
 ** Práctico :workshop:
-*** TODO Portfolio
-    DEADLINE: <2021-04-04 Sun -7d>
-    - En .jpg
+*** DONE Portfolio
+    CLOSED: [2021-04-05 Mon 13:17] DEADLINE: <2021-04-04 Sun -7d>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-04-05 Mon 13:17]
+    :END:
+    - En .jpeg
     - Antes de la clase.
 * Local variables :noexport:
   # Local Variables:
