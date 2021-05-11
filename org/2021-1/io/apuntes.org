@@ -23,11 +23,11 @@
 
    Se le solicita a usted que elabore un informe que
 
-  1) Formule el problema de programación, y especifique la función objetivo y las restricciones para este problema, especificando claramente unidades de medida para cada variable, coeficientes tecnológicos y de la función objetivo, disponibilidad y FO (8 puntos)
-  2) Resuelva el problema utilizando el método simplex, para ello es necesario que itere usando Excel para tal propósito. (8 puntos)
-  3) Resuelva el problema utilizando solver xls (8 puntos)
-  4) Responda a las siguientes preguntas ¿Cuánto debe estar dispuesta a pagar la empresa Astaire por una hora adicional de maestranza ? ¿Ingreso marginal por cada hora subcontratada de acabado? ¿ingreso marginal por la adquisición adicional  de  cada tonelada de acero especial? (8 puntos) justifique y analice.
-  5) Adicionalmente realice un Análisis de Sensibilidad utilizando los informes que tiene Excel para tal propósito, explique cada una de las variables revisadas, su significado indicando sobre todo los márgenes de optimalidad y factibilidad para cada una de las variables
+   1) Formule el problema de programación, y especifique la función objetivo y las restricciones para este problema, especificando claramente unidades de medida para cada variable, coeficientes tecnológicos y de la función objetivo, disponibilidad y FO (8 puntos)
+   2) Resuelva el problema utilizando el método simplex, para ello es necesario que itere usando Excel para tal propósito. (8 puntos)
+   3) Resuelva el problema utilizando solver xls (8 puntos)
+   4) Responda a las siguientes preguntas ¿Cuánto debe estar dispuesta a pagar la empresa Astaire por una hora adicional de maestranza ? ¿Ingreso marginal por cada hora subcontratada de acabado? ¿ingreso marginal por la adquisición adicional  de  cada tonelada de acero especial? (8 puntos) justifique y analice.
+   5) Adicionalmente realice un Análisis de Sensibilidad utilizando los informes que tiene Excel para tal propósito, explique cada una de las variables revisadas, su significado indicando sobre todo los márgenes de optimalidad y factibilidad para cada una de las variables
 
 * Solver ejemplo :solver:example:excel:libreoffice:university:operationsResearch:
   - https://www.youtube.com/watch?v=PiBYFUOP-GI
@@ -88,6 +88,18 @@
 ** Clase 4 Método Gráfico
 ** Clase 5 Transporte y Transbordo
 ** Clase 6 Ejercicios Misceláneos de Sensibilidad
+* Ayudantías
+** [2021-04-30 Fri 14:30-15:30] Ayudantía IO
+   :PROPERTIES:
+   :ID:       85c7df83-20a9-46ec-8e3d-c29a234f7a1d
+   :END:
+   :CLOCKBOOK:
+   CLOCK: [2021-05-07 Fri 17:36]--[2021-05-08 Sat 09:20] => 15:44
+   :END:
+   - https://drive.google.com/drive/folders/1h5BjxBSkba9RrY9K-MpBQwaB4dqaRf1Z
+   - [[id:2152beef-422b-4eb3-bb09-e027921aa4e1][io.org]]
+   - Programación lineal entera: PLE
+
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"

@@ -19,6 +19,40 @@
 
    El resto de los trabajadores llamaron a carabineros al percatarse del robo y se están haciendo las pericias correspondientes para dar con el paradero del sospechoso.
 
+* Horario :lecture:
+** DONE Clase Electivo
+   CLOSED: [2021-05-07 Fri 11:25] SCHEDULED: <2021-04-26 Mon 16:50-19:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2021-05-07 Fri 11:25]
+   :END:
+** DONE Clase Electivo
+   CLOSED: [2021-05-07 Fri 13:24] SCHEDULED: <2021-05-03 Mon 16:50-19:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2021-05-07 Fri 13:24]
+   :END:
+   - No tuvimos pero hay tarea.
+** TODO Clase Electivo
+   SCHEDULED: <2021-05-10 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-05-17 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-05-31 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-06-07 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-06-14 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-06-21 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-06-28 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-07-05 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-07-12 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-07-19 Mon 16:50-19:00>
+** TODO Clase Electivo
+   SCHEDULED: <2021-07-26 Mon 16:50-19:00>
 * Links
 ** Lunes 1650
    - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
@@ -32,6 +66,8 @@
   - Todas las evaluaciones son asincrónicas.
   - Grupal online
 ** Teórico
+*** TODO Informe
+    DEADLINE: <2021-05-17 Mon 23:59>
 ** Práctico :workshop:
 *** DONE Portfolio
     CLOSED: [2021-04-05 Mon 13:17] DEADLINE: <2021-04-04 Sun -7d>

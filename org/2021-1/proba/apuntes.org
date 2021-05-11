@@ -35,482 +35,489 @@
 
 
   - Inicio de apuntes 2020-2
-* Requisitos
-  - Lógica
-  - Teoría de Conjuntos
-  - Leyes de De Morgan
-  - Cálculo
-* Unidad 1: Probabilidad
-** Objetivo
-   Introducir nociones básicas de probabilidad
-** Experimento
-   Ejecución de instrucciones de la cual se obtiene un resultado.
-** Experimento aleatorio
-   - Realización de alguna experiencia.
-   - Se conocen todos los posibles resultados.
-   - No se conoce el resultado antes de ejecutarlo.
-   - Idéntico resultado para idénticas condiciones de ejecución.
-*** Ejemplos
-    - Lanzar una moneda y observar el resultado.
-    - Lanzar \(n\) monedas al aire y observar el resultado de cada una (\(n\ ϵ\ ℕ \)).
-    - Lanzar un dado sobre una superficie y observar el número que aparece.
-    - Seleccionar aleatoriamente 3 fichas desde una tómbola que contiene fichas (\(n\ >\ 3\)).
-    - Registrar la cantidad de accidentes automovilísticos que ocurren diariamente en una ciudad.
-    - Seleccionar al azar un punto desde un círculo con centro en el origen y radio 1.
-** Espacio muestral: \Omega
+** Requisitos
+   - Lógica
+   - Teoría de Conjuntos
+   - Leyes de De Morgan
+   - Cálculo
+** Unidad 1: Probabilidad
+*** Objetivo
+    Introducir nociones básicas de probabilidad
+*** Experimento
+    Ejecución de instrucciones de la cual se obtiene un resultado.
+*** Experimento aleatorio
+    - Realización de alguna experiencia.
+    - Se conocen todos los posibles resultados.
+    - No se conoce el resultado antes de ejecutarlo.
+    - Idéntico resultado para idénticas condiciones de ejecución.
+**** Ejemplos
+     - Lanzar una moneda y observar el resultado.
+     - Lanzar \(n\) monedas al aire y observar el resultado de cada una (\(n\ ϵ\ ℕ \)).
+     - Lanzar un dado sobre una superficie y observar el número que aparece.
+     - Seleccionar aleatoriamente 3 fichas desde una tómbola que contiene fichas (\(n\ >\ 3\)).
+     - Registrar la cantidad de accidentes automovilísticos que ocurren diariamente en una ciudad.
+     - Seleccionar al azar un punto desde un círculo con centro en el origen y radio 1.
+*** Espacio muestral: \Omega
 
-   #+begin_center
-   Conjunto de resultados posibles al ejecutar un experimento.
+    #+begin_center
+    Conjunto de resultados posibles al ejecutar un experimento.
 
-   Un resultado especifico se puede denotar por \omega.
-   #+end_center
+    Un resultado especifico se puede denotar por \omega.
+    #+end_center
 
-*** Relación entre eventos
-**** Unión
-     Ocurre A o B.
-     \[
-     A \cup B
-     \]
-**** Intersección
-     Ocurre A y B.
-     \[
-     A \intersection B
-     \]
-**** Subconjunto
-     B contiene a A; A está contenido dentro de B, A es subconjunto de B.
-     \[
-     A \subset B
-     \]
-     Cabe decir que si ocurre A, entonces ocurre B, pero no viceversa.
-** Evento aleatorio
-   - Evento asociado a un experimento aleatorio.
-   - Leyes de De Morgan.
-   - Axiomática de álgebra.
-** Coeficiente binomial
-   # https://tex.stackexchange.com/questions/127707/displaying-the-binomial-coefficient-symbol-in-math-mode
-   \[
-   \binom{N}{n}
-   =
-   \left(
-   \frac
-   {N!}
-   {n! (N-n)!}
-   \right)
-   \]
-** Axiomas de probabilidad
-    
-   También conocidos como axiomas de \(\mbox{Kolmogorov}\).
-
-   1) Para todo suceso \(A\), \(0 \leq P(A) \leq 1\).
-   2) \(\PP (A)\geq 0 \)
-   3) \(\PP(\Omega)=1 \)
-   4) \(A_i \intersection A_j = \emptyset \) con \( i\neq j \) ; entonces
-   # https://tex.stackexchange.com/questions/205125/formatting-the-union-of-sets
-   # https://tex.stackexchange.com/questions/38868/big-parenthesis-in-an-equation
-   \[
-   \PP
-   \left(
-   \bigcup
-   \limits
-   _{i=1}
-   ^{\infty}
-   A_{i}
-   \right)
-   =
-   \sum
-   _{i=1}
-   ^\infty
-   \PP(A_i).
-   \]
-
-   que se lee así:
-   #+BEGIN_QUOTE
-   "Si los eventos A y B son disjuntos (la intersección es vacía), entonces la probabilidad de la unión de los eventos es igual a la suma de las probabilidades individuales de cada evento".
-   #+END_QUOTE
-
-** Propiedades de la función de probabilidad
-   Estas propiedades se demuestran usando los 3 axiomas de probabilidad.
-*** del vacío
-
-    "La probabilidad de un evento vacío es cero" … porque la probabilidad de que no ocurra _nada_ en un experimento es nula.
-       
+**** Relación entre eventos
+***** Unión
+      Ocurre A o B.
+      \[
+      A \cup B
+      \]
+***** Intersección
+      Ocurre A y B.
+      \[
+      A \intersection B
+      \]
+***** Subconjunto
+      B contiene a A; A está contenido dentro de B, A es subconjunto de B.
+      \[
+      A \subset B
+      \]
+      Cabe decir que si ocurre A, entonces ocurre B, pero no viceversa.
+*** Evento aleatorio
+    - Evento asociado a un experimento aleatorio.
+    - Leyes de De Morgan.
+    - Axiomática de álgebra.
+*** Coeficiente binomial
+    # https://tex.stackexchange.com/questions/127707/displaying-the-binomial-coefficient-symbol-in-math-mode
     \[
-    \PP(\emptyset)=0
+    \binom{N}{n}
+    =
+    \left(
+    \frac
+    {N!}
+    {n! (N-n)!}
+    \right)
     \]
-       
-*** de eventos disjuntos finitos
-    Básicamente lo mismo que el tercer axioma pero a diferencia que esta propiedad especifica un conjunto _finito_ de eventos, mientras que el axioma es para un conjunto _infinito_ de eventos.
+*** Axiomas de probabilidad
+    
+    También conocidos como axiomas de \(\mbox{Kolmogorov}\).
 
-
+    1) Para todo suceso \(A\), \(0 \leq P(A) \leq 1\).
+    2) \(\PP (A)\geq 0 \)
+    3) \(\PP(\Omega)=1 \)
+    4) \(A_i \intersection A_j = \emptyset \) con \( i\neq j \) ; entonces
+    # https://tex.stackexchange.com/questions/205125/formatting-the-union-of-sets
+    # https://tex.stackexchange.com/questions/38868/big-parenthesis-in-an-equation
     \[
     \PP
     \left(
     \bigcup
     \limits
     _{i=1}
-    ^{n}
+    ^{\infty}
     A_{i}
     \right)
     =
     \sum
     _{i=1}
-    ^n
+    ^\infty
     \PP(A_i).
     \]
 
-*** de la unión
+    que se lee así:
+    #+BEGIN_QUOTE
+    "Si los eventos A y B son disjuntos (la intersección es vacía), entonces la probabilidad de la unión de los eventos es igual a la suma de las probabilidades individuales de cada evento".
+    #+END_QUOTE
+
+*** Propiedades de la función de probabilidad
+    Estas propiedades se demuestran usando los 3 axiomas de probabilidad.
+**** del vacío
+
+     "La probabilidad de un evento vacío es cero" … porque la probabilidad de que no ocurra _nada_ en un experimento es nula.
+       
+     \[
+     \PP(\emptyset)=0
+     \]
+       
+**** de eventos disjuntos finitos
+     Básicamente lo mismo que el tercer axioma pero a diferencia que esta propiedad especifica un conjunto _finito_ de eventos, mientras que el axioma es para un conjunto _infinito_ de eventos.
+
+
+     \[
+     \PP
+     \left(
+     \bigcup
+     \limits
+     _{i=1}
+     ^{n}
+     A_{i}
+     \right)
+     =
+     \sum
+     _{i=1}
+     ^n
+     \PP(A_i).
+     \]
+
+**** de la unión
      
-    Aquí, en ningún momento se asume que los eventos son disjuntos. Diagramas de Venn y demostraciones con los axiomas hacen la demostración más evidente, pero aquí solo se presentará la propiedad sin demostración.
+     Aquí, en ningún momento se asume que los eventos son disjuntos. Diagramas de Venn y demostraciones con los axiomas hacen la demostración más evidente, pero aquí solo se presentará la propiedad sin demostración.
 
-    \[
-    \PP(A\union B)=\PP(A)+\PP(B)-\PP(A \intersection B).
-    \]
+     \[
+     \PP(A\union B)=\PP(A)+\PP(B)-\PP(A \intersection B).
+     \]
 
-    Además, durante la demostración de esta propiedad se desprenden otros ítems que pueden ser útiles:
+     Además, durante la demostración de esta propiedad se desprenden otros ítems que pueden ser útiles:
 
 
-    \[
-    \PP(A)=\PP(A \intersection B^c)+\PP(A \intersection B). \\
-    \PP(B)=\PP(A^c \intersection B)+\PP(A \intersection B).
-    \]
+     \[
+     \PP(A)=\PP(A \intersection B^c)+\PP(A \intersection B). \\
+     \PP(B)=\PP(A^c \intersection B)+\PP(A \intersection B).
+     \]
 
-*** del complemento
+**** del complemento
 
-    \[
-    \PP(A^c)=1 - \PP(A).
-    \]
+     \[
+     \PP(A^c)=1 - \PP(A).
+     \]
      
-*** del subconjunto
-    # https://tex.stackexchange.com/questions/47063/rightarrow-vs-implies-and-does-not-imply-symbol
+**** del subconjunto
+     # https://tex.stackexchange.com/questions/47063/rightarrow-vs-implies-and-does-not-imply-symbol
+     \[
+     A \subset B \implies \PP(A) \leq \PP(B).
+     \]
+
+     Si A es subconjunto de B, entonces la ocurrencia de A implica la ocurrencia de B, pero no viceversa.
+
+**** de la unión de varios
+     \[
+     \PP(A \union B \union C)=\PP(A) + \PP(B) + \PP(C) - \PP(A \intersection B) - \PP(A \intersection C) - \PP(B \intersection C) + \PP(A \intersection B \intersection C)
+     \]
+**** otros arreglos algebraicos
+     \begin{align*}
+     \PP(A^{c} \union B^{c})&=\PP[(A \intersection B)^{c}]=1-\PP(A \intersection B)\\
+     \PP(A \intersection B^{c})&=\PP(A) - \PP(A \intersection B)
+     \end{align*}
+*** Probabilidad Condicional
+    #    https://tex.stackexchange.com/questions/141570/sizing-for-given-that-symbol-vertical-bar
+    Sean A y B eventos tal que \( \PP (B) > 0 \). La probabilidad de que ocurra \(A\) dado que ocurrió \(B\) se expresa así:
+
     \[
-    A \subset B \implies \PP(A) \leq \PP(B).
+    \PP (A \given B)
+    =
+    \frac
+    {\PP (A \intersection B)}
+    {\PP (B)}
     \]
 
-    Si A es subconjunto de B, entonces la ocurrencia de A implica la ocurrencia de B, pero no viceversa.
 
-*** de la unión de varios
+    A partir de aquí se puede obtener también que:
+
     \[
-    \PP(A \union B \union C)=\PP(A) + \PP(B) + \PP(C) - \PP(A \intersection B) - \PP(A \intersection C) - \PP(B \intersection C) + \PP(A \intersection B \intersection C)
+    \PP (A \intersection B)
+    =
+    \PP(B) \cdot \PP(A \given B)
     \]
-*** otros arreglos algebraicos
-    \begin{align*}
-    \PP(A^{c} \union B^{c})&=\PP[(A \intersection B)^{c}]=1-\PP(A \intersection B)\\
-    \PP(A \intersection B^{c})&=\PP(A) - \PP(A \intersection B)
-    \end{align*}
-** Probabilidad Condicional
-   # https://tex.stackexchange.com/questions/141570/sizing-for-given-that-symbol-vertical-bar
-   Sean A y B eventos tal que \( \PP (B) > 0 \). La probabilidad de que ocurra \(A\) dado que ocurrió \(B\) se expresa así:
-
-   \[
-   \PP (A \given B)
-   =
-   \frac
-   {\PP (A \intersection B)}
-   {\PP (B)}
-   \]
-
-
-   A partir de aquí se puede obtener también que:
-
-   \[
-   \PP (A \intersection B)
-   =
-   \PP(B) \cdot \PP(A \given B)
-   \]
     
-** Independencia de eventos
-   Si los eventos A y B son independientes, significa que la ocurrencia de uno no afecta las probabilidades de ocurrencia del otro.
+*** Independencia de eventos
+    Si los eventos A y B son independientes, significa que la ocurrencia de uno no afecta las probabilidades de ocurrencia del otro.
 
-   \[
-   \PP(A \given B) = P(A)
-   \]
+    \[
+    \PP(A \given B) = P(A)
+    \]
 
-   Luego, mezclándolo con la probabilidad condicional obtenemos la siguiente propiedad de eventos independientes.
+    Luego, mezclándolo con la probabilidad condicional obtenemos la siguiente propiedad de eventos independientes.
 
-   \[
-   \PP (A \intersection B)
-   =
-   \PP (A)
-   \cdot
-   \PP (B)
-   \]
+    \[
+    \PP (A \intersection B)
+    =
+    \PP (A)
+    \cdot
+    \PP (B)
+    \]
 
-   Si la ecuación presentada es verdadera, entonces se dice que los eventos A y B son independientes uno del otro; el hecho que ocurra uno no afecta en lo absoluto la probabilidad de ocurrencia del otro.
+    Si la ecuación presentada es verdadera, entonces se dice que los eventos A y B son independientes uno del otro; el hecho que ocurra uno no afecta en lo absoluto la probabilidad de ocurrencia del otro.
 
-   O dicho de otra manera; si los eventos A y B son independientes, entonces la ecuación presentada es verdadera.
+    O dicho de otra manera; si los eventos A y B son independientes, entonces la ecuación presentada es verdadera.
 
-   Lo mismo se desprende para los complementos:
+    Lo mismo se desprende para los complementos:
 
-   \[
-   \PP (A \intersection B^c)
-   =
-   \PP (A)
-   \cdot
-   \PP (B^c)
-   \]
+    \[
+    \PP (A \intersection B^c)
+    =
+    \PP (A)
+    \cdot
+    \PP (B^c)
+    \]
 
-*** Propiedades
-    1) \(\PP(B)>0 \implies \text{A y B independientes} \iff \PP(A \given B) = \PP(A) \cdot \PP(B)\)
-** Probabilidad Total
-   https://www.youtube.com/watch?v=F3y8qupFfUs
-** Teorema de Bayes
-   - Bayes vs Laplace?
-     + Laplace es teoría frecuentista vs Bayes que es ...?
-
-
-
-   - presentación
-   https://www.youtube.com/watch?v=XQoLVl31ZfQ
-   - caso un poco mas complicado
-   https://www.youtube.com/watch?v=k6Dw0on6NtM
-   - caso real
-   https://www.youtube.com/watch?v=R13BD8qKeTg
-   - por ver
-   https://www.youtube.com/watch?v=OByl4RJxnKA
-
-* Unidad 2: Variables Aleatorias Unidimensionales
-** Función Generadora de Momentos
-
-   La que te sirve para calcular la Esperanza, Varianza y Desviación Estándar de cualquier función de probabilidad.
-
-** Esperanza
-
-   #+BEGIN_QUOTE
-   La esperanza matemática de una variable aleatoria es una generalización del concepto de media aritmética.
-   #+END_QUOTE
+**** Propiedades
+     1) \(\PP(B)>0 \implies \text{A y B independientes} \iff \PP(A \given B)
+        = \PP(A) \cdot \PP(B)\)
+*** Probabilidad Total
+    - https://www.youtube.com/watch?v=F3y8qupFfUs
+*** Teorema de Bayes
+    - Bayes vs Laplace?
+      + Laplace es teoría frecuentista vs Bayes que es ...?
 
 
-   Para una distribución discreta se toma la sumatoria:
-   #+BEGIN_CENTER
-   \[
-   \mu_x=E[X]=\sum x \cdot p(x)
-   \]
-   #+END_CENTER
 
-   Para una distribución continua se toma la integral:
-   #+BEGIN_CENTER
-   \[
-   \mu_x=E[X]=\int x \cdot f(x) \, dx
-   \]
-   #+END_CENTER
+    - presentación
+    https://www.youtube.com/watch?v=XQoLVl31ZfQ
+    - caso un poco mas complicado
+    https://www.youtube.com/watch?v=k6Dw0on6NtM
+    - caso real
+    https://www.youtube.com/watch?v=R13BD8qKeTg
+    - por ver
+    https://www.youtube.com/watch?v=OByl4RJxnKA
 
-   \(p(x)\) para una distribución discreta y \(f(x)\) para una distribución continua.
+*** jbstatistics: Basics of Probability :basics:
+    - https://www.youtube.com/playlist?list=PLvxOuBpazmsOGOursPoofaHyz_1NpxbhA
+** Unidad 2: Variables Aleatorias Unidimensionales
+*** Función Generadora de Momentos
 
-*** Propiedad
-    Sea \(g(X)=c_1 + c_2X\) con \(c_1\) y \(c_2\) constantes reales y \(X\) variable aleatoria.
-    La esperanza de \(g(X)\) se define como:
+    La que te sirve para calcular la Esperanza, Varianza y Desviación Estándar de cualquier función de probabilidad.
+
+*** Esperanza
+
+    #+BEGIN_QUOTE
+    La esperanza matemática de una variable aleatoria es una generalización del concepto de media aritmética.
+    #+END_QUOTE
+
+
+    Para una distribución discreta se toma la sumatoria:
     #+BEGIN_CENTER
     \[
-    E[g(X)] = E[c_1 + c_2X] = E[c_1] + E[c_2X] = c_1 + c_2 E[X]
+    \mu_x=E[X]=\sum x \cdot p(x)
     \]
     #+END_CENTER
 
-** Varianza
+    Para una distribución continua se toma la integral:
+    #+BEGIN_CENTER
+    \[
+    \mu_x=E[X]=\int x \cdot f(x) \, dx
+    \]
+    #+END_CENTER
+
+    \(p(x)\) para una distribución discreta y \(f(x)\) para una distribución continua.
+
+**** Propiedad
+     Sea \(g(X)=c_1 + c_2X\) con \(c_1\) y \(c_2\) constantes reales y \(X\) variable aleatoria.
+     La esperanza de \(g(X)\) se define como:
+     #+BEGIN_CENTER
+     \[
+     E[g(X)] = E[c_1 + c_2X] = E[c_1] + E[c_2X] = c_1 + c_2 E[X]
+     \]
+     #+END_CENTER
+
+*** Varianza
     
-   #+BEGIN_QUOTE
-   La varianza indica la dispersión de la distribución de la variable aleatoria, lo que permite contar con una medida de cuán homogénea (menor dispersión) o heterogénea (mayor dispersión) es la variable.
-   #+END_QUOTE
-
-   Se define la varianza de una variable aleatoria:
-
-   #+BEGIN_CENTER
-   \[
-   Var[X]=E[(X-E[X])^2]
-   \]
-   #+END_CENTER
-
-   Y si hacemos el desarrollo algebraico, podemos llegar a una notación más conveniente:
-
-   #+BEGIN_CENTER
-   \[
-   Var[X]=E[X^2] - (E[X])^2
-   \]
-   #+END_CENTER
-
-   por lo que para el análisis usual en un curso de Probabilidad y Estadística para Ingeniería Civil, es conveniente tener a mano los términos \(E[X]\) y \(E[X^2]\) para el cálculo de diferentes parámetros.
-
-*** Propiedad
-    Sea \(k\) una constante real y \(X\) una variable aleatoria:
-    \begin{align*}
-        Var[k] &= 0 \\
-        Var[kX] &= k^2 Var[X]
-    \end{align*}
-
-* Unidad 3: Distribuciones
-** Discretas
-*** Bernoulli
     #+BEGIN_QUOTE
-    Un experimento se dice que es de tipo Bernoulli (o ensayo de Bernoulli) si solo consta de dos resultados posibles mutuamente excluyentes, éxito y fracaso, con una cierta probabilidad en la población de estudio. Por tratarse de eventos complementarios, éxito y fracaso, la suma de las probabilidades asociadas a cada uno de estos eventos debe ser 1.
+    La varianza indica la dispersión de la distribución de la variable aleatoria, lo que permite contar con una medida de cuán homogénea (menor dispersión) o heterogénea (mayor dispersión) es la variable.
     #+END_QUOTE
 
+    Se define la varianza de una variable aleatoria:
+
     #+BEGIN_CENTER
-    \begin{align*}
-    p(x) =
-    \begin{cases}
-      p, &\quad\text{si}\; \text{x}=1,\;\text{éxito}\\
-      1-p, &\quad\text{si}\; \text{x}=0,\;\text{fracaso}\\
-    \end{cases}
-    \end{align*}
+    \[
+    Var[X]=E[(X-E[X])^2]
+    \]
     #+END_CENTER
 
-    Luego, la función de distribución para el ensayo de Bernoulli se denota de la siguiente forma:
+    Y si hacemos el desarrollo algebraico, podemos llegar a una notación más conveniente:
+
     #+BEGIN_CENTER
-    \begin{align*}
-    X \sim \text{Bernoulli}(p)&=p(x)\; 0 < p < 1\\
-\iff p(x)&=p^x(1-p)^{1-x},\; x=0,1
-    \end{align*}
-    ; para una proporción de éxito \(p\).
+    \[
+    Var[X]=E[X^2] - (E[X])^2
+    \]
     #+END_CENTER
 
-**** Propiedades
-     A partir de la función se puede obtener la función generadora de momentos, y a partir de ella la esperanza y varianza.
+    por lo que para el análisis usual en un curso de Probabilidad y Estadística para Ingeniería Civil, es conveniente tener a mano los términos \(E[X]\) y \(E[X^2]\) para el cálculo de diferentes parámetros.
 
-     #+BEGIN_CENTER
+**** Propiedad
+     Sea \(k\) una constante real y \(X\) una variable aleatoria:
      \begin{align*}
-           E[X]&=p \\
-           E[X^2]&=p \\
-           Var[X]&=p \cdot q
-           \end{align*}
-     ; donde \(1-p=q\)
-     #+END_CENTER
-
-*** Binomial
-    #+BEGIN_QUOTE
-    La distribución binomial consiste en la repetición de n ensayos de Bernoulli, es decir, cada una de las n repeticiones del experimento tiene dos resultados posibles, mutuamente excluyentes, éxito y fracaso. Además, las repeticiones son independientes entre sı́ y tienen una probabilidad de éxito, p, constante de ensayo en ensayo.
-    #+END_QUOTE
-
-    #+BEGIN_CENTER
-    \begin{align*}
-    X &\sim \text{Binomial}(n,p),\quad n > 0,\; 0 < p < 1 \\
-    \iff p(x) &= \binom{n}{x}p^x(1-p)^{n-x},\; x = 0,1,2, \cdots , n.
-    \end{align*}
-
-    , para \(n\) ensayos y una proporción de éxito \(p\).
-    #+END_CENTER
-
-**** Propiedades
-
-     #+BEGIN_CENTER
-     \begin{align*}
-           E[X]&=np \\
-           E[X^2]&=n(n-1)p^2 + np \\
-           Var[X]&=n \cdot p \cdot q
+         Var[k] &= 0 \\
+         Var[kX] &= k^2 Var[X]
      \end{align*}
-     ; donde \(1-p=q\)
-     #+END_CENTER
 
-*** Geométrica
-    #+BEGIN_QUOTE
-    Sea el experimento de determinar la cantidad de ensayos tipo Bernoulli necesarios para obtener un éxito, bajo las condiciones de independencia entre los eventos y de probabilidad de éxito constante de ensayo en ensayo. La variable aleatoria que mide este tipo de experimentos se dice que sigue una distribución geométrica.
-    #+END_QUOTE
-
-    #+BEGIN_CENTER
-    \begin{align*}
-    X \sim \text{Geométrica}(p)=\,&p(x)\\
-    \iff &p(x) = (1-p)^{x-1} \cdot p,\quad x=1,2,\cdots
-    \end{align*}
-    #+END_CENTER
-
-**** Propiedades
+** Unidad 3: Distribuciones
+*** Discretas
+**** Bernoulli
+     #+BEGIN_QUOTE
+     Un experimento se dice que es de tipo Bernoulli (o ensayo de Bernoulli) si solo consta de dos resultados posibles mutuamente excluyentes, éxito y fracaso, con una cierta probabilidad en la población de estudio. Por tratarse de eventos complementarios, éxito y fracaso, la suma de las probabilidades asociadas a cada uno de estos eventos debe ser 1.
+     #+END_QUOTE
 
      #+BEGIN_CENTER
      \begin{align*}
-           E[X]&=p^{-1} \\
-           Var[X]&=(1-p)p^{-2}
+     p(x) =
+     \begin{cases}
+       p, &\quad\text{si}\; \text{x}=1,\;\text{éxito}\\
+       1-p, &\quad\text{si}\; \text{x}=0,\;\text{fracaso}\\
+     \end{cases}
      \end{align*}
      #+END_CENTER
 
-*** Binomial Negativa
-    #+BEGIN_QUOTE
-    En experimentos donde es de interés determinar la cantidad de ensayos (independientes) necesarios para observar el k-ésimo éxito, se dice que los valores observados tienen o siguen una distribución de probabilidad binomial negativa.
-    #+END_QUOTE
-
-    #+BEGIN_CENTER
-    \begin{align*}
-    X \sim \text{BNeg}(k,p)=\,&p(x)\\
-    \iff &p(x) = \binom{x-1}{k-1}p^k q^{x-k},\quad x=k, k+1, \cdots ,\quad k=1,2, \cdots .
-    \end{align*}
-    al \(k\)-ésimo éxito, con probabilidad de éxito \(p\).
-    #+END_CENTER
-
-**** Propiedades
+     Luego, la función de distribución para el ensayo de Bernoulli se denota de la siguiente forma:
      #+BEGIN_CENTER
      \begin{align*}
-           E[X]&=\frac{k}{p}\\
-           Var[X]&=k \cdot q \cdot p^{-2}
+     X \sim \text{Bernoulli}(p)&=p(x)\; 0 < p < 1\\
+ \iff p(x)&=p^x(1-p)^{1-x},\; x=0,1
      \end{align*}
-     para \(k = 2,3, \cdots\).
+     ; para una proporción de éxito \(p\).
      #+END_CENTER
+
+***** Propiedades
+      A partir de la función se puede obtener la función generadora de momentos, y a partir de ella la esperanza y varianza.
+
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=p \\
+            E[X^2]&=p \\
+            Var[X]&=p \cdot q
+            \end{align*}
+      ; donde \(1-p=q\)
+      #+END_CENTER
+
+**** Binomial
+     #+BEGIN_QUOTE
+     La distribución binomial consiste en la repetición de n ensayos de Bernoulli, es decir, cada una de las n repeticiones del experimento tiene dos resultados posibles, mutuamente excluyentes, éxito y fracaso. Además, las repeticiones son independientes entre sı́ y tienen una probabilidad de éxito, p, constante de ensayo en ensayo.
+     #+END_QUOTE
+
+     #+BEGIN_CENTER
+     \begin{align*}
+     X &\sim \text{Binomial}(n,p),\quad n > 0,\; 0 < p < 1 \\
+     \iff p(x) &= \binom{n}{x}p^x(1-p)^{n-x},\; x = 0,1,2, \cdots , n.
+     \end{align*}
+
+     , para \(n\) ensayos y una proporción de éxito \(p\).
+     #+END_CENTER
+
+***** Propiedades
+
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=np \\
+            E[X^2]&=n(n-1)p^2 + np \\
+            Var[X]&=n \cdot p \cdot q
+      \end{align*}
+      ; donde \(1-p=q\)
+      #+END_CENTER
+
+**** Geométrica
+     #+BEGIN_QUOTE
+     Sea el experimento de determinar la cantidad de ensayos tipo Bernoulli necesarios para obtener un éxito, bajo las condiciones de independencia entre los eventos y de probabilidad de éxito constante de ensayo en ensayo. La variable aleatoria que mide este tipo de experimentos se dice que sigue una distribución geométrica.
+     #+END_QUOTE
+
+     #+BEGIN_CENTER
+     \begin{align*}
+     X \sim \text{Geométrica}(p)=\,&p(x)\\
+     \iff &p(x) = (1-p)^{x-1} \cdot p,\quad x=1,2,\cdots
+     \end{align*}
+     #+END_CENTER
+
+***** Propiedades
+
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=p^{-1} \\
+            Var[X]&=(1-p)p^{-2}
+      \end{align*}
+      #+END_CENTER
+
+**** Binomial Negativa
+     #+BEGIN_QUOTE
+     En experimentos donde es de interés determinar la cantidad de ensayos (independientes) necesarios para observar el k-ésimo éxito, se dice que los valores observados tienen o siguen una distribución de probabilidad binomial negativa.
+     #+END_QUOTE
+
+     #+BEGIN_CENTER
+     \begin{align*}
+     X \sim \text{BNeg}(k,p)=\,&p(x)\\
+     \iff &p(x) = \binom{x-1}{k-1}p^k q^{x-k},\quad x=k, k+1, \cdots ,\quad k=1,2, \cdots .
+     \end{align*}
+     al \(k\)-ésimo éxito, con probabilidad de éxito \(p\).
+     #+END_CENTER
+
+***** Propiedades
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=\frac{k}{p}\\
+            Var[X]&=k \cdot q \cdot p^{-2}
+      \end{align*}
+      para \(k = 2,3, \cdots\).
+      #+END_CENTER
    
-*** Hiper Geométrica
-    #+BEGIN_QUOTE
-    Supóngase que para cierta caracterı́stica se puede dividir al total de la población de estudio, N , en dos grupos. El grupo I tiene \(m\) elementos y, por su parte, el grupo II tiene los restantes \(N-m\) elementos. El experimento consiste en extraer \(n\) elementos de la población (uno a uno y sin reemplazo) y enseguida contar la cantidad de éxitos encontrados (si un elemento pertenece al grupo I se considera un éxito; por tanto, si es del grupo II se considera un fracaso).
-    #+END_QUOTE
+**** Hiper Geométrica
+     #+BEGIN_QUOTE
+     Supóngase que para cierta caracterı́stica se puede dividir al total de la población de estudio, N , en dos grupos. El grupo I tiene \(m\) elementos y, por su parte, el grupo II tiene los restantes \(N-m\) elementos. El experimento consiste en extraer \(n\) elementos de la población (uno a uno y sin reemplazo) y enseguida contar la cantidad de éxitos encontrados (si un elemento pertenece al grupo I se considera un éxito; por tanto, si es del grupo II se considera un fracaso).
+     #+END_QUOTE
 
-    #+BEGIN_CENTER
-    \begin{align*}
-    X \sim \text{Hiperg}(N,m,n)=\,&p(x)\\
-    \iff &p(x) = \frac
-    {
-    \binom{m}{x}
-    \binom{N-m}{n-x}
-    }
-    { \binom{N}{n} }
-    , \quad x=0,\cdots,\text{mín}(m,n).
-    \end{align*}
-    #+END_CENTER
-
-**** Propiedades
      #+BEGIN_CENTER
      \begin{align*}
-           E[X]&=n \cdot p,\qquad \text{donde } p=\frac{m}{N}\\
-           Var[X]&=n \cdot p \cdot q \cdot \frac{N-m}{N-1}
+     X \sim \text{Hiperg}(N,m,n)=\,&p(x)\\
+     \iff &p(x) = \frac
+     {
+     \binom{m}{x}
+     \binom{N-m}{n-x}
+     }
+     { \binom{N}{n} }
+     , \quad x=0,\cdots,\text{mín}(m,n).
      \end{align*}
-     donde \( p=\frac{m}{N} \) y \( q=1-p \)
      #+END_CENTER
 
-*** Poisson
-    #+BEGIN_QUOTE
-    Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́culas emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
+***** Propiedades
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=n \cdot p,\qquad \text{donde } p=\frac{m}{N}\\
+            Var[X]&=n \cdot p \cdot q \cdot \frac{N-m}{N-1}
+      \end{align*}
+      donde \( p=\frac{m}{N} \) y \( q=1-p \)
+      #+END_CENTER
 
-    Aquellos experimentos que cumplen las condiciones anteriores se ajustan a un proceso de Poisson, que se denota con \(X \sim \text{Poisson}(\lambda)\).
-    #+END_QUOTE
+**** Poisson
+     #+BEGIN_QUOTE
+     Existen experimentos en los que interesa determinar con qué probabilidad ocurren eventos como el número de averı́as de una cierta máquina en una jornada de trabajo, el número de partı́culas emitidas por un átomo radiactivo en \(t\) segundos, el número de errores tipográficos en una revista, el número de llamadas que ingresan a una central telefónica en un periodo de tiempo determinado, etc. Es decir, en este tipo de experimentos interesa asignarle una probabilidad de ocurrencia a un evento en un periodo de tiempo fijo o en una región determinada.
 
-    #+BEGIN_CENTER
-    \begin{align*}
-    X \sim \text{Poisson}=\,&p(x)\\
-    \iff &p(x) = \frac
-    {
-e ^{-\lambda}
-\lambda^x
-    }
-    { x ! }
-    , \quad x=0,1,2,\cdots
-    \end{align*}
-    #+END_CENTER
+     Aquellos experimentos que cumplen las condiciones anteriores se ajustan a un proceso de Poisson, que se denota con \(X \sim \text{Poisson}(\lambda)\).
+     #+END_QUOTE
 
-**** Propiedades
      #+BEGIN_CENTER
      \begin{align*}
-           E[X]&=\lambda \\
-           Var[X]&=\lambda
+     X \sim \text{Poisson}=\,&p(x)\\
+     \iff &p(x) = \frac
+     {
+ e ^{-\lambda}
+ \lambda^x
+     }
+     { x ! }
+     , \quad x=0,1,2,\cdots
      \end{align*}
      #+END_CENTER
-**** Aproximación a Binomial por Poisson
-*** Comparación de distribuciones discretas
-** Continuas
-*** Normal
-*** Normal Estándar
-*** Uniforme
-*** Gamma
-*** Beta
-*** Otras continuas
-    En el texto de referencia, solo se presentan pero no se hacen las demostraciones correspondientes.
-**** Weibull
-**** Log-normal
-* Unidad 4:
-* Unidad 5:
-* Unidad 6:
+
+***** Propiedades
+      #+BEGIN_CENTER
+      \begin{align*}
+            E[X]&=\lambda \\
+            Var[X]&=\lambda
+      \end{align*}
+      #+END_CENTER
+***** Aproximación a Binomial por Poisson
+**** Comparación de distribuciones discretas
+     - https://www.youtube.com/watch?v=UrOXRvG9oYE&list=PLvxOuBpazmsNIHP5cz37oOPZx0JKyNszN&index=13
+
+*** Continuas
+**** Normal
+**** Normal Estándar
+**** Uniforme
+**** Gamma
+**** Beta
+**** Otras continuas
+     En el texto de referencia, solo se presentan pero no se hacen las demostraciones correspondientes.
+***** Weibull
+***** Log-normal
+** Unidad 4:
+** Unidad 5:
+** Unidad 6:
+* Stats youtube channel.
+  - https://www.youtube.com/channel/UCiHi6xXLzi9FMr9B0zgoHqA
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"

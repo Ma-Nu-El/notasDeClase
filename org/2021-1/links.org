@@ -1,3 +1,6 @@
+#+TITLE: Links
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:2021s1:links:
 * Links :links:
 ** Drive: shared with me
    - https://drive.google.com/drive/shared-with-me
