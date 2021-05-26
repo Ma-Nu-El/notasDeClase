@@ -10,7 +10,9 @@ Este semestre la nota mínima para irse a examen es 3.0.
 ** Electivo
 ** IO
 ** Resistencia
+|   |   |
+#+TBLFM: $=vmean(@<..@>>)
 * Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

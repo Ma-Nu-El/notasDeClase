@@ -1,0 +1,132 @@
+#+TITLE: Apuntes
+#+EXCLUDE_TAGS: noexport
+#+FILETAGS: :university:electivo:2021s1:
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,11pt,twoside,twocolumn]
+
+* TOC :TOC_2:noexport:
+- [[#evaluación-1][Evaluación 1]]
+  - [[#instrucciones-generales][Instrucciones generales]]
+  - [[#situación-hipotética-motivadora][Situación hipotética motivadora]]
+  - [[#guía-de-trabajo-evaluación-unidad-1-redacción-de-un-informe-de-proyecto][Guía de trabajo evaluación unidad 1: redacción de un informe de proyecto]]
+
+* Evaluación 1
+  :PROPERTIES:
+  :ID:       d1e861d0-9664-4ecb-bd09-7ba412a22441
+  :END:
+  :CLOCKBOOK:
+  CLOCK: [2021-05-22 Sat 14:12]--[2021-05-22 Sat 14:23] =>  0:11
+  :END:
+  - [[id:9447acff-a2e9-4249-945f-714dad500206][log]]
+  - Actividad sumativa práctica 1: comunica tus ideas a través de un informe
+    de proyecto.
+** Instrucciones generales
+   - https://campusvirtual.ufro.cl/course/view.php?id=7891&section=14
+
+   Objetivo:
+   #+begin_quote
+   Redactar textos de forma clara y coherente desarrollando las ideas de manera
+   precisa y organizada, respetando las reglas ortográficas y de puntuación.
+   #+end_quote
+
+
+   1) Individual o dupla: leer [[id:83769441-727f-43c5-b553-990e45da05db][situación hipotética motivadora]].
+   2) A partir de esta, formula un proyecto asociado a tu disciplina, que esté
+      orientado a responder a alguna problemática observada en la comunidad y
+      comunícalo a través de la redacción de un informe.
+   3) Revisa la "[[id:3cb0dddf-4c65-4109-8dde-0a9792aa2667][Guía de trabajo evaluación unidad 1: redacción de un informe
+      de proyecto]]" para orientarte en cuanto al formato y estructura con el
+      que debes presentar tu informe.
+   4) Entregar .pdf.
+      - nombre_apellido.pdf
+   5) Verificar entrega.
+
+** Situación hipotética motivadora
+   :PROPERTIES:
+   :ID:       83769441-727f-43c5-b553-990e45da05db
+   :END:
+   - https://campusvirtual.ufro.cl/mod/page/view.php?id=1167724
+
+
+   #+begin_quote
+   En su actual trabajo, se ha realizado una reunión para informar al equipo
+   sobre la existencia de unos fondos de libre disposición ($1.000.000), los que
+   deben que ser utilizados antes de que finalice el año.
+
+   Ya que en este lugar se promueve la vinculación con el medio, se ha decidido
+   abrir una convocatoria de proyectos, donde cada profesional según su área
+   disciplinar, presentará una iniciativa orientada a resolver una necesidad o
+   situación problemática de la comunidad.
+
+   Las propuestas serán recepcionadas y evaluadas por una comisión
+   interdisciplinaria, cuyos miembros seleccionarán solo una, la que será
+   financiada totalmente con los fondos antes mencionados.
+
+   Como usted se encuentra muy interesada/o en participar y ya comunicó su
+   intención de postular vía correo electrónico a la instancia correspondiente,
+   se le ha solicitado que remita a la comisión un informe de proyecto en el que
+   comunique claramente las informaciones relevantes de su iniciativa.
+   #+end_quote
+
+** Guía de trabajo evaluación unidad 1: redacción de un informe de proyecto
+   :PROPERTIES:
+   :ID:       3cb0dddf-4c65-4109-8dde-0a9792aa2667
+   :END:
+   - https://campusvirtual.ufro.cl/mod/page/view.php?id=1167725
+
+*** Formato básico de MS Word
+
+    Tamaño carta; márgenes normales; fuente Calibri 12 (para el cuerpo del
+    trabajo), 14 en negrita para los títulos (aplicar estilo Título 1), 12 en
+    negrita y cursiva para los subtítulos (aplicar estilo Título 2);
+    interlineado 1,5; alineación justificada; espaciado posterior 8 entre
+    párrafos; encabezado con el nombre de la asignatura (alineado a la
+    izquierda) y pie de página con el número de página (alineado al centro).
+
+    Estructura básica:
+
+    1) Portada: Incluirá el título del proyecto (denominación del proyecto)
+       además de los datos de identificación del estudiante (nombre y carrera),
+       además del logo de la universidad alineado al centro, en espacio
+       superior de la hoja.
+
+    2) Tabla de contenidos automática.
+
+    3) Resumen ejecutivo: para contextualizar a los lectores del informe,
+       presentará de forma breve el nombre del proyecto, de qué se trata,
+       cuál es su propósito, dónde se llevará a cabo, quiénes serán los
+       destinatarios y quienes llevarán a cabo el proyecto (mínimo 1/2 plana,
+       máximo 1 plana).
+
+    4) Descripción del proyecto: se explica más profundamente qué es lo que se
+       quiere hacer, complementándolo con la definición del problema (la
+       situación que se desea cambiar) - mínimo y máximo 1 plana.
+
+    5) Fundamentación o justificación: explica las razones que justifican la
+       realización del proyecto. Es necesario explicar la importancia y la
+       urgencia del problema a solucionar, además de justificar que el proyecto
+       elaborado es la solución más adecuada para resolver el problema. Aquí es
+       necesario incorporar fuentes que argumentan esa necesidad (mínimo una
+       plana completa, máximo 2 planas).
+
+    6) Objetivos: 1 general y al menos 2 específicos. Inician con un verbo y
+       responden mínimamente a qué y cómo.
+
+    7) Destinatarios y localización: se lleva desarrolla el perfil de los
+       destinatarios del proyecto y el lugar dónde se realizará. (máximo 1
+       plana).
+
+    8) Actividades a realizar: describe las etapas que contempla la ejecución
+       del proyecto y su planificación en un cronograma. Las actividades se
+       realizan para lograr los objetivos propuestos.
+
+
+
+    No olvides que este tipo de textos requieren de una redacción profesional,
+    caracterizada por la adecuación, la coherencia, cohesión y el cumplimiento
+    de las normas ortográficas.
+
+* Local variables :noexport:
+  # Local Variables:
+  # ispell-local-dictionary: "espanol"
+  # End:

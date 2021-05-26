@@ -513,7 +513,13 @@
      En el texto de referencia, solo se presentan pero no se hacen las demostraciones correspondientes.
 ***** Weibull
 ***** Log-normal
-** Unidad 4:
+** Unidad 4: Vectores aleatorios
+   - Lo mismo que antes pero ahora en mas dimensiones.
+*** Función de densidad marginal
+*** Función de densidad condicional
+*** Esperanza y Varianza
+    - En multivariable la varianza es en realidad /covarianza/.
+*** Coeficiente de relación
 ** Unidad 5:
 ** Unidad 6:
 * Stats youtube channel.

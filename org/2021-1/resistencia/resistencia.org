@@ -38,8 +38,18 @@
        - una semana antes de la prueba 2.
          - pal 9 de junio.
        - la idea es 4 talleres en semestre. Se elimina el mas malo.
-**** TODO Clase 10 resistencia
-     SCHEDULED: <2021-05-18 Tue 08:30-10:40>
+**** DONE Clase 10 resistencia
+     CLOSED: [2021-05-18 Tue 10:03] SCHEDULED: <2021-05-18 Tue 08:30-10:40>
+     :PROPERTIES:
+     :ID:       0881f1cb-9fe5-47da-8450-bfadaabe4cba
+     :END:
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2021-05-18 Tue 10:03]
+     :END:
+     :CLOCKBOOK:
+     CLOCK: [2021-05-18 Tue 08:41]--[2021-05-18 Tue 10:03] =>  1:22
+     :END:
+     - [[id:b21e2950-d068-476a-942f-b50e3d9461dd][apuntes.org]]
 **** TODO Clase 11 resistencia
      SCHEDULED: <2021-06-01 Tue 08:30-10:40>
 **** TODO Clase 12 resistencia
@@ -89,8 +99,21 @@
 
 **** TODO Clase resistencia
      SCHEDULED: <2021-05-13 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-05-20 Thu 16:50-19:00>
+**** DONE Clase resistencia
+     CLOSED: [2021-05-20 Thu 18:34] SCHEDULED: <2021-05-20 Thu 16:50-19:00>
+     :PROPERTIES:
+     :ID:       415fd1bf-6408-44fc-a7fe-4f2af2cbeac7
+     :END:
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2021-05-20 Thu 18:34]
+     :END:
+     :CLOCKBOOK:
+     CLOCK: [2021-05-20 Thu 17:03]--[2021-05-20 Thu 18:05] =>  1:02
+     :END:
+     - [[id:78b49086-ffc6-4b60-994b-01bf79ea4ff6][apuntes.org]]
+     - Hoy el profe dijo que subió las notas de la primera prueba.
+       + No estaban buenas, pero esa es la tendencia en la prueba 1 de cualquier
+         forma y llama a no desanimarse.
 **** TODO Clase resistencia
      SCHEDULED: <2021-06-03 Thu 16:50-19:00>
 **** TODO Clase resistencia
@@ -109,20 +132,6 @@
      SCHEDULED: <2021-07-22 Thu 16:50-19:00>
 **** TODO Clase resistencia
      SCHEDULED: <2021-07-29 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-08-05 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-08-12 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-08-19 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-08-26 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-09-02 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-09-09 Thu 16:50-19:00>
-**** TODO Clase resistencia
-     SCHEDULED: <2021-09-16 Thu 16:50-19:00>
 ** Ayudantía
    - Cada 2 semanas empezando el 16 de abril.
    - Ayudantia 4 se corre una semana por receso.
@@ -134,8 +143,18 @@
 *** TODO Ayudantía 2 resistancia
     SCHEDULED: <2021-04-30 Fri 19:10-20:10>
     - Esta tengo que ver
-*** TODO Ayudantía 3 resistancia
-    SCHEDULED: <2021-05-14 Fri 19:10-20:10>
+*** DONE Ayudantía 3 resistancia
+    CLOSED: [2021-05-15 Sat 11:00] SCHEDULED: <2021-05-14 Fri 19:10-20:10>
+    :PROPERTIES:
+    :ID:       b6a61478-c279-4af2-8365-a934b5781448
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-05-15 Sat 11:00]
+    :END:
+    :CLOCKBOOK:
+    CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
+    :END:
+    - [[id:245afd7e-df50-4e2c-aa91-be01fe9ebd0d][apuntes.org]]
 *** TODO Ayudantía 4 resistancia
     SCHEDULED: <2021-06-04 Fri 19:10-20:10>
 *** TODO Ayudantía 5 resistancia
@@ -161,13 +180,19 @@
     - Solo me falta ver clase 6.
 *** TODO prueba2 33%
     DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
+    - Supongo que desde la clase 8 en adelante?
+    - Hasta una semana antes.
 *** TODO prueba3 34%
     DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
 *** Tabla
-    DEADLINE: <2021-07-27 Tue -3w>
-  | taller6  |   0 |
+:PROPERTIES:
+:ID:       a592c03c-8a02-44de-896c-03f9e86039b3
+:END:
+#+NAME:[[id:a592c03c-8a02-44de-896c-03f9e86039b3][teorico]]
+  |          |     |
+  | prueba1  | 2.4 |
   |----------+-----|
-  | Promedio | 0.5 |
+  | Promedio | 2.4 |
   #+TBLFM: $>=vmean(@<..@>>)
 ** Práctico 20%
    - 3 a 5 talleres
@@ -197,7 +222,17 @@
   | Promedio | 6.1 |
   #+TBLFM: $>=vmean(@<..@>>)
   - https://campusvirtual.ufro.cl/pluginfile.php/1530613/mod_resource/content/14/notas%20taller%201.pdf
-** Tabla
+** Total
+   #+NAME:
+   |          | Ponderación | Nota      | Nota ponderada       |
+   |----------+-------------+-----------+----------------------|
+   | Teorico  |         0.7 | vmean([]) | 0.7 vmean([])        |
+   | Practico |         0.3 | 5.1       | 1.53                 |
+   |----------+-------------+-----------+----------------------|
+   | Promedio |           - | -         | 0.7 vmean([]) + 1.53 |
+   #+TBLFM: @2$3=remote(7d28dc6c-3440-4961-b738-c8b48838dfbe,@>$>)
+   #+TBLFM: @3$3=remote(30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad,@>$>)
+   #+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

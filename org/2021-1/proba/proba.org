@@ -1,107 +1,143 @@
 #+TITLE: Probabilidad y Estadística
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probabilidadYEstadistica:20211:
+* TOC :TOC_3:noexport:
+- [[#cátedras][Cátedras]]
+  - [[#lunes-y-miercoles-1050][Lunes y Miercoles 1050]]
+- [[#horario][Horario]]
+    - [[#clase][Clase]]
+    - [[#ayudantía][Ayudantía]]
+- [[#contenido][Contenido]]
+- [[#contacto][Contacto]]
+- [[#evaluación][Evaluación]]
+  - [[#plan-de-vuelo][Plan de vuelo]]
+  - [[#teorica-80][Teorica 80%]]
+    - [[#prueba1][prueba1]]
+    - [[#prueba2][prueba2]]
+    - [[#tabla][Tabla]]
+  - [[#practica-20][Practica 20%]]
+    - [[#apuntes][apuntes]]
+    - [[#taller-1][Taller 1]]
+    - [[#taller-2][Taller 2]]
+    - [[#canceled-taller-3][CANCELED Taller 3]]
+    - [[#taller-3][Taller 3]]
+    - [[#taller-4][Taller 4]]
+    - [[#taller-5][Taller 5]]
+    - [[#taller-6][Taller 6]]
+    - [[#unidad-1-en-campus][Unidad 1 en campus]]
+    - [[#unidad-2-en-campus][Unidad 2 en campus]]
+    - [[#tabla-1][Tabla]]
+
 * Cátedras
 ** Lunes y Miercoles 1050
-   - Lunes primera hora de clases y segunda hora de ayudantía.
-   - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
+- Lunes primera hora de clases y segunda hora de ayudantía.
+- https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 * Horario :lecture:
 *** Clase
 ***** Lunes
 ****** DONE <2021-04-26 Mon 10:50-11:55> Clase proba
-       CLOSED: [2021-05-07 Fri 10:43]
-       :LOGBOOK:
-       - State "DONE"       from "TODO"       [2021-05-07 Fri 10:43]
-       :END:
+CLOSED: [2021-05-07 Fri 10:43]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:43]
+:END:
 ****** TODO Clase proba
-       SCHEDULED: <2021-05-03 Mon 10:50-11:55>
-       - Esta tengo que ver.
-       - No la vi x estudiar para [[id:3263d6b2-2c4b-4779-bb5c-f3225033e33a][Taller 2 de proba.]]
+SCHEDULED: <2021-05-03 Mon 10:50-11:55>
+- Esta tengo que ver.
+- No la vi x estudiar para [[id:3263d6b2-2c4b-4779-bb5c-f3225033e33a][Taller 2 de proba.]]
 ****** DONE Clase proba
-       CLOSED: [2021-05-10 Mon 12:35] SCHEDULED: <2021-05-10 Mon 10:50-11:55>
-       :LOGBOOK:
-       - State "DONE"       from "TODO"       [2021-05-10 Mon 12:35]
-       :END:
-       - Marginales, vectores aleatorios.
+CLOSED: [2021-05-10 Mon 12:35] SCHEDULED: <2021-05-10 Mon 10:50-11:55>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-10 Mon 12:35]
+:END:
+- Marginales, vectores aleatorios.
+****** CANCELED Clase proba
+CLOSED: [2021-05-13 Thu 13:31] SCHEDULED: <2021-05-17 Mon 10:50-11:55>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-05-13 Thu 13:31] \\
+  Tenemos prueba.
+:END:
 ****** TODO Clase proba
-       SCHEDULED: <2021-05-17 Mon 10:50-11:55>
+SCHEDULED: <2021-05-31 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-05-31 Mon 10:50-11:55>
+SCHEDULED: <2021-06-07 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-07 Mon 10:50-11:55>
+SCHEDULED: <2021-06-14 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-14 Mon 10:50-11:55>
+SCHEDULED: <2021-06-21 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-21 Mon 10:50-11:55>
+SCHEDULED: <2021-06-28 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-28 Mon 10:50-11:55>
+SCHEDULED: <2021-07-05 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-07-05 Mon 10:50-11:55>
+SCHEDULED: <2021-07-12 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-07-12 Mon 10:50-11:55>
+SCHEDULED: <2021-07-19 Mon 10:50-11:55>
 ****** TODO Clase proba
-       SCHEDULED: <2021-07-19 Mon 10:50-11:55>
-****** TODO Clase proba
-       SCHEDULED: <2021-07-26 Mon 10:50-11:55>
-****** TODO Clase proba
-       SCHEDULED: <2021-08-02 Mon 10:50-11:55>
-****** TODO Clase proba
-       SCHEDULED: <2021-08-09 Mon 10:50-11:55>
+SCHEDULED: <2021-07-26 Mon 10:50-11:55>
 ***** Miércoles
 ****** DONE <2021-04-28 Wed 10:50-13:00> Clase proba
-       CLOSED: [2021-05-07 Fri 10:50]
-       :LOGBOOK:
-       - State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
-       :END:
+CLOSED: [2021-05-07 Fri 10:50]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
+:END:
 ****** DONE <2021-05-05 Wed 10:50-13:00> Clase proba
-       CLOSED: [2021-05-05 Wed 15:06]
-       :LOGBOOK:
-       - State "DONE"       from              [2021-05-05 Wed 15:06]
-       :END:
-       :CLOCKBOOK:
-       CLOCK: [2021-05-05 Wed 10:55]--[2021-05-05 Wed 13:15] =>  2:20
-       :END:
-       - Resolvieron el taller2 los primeros minutos de la clase.
-       - Esta clase es solo de ejercicios.
-         + Distribución normal estándar
+CLOSED: [2021-05-05 Wed 15:06]
+:LOGBOOK:
+- State "DONE"       from              [2021-05-05 Wed 15:06]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-05 Wed 10:55]--[2021-05-05 Wed 13:15] =>  2:20
+:END:
+- Resolvieron el taller2 los primeros minutos de la clase.
+- Esta clase es solo de ejercicios.
+  + Distribución normal estándar
+****** DONE Clase proba
+CLOSED: [2021-05-12 Wed 17:34] SCHEDULED: <2021-05-12 Wed 10:50-13:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-12 Wed 17:34]
+:END:
+****** CANCELED Clase proba
+CLOSED: [2021-05-19 Wed 13:48] SCHEDULED: <2021-05-19 Wed 10:50-13:00>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-05-19 Wed 13:48] \\
+  Don't know, maybe because of university break?
+:END:
 ****** TODO Clase proba
-       SCHEDULED: <2021-05-12 Wed 10:50-13:00>
+SCHEDULED: <2021-06-02 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-05-19 Wed 10:50-13:00>
+SCHEDULED: <2021-06-09 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-02 Wed 10:50-13:00>
+SCHEDULED: <2021-06-16 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-09 Wed 10:50-13:00>
+SCHEDULED: <2021-06-23 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-16 Wed 10:50-13:00>
+SCHEDULED: <2021-06-30 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-23 Wed 10:50-13:00>
+SCHEDULED: <2021-07-07 Wed 10:50-13:00>
 ****** TODO Clase proba
-       SCHEDULED: <2021-06-30 Wed 10:50-13:00>
-****** TODO Clase proba
-       SCHEDULED: <2021-07-07 Wed 10:50-13:00>
-****** TODO Clase proba
-       SCHEDULED: <2021-07-14 Wed 10:50-13:00>
-****** TODO Clase proba
-       SCHEDULED: <2021-07-21 Wed 10:50-13:00>
-****** TODO Clase proba
-       SCHEDULED: <2021-07-28 Wed 10:50-13:00>
+SCHEDULED: <2021-07-14 Wed 10:50-13:00>
+****** CANCELED Clase proba
+CLOSED: [2021-05-13 Thu 13:34] SCHEDULED: <2021-07-21 Wed 10:50-13:00>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-05-13 Thu 13:34] \\
+  Prueba2 de proba.
+:END:
 *** Ayudantía
 **** DONE <2021-04-26 Mon 12:00-13:00> Ayudantía proba
-     CLOSED: [2021-05-07 Fri 10:50]
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
-     :END:
+CLOSED: [2021-05-07 Fri 10:50]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
+:END:
 **** DONE <2021-05-03 Mon 12:00-13:00> Ayudantía proba
-     CLOSED: [2021-05-07 Fri 10:50]
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-05-03 Mon 12:15]--[2021-05-03 Mon 13:51] =>  1:36
-     :END:
+CLOSED: [2021-05-07 Fri 10:50]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:50]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-03 Mon 12:15]--[2021-05-03 Mon 13:51] =>  1:36
+:END:
 
-     - [[file:~/myDrive/mailAttachments/Ayudantía 5.pdf][file:~/myDrive/mailAttachments/Ayudantía 5.pdf]]
+- [[file:~/myDrive/mailAttachments/Ayudantía 5.pdf][file:~/myDrive/mailAttachments/Ayudantía 5.pdf]]
 
 
      - bernoulli
@@ -112,132 +148,233 @@
      - Aqui el segundo taller
        - [[file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Taller evaluado 2.pdf]]
 
-**** TODO Ayudantía proba :advice:carreer:
-     SCHEDULED: <2021-05-10 Mon 12:00-13:00>
-     - Correlación
-       - El blues de la estadística.
+**** DONE Ayudantía proba :advice:carreer:
+CLOSED: [2021-05-12 Wed 17:35] SCHEDULED: <2021-05-10 Mon 12:00-13:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-12 Wed 17:35]
+:END:
+- Correlación
+  - El blues de la estadística.
+**** CANCELED Ayudantía proba
+CLOSED: [2021-05-13 Thu 13:31] SCHEDULED: <2021-05-17 Mon 12:00-13:00>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-05-13 Thu 13:31] \\
+  Tenemos prueba.
+:END:
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-05-17 Mon 12:00-13:00>
+SCHEDULED: <2021-05-31 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-05-31 Mon 12:00-13:00>
+SCHEDULED: <2021-06-07 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-06-07 Mon 12:00-13:00>
+SCHEDULED: <2021-06-14 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-06-14 Mon 12:00-13:00>
+SCHEDULED: <2021-06-21 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-06-21 Mon 12:00-13:00>
+SCHEDULED: <2021-06-28 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-06-28 Mon 12:00-13:00>
+SCHEDULED: <2021-07-05 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-07-05 Mon 12:00-13:00>
+SCHEDULED: <2021-07-12 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-07-12 Mon 12:00-13:00>
+SCHEDULED: <2021-07-19 Mon 12:00-13:00>
 **** TODO Ayudantía proba
-     SCHEDULED: <2021-07-19 Mon 12:00-13:00>
-**** TODO Ayudantía proba
-     SCHEDULED: <2021-07-26 Mon 12:00-13:00>
+SCHEDULED: <2021-07-26 Mon 12:00-13:00>
 * Contenido
-  Apuntes del libro de los profesores mas las clases.
-  - [[id:b97e8bdd-ee04-493f-acf5-a5af9f98819f][apuntes.org]]
+Apuntes del libro de los profesores mas las clases.
+- [[id:b97e8bdd-ee04-493f-acf5-a5af9f98819f][apuntes.org]]
 * Contacto
-  - Sonia Salvo
-    - sonia.salvo@ufrontera.cl
+- Sonia Salvo
+  - sonia.salvo@ufrontera.cl
 * Evaluación :grade:
 ** Plan de vuelo
-   - file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
+- file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
 ** Teorica 80% :test:
-*** TODO prueba1
-    DEADLINE: <2021-05-17 Mon -0d>
-    - Era el miércoles 19 pero los de física tenían topón.
-      + El pasa lo mismo con la otra prueba y un taller.
-    - Unidad 1-3
+*** DONE prueba1
+CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-17 Mon 13:18] \\
+  [[mu4e:msgid:60a2a273f1f6a9.62554757@campusvirtual.ufro.cl][Usted ha realizado su entrega en la tarea Prueba 1 DESARROLLO]]
+:END:
+- Era el miércoles 19 pero los de física tenían topón.
+  + El pasa lo mismo con la otra prueba y un taller.
+- Unidad 1-3
 *** TODO prueba2
-    DEADLINE: <2021-06-21 Mon -21d>
-    - Unidad 4-6
+DEADLINE: <2021-07-21 Wed 10:50-13:00 -0d>
+- Unidad 4-6
 *** Tabla
-    | taller1  |   0 |
-    | taller2  |   0 |
-    | taller3  |   0 |
-    |----------+-----|
-    | Promedio | 0.5 |
-    #+TBLFM: $>=vmean(@<..@>>)
+| taller1  |   0 |
+| taller2  |   0 |
+| taller3  |   0 |
+|----------+-----|
+| Promedio | 0.5 |
+#+TBLFM: $>=vmean(@<..@>>)
 ** Practica 20% :workshop:
-   6 pruebas cortas no recuperables. Se borra las más baja al final. La 6ta nota es actitudinal por actividad en campus virtual.
-   - 12 abril
-   - 3 mayo
-   - 17 mayo
-   - 14 junio
-   - 5 julio
-   - 19 julio
+*** apuntes
+6 pruebas cortas no recuperables. Se borra las más baja al final. La 6ta nota
+es actitudinal por actividad en campus virtual.
+- 12 abril
+- 3 mayo
+- 17 mayo
+- 14 junio
+- 5 julio
+- 19 julio
 *** DONE Taller 1
-    CLOSED: [2021-04-14 Wed 11:46] DEADLINE: <2021-04-12 Mon -21d>
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-04-14 Wed 11:46] \\
-      Study moreeeeee
-    :END:
-*** DONE Taller 2
-    CLOSED: [2021-05-03 Mon 20:50] DEADLINE: <2021-05-03 Mon 12:00 -21d>
-    :PROPERTIES:
-    :ID:       3263d6b2-2c4b-4779-bb5c-f3225033e33a
-    :END:
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-05-03 Mon 20:50] \\
-      Maybe 7/7?
-    :END:
-    - file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Cap2.pdf
-    - file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Conferencia_VariableAleatoria.pdf
+CLOSED: [2021-04-14 Wed 11:46] DEADLINE: <2021-04-12 Mon -21d>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-04-14 Wed 11:46] \\
+  Study moreeeeee
+:END:
+*** TODO Taller 2
+DEADLINE: <2021-05-03 Mon 12:00 -21d>
+:PROPERTIES:
+:ID:       3263d6b2-2c4b-4779-bb5c-f3225033e33a
+:END:
+:LOGBOOK:
+- State "TODO"       from "DONE"       [2021-05-18 Tue 09:06]
+- State "DONE"       from "TODO"       [2021-05-03 Mon 20:50] \\
+  Maybe 7/7?
+:END:
+- file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Cap2.pdf
+- file:~/myDrive/uni/2021-1/proba/prueba1/Unidad2/Conferencia_VariableAleatoria.pdf
 
 
-    - ver planificacion
-      - no entran distribuciones especiales
-        + hasta variable aleatoria sin especial
-        + hasta bernulli
-      - el próximo taller es exclusivo especiales probablemente
-      - pero en este próximo
-        + fun dens?
-        + fun prob?
-          - axiomas
-        + condicionales quizás
-        + Esp,Var
-        + Func getrimomento?
-
+- ver planificacion
+  - no entran distribuciones especiales
+    + hasta variable aleatoria sin especial
+    + hasta bernulli
+  - el próximo taller es exclusivo especiales probablemente
+  - pero en este próxim
+    + fun dens?
+    + fun prob?
+      - axiomas
+    + condicionales quizás
+    + Esp,Var
+    + Func getrimomento?
+**** TODO Revisar desarrollo taller 2.
+SCHEDULED: <2021-05-24 Mon>
+***** WAIT answer
+SCHEDULED: <2021-05-25 Tue>
+- [[file:~/myDrive/uni/2021-1/proba/taller2/Manuel-Fuica-Morales.pdf][desarrollo.pdf]]
+- [[file:~/myDrive/uni/2021-1/proba/taller2/Taller evaluado 2 - Pauta.pdf][pauta.pdf]]
+- [[file:~/myDrive/uni/2021-1/proba/taller2/Notas - Taller evaluado 2.pdf][notas.pdf]]
+- Solo me equivoqué en evaluar una parte de la integral pero costó mucho
+  puntaje. Creo que se puede rescatar algo.
+- [[mu4e:msgid:CAEViGxt_ODAN2jNiSBzBpFe1mTF1XbCQJ2QhcaHV=dDkxd9B8A@mail.gmail.com][mail preguntando]]
 *** CANCELED Taller 3
-    CLOSED: [2021-05-10 Mon 12:41] DEADLINE: <2021-05-17 Mon -0d>
-    :PROPERTIES:
-    :ID:       5d515dc6-fa91-448d-9f72-075ecdd622e0
-    :END:
-    :LOGBOOK:
-    - State "CANCELED"   from "TODO"       [2021-05-10 Mon 12:41]
-    :END:
-    - Era esta fecha, pero lo corrieron para el [[id:a3a5e3be-c56d-481e-a8d2-868c618a1f4a][jueves]].
-*** TODO Taller 3
-    DEADLINE: <2021-05-20 Thu>
-    :PROPERTIES:
-    :ID:       a3a5e3be-c56d-481e-a8d2-868c618a1f4a
-    :END:
-    - Era el [[id:5d515dc6-fa91-448d-9f72-075ecdd622e0][lunes]], pero lo corrieron para este día.
+CLOSED: [2021-05-10 Mon 12:41] DEADLINE: <2021-05-17 Mon -0d>
+:PROPERTIES:
+:ID:       5d515dc6-fa91-448d-9f72-075ecdd622e0
+:END:
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-05-10 Mon 12:41]
+:END:
+- Era esta fecha, pero lo corrieron para el [[id:a3a5e3be-c56d-481e-a8d2-868c618a1f4a][jueves]].
+*** DONE Taller 3
+CLOSED: [2021-05-20 Thu 11:47] DEADLINE: <2021-05-20 Thu 11:00 -0d>
+:PROPERTIES:
+:ID:       a3a5e3be-c56d-481e-a8d2-868c618a1f4a
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-20 Thu 11:47] \\
+  [[mu4e:msgid:60a682f3c251c9.05764853@campusvirtual.ufro.cl][Usted ha realizado su entrega en la tarea Taller 3]]
+:END:
+- Era el [[id:5d515dc6-fa91-448d-9f72-075ecdd622e0][lunes]], pero lo corrieron para este día.
+- Revisar mail para temario
+**** Mensaje
+
+#+begin_quote
+Estimados
+
+Junto con saludar, les comento que como se acordó en clases, el taller
+evaluado N°3 de Probabilidades y Estadística. Se realizará el Jueves 20 de
+Mayo en el horario protegido. Específicamente a las 11.00 hrs serán
+enviados los talleres y tendrán hasta las 11.40 hrs para subirlo al campus
+virtual.
+
+Específicamente el contenido que entra en el taller evaluado son
+"Distribuciones especiales de probabilidad", es decir puede aparecer
+cualquier de las siguientes distribuciones:
+-Distribución binomial
+-Distribución Hipergeométrica
+-Distribución Poisson
+-Distribución Normal
+
+Consejo: estudien varios ejercicios de las distribuciones, pero es
+importante que entiendan lo que hacen cuando aplican la fórmula o eligen
+los parámetros o tipifican o usan la tabla...
+
+Cualquier persona que no pueda rendir el taller en ese momento por motivos
+de fuerza mayor (solo por motivos de fuerza mayor), que se comunique
+conmigo mediante correo electrónico y se discutirá algunos procedimiento
+con la profesora.
+
+Deseo que les vaya bien en su prueba mañana, si alguien tiene dudas sobre
+la materia o algún ejercicio, no dude en consultarme.
+
+Saludos cordiales
+
+#+end_quote
+
+**** Temario
+- Distribución binomial
+- Distribución Hipergeométrica
+- Distribución Poisson
+- Distribución Normal
+
+***** Apuntes
+****** Binomial
+Número de éxitos \(x\) en \(n\) intentos con tasa de éxito constante
+\(p\) y fallo \(q=1-p\). Los eventos son independientes \(\iff\)
+la ocurrencia de un evento no afecta la ocurrencia de otro.
+
+
+Si se cumple esto entonces:
+
+\[p(x)=\binom{n}{x}\cdot p^{x}\cdot q^{n-x}\]
+- Esperanza
+  - \(np\)
+- Varianza (\(\sigma^2\))
+  - \(npq\)
+****** Poisson
+- https://www.youtube.com/watch?v=jmqZG6roVqU&list=PLvxOuBpazmsNIHP5cz37oOPZx0JKyNszN&index=7
+
+
+\(x\) no tiene limite superior. Representa el numero de eventos en
+un rango espacio-temporal.
+
+\[
+p(x)=\frac
+{\lambda ^{x}\cdot e ^{-\lambda}}
+{x!}
+\]
+
+- Esperanza
+  - \(\lambda\)
+- Varianza (\(\sigma^2\))
+  - \(\lambda\)
+
 *** TODO Taller 4
-    DEADLINE: <2021-06-14 Mon -21d>
+DEADLINE: <2021-06-14 Mon -0d>
 *** TODO Taller 5
-    DEADLINE: <2021-07-05 Mon -21d>
+DEADLINE: <2021-07-05 Mon -0d>
 *** TODO Taller 6
-    DEADLINE: <2021-07-19 Mon -21d>
+DEADLINE: <2021-07-19 Mon -0d>
 *** DONE Unidad 1 en campus
-    CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-04-19 Mon 22:53] \\
-      nailed it
-    :END:
+CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-04-19 Mon 22:53] \\
+  nailed it
+:END:
 *** TODO Unidad 2 en campus
-    DEADLINE: <2021-05-09 Sun -0d>
+DEADLINE: <2021-05-09 Sun -0d>
 *** Tabla
-    - https://campusvirtual.ufro.cl/course/view.php?id=2308&section=9
-    | taller1  |   3 |
-    | taller2  |   4 |
-    |----------+-----|
-    | Promedio | 3.5 |
-    #+TBLFM: $>=vmean(@<..@>>)
+- https://campusvirtual.ufro.cl/course/view.php?id=2308&section=9
+  | taller1  |   3 |
+  | taller2  |   4 |
+  |----------+-----|
+  | Promedio | 3.5 |
+  #+TBLFM: $>=vmean(@<..@>>)
 * Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

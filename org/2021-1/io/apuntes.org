@@ -100,6 +100,14 @@
    - [[id:2152beef-422b-4eb3-bb09-e027921aa4e1][io.org]]
    - Programación lineal entera: PLE
 
+** [2021-05-14 Fri]
+   :PROPERTIES:
+   :ID:       061f1d1b-43af-4ab0-bc84-6427f441914e
+   :END:
+   - [[id:8e9e0b97-75f5-42c4-9bec-a1e4841c2e46][log]]
+
+
+   Transporte, esquina nor-oeste y esas cosas.
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"

@@ -4,6 +4,16 @@
 #+TITLE: Apuntes
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:notes:
+
+* TOC :TOC_2:noexport:
+- [[#apuntes][Apuntes]]
+  - [[#general][General]]
+  - [[#2021-05-06-thu-clase][[2021-05-06 Thu] Clase]]
+  - [[#2021-05-11-tue-clase][[2021-05-11 Tue] Clase]]
+  - [[#2021-05-14-fri-ayudantía][[2021-05-14 Fri] Ayudantía]]
+  - [[#2021-05-18-tue-clase][[2021-05-18 Tue] Clase]]
+  - [[#2021-05-20-thu-clase][[2021-05-20 Thu] Clase]]
+
 * Apuntes
 ** General
 *** DONE prueba2
@@ -192,7 +202,7 @@
     :END:
     <2021-01-27 Wed 08:30>
     Opcional, pero mejor darlo igual.
-** [2021-05-06 Thu]Clase
+** [2021-05-06 Thu] Clase
    :PROPERTIES:
    :ID:       a86b24d7-98f8-4c69-aee3-017e67f0d6ca
    :END:
@@ -211,7 +221,7 @@
      La primera sección del gráfico se comporta lineal.
    - La clase termina en Ley de Hooke.
 
-** [2021-05-11 Tue]Clase
+** [2021-05-11 Tue] Clase
    :PROPERTIES:
    :ID:       aa793541-239f-4295-b84f-af04cdd16443
    :END:
@@ -221,6 +231,99 @@
 
    - Razón de Poisson
    - Diagrama esfuerzo --- deformación unitaria cortante
+** [2021-05-14 Fri] Ayudantía
+   :PROPERTIES:
+   :ID:       245afd7e-df50-4e2c-aa91-be01fe9ebd0d
+   :END:
+   - [[id:b6a61478-c279-4af2-8365-a934b5781448][log]]
+
+   - Deformación unitaria cortante
+   - Ejercicio relación de Poisson en la deformación de un tubo
+     - Alrededor de [2021-05-14 Fri 19:40]
+*** [2021-05-14 Fri 19:42] Ejercicio 6 guía 6
+    - [2021-05-14 Fri 19:45] Preámbulo
+    - [2021-05-14 Fri 19:46] Empieza [[id:c20f40ee-6022-46b6-ba3e-e0a6417d3ab8][desarrollo]]
+    - [2021-05-14 Fri 19:49] 1 MPa = 1 N/mm^2
+    - [2021-05-14 Fri 19:53] Comentario sobre Ley de Hooke.
+    - [2021-05-14 Fri 19:54] Análisis gráfico.
+    - [2021-05-14 Fri 20:00] Épsilon permanente (paralelo a la linea inicial)
+      - Obteniendo el épsilon podemos obtener la deformación unit permanente.
+    - [2021-05-14 Fri 20:00-20:20] Comentarios sobre materia, aclaraciones de dudas.
+**** Desarrollo
+     :PROPERTIES:
+     :ID:       c20f40ee-6022-46b6-ba3e-e0a6417d3ab8
+     :END:
+     1) Diagrama esfuerzo-deformación
+        Se completa el gráfico con los datos que nos dan y vamos resolviendo
+        para ecuaciones lineales.
+     2) Análisis gráfico
+        Teniendo los datos se empiezan a hacer conclusiones.
+     3) Se obtienen otros datos, como la deformación unitaria permanente a
+        partir del épsilon permanente y la longitud final después de la
+        deformación.
+
+** [2021-05-18 Tue] Clase
+   :PROPERTIES:
+   :ID:       b21e2950-d068-476a-942f-b50e3d9461dd
+   :END:
+   - [[id:0881f1cb-9fe5-47da-8450-bfadaabe4cba][log]]
+
+
+   - Clase de hoy: carga axial.
+
+
+   - Inicio cerca de [2021-05-18 Tue 08:40]
+
+   - [2021-05-18 Tue 08:44] La clase anterior se vio esfuerzo y deformación
+     -> propiedades relacionadas.
+     + Ley de Hook
+     + Razón de Poisson
+
+   - [2021-05-18 Tue 08:46] Clase de hoy: fuerza normal: aka carga axial.
+   - [2021-05-18 Tue 08:46] Al final torsor (4-6 clases) Moment flector y fuerza
+     cortante.
+   - *_[2021-05-18 Tue 08:53-08:56] Ecuación de deformación !!_*: presentación y
+     análisis.
+   - [2021-05-18 Tue 08:56-09:00] Cosas a considerar respecto de la ecuación.
+   - *_[2021-05-18 Tue 09:05-09:35] Ejemplo._*
+     + [2021-05-18 Tue 09:35-09:37] Recap
+     + [2021-05-18 Tue 09:37] Gráfico de fuerzas
+   - *_[2021-05-18 Tue 09:46-10:00] Ejemplo2_*
+   - [2021-05-18 Tue 10:02]Comentarios finales y fin.
+
+** [2021-05-20 Thu] Clase
+   :PROPERTIES:
+   :ID:       78b49086-ffc6-4b60-994b-01bf79ea4ff6
+   :END:
+   - [[id:415fd1bf-6408-44fc-a7fe-4f2af2cbeac7][log]]
+
+
+   - *_[2021-05-20 Thu 17:05] Inicio_*
+   - [2021-05-20 Thu 17:07] Elemento cargado axialmente estáticamente
+     indeterminado.
+     + Obtenemos mas incógnitas que ecuaciones, el objetivo es encontrar
+       otra ecuación para poder resolver el problema.
+     + Se encuentra en la condición geométrica de la deformación.
+       - [2021-05-20 Thu 17:09]
+       - No siempre es la misma ecuación, pero siempre surge de la geometría
+         de la deformación.
+     + [2021-05-20 Thu 17:15] Gráfico de deformación.
+       - Lo hicimos la clase anterior:
+         + Desplazamiento \(x\) vs deformación \(\delta\) (en eje vertical).
+   - *_[2021-05-20 Thu 17:17] Ejemplo_*
+     + [2021-05-20 Thu 17:22] Misma cosa: faltan ecuaciones.
+     + [2021-05-20 Thu 17:23] Se obtiene la otra desde la geometría de la
+       deformación.
+     + [2021-05-20 Thu 17:35] Gráfico de deformación.
+   - *_[2021-05-20 Thu 17:37] Ejemplo2_*
+     + [2021-05-20 Thu 17:43] Faltan ecuaciones nuevamente.
+     + [2021-05-20 Thu 17:44] Mismo procedimiento.
+       - [2021-05-20 Thu 17:47] Usa triángulos semejantes para obtener ecuación.
+
+
+
+
+
 * Local variables :noexport:
   # Local Variables:
   # ispell-local-dictionary: "espanol"
