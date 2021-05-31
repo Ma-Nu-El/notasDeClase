@@ -224,12 +224,13 @@ CLOSED: [2021-04-14 Wed 11:46] DEADLINE: <2021-04-12 Mon -21d>
 - State "DONE"       from "TODO"       [2021-04-14 Wed 11:46] \\
   Study moreeeeee
 :END:
-*** TODO Taller 2
-DEADLINE: <2021-05-03 Mon 12:00 -21d>
+*** DONE Taller 2
+CLOSED: [2021-05-26 Wed 17:29] DEADLINE: <2021-05-03 Mon 12:00 -21d>
 :PROPERTIES:
 :ID:       3263d6b2-2c4b-4779-bb5c-f3225033e33a
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-26 Wed 17:29]
 - State "TODO"       from "DONE"       [2021-05-18 Tue 09:06]
 - State "DONE"       from "TODO"       [2021-05-03 Mon 20:50] \\
   Maybe 7/7?
@@ -250,10 +251,17 @@ DEADLINE: <2021-05-03 Mon 12:00 -21d>
     + condicionales quizás
     + Esp,Var
     + Func getrimomento?
-**** TODO Revisar desarrollo taller 2.
-SCHEDULED: <2021-05-24 Mon>
-***** WAIT answer
-SCHEDULED: <2021-05-25 Tue>
+**** DONE Revisar desarrollo taller 2.
+CLOSED: [2021-05-26 Wed 17:28] SCHEDULED: <2021-05-24 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-26 Wed 17:28]
+:END:
+***** DONE answer
+CLOSED: [2021-05-26 Wed 17:27] SCHEDULED: <2021-05-25 Tue>
+:LOGBOOK:
+- State "DONE"       from "WAIT"       [2021-05-26 Wed 17:27] \\
+  Nothing to do.
+:END:
 - [[file:~/myDrive/uni/2021-1/proba/taller2/Manuel-Fuica-Morales.pdf][desarrollo.pdf]]
 - [[file:~/myDrive/uni/2021-1/proba/taller2/Taller evaluado 2 - Pauta.pdf][pauta.pdf]]
 - [[file:~/myDrive/uni/2021-1/proba/taller2/Notas - Taller evaluado 2.pdf][notas.pdf]]

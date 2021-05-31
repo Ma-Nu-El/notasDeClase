@@ -35,7 +35,7 @@
        - materia de propiedad de materiales
          - finaliza este próximo jueves esta materia
          - este viernes ayudantía.
-       - una semana antes de la prueba 2.
+       - una semana antes de la [[id:7a13c1ce-b542-4b35-95af-96ca078987cb][prueba 2]].
          - pal 9 de junio.
        - la idea es 4 talleres en semestre. Se elimina el mas malo.
 **** DONE Clase 10 resistencia
@@ -180,7 +180,10 @@
     - Solo me falta ver clase 6.
 *** TODO prueba2 33%
     DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
-    - Supongo que desde la clase 8 en adelante?
+:PROPERTIES:
+:ID:       7a13c1ce-b542-4b35-95af-96ca078987cb
+:END:
+    - Supongo que desde la clase 8 en adelante? Confirmado.
     - Hasta una semana antes.
 *** TODO prueba3 34%
     DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
@@ -213,9 +216,10 @@
      - Materia de hoy [2021-04-15 Thu 17:57]
      - El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
 *** TODO taller 2
-    DEADLINE: <2021-06-09 Wed -0d>
+    DEADLINE: <2021-06-02 Wed -0d>
     - clase en la que se fijó.
       - [[id:a96cd3b1-580e-4bf2-814f-cb0b102dc229][Clase 9 resistencia]]
+    - temario?
 *** Tabla
   | taller1  | 6.1 |
   |----------+-----|
