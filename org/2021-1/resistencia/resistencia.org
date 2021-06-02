@@ -1,242 +1,267 @@
+:PROPERTIES:
+:ID:       43351302-15a6-4e54-88ad-3c5af0adcd15
+:END:
 #+TITLE: Resistencia de Materiales
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:
+
+* TOC :TOC_2:noexport:
+- [[#horario][Horario]]
+  - [[#clase][Clase]]
+  - [[#ayudantía][Ayudantía]]
+- [[#contacto][Contacto]]
+- [[#evaluación][Evaluación]]
+  - [[#programa][Programa]]
+  - [[#teórico-80][Teórico 80%]]
+  - [[#práctico-20][Práctico 20%]]
+  - [[#total][Total]]
+
 * Horario :lecture:
 ** Clase
 *** Martes
 **** TODO Clase 6 resistencia
-     SCHEDULED: <2021-04-22 Thu>
-     - Clase 6
-     - Esta tengo que ver
+SCHEDULED: <2021-04-22 Thu>
+- Clase 6
+- Esta tengo que ver
 **** DONE Clase 7 resistencia
-     CLOSED: [2021-05-07 Fri 10:51] SCHEDULED: <2021-04-27 Tue 08:30-10:40>
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
-     :END:
+CLOSED: [2021-05-07 Fri 10:51] SCHEDULED: <2021-04-27 Tue 08:30-10:40>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
+:END:
 **** DONE Clase 8 resistencia
-     CLOSED: [2021-05-07 Fri 10:51] SCHEDULED: <2021-05-04 Tue 08:30-10:40>
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
-     :END:
+CLOSED: [2021-05-07 Fri 10:51] SCHEDULED: <2021-05-04 Tue 08:30-10:40>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
+:END:
 **** DONE Clase 9 resistencia
-     CLOSED: [2021-05-11 Tue 09:23] SCHEDULED: <2021-05-11 Tue 08:30-10:40>
-     :PROPERTIES:
-     :ID:       a96cd3b1-580e-4bf2-814f-cb0b102dc229
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-11 Tue 09:23]
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-05-11 Tue 08:46]--[2021-05-11 Tue 09:23] =>  0:37
-     :END:
-     - [[id:aa793541-239f-4295-b84f-af04cdd16443][apuntes.org]]
-     - se planea taller 2 para primera después de receso.
-       - el receso es la última de mayo
-       - materia de propiedad de materiales
-         - finaliza este próximo jueves esta materia
-         - este viernes ayudantía.
-       - una semana antes de la [[id:7a13c1ce-b542-4b35-95af-96ca078987cb][prueba 2]].
-         - pal 9 de junio.
-       - la idea es 4 talleres en semestre. Se elimina el mas malo.
+CLOSED: [2021-05-11 Tue 09:23] SCHEDULED: <2021-05-11 Tue 08:30-10:40>
+:PROPERTIES:
+:ID:       a96cd3b1-580e-4bf2-814f-cb0b102dc229
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-11 Tue 09:23]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-11 Tue 08:46]--[2021-05-11 Tue 09:23] =>  0:37
+:END:
+- [[id:aa793541-239f-4295-b84f-af04cdd16443][apuntes.org]]
+- se planea taller 2 para primera después de receso.
+  - el receso es la última de mayo
+  - materia de propiedad de materiales
+    - finaliza este próximo jueves esta materia
+    - este viernes ayudantía.
+  - una semana antes de la [[id:7a13c1ce-b542-4b35-95af-96ca078987cb][prueba 2]].
+    - pal 9 de junio.
+  - la idea es 4 talleres en semestre. Se elimina el mas malo.
 **** DONE Clase 10 resistencia
-     CLOSED: [2021-05-18 Tue 10:03] SCHEDULED: <2021-05-18 Tue 08:30-10:40>
-     :PROPERTIES:
-     :ID:       0881f1cb-9fe5-47da-8450-bfadaabe4cba
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-18 Tue 10:03]
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-05-18 Tue 08:41]--[2021-05-18 Tue 10:03] =>  1:22
-     :END:
-     - [[id:b21e2950-d068-476a-942f-b50e3d9461dd][apuntes.org]]
-**** TODO Clase 11 resistencia
-     SCHEDULED: <2021-06-01 Tue 08:30-10:40>
+CLOSED: [2021-05-18 Tue 10:03] SCHEDULED: <2021-05-18 Tue 08:30-10:40>
+:PROPERTIES:
+:ID:       0881f1cb-9fe5-47da-8450-bfadaabe4cba
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-18 Tue 10:03]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-18 Tue 08:41]--[2021-05-18 Tue 10:03] =>  1:22
+:END:
+- [[id:b21e2950-d068-476a-942f-b50e3d9461dd][apuntes.org]]
+**** DONE Clase 11 resistencia
+CLOSED: [2021-06-02 Wed 06:18] SCHEDULED: <2021-06-01 Tue 08:30-10:40>
+:PROPERTIES:
+:ID:       90cd18d5-bbef-4915-b659-b6f011862228
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-02 Wed 06:18]
+:END:
+- [[id:d7e5a2ea-4175-435e-85ad-23dd613a8ced][apuntes.org]]
+- Jueves última clase de la materia actual. Luego se cambia de unidad.
 **** TODO Clase 12 resistencia
-     SCHEDULED: <2021-06-08 Tue 08:30-10:40>
+SCHEDULED: <2021-06-08 Tue 08:30-10:40>
 **** TODO Clase 13 resistencia
-     SCHEDULED: <2021-06-15 Tue 08:30-10:40>
+SCHEDULED: <2021-06-15 Tue 08:30-10:40>
 **** TODO Clase 14 resistencia
-     SCHEDULED: <2021-06-22 Tue 08:30-10:40>
+SCHEDULED: <2021-06-22 Tue 08:30-10:40>
 **** TODO Clase 15 resistencia
-     SCHEDULED: <2021-06-29 Tue 08:30-10:40>
+SCHEDULED: <2021-06-29 Tue 08:30-10:40>
 **** TODO Clase 16 resistencia
-     SCHEDULED: <2021-07-06 Tue 08:30-10:40>
+SCHEDULED: <2021-07-06 Tue 08:30-10:40>
 **** TODO Clase 17 resistencia
-     SCHEDULED: <2021-07-13 Tue 08:30-10:40>
+SCHEDULED: <2021-07-13 Tue 08:30-10:40>
 **** TODO Clase 18 resistencia
-     SCHEDULED: <2021-07-20 Tue 08:30-10:40>
+SCHEDULED: <2021-07-20 Tue 08:30-10:40>
 **** TODO Clase 19 resistencia
-     SCHEDULED: <2021-07-27 Tue 08:30-10:40>
+SCHEDULED: <2021-07-27 Tue 08:30-10:40>
 *** Jueves
 **** DONE <2021-04-29 Thu 16:50-19:00> Clase resistencia
-     CLOSED: [2021-04-29 Thu 17:54]
-     :LOGBOOK:
-     - State "DONE"       from              [2021-04-29 Thu 17:54]
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-04-29 Thu 17:06]--[2021-04-29 Thu 17:54] =>  0:48
-     :END:
-     - Clase exclusiva a entender deformación
-     - Clase siguiente se une deformación y esfuerzo
-       + Propiedades mecánicas de los materiales
-
+CLOSED: [2021-04-29 Thu 17:54]
+:LOGBOOK:
+- State "DONE"       from              [2021-04-29 Thu 17:54]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-04-29 Thu 17:06]--[2021-04-29 Thu 17:54] =>  0:48
+:END:
+- Clase exclusiva a entender deformación
+- Clase siguiente se une deformación y esfuerzo
+  + Propiedades mecánicas de los materiales
 
 **** DONE <2021-05-06 Thu 16:50-19:00> Clase resistencia
-     CLOSED: [2021-05-06 Thu 17:57]
-     :LOGBOOK:
-     - State "DONE"       from              [2021-05-06 Thu 17:57] \\
-       Hasta Ley de Hooke.
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-05-06 Thu 17:57]--[2021-05-06 Thu 17:57] =>  0:00
-     CLOCK: [2021-05-06 Thu 17:56]--[2021-05-06 Thu 17:56] =>  0:00
-     CLOCK: [2021-05-06 Thu 17:43]--[2021-05-06 Thu 17:49] =>  0:06
-     CLOCK: [2021-05-06 Thu 16:56]--[2021-05-06 Thu 17:29] =>  0:33
-     :END:
+CLOSED: [2021-05-06 Thu 17:57]
+:LOGBOOK:
+- State "DONE"       from              [2021-05-06 Thu 17:57] \\
+  Hasta Ley de Hooke.
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-06 Thu 17:57]--[2021-05-06 Thu 17:57] =>  0:00
+CLOCK: [2021-05-06 Thu 17:56]--[2021-05-06 Thu 17:56] =>  0:00
+CLOCK: [2021-05-06 Thu 17:43]--[2021-05-06 Thu 17:49] =>  0:06
+CLOCK: [2021-05-06 Thu 16:56]--[2021-05-06 Thu 17:29] =>  0:33
+:END:
 
-     - [[id:a86b24d7-98f8-4c69-aee3-017e67f0d6ca][apuntes.org]]
+- [[id:a86b24d7-98f8-4c69-aee3-017e67f0d6ca][apuntes.org]]
 
 **** TODO Clase resistencia
-     SCHEDULED: <2021-05-13 Thu 16:50-19:00>
+SCHEDULED: <2021-05-13 Thu 16:50-19:00>
 **** DONE Clase resistencia
-     CLOSED: [2021-05-20 Thu 18:34] SCHEDULED: <2021-05-20 Thu 16:50-19:00>
-     :PROPERTIES:
-     :ID:       415fd1bf-6408-44fc-a7fe-4f2af2cbeac7
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2021-05-20 Thu 18:34]
-     :END:
-     :CLOCKBOOK:
-     CLOCK: [2021-05-20 Thu 17:03]--[2021-05-20 Thu 18:05] =>  1:02
-     :END:
-     - [[id:78b49086-ffc6-4b60-994b-01bf79ea4ff6][apuntes.org]]
-     - Hoy el profe dijo que subió las notas de la primera prueba.
-       + No estaban buenas, pero esa es la tendencia en la prueba 1 de cualquier
-         forma y llama a no desanimarse.
+CLOSED: [2021-05-20 Thu 18:34] SCHEDULED: <2021-05-20 Thu 16:50-19:00>
+:PROPERTIES:
+:ID:       6e02076a-7184-451c-967a-0234f86c82d8
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-20 Thu 18:34]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-20 Thu 17:03]--[2021-05-20 Thu 18:05] =>  1:02
+:END:
+- [[id:4b8955bc-57ff-4acd-ad86-5599c7a72ba2][apuntes.org]]
+- Hoy el profe dijo que subió las notas de la primera prueba.
+  + No estaban buenas, pero esa es la tendencia en la prueba 1 de cualquier
+    forma y llama a no desanimarse.
 **** TODO Clase resistencia
-     SCHEDULED: <2021-06-03 Thu 16:50-19:00>
+SCHEDULED: <2021-06-03 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-06-10 Thu 16:50-19:00>
+SCHEDULED: <2021-06-10 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-06-17 Thu 16:50-19:00>
+SCHEDULED: <2021-06-17 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-06-24 Thu 16:50-19:00>
+SCHEDULED: <2021-06-24 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-07-01 Thu 16:50-19:00>
+SCHEDULED: <2021-07-01 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-07-08 Thu 16:50-19:00>
+SCHEDULED: <2021-07-08 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-07-15 Thu 16:50-19:00>
+SCHEDULED: <2021-07-15 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-07-22 Thu 16:50-19:00>
+SCHEDULED: <2021-07-22 Thu 16:50-19:00>
 **** TODO Clase resistencia
-     SCHEDULED: <2021-07-29 Thu 16:50-19:00>
+SCHEDULED: <2021-07-29 Thu 16:50-19:00>
 ** Ayudantía
-   - Cada 2 semanas empezando el 16 de abril.
-   - Ayudantia 4 se corre una semana por receso.
+- Cada 2 semanas empezando el 16 de abril.
+- Ayudantia 4 se corre una semana por receso.
 *** DONE Ayudantía 1 resistancia
-    CLOSED: [2021-05-07 Fri 13:32] SCHEDULED: <2021-04-16 Fri 19:10-20:10>
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-05-07 Fri 13:32]
-    :END:
+CLOSED: [2021-05-07 Fri 13:32] SCHEDULED: <2021-04-16 Fri 19:10-20:10>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 13:32]
+:END:
 *** TODO Ayudantía 2 resistancia
-    SCHEDULED: <2021-04-30 Fri 19:10-20:10>
-    - Esta tengo que ver
+SCHEDULED: <2021-04-30 Fri 19:10-20:10>
+- Esta tengo que ver
 *** DONE Ayudantía 3 resistancia
-    CLOSED: [2021-05-15 Sat 11:00] SCHEDULED: <2021-05-14 Fri 19:10-20:10>
-    :PROPERTIES:
-    :ID:       b6a61478-c279-4af2-8365-a934b5781448
-    :END:
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-05-15 Sat 11:00]
-    :END:
-    :CLOCKBOOK:
-    CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
-    :END:
-    - [[id:245afd7e-df50-4e2c-aa91-be01fe9ebd0d][apuntes.org]]
+CLOSED: [2021-05-15 Sat 11:00] SCHEDULED: <2021-05-14 Fri 19:10-20:10>
+:PROPERTIES:
+:ID:       b6a61478-c279-4af2-8365-a934b5781448
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-15 Sat 11:00]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
+:END:
+- [[id:245afd7e-df50-4e2c-aa91-be01fe9ebd0d][apuntes.org]]
 *** TODO Ayudantía 4 resistancia
-    SCHEDULED: <2021-06-04 Fri 19:10-20:10>
+SCHEDULED: <2021-06-04 Fri 19:10-20:10>
 *** TODO Ayudantía 5 resistancia
-    SCHEDULED: <2021-06-18 Fri 19:10-20:10>
+SCHEDULED: <2021-06-18 Fri 19:10-20:10>
 *** TODO Ayudantía 6 resistancia
-    SCHEDULED: <2021-07-02 Fri 19:10-20:10>
+SCHEDULED: <2021-07-02 Fri 19:10-20:10>
 *** TODO Ayudantía 7 resistancia
-    SCHEDULED: <2021-07-16 Fri 19:10-20:10>
+SCHEDULED: <2021-07-16 Fri 19:10-20:10>
 *** TODO Ayudantía 8 resistancia
-    SCHEDULED: <2021-07-30 Fri 19:10-20:10>
+SCHEDULED: <2021-07-30 Fri 19:10-20:10>
 * Contacto
 * Evaluación :grade:
 ** Programa
-  - [[file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf][file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf]]
-  - https://campusvirtual.ufro.cl/pluginfile.php/1201581/mod_resource/content/3/Clase%200%20Estructura%20de%20la%20%20Asignatura.pdf
+- [[file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf][file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf]]
+- https://campusvirtual.ufro.cl/pluginfile.php/1201581/mod_resource/content/3/Clase%200%20Estructura%20de%20la%20%20Asignatura.pdf
 ** Teórico 80%
 *** DONE prueba1 33%
-    CLOSED: [2021-05-07 Fri 10:51] DEADLINE: <2021-05-04 Tue 08:30 -3w>
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
-    :END:
-    - Materia hasta martes [2021-04-27 Tue] correspodiente a clase 7.
-    - Solo me falta ver clase 6.
+CLOSED: [2021-05-07 Fri 10:51] DEADLINE: <2021-05-04 Tue 08:30 -3w>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-07 Fri 10:51]
+:END:
+- Materia hasta martes [2021-04-27 Tue] correspodiente a clase 7.
+- Solo me falta ver clase 6.
 *** TODO prueba2 33%
-    DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
+DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
 :PROPERTIES:
 :ID:       7a13c1ce-b542-4b35-95af-96ca078987cb
 :END:
-    - Supongo que desde la clase 8 en adelante? Confirmado.
-    - Hasta una semana antes.
+- Supongo que desde la clase 8 en adelante? Confirmado.
+- Hasta una semana antes.
 *** TODO prueba3 34%
-    DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
+DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
 *** Tabla
 :PROPERTIES:
 :ID:       a592c03c-8a02-44de-896c-03f9e86039b3
 :END:
 #+NAME:[[id:a592c03c-8a02-44de-896c-03f9e86039b3][teorico]]
-  |          |     |
-  | prueba1  | 2.4 |
-  |----------+-----|
-  | Promedio | 2.4 |
-  #+TBLFM: $>=vmean(@<..@>>)
+|          |     |
+| prueba1  | 2.4 |
+|----------+-----|
+| Promedio | 2.4 |
+#+TBLFM: $>=vmean(@<..@>>)
 ** Práctico 20%
-   - 3 a 5 talleres
-   - Tentativamente los viernes
-     - finalmente los miercoles
-   - 24 horas para entregar
-   - 1 semana de anticipación de aviso mínimo
+- 3 a 5 talleres
+- Tentativamente los viernes
+  - finalmente los miercoles
+- 24 horas para entregar
+- 1 semana de anticipación de aviso mínimo
 *** DONE taller 1
-    CLOSED: [2021-04-29 Thu 12:41] DEADLINE: <2021-04-28 Wed -3w>
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2021-04-29 Thu 12:41]
-    :END:
-    - Mierc o viernes de la semana del 26
-    - Materia del taller clase del [2021-04-15 Thu 17:57]
-    - El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
+CLOSED: [2021-04-29 Thu 12:41] DEADLINE: <2021-04-28 Wed -3w>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-04-29 Thu 12:41]
+:END:
+- Mierc o viernes de la semana del 26
+- Materia del taller clase del [2021-04-15 Thu 17:57]
+- El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
 **** contenido :university:grade:resistencia:
-     - [2021-04-16 Fri 08:00]
-     - Materia de hoy [2021-04-15 Thu 17:57]
-     - El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
+- [2021-04-16 Fri 08:00]
+- Materia de hoy [2021-04-15 Thu 17:57]
+- El profe deberia enviar un correo confirmando fecha mañana [2021-04-16 Fri 17:58]
 *** TODO taller 2
-    DEADLINE: <2021-06-02 Wed -0d>
-    - clase en la que se fijó.
-      - [[id:a96cd3b1-580e-4bf2-814f-cb0b102dc229][Clase 9 resistencia]]
-    - temario?
+SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021-06-10 Thu 08:30 -0d>
+:PROPERTIES:
+:ID:       4f0e46b3-d4f8-4937-b11f-f1c372a1e3d1
+:END:
+- clase en la que se fijó.
+  - [[id:a96cd3b1-580e-4bf2-814f-cb0b102dc229][Clase 9 resistencia]]
+- Temario?
+  + Propiedades Mecánicas de Materiales
 *** Tabla
-  | taller1  | 6.1 |
-  |----------+-----|
-  | Promedio | 6.1 |
-  #+TBLFM: $>=vmean(@<..@>>)
-  - https://campusvirtual.ufro.cl/pluginfile.php/1530613/mod_resource/content/14/notas%20taller%201.pdf
+| taller1  | 6.1 |
+|----------+-----|
+| Promedio | 6.1 |
+#+TBLFM: $>=vmean(@<..@>>)
+- https://campusvirtual.ufro.cl/pluginfile.php/1530613/mod_resource/content/14/notas%20taller%201.pdf
 ** Total
-   #+NAME:
-   |          | Ponderación | Nota      | Nota ponderada       |
-   |----------+-------------+-----------+----------------------|
-   | Teorico  |         0.7 | vmean([]) | 0.7 vmean([])        |
-   | Practico |         0.3 | 5.1       | 1.53                 |
-   |----------+-------------+-----------+----------------------|
-   | Promedio |           - | -         | 0.7 vmean([]) + 1.53 |
-   #+TBLFM: @2$3=remote(7d28dc6c-3440-4961-b738-c8b48838dfbe,@>$>)
-   #+TBLFM: @3$3=remote(30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad,@>$>)
-   #+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
+#+NAME:
+|          | Ponderación | Nota      | Nota ponderada       |
+|----------+-------------+-----------+----------------------|
+| Teorico  |         0.7 | vmean([]) | 0.7 vmean([])        |
+| Practico |         0.3 | 5.1       | 1.53                 |
+|----------+-------------+-----------+----------------------|
+| Promedio |           - | -         | 0.7 vmean([]) + 1.53 |
+#+TBLFM: @2$3=remote(7d28dc6c-3440-4961-b738-c8b48838dfbe,@>$>)
+#+TBLFM: @3$3=remote(30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad,@>$>)
+#+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

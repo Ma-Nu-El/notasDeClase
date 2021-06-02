@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       032976d7-fa81-4afe-860c-706bd06ab639
+:END:
 #+TITLE: Probabilidad y Estadística
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probabilidadYEstadistica:20211:
@@ -202,11 +205,10 @@ CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
 DEADLINE: <2021-07-21 Wed 10:50-13:00 -0d>
 - Unidad 4-6
 *** Tabla
-| taller1  |   0 |
-| taller2  |   0 |
-| taller3  |   0 |
-|----------+-----|
-| Promedio | 0.5 |
+|          |           |
+|          |           |
+|----------+-----------|
+| Promedio | vmean([]) |
 #+TBLFM: $>=vmean(@<..@>>)
 ** Practica 20% :workshop:
 *** apuntes

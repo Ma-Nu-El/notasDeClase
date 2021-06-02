@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0cf4c4d9-f578-4fb3-a317-a6e1cfcded72
+:END:
 #+TITLE: Estrategias Comunicativas para el Mundo Laboral
 #+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:electivo:
@@ -41,8 +44,12 @@
    :LOGBOOK:
    - State "CANCELED"   from "TODO"       [2021-05-18 Tue 05:40]
    :END:
-** TODO Clase Electivo
-   SCHEDULED: <2021-05-31 Mon 16:50-19:00>
+** CANCELED Clase Electivo
+   CLOSED: [2021-06-02 Wed 06:55] SCHEDULED: <2021-05-31 Mon 16:50-19:00>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-06-02 Wed 06:55] \\
+  Professor ladder fall injury.
+:END:
 ** TODO Clase Electivo
    SCHEDULED: <2021-06-07 Mon 16:50-19:00>
 ** TODO Clase Electivo

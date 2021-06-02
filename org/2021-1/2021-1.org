@@ -1,17 +1,161 @@
 #+TITLE: 2021-1
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:2021s1:
 
 Este semestre la nota mínima para irse a examen es 3.0.
 - Fuente: Clase de proba
 
+* TOC :TOC_3:noexport:
+- [[#notas][Notas]]
+  - [[#proba][Proba]]
+    - [[#teórica-80][Teórica 80%]]
+    - [[#práctica-20][Práctica 20%]]
+    - [[#total][Total]]
+  - [[#electivo][Electivo]]
+  - [[#io][IO]]
+    - [[#teórica-70][Teórica 70%]]
+    - [[#práctica-30][Práctica 30%]]
+    - [[#total-1][Total]]
+  - [[#resistencia][Resistencia]]
+    - [[#teórica-80-1][Teórica 80%]]
+    - [[#práctica-20-1][Práctica 20%]]
+    - [[#total-2][Total]]
+  - [[#total-3][Total]]
+
 * Notas :grades:
 ** Proba
+*** Teórica 80% :test:
+:PROPERTIES:
+:ID:       b1b84ff7-ab97-4ede-85b2-2bff9f206454
+:END:
+#+NAME:[[id:b1b84ff7-ab97-4ede-85b2-2bff9f206454][Teórica 80%]]
+|          | 4 |
+|          |   |
+|          |   |
+|----------+---|
+| Promedio | 4 |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Práctica 20% :workshop:
+:PROPERTIES:
+:ID:       899b9d78-f009-40bb-8ce1-6a3777fd93e3
+:END:
+#+NAME:[[id:899b9d78-f009-40bb-8ce1-6a3777fd93e3][Práctica 20%]]
+| taller1  |   3 |
+| taller2  |   4 |
+| taller3  |     |
+| taller4  |     |
+| taller5  |     |
+| taller6  |     |
+|----------+-----|
+| Promedio | 3.5 |
+#+TBLFM: $>=vmean(@<..@>>)
+**** Total
+| |           |
+| taller2  |           |
+|----------+-----------|
+| Promedio | vmean([]) |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Total
+:PROPERTIES:
+:ID:       ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4
+:END:
+#+NAME:[[id:ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4][Total]]
+|          | Ponderación | Nota | Nota ponderada |
+|----------+-------------+------+----------------|
+| Teórica  |         0.7 |    4 |            2.8 |
+| Práctica |         0.3 |  3.5 |           1.05 |
+|----------+-------------+------+----------------|
+| Promedio |           - |    - |           3.85 |
+#+TBLFM: @2$3=remote([[id:b1b84ff7-ab97-4ede-85b2-2bff9f206454][Teórica 80%]],@>$>)
+#+TBLFM: @3$3=remote([[id:899b9d78-f009-40bb-8ce1-6a3777fd93e3][Práctica 20%]],@>$>)
+#+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
 ** Electivo
 ** IO
+*** Teórica 70%
+:PROPERTIES:
+:ID:       7d28dc6c-3440-4961-b738-c8b48838dfbe
+:END:
+#+NAME:[[id:7d28dc6c-3440-4961-b738-c8b48838dfbe][Teórica 70%]]
+| prueba1  | 3.0 |
+| prueba2  |     |
+|----------+-----|
+| Promedio |  3. |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Práctica 30%
+:PROPERTIES:
+:ID:       30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad
+:END:
+#+NAME:[[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]]
+| taller1  |  5.1 |
+| taller2  |  3.0 |
+| taller3  |      |
+| taller4  |      |
+|----------+------|
+| Promedio | 4.05 |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Total
+:PROPERTIES:
+:ID:       777f9be8-cedb-484d-aacc-1328fe6e8a7a
+:END:
+#+NAME:[[id:777f9be8-cedb-484d-aacc-1328fe6e8a7a][Total]]
+|          | Ponderación | Nota | Nota ponderada |
+|----------+-------------+------+----------------|
+| Teórica  |         0.7 |   3. |            2.1 |
+| Práctica |         0.3 | 4.05 |          1.215 |
+|----------+-------------+------+----------------|
+| Promedio |           - |    - |          3.315 |
+#+TBLFM: @2$3=remote([[id:7d28dc6c-3440-4961-b738-c8b48838dfbe][Teórica 70%]],@>$>)
+#+TBLFM: @3$3=remote([[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]],@>$>)
+#+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
 ** Resistencia
-|   |   |
-#+TBLFM: $=vmean(@<..@>>)
+*** Teórica 80%
+:PROPERTIES:
+:ID:       a592c03c-8a02-44de-896c-03f9e86039b3
+:END:
+#+NAME:[[id:a592c03c-8a02-44de-896c-03f9e86039b3][Teórica 80%]]
+| prueba1  | 2.4 |
+| prueba2  |     |
+| prueba3  |     |
+|----------+-----|
+| Promedio | 2.4 |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Práctica 20%
+:PROPERTIES:
+:ID:       b1ab3d23-8cee-475a-83e2-a41ec6fb6292
+:END:
+#+NAME:[[id:b1ab3d23-8cee-475a-83e2-a41ec6fb6292][Práctica 20%]]
+| taller1  | 6.1 |
+| taller2  |     |
+|----------+-----|
+| Promedio | 6.1 |
+#+TBLFM: $>=vmean(@<..@>>)
+*** Total
+:PROPERTIES:
+:ID:       785fc36a-3d61-4318-9ac7-bc588d5b3fb1
+:END:
+#+NAME:[[id:785fc36a-3d61-4318-9ac7-bc588d5b3fb1][Total]]
+|          | Ponderación | Nota | Nota ponderada |
+|----------+-------------+------+----------------|
+| Teórica  |         0.7 |  2.4 |           1.68 |
+| Práctica |         0.3 |  6.1 |           1.83 |
+|----------+-------------+------+----------------|
+| Promedio |           - |    - |           3.51 |
+#+TBLFM: @2$3=remote([[id:a592c03c-8a02-44de-896c-03f9e86039b3][Teórica 80%]],@>$>)
+#+TBLFM: @3$3=remote([[id:b1ab3d23-8cee-475a-83e2-a41ec6fb6292][Práctica 20%]],@>$>)
+#+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
+** Total
+:PROPERTIES:
+:ID:       26adc432-204a-456d-806c-a6f43abae767
+:END:
+#+NAME:[[id:26adc432-204a-456d-806c-a6f43abae767][Total]]
+| Subject     | Grade | Pounded |
+|-------------+-------+---------|
+| Resistencia |       |         |
+| IO          |       |         |
+| Proba       |       |         |
+| Electivo    |       |         |
+#+TBLFM: @2$3=remote(,@>$>)
+#+TBLFM: @3$3=remote(,@>$>)
+#+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"
