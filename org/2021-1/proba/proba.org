@@ -30,6 +30,9 @@
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
     - [[#unidad-2-en-campus][Unidad 2 en campus]]
     - [[#tabla-1][Tabla]]
+- [[#links][Links]]
+  - [[#lunes-y-miercoles-1050-1][Lunes y Miercoles 1050]]
+  - [[#clases-grabadas][Clases grabadas]]
 
 * Cátedras
 ** Lunes y Miercoles 1050
@@ -107,6 +110,7 @@ CLOSED: [2021-05-19 Wed 13:48] SCHEDULED: <2021-05-19 Wed 10:50-13:00>
 :END:
 ****** TODO Clase proba
 SCHEDULED: <2021-06-02 Wed 10:50-13:00>
+- Did it but didn't get it. Have to review.
 ****** TODO Clase proba
 SCHEDULED: <2021-06-09 Wed 10:50-13:00>
 ****** TODO Clase proba
@@ -168,6 +172,14 @@ CLOSED: [2021-05-13 Thu 13:31] SCHEDULED: <2021-05-17 Mon 12:00-13:00>
 SCHEDULED: <2021-05-31 Mon 12:00-13:00>
 **** TODO Ayudantía proba
 SCHEDULED: <2021-06-07 Mon 12:00-13:00>
+Pasos para EMV.
+1) Sacar función de verosimilitud L
+2) Log_n
+3) Derivar e igualar a 0.
+   1) Cambio el parametro por estimador.
+
+
+La mejor forma de evaluar un estimador es el sesgo.
 **** TODO Ayudantía proba
 SCHEDULED: <2021-06-14 Mon 12:00-13:00>
 **** TODO Ayudantía proba
@@ -384,6 +396,15 @@ DEADLINE: <2021-05-09 Sun -0d>
   |----------+-----|
   | Promedio | 3.5 |
   #+TBLFM: $>=vmean(@<..@>>)
+* Links
+:PROPERTIES:
+:ID:       03be17f8-14ef-4ff2-8958-294dce42a6e3
+:END:
+** Lunes y Miercoles 1050
+- Lunes primera hora de clases y segunda hora de ayudantía.
+- https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
+** Clases grabadas
+- https://drive.google.com/drive/folders/1D_lYyjUuGMIp241fPY-xjdEqAis9u6o9?usp=sharing
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

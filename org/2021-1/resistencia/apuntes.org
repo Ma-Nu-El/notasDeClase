@@ -8,9 +8,11 @@
   - [[#2021-05-06-thu-clase][[2021-05-06 Thu] Clase]]
   - [[#2021-05-11-tue-clase][[2021-05-11 Tue] Clase]]
   - [[#2021-05-14-fri-ayudantía][[2021-05-14 Fri] Ayudantía]]
-  - [[#2021-05-18-tue-clase][[2021-05-18 Tue] Clase]]
-  - [[#2021-05-20-thu-clase][[2021-05-20 Thu] Clase]]
-  - [[#2021-06-01-tue-clase][[2021-06-01 Tue] Clase]]
+  - [[#2021-05-18-tue-clase-12][[2021-05-18 Tue] Clase 12]]
+  - [[#2021-05-20-thu-clase-13][[2021-05-20 Thu] Clase 13]]
+  - [[#2021-06-01-tue-clase-14][[2021-06-01 Tue] Clase 14]]
+  - [[#2021-06-03-thu-clase-15][[2021-06-03 Thu] Clase 15]]
+  - [[#2021-06-08-tue-clase-16][[2021-06-08 Tue] Clase 16]]
 
 * Apuntes
 ** General
@@ -260,7 +262,7 @@ Opcional, pero mejor darlo igual.
    partir del épsilon permanente y la longitud final después de la
    deformación.
 
-** [2021-05-18 Tue] Clase
+** [2021-05-18 Tue] Clase 12
 :PROPERTIES:
 :ID:       b21e2950-d068-476a-942f-b50e3d9461dd
 :END:
@@ -289,7 +291,7 @@ Opcional, pero mejor darlo igual.
         - *_[2021-05-18 Tue 09:46-10:00] Ejemplo2_*
         - [2021-05-18 Tue 10:02]Comentarios finales y fin.
 
-** [2021-05-20 Thu] Clase
+** [2021-05-20 Thu] Clase 13
 :PROPERTIES:
 :ID:       4b8955bc-57ff-4acd-ad86-5599c7a72ba2
 :END:
@@ -318,7 +320,7 @@ Opcional, pero mejor darlo igual.
      + [2021-05-20 Thu 17:44] Mismo procedimiento.
        - [2021-05-20 Thu 17:47] Usa triángulos semejantes para obtener ecuación.
 
-** [2021-06-01 Tue] Clase
+** [2021-06-01 Tue] Clase 14
 :PROPERTIES:
 :ID:       1a665b0f-7def-4cc1-ac85-655de4b2b616
 :END:
@@ -357,6 +359,124 @@ Timer start time set to 09:08:36, current value is 0:00:00
 - 0:32:40 :: [2021-06-01 Tue 09:41]
 - 0:34:17 :: Recap
 
+** [2021-06-03 Thu] Clase 15
+:PROPERTIES:
+:ID:       6faf11de-b1c8-444b-9a1e-90f4e78ee6c5
+:END:
+- [[id:82464d64-1e90-48c1-8e0d-c8a0d363fe72][log]]
+
+
+Timer start time set to 16:59:35, current value is 0:00:00
+
+#+transclude: t [[id:bebe7eb7-70d0-4864-85fe-6331134196ef][Intro]]
+
+*** Concentración de esfuerzos.
+Como intro para materia y ejercicios.
+- 0:08:54 :: Teoría de la elasticidad
+- 0:09:23 :: A que distancia desde el extremo para este fenómeno deje de
+  ocurrir?
+  + 0:09:41 :: Por lo menos igual al ancho o espesor de la barra para que el
+    fenómeno deje de ocurrir.
+  + 0:10:43 :: Comprobado de forma experimental. Analíticamente es mas
+    complicado.
+- 0:13:38 :: Esfuerzo promedio vs máximo en un corte transversal.
+- 0:15:16 :: Cambios en la sección transversal.
+- 0:18:32 :: \(K\): factor de concentración de esfuerzos.
+  + 0:18:56 :: Esfuerzo nominal = esfuerzo promedio.
+- 0:17:50 :: \[K=\frac{\sigma_{max}}{\sigma_{promedio}}\]
+- 0:19:14 :: \[\sigma_{max}=K \cdot \frac{P}{A}\]
+
+*** Para distintas geometrías
+*Gráfico del profe*
+- 0:20:31 ::
+  \[
+  \sigma_{prom}=
+  \frac{P}{ht}
+  \]
+- 0:20:42 ::
+  \[
+  \sigma_{prom}=
+  \frac{P}{(w-2r)\cdot t}
+  \]
+*** Ejemplo
+- 0:28:43 :: Barra con dos cambios de sección transversal
+- 0:29:05 :: Se le dice filete al cambio por curva suave en sección.
+- 0:30:38 :: Se ocupan las tablas.
+- 0:31:50 :: Siempre es mejor sobredimensionar que subdimensionar.
+*** Ejemplo2
+- 0:36:28 :: Solo un cambio, resuelto en pizarra.
+- 0:43:05 :: Clase de factor de seguridad?
+*** Fin
+- 0:53:20 :: Fin
+
+** [2021-06-08 Tue] Clase 16
+:PROPERTIES:
+:ID:       a93ce8cf-acd5-4ed4-9562-895cd1b1049d
+:END:
+- [[id:7fab38c8-262d-4b80-b980-19fed1c2a146][log]]
+- https://campusvirtual.ufro.cl/pluginfile.php/1422981/mod_resource/content/14/Clase%2016%20Torsi%C3%B3n.pdf
+
+Timer start time set to 08:42:25, current value is 0:00:00
+
+- 0:00:10 :: Ángulos
+- 0:28:37 :: Esfuerzo + deformación:
+  + Diapositiva: Esfuerzos por torsión en un eje circular
+    - \[\int_A dF = 0\]
+    - \[\int_A dM = T\]
+    - \[\int_A \rho \cdot \tau \cdot dA = T\]
+    - Utilizando Ley de Hooke pues no hay deformación permanente (plástica) y obtenemos:
+    - \[\tau = \frac{\rho}{c}\cdot \tau_{max}\]
+- 0:38:51 :: Gráfico de \(\rho\) (horizontal) vs \(\tau\) (vertical).
+  + \[
+    \tau =
+    \tau (\rho) =
+    \underbrace{
+    \frac{\tau_{max}}{c} \cdot \rho
+    }_\text{se comporta lineal}
+    \]
+  + \(\tau(\rho=c)=\tau_{max}\)
+  + Si existen orificios en el tubo:
+    - \[\tau_{min}=\frac{c1}{c2} \cdot \tau_{max}\]
+      - \(c1\): radio interior
+      - \(c2\): radio exterior
+- 0:45:41 :: Momento de inercia polar \(J\) de la sección transversal
+  respecto de su centro \(O\). Por lo tanto, se tiene:
+  - \[
+    \tau_{max}=\frac{T \cdot c}{J}
+    \]
+  - \[
+    \tau=\frac{T \cdot \rho}{J}
+    \]
+|----------------+-------------------------------------------------------------|
+| Símbolo        | Definición                                                  |
+|----------------+-------------------------------------------------------------|
+| \(\tau_{max}\) | Esfuerzo cortante máximo en la flecha, el cual ocurre en la |
+|                | superficie exterior de esta.                                |
+|----------------+-------------------------------------------------------------|
+| \(\tau\)       | Esfuerzo cortante en cualquier superficie de la flecha, a   |
+|                | una distancia \(\rho\) de su eje axial.                     |
+|----------------+-------------------------------------------------------------|
+| \(T\)          | Momento de torsión interno resultante que actúa en la       |
+|                | sección transversal. Este valor se determina por el método  |
+|                | de las secciones y la ecuación de equilibrio de momentos    |
+|                | con respecto al eje longitudinal de la flecha.              |
+|----------------+-------------------------------------------------------------|
+| \(J\)          | Momento do inercia polar del área de la sección transversal |
+|                | de la flecha.                                               |
+|----------------+-------------------------------------------------------------|
+| \(c\)          | Radio exterior de la flecha.                                |
+|----------------+-------------------------------------------------------------|
+| \(\rho\)       | Distancia radial desde el eje axila de la flecha al punto   |
+|                | en el que se calculo el esfuerzo.                           |
+|----------------+-------------------------------------------------------------|
+
+- 0:50:45 :: Momento de inercia polar
+  + Entero
+    - \[J=\frac{\pi}{2} \cdot c^{4}\]
+  + Sección con orificio interior
+    - \[J=\frac{\pi}{2} \cdot (c^{4}_{2} - c^{4}_{1})\]
+      + \(c2\) radio exterior
+      + \(c1\) radio interior
 
 * Local variables :noexport:
 # Local Variables:

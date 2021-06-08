@@ -14,6 +14,10 @@
   - [[#teórico-80][Teórico 80%]]
   - [[#práctico-20][Práctico 20%]]
   - [[#total][Total]]
+- [[#links][Links]]
+  - [[#martes-0830-y-jueves-1650][Martes 0830 y Jueves 1650]]
+  - [[#ayudantía-viernes-1910][Ayudantía Viernes 1910]]
+  - [[#clases-grabadas][Clases grabadas]]
 
 * Horario :lecture:
 ** Clase
@@ -74,24 +78,35 @@ CLOSED: [2021-06-02 Wed 06:18] SCHEDULED: <2021-06-01 Tue 08:30-10:40>
 :END:
 - [[id:d7e5a2ea-4175-435e-85ad-23dd613a8ced][apuntes.org]]
 - Jueves última clase de la materia actual. Luego se cambia de unidad.
-**** TODO Clase 12 resistencia
-SCHEDULED: <2021-06-08 Tue 08:30-10:40>
-**** TODO Clase 13 resistencia
+**** DONE Clase 16 resistencia
+CLOSED: [2021-06-08 Tue 10:56] SCHEDULED: <2021-06-08 Tue 08:30-10:40>
+:PROPERTIES:
+:ID:       7fab38c8-262d-4b80-b980-19fed1c2a146
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-08 Tue 10:56]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-06-08 Tue 08:41]--[2021-06-08 Tue 09:42] =>  1:01
+:END:
+- [[id:a93ce8cf-acd5-4ed4-9562-895cd1b1049d][apuntes.org]]
+- Torsión
+**** TODO Clase resistencia
 SCHEDULED: <2021-06-15 Tue 08:30-10:40>
-**** TODO Clase 14 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-06-22 Tue 08:30-10:40>
-**** TODO Clase 15 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-06-29 Tue 08:30-10:40>
-**** TODO Clase 16 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-07-06 Tue 08:30-10:40>
-**** TODO Clase 17 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-07-13 Tue 08:30-10:40>
-**** TODO Clase 18 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-07-20 Tue 08:30-10:40>
-**** TODO Clase 19 resistencia
+**** TODO Clase resistencia
 SCHEDULED: <2021-07-27 Tue 08:30-10:40>
 *** Jueves
-**** DONE <2021-04-29 Thu 16:50-19:00> Clase resistencia
+**** DONE [2021-04-29 Thu 16:50-19:00] Clase resistencia
 CLOSED: [2021-04-29 Thu 17:54]
 :LOGBOOK:
 - State "DONE"       from              [2021-04-29 Thu 17:54]
@@ -103,7 +118,7 @@ CLOCK: [2021-04-29 Thu 17:06]--[2021-04-29 Thu 17:54] =>  0:48
 - Clase siguiente se une deformación y esfuerzo
   + Propiedades mecánicas de los materiales
 
-**** DONE <2021-05-06 Thu 16:50-19:00> Clase resistencia
+**** DONE [2021-05-06 Thu 16:50-19:00] Clase resistencia
 CLOSED: [2021-05-06 Thu 17:57]
 :LOGBOOK:
 - State "DONE"       from              [2021-05-06 Thu 17:57] \\
@@ -135,8 +150,32 @@ CLOCK: [2021-05-20 Thu 17:03]--[2021-05-20 Thu 18:05] =>  1:02
 - Hoy el profe dijo que subió las notas de la primera prueba.
   + No estaban buenas, pero esa es la tendencia en la prueba 1 de cualquier
     forma y llama a no desanimarse.
-**** TODO Clase resistencia
-SCHEDULED: <2021-06-03 Thu 16:50-19:00>
+**** DONE Clase resistencia 15
+CLOSED: [2021-06-03 Thu 17:59] SCHEDULED: <2021-06-03 Thu 16:50-19:00>
+:PROPERTIES:
+:ID:       82464d64-1e90-48c1-8e0d-c8a0d363fe72
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-03 Thu 17:59] \\
+  Ultima clase carga axial. Concentracion de esfuerzos.
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-06-03 Thu 16:49]--[2021-06-03 Thu 17:56] =>  1:07
+:END:
+- [[id:6faf11de-b1c8-444b-9a1e-90f4e78ee6c5][apuntes.org]]
+
+Timer start time set to 16:59:35, current value is 0:00:00
+
+***** Intro
+:PROPERTIES:
+:ID:       bebe7eb7-70d0-4864-85fe-6331134196ef
+:END:
+- 0:00:06 :: Start, probably waiting for more people.
+  + 0:01:04 :: Has to answer some emails and starts lecture.
+- 0:05:03 :: Start recording.
+- 0:05:44 :: Hoy se finaliza la materia de carga axial.
+- 0:06:00 :: Hoy: concentración de esfuerzos.
+
 **** TODO Clase resistencia
 SCHEDULED: <2021-06-10 Thu 16:50-19:00>
 **** TODO Clase resistencia
@@ -177,15 +216,15 @@ CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
 :END:
 - [[id:245afd7e-df50-4e2c-aa91-be01fe9ebd0d][apuntes.org]]
 *** TODO Ayudantía 4 resistancia
-SCHEDULED: <2021-06-04 Fri 19:10-20:10>
-*** TODO Ayudantía 5 resistancia
-SCHEDULED: <2021-06-18 Fri 19:10-20:10>
-*** TODO Ayudantía 6 resistancia
-SCHEDULED: <2021-07-02 Fri 19:10-20:10>
-*** TODO Ayudantía 7 resistancia
-SCHEDULED: <2021-07-16 Fri 19:10-20:10>
-*** TODO Ayudantía 8 resistancia
-SCHEDULED: <2021-07-30 Fri 19:10-20:10>
+SCHEDULED: <2021-06-11 Fri>
+*** TODO Ayudantía 4 resistancia
+SCHEDULED: <2021-06-25 Fri>
+*** TODO Ayudantía 4 resistancia
+SCHEDULED: <2021-07-09 Fri>
+*** TODO Ayudantía 4 resistancia
+SCHEDULED: <2021-07-23 Fri>
+*** TODO Ayudantía 4 resistancia
+SCHEDULED: <2021-08-06 Fri>
 * Contacto
 * Evaluación :grade:
 ** Programa
@@ -206,6 +245,12 @@ DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
 :END:
 - Supongo que desde la clase 8 en adelante? Confirmado.
 - Hasta una semana antes.
+- Hasta clase de hoy [2021-06-03 Thu]
+  - [[id:82464d64-1e90-48c1-8e0d-c8a0d363fe72][Clase resistencia]]
+  - Desde deformacion (clase 8) hasta hoy (clase 15)
+    - Deformación
+    - Propiedades mecánicas de materiales
+    - Carga axial
 *** TODO prueba3 34%
 DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
 *** Tabla
@@ -262,6 +307,16 @@ SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021-06-10 Thu 08:30 -0d>
 #+TBLFM: @2$3=remote(7d28dc6c-3440-4961-b738-c8b48838dfbe,@>$>)
 #+TBLFM: @3$3=remote(30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad,@>$>)
 #+TBLFM: $4=$2*$3 :: @4$4=vsum(@I..II)
+* Links
+:PROPERTIES:
+:ID:       2516d471-5920-4ef2-9034-77bf16fa722e
+:END:
+** Martes 0830 y Jueves 1650
+- https://reuna.zoom.us/j/84101345696?pwd=ZHl3eVVRcEZqT1BHVVUxSmxLbkZQdz09
+** Ayudantía Viernes 1910
+- https://meet.google.com/rhh-yzvc-rgc?hs=224
+** Clases grabadas
+- En campus mismo
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

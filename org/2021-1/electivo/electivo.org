@@ -10,17 +10,25 @@
 *** Introducción
     - Desarrollar habilidades comunicativas.
 *** Resultados de aprendizaje
-    1) Redactar textos coherentes, cohesionados, respetando reglas ortográficas y contextualizados al ámbito laboral.
-    2) Emplear herramientas tecnológicas para la productividad y comunicación, centrados en el ámbito laboral.
-    3) Comunicar oralmente las ideas de manera efectiva, considerando el contexto y situación comunicativa.
+    1) Redactar textos coherentes, cohesionados, respetando reglas ortográficas
+       y contextualizados al ámbito laboral.
+    2) Emplear herramientas tecnológicas para la productividad y comunicación,
+       centrados en el ámbito laboral.
+    3) Comunicar oralmente las ideas de manera efectiva, considerando el
+       contexto y situación comunicativa.
 ** robo [2021-04-05 Mon 18:37]
    Funcionario de seguridad ejecuta robo millonario.
 
-   El hecho habría ocurrido después de que el equipo de seguridad de la empresa Brinks retirara 60 millones de pesos de una sucursal del Banco de Crédito e Inversiones.
+   El hecho habría ocurrido después de que el equipo de seguridad de la empresa
+   Brinks retirara 60 millones de pesos de una sucursal del Banco de Crédito e
+   Inversiones.
 
-   Presuntamente, fue uno de los guardias que aprovechó un descuido para escapar con el monto durante la vuelta del camión blindado a su casa central.
+   Presuntamente, fue uno de los guardias que aprovechó un descuido para escapar
+   con el monto durante la vuelta del camión blindado a su casa central.
 
-   El resto de los trabajadores llamaron a carabineros al percatarse del robo y se están haciendo las pericias correspondientes para dar con el paradero del sospechoso.
+   El resto de los trabajadores llamaron a carabineros al percatarse del robo y
+   se están haciendo las pericias correspondientes para dar con el paradero del
+   sospechoso.
 
 * Horario :lecture:
 ** DONE Clase Electivo
@@ -67,8 +75,13 @@
 ** TODO Clase Electivo
    SCHEDULED: <2021-07-26 Mon 16:50-19:00>
 * Links
-** Lunes 1650
-   - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
+:PROPERTIES:
+:ID:       2efe99f0-c937-4cb9-8801-7a94a62e20c9
+:END:
+*** Lunes 1650
+- https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
+*** Clases grabadas
+- https://drive.google.com/drive/folders/1ZhNtPFIN63m0OKIMflMbq0WTK3mb1n9u?usp=sharing
 * Contacto
   - Javiera Ibaceta Carreño
     - javiera.ibaceta@ufrontera.cl

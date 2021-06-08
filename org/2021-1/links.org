@@ -1,29 +1,19 @@
 #+TITLE: Links
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:2021s1:links:
-* Links :links:
-** Drive: shared with me
-   - https://drive.google.com/drive/shared-with-me
-** Electivo
-*** Lunes 1650
-    - https://reuna.zoom.us/j/89325169600?pwd=bGlEUExmT2ZoT2d2cXZkOUZKU1phUT09
-** IO
-*** Drive con clases grabadas
-    - https://drive.google.com/drive/u/1/folders/15i2ifq3RYAVlxlKzM-XIrveBHZdUUMkf
-*** Lunes 0800
-    - https://reuna.zoom.us/j/83071748889?pwd=dnRQdjNOVEtuSVo3QTBNcnpFVWZxQT09
-*** Lunes 1050
-    - https://reuna.zoom.us/j/86202301999?pwd=cFJKNDJLRWt2U29Ic3R5dFhBcWpCUT09
-*** Jueves 0830
-    - https://reuna.zoom.us/j/85217593690?pwd=NnBGcnhGNHF3bFoxQkVVTDJpOVZnQT09
-*** Viernes 1430-Ayudantia
-    - https://reuna.zoom.us/j/85651312970
-** Resis
-*** Martes 0830 y Jueves 1650
-   - https://reuna.zoom.us/j/84101345696?pwd=ZHl3eVVRcEZqT1BHVVUxSmxLbkZQdz09
-*** Ayudantía Viernes 1910
-    - https://meet.google.com/rhh-yzvc-rgc?hs=224
-** Proba
-*** Lunes y Miercoles 1050
-    - Lunes primera hora de clases y segunda hora de ayudantía.
-    - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
+* TOC :TOC_3:noexport:
+- [[#drive-shared-with-me][Drive: shared with me]]
+- [[#electivo][Electivo]]
+- [[#io][IO]]
+- [[#resis][Resis]]
+- [[#proba][Proba]]
+
+* Drive: shared with me
+- https://drive.google.com/drive/shared-with-me
+* Electivo
+#+transclude: t [[id:2efe99f0-c937-4cb9-8801-7a94a62e20c9][Links]]
+* IO
+#+transclude: t [[id:e923e674-f884-4aa1-ab4c-84beb6611c53][Links]]
+* Resis
+#+transclude: t [[id:2516d471-5920-4ef2-9034-77bf16fa722e][Links]]
+* Proba
+#+transclude: t [[id:03be17f8-14ef-4ff2-8958-294dce42a6e3][Links]]

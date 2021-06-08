@@ -1,0 +1,165 @@
+:PROPERTIES:
+:ID:       5ded2fee-7a50-4972-894c-59647df67109
+:END:
+#+TITLE: 20210514
+
+* TOC :TOC_7:noexport:
+- [[#desarrollo][Desarrollo]]
+- [[#intro][Intro]]
+- [[#redes-de-proyectos-metodos-cpm-y-pert][Redes de proyectos: Metodos CPM y Pert]]
+- [[#intro-1][Intro]]
+- [[#técnica][Técnica]]
+  - [[#representación-de-una-red][Representación de una red]]
+    - [[#por-arcos][Por arcos]]
+    - [[#por-nodos][Por nodos]]
+  - [[#cpm-método-ruta-critica][CPM: Método Ruta Critica]]
+    - [[#intro-2][Intro]]
+    - [[#nodos][Nodos]]
+    - [[#procedimiento][Procedimiento]]
+      - [[#método][Método]]
+        - [[#next-wait-for-this-lecture-to-be-uploaded][NEXT Wait for this lecture to be uploaded]]
+  - [[#pert][PERT]]
+
+* Desarrollo
+- [[id:930919c9-a45e-4f51-bd79-fcf2876ade4f][log]]
+
+Timer start time set to 08:15:26, current value is 0:00:00
+
+Pausa entre 9:25 y 9:47
+
+* Intro
+- 0:00:07 :: CPM y PERT
+- 0:00:40 :: Que enfrentaremos como ICI en el mundo laboral
+  + 0:00:53 :: Otros civiles
+- 0:07:24 :: Gestión de proyectos
+  + 0:00:59 :: Proyectos asociados
+    - 0:01:05 :: Obras Civiles
+    - 0:01:09 :: Obras hidráulicas
+    - 0:01:19 :: Energizacion
+    - 0:01:26 :: GLP (Gas licuado)
+    - 0:01:48 :: Tramitaciones legales
+    - 0:01:54 :: Cálculo de Ingeniería
+  + 0:03:24 :: Recursos
+    - 0:03:28 :: Tiempo
+    - 0:03:30 :: Recursos Humanos
+    - 0:03:33 :: Materiales e insumos
+    - 0:03:39 :: Espacio físico
+    - 0:03:52 :: Maquinarias
+- 0:04:39 :: 45 horas/semana en Chile
+- 0:06:04 :: 50% o 100% aumento de pago por horas de trabajo vespertino
+- 0:08:44 :: El uso de recursos tiene un mínimo y un máximo
+- 0:09:30 :: Si uno hiciera entrara al mundo laboral, que haría?
+  + 0:09:53 :: Considerando que no tiene experiencia
+    - 0:10:01 :: Observar, analizar históricos y obtener estándares
+* Redes de proyectos: Metodos CPM y Pert
+* Intro
+- 0:11:14 :: Nacen en segunda guerra mundial
+- 0:11:56 :: Propósito: apoyar plan, programación y ejecución de un proyecto.
+- 0:12:39 :: CPM: determinístico
+  - Históricos -> Parámetros -> Intervalos de confianza
+  - Distribución normal (más de 40 datos)
+- 0:12:51 :: PERT: probabilístico
+* Técnica
+- 0:15:00 :: Técnica
+** Representación de una red
+*** Por arcos
+- 0:17:06 :: Las actividades se representan con arcos (aristas).
+  - Se requiere del uso de actividades ficticias.
+*** Por nodos
+- 0:20:56 :: Las actividades se representan con nodos.
+  - Este método no requiere del uso de actividades ficticias.
+** CPM: Método Ruta Critica
+*** Intro
+    - 0:23:26 :: Que tan temprano o tarde puede comenzar o terminar una actividad,
+      sin que afecte la duración del proyecto?
+      + 0:25:48 :: ES: Early start
+      + 0:26:01 :: EF: Early finish
+      + 0:26:10 :: LF: Last finish
+      + 0:26:15 :: FS: Last start
+      + 0:27:57 :: D: Duration
+      + 0:31:36 :: Tabla
+
+
+#+begin_center
+|----+--------+----|
+| X  | Nombre | X  |
+|----+--------+----|
+| ES | D      | EF |
+|----+--------+----|
+| LS | H      | LF |
+|----+--------+----|
+- H: Holgura
+  + Si H=0 -> Actividad Critica
+
+
+Se rellenan en orden
+1) D
+2) ES
+3) EF
+4) LF
+5)
+6)
+7)
+#+end_center
+
+
+    - 0:41:02 :: Problema página 68 (excel)
+      + 0:43:12 :: CMM Arcos
+      + 0:47:45 :: CMM Nodos
+*** TODO [#A] Nodos
+
+#+begin_center
+| <c> |  <c>   | <c> |
+|-----+--------+-----|
+|  -  | Nombre |  -  |
+|-----+--------+-----|
+| ES  |   D    | EF  |
+|-----+--------+-----|
+| LS  |   H    | LF  |
+|-----+--------+-----|
+- H: Holgura
+  + Si H=0 -> Actividad Critica, \(H \geq 0\)
+
+
+- Actividad Inicio y Fin tienen duración 0
+
+#+end_center
+
+*** TODO Procedimiento
+**** TODO Método
+
+#+begin_center
+Se rellenan en orden:
+1) D: vienen dado en los enunciados
+   - \(ES_{Inicio}=D=0\)
+2) ES
+   - Rellenar en actividades iniciales
+3) EF=ES+D
+   - Rellenar en actividades iniciales
+   - Luego la siguientes actividades, si tienen dependencias:
+   - \(ES_{actividad a rellenar} = max(EF_1,...,EF_n) de las dependencias\)
+4) Se llega al final: donde en la actividad Fin:
+   1) \(ES_{Última actividad}=EF_{Fin}\)
+      2)
+
+
+Luego, se empieza a rellenar de adelante hacia atras.
+
+
+1) aoeu
+2) aoeu
+3) aoeu
+#+end_center
+
+***** NEXT Wait for this lecture to be uploaded
+- [2021-06-07 Mon]
+** PERT
+- [2021-06-07 Mon 10:06]
+- Probabilístico
+- No considera rutas críticas
+  + Asigna probabilidades a ruta crítica promedio aunque sea mas corta que la
+    duración real del proyecto.
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
