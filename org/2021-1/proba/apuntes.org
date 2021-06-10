@@ -2,8 +2,6 @@
 :ID:       b97e8bdd-ee04-493f-acf5-a5af9f98819f
 :END:
 #+TITLE: Proba
-#+SETUPFILE: ~/Downloads/org-html-themes/org/theme-readtheorg-local.setup
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probability:statistics:notes:
 # Latex preamble
 # for probability definition
@@ -23,10 +21,18 @@
 \]
 
 
-* Sources for latex math notation: :noexport:
-  # https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
-  # https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
-  # https://jblevins.org/log/greek
+* TOC :TOC_2:noexport:
+- [[#apuntes-de-libro-probabilidad-y-estadística-con-aplicaciones-a-ingeniería-y-ciencias-para-curso-de-probabilidad-y-estadistica-para-ingenieros-civiles-industriales][Apuntes de Libro "Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias" para curso de Probabilidad y Estadistica para Ingenieros Civiles Industriales]]
+  - [[#requisitos][Requisitos]]
+  - [[#unidad-1-probabilidad][Unidad 1: Probabilidad]]
+  - [[#unidad-2-variables-aleatorias-unidimensionales][Unidad 2: Variables Aleatorias Unidimensionales]]
+  - [[#unidad-3-distribuciones][Unidad 3: Distribuciones]]
+  - [[#unidad-4-vectores-aleatorios][Unidad 4: Vectores aleatorios]]
+  - [[#unidad-5][Unidad 5:]]
+  - [[#unidad-6][Unidad 6:]]
+- [[#stats-youtube-channel][Stats youtube channel.]]
+- [[#clases][Clases]]
+  - [[#2021-06-09-wed-clase][[2021-06-09 Wed] Clase]]
 
 * Apuntes de Libro "Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias" para curso de Probabilidad y Estadistica para Ingenieros Civiles Industriales
   - Sonia Salvo
@@ -524,7 +530,42 @@
 ** Unidad 6:
 * Stats youtube channel.
   - https://www.youtube.com/channel/UCiHi6xXLzi9FMr9B0zgoHqA
+* Clases
+** [2021-06-09 Wed] Clase
+:PROPERTIES:
+:ID:       02f56033-8a4c-4ce8-8826-0a02d6fa285b
+:END:
+- [[id:c5fdee92-d862-42c8-820c-2f57c8e67e4b][log]]
+
+
+Timer start time set to 11:02:58, current value is 0:00:00
+
+*** Intro
+- 0:00:06 :: Intro
+- 0:00:16 :: Se resuelve un problema de T-Student pues entra en el
+  [[id:bb0a91f9-382e-461d-9d00-cd8503833893][próximo taller]].
+
+*** Repaso
+- 0:07:34 :: Para la T-Student
+  + Cosas con respecto a \(\mu\) o \(f(\mu)\) o sus estimadores que
+    seria X barra.
+  + 0:08:52 :: Cuando pienso en la T?
+    - El z y t: son conocidos o no?
+    - \[
+      z=\frac
+      {\overline{X}-\mu}
+      {\sigma / \sqrt{n}}
+      =
+      \frac
+      {\mu \^ - E(\mu \^)}
+      {}
+      \]
+    - Que es \(\overline{X}\) de \(\mu\)?
+      + Es el EMV de \(\mu\)
+  + 0:15:56 :: Cuando no?
+*** Ejemplo
+- 0:23:00 :: Ejemplo
 * Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

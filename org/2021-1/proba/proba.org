@@ -13,12 +13,11 @@
 - [[#contenido][Contenido]]
 - [[#contacto][Contacto]]
 - [[#evaluación][Evaluación]]
-  - [[#plan-de-vuelo][Plan de vuelo]]
-  - [[#teorica-80][Teorica 80%]]
+  - [[#plan-de-vuelo][Plan de Vuelo]]
+  - [[#teórica-80][Teórica 80%]]
     - [[#prueba1][prueba1]]
     - [[#prueba2][prueba2]]
-    - [[#tabla][Tabla]]
-  - [[#practica-20][Practica 20%]]
+  - [[#práctica-20][Práctica 20%]]
     - [[#apuntes][apuntes]]
     - [[#taller-1][Taller 1]]
     - [[#taller-2][Taller 2]]
@@ -29,10 +28,10 @@
     - [[#taller-6][Taller 6]]
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
     - [[#unidad-2-en-campus][Unidad 2 en campus]]
-    - [[#tabla-1][Tabla]]
 - [[#links][Links]]
   - [[#lunes-y-miercoles-1050-1][Lunes y Miercoles 1050]]
   - [[#clases-grabadas][Clases grabadas]]
+- [[#footnotes][Footnotes]]
 
 * Cátedras
 ** Lunes y Miercoles 1050
@@ -111,8 +110,20 @@ CLOSED: [2021-05-19 Wed 13:48] SCHEDULED: <2021-05-19 Wed 10:50-13:00>
 ****** TODO Clase proba
 SCHEDULED: <2021-06-02 Wed 10:50-13:00>
 - Did it but didn't get it. Have to review.
-****** TODO Clase proba
-SCHEDULED: <2021-06-09 Wed 10:50-13:00>
+****** DONE Clase proba
+CLOSED: [2021-06-09 Wed 12:48] SCHEDULED: <2021-06-09 Wed 10:50-13:00>
+:PROPERTIES:
+:ID:       c5fdee92-d862-42c8-820c-2f57c8e67e4b
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-09 Wed 12:48]
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-06-09 Wed 11:46]--[2021-06-09 Wed 12:48] =>  1:02
+CLOCK: [2021-06-09 Wed 11:40]--[2021-06-09 Wed 11:46] =>  0:06
+CLOCK: [2021-06-09 Wed 11:00]--[2021-06-09 Wed 11:39] =>  0:39
+:END:
+- [[id:02f56033-8a4c-4ce8-8826-0a02d6fa285b][apuntes.org]]
 ****** TODO Clase proba
 SCHEDULED: <2021-06-16 Wed 10:50-13:00>
 ****** TODO Clase proba
@@ -201,9 +212,12 @@ Apuntes del libro de los profesores mas las clases.
 - Sonia Salvo
   - sonia.salvo@ufrontera.cl
 * Evaluación :grade:
-** Plan de vuelo
+** Plan de Vuelo
+:PROPERTIES:
+:ID:       613bf14e-048d-46fc-b2b5-549819da469f
+:END:
 - file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
-** Teorica 80% :test:
+** Teórica 80% :test:
 *** DONE prueba1
 CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
 :LOGBOOK:
@@ -216,13 +230,18 @@ CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
 *** TODO prueba2
 DEADLINE: <2021-07-21 Wed 10:50-13:00 -0d>
 - Unidad 4-6
-*** Tabla
-|          |           |
-|          |           |
-|----------+-----------|
-| Promedio | vmean([]) |
-#+TBLFM: $>=vmean(@<..@>>)
-** Practica 20% :workshop:
+  |   | <l>                        |
+  |---+----------------------------|
+  | U | Nombre                     |
+  |---+----------------------------|
+  | 4 | Distribuciones Muestrales  |
+  |   | - Estimación de Parámetros |
+  |   | - Inferencia Estadística   |
+  |---+----------------------------|
+  | 5 | Intervalos de Confianza    |
+  | 6 | Pruebas de Hipótesis       |
+  |---+----------------------------|
+** Práctica 20% :workshop:
 *** apuntes
 6 pruebas cortas no recuperables. Se borra las más baja al final. La 6ta nota
 es actitudinal por actividad en campus virtual.
@@ -377,6 +396,24 @@ p(x)=\frac
 
 *** TODO Taller 4
 DEADLINE: <2021-06-14 Mon -0d>
+:PROPERTIES:
+:ID:       bb0a91f9-382e-461d-9d00-cd8503833893
+:END:
+- O 16 de junio? En programa[fn:1] aparece 16.
+
+
+- Hoy: [2021-06-09 Wed]
+- Todo en el [[id:613bf14e-048d-46fc-b2b5-549819da469f][plan]]
+- Estamos en la semana del 7 al 11
+- Seguro:
+  + Encontrar EMV (Estimador Maximo verosimil)
+  + T-Student
+    - aoeu
+  + Chi-Cuadrado
+  + X barra
+  + EMV encontrar y estudiar propiedades
+    - Ensigamiento?
+    - Cota rau?
 *** TODO Taller 5
 DEADLINE: <2021-07-05 Mon -0d>
 *** TODO Taller 6
@@ -389,13 +426,6 @@ CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
 :END:
 *** TODO Unidad 2 en campus
 DEADLINE: <2021-05-09 Sun -0d>
-*** Tabla
-- https://campusvirtual.ufro.cl/course/view.php?id=2308&section=9
-  | taller1  |   3 |
-  | taller2  |   4 |
-  |----------+-----|
-  | Promedio | 3.5 |
-  #+TBLFM: $>=vmean(@<..@>>)
 * Links
 :PROPERTIES:
 :ID:       03be17f8-14ef-4ff2-8958-294dce42a6e3
@@ -405,6 +435,8 @@ DEADLINE: <2021-05-09 Sun -0d>
 - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 ** Clases grabadas
 - https://drive.google.com/drive/folders/1D_lYyjUuGMIp241fPY-xjdEqAis9u6o9?usp=sharing
+* Footnotes
+[fn:1] file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

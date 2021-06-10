@@ -1,16 +1,74 @@
 #+TITLE: Title
-#+EXCLUDE_TAGS: noexport
+#+OPTIONS: toc:2
 #+FILETAGS: :university:
-* TOC :TOC:
-- [[#contenido][Contenido]]
-- [[#links][Links]]
-- [[#contacto][Contacto]]
+* TOC :TOC_2:noexport:
+- [[#programa][Programa]]
+- [[#calendar-example][Calendar (example)]]
 - [[#evaluación][Evaluación]]
+  - [[#teórico-ab][Teórico ab%]]
+  - [[#práctico-cd][Práctico cd%]]
+- [[#links][Links]]
+- [[#resources][Resources]]
+- [[#contacto][Contacto]]
+- [[#apuntes][Apuntes]]
+  - [[#clase][Clase]]
+  - [[#ayudantía-etc][Ayudantía etc]]
 
-* Contenido
-* Links
-* Contacto
+* Programa
+- link to subject's sillabus.
+  + must be located in ~/myDrive/uni/202*-*/SUBJECT/programa.pdf
+* Calendar (example)
+|  <c>  |       <c>        |        |                                         |  <c>   |  <c>   |   <c>    |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+| Clase |      Fecha       | Semana | Tópico                                  | Prueba | Taller | Visitado |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|   1   | [2021-04-08 Thu] |      1 | Introducción                            |   1    |   x    |    *     |
+|   2   | [2021-04-13 Tue] |      2 | Introduccion                            |   1    |   x    |    *     |
+|   3   | [2021-04-15 Thu] |      3 | Introduccion                            |   1    |   1    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|   4   | [2021-04-20 Tue] |      3 | Cargas Internas                         |   1    |   x    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|   5   | [2021-04-22 Thu] |      4 | Esfuerzo                                |   1    |   x    |    *     |
+|   6   | [2021-04-27 Tue] |      4 | Esfuerzo                                |   1    |   x    |    *     |
+|   7   | [2021-04-29 Thu] |      5 | Esfuerzo                                |   1    |   x    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|   8   | [2021-05-04 Tue] |      5 | Deformación                             |   2    |   x    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|   9   | [2021-05-06 Thu] |      6 | Propiedades Mecánicas de los Materiales |   2    |   2    |    *     |
+|  10   | [2021-05-11 Tue] |      7 | Propiedades Mecánicas de los Materiales |   2    |   2    |    *     |
+|  11   | [2021-05-13 Thu] |      7 | Propiedades Mecánicas de los Materiales |   2    |   2    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|  12   | [2021-05-18 Tue] |      8 | Carga Axial                             |   2    |   x    |    *     |
+|  13   | [2021-05-20 Thu] |      8 | Carga Axial                             |   2    |   x    |    *     |
+|  14   | [2021-06-01 Tue] |      9 | Carga Axial                             |   2    |   x    |    *     |
+|  15   | [2021-06-03 Thu] |      9 | Carga Axial                             |   2    |   x    |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
+|  16   | [2021-06-08 Tue] |     10 | Torsión                                 |   3    |        |    *     |
+|  17   | [2021-06-10 Thu] |     10 | Torsión                                 |   3    |        |    *     |
+|-------+------------------+--------+-----------------------------------------+--------+--------+----------|
 * Evaluación
+** Teórico ab%
+** Práctico cd%
+* Links
+- to zoom calls, google meets. Specific for lectures.
+* Resources
+- external links to books, videos etc.
+* Contacto
+|----------+------|
+| Nombre   |      |
+| Email    |      |
+| Teléfono | +569 |
+|----------+------|
+* Apuntes :lecture:
+- apuntes.org
+** Clase
+*** [inactive timestamp] Clase X <nombre ramo>
+- schedule
+- clockbook here
+- link to apuntes.org
+  + in said node you put a ~-log~ item that redirects here.
+
+** Ayudantía etc
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

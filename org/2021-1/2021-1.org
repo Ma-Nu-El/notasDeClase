@@ -43,6 +43,7 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :PROPERTIES:
 :ID:       b1ab3d23-8cee-475a-83e2-a41ec6fb6292
 :END:
+- Se elimina el taller más malo.
 #+NAME:[[id:b1ab3d23-8cee-475a-83e2-a41ec6fb6292][Práctica 20%]]
 | taller1  | 6.1 |
 | taller2  |     |
@@ -67,23 +68,43 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :ID:       7d28dc6c-3440-4961-b738-c8b48838dfbe
 :END:
 #+NAME:[[id:7d28dc6c-3440-4961-b738-c8b48838dfbe][Teórica 70%]]
-| prueba1  | 3.6 |
-| prueba2  |     |
+| Item     | Nota |
+|----------+------|
+| prueba1  |  3.6 |
+| prueba2  |      |
+|----------+------|
+| Promedio |  3.6 |
+#+TBLFM: @>$>=vmean(@I..II)
+**** 2020-2
 |----------+-----|
-| Promedio | 3.6 |
-#+TBLFM: $>=vmean(@<..@>>)
+| prueba1  | 2.1 |
+| prueba2  | 3.5 |
+|----------+-----|
+| Promedio | 2.8 |
+#+TBLFM: @>$>=vmean(@I..II)
 *** Práctica 30%
 :PROPERTIES:
 :ID:       30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad
 :END:
 #+NAME:[[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]]
+| Item     | Nota |
+|----------+------|
 | taller1  |  5.1 |
 | taller2  |  3.0 |
-| taller3  |      |
+| taller3  |  5.2 |
 | taller4  |      |
 |----------+------|
-| Promedio | 4.05 |
-#+TBLFM: $>=vmean(@<..@>>)
+| Promedio |  4.6 |
+#+TBLFM: @>$>=vmean(@I..II)
+**** 2020-2
+|----------+------|
+| taller1  |  3.5 |
+| taller2  |  3.5 |
+| taller3  |  5.2 |
+| taller4  |  5.2 |
+|----------+------|
+| Promedio | 4.35 |
+#+TBLFM: @>$>=vmean(@I..II)
 *** Total
 :PROPERTIES:
 :ID:       777f9be8-cedb-484d-aacc-1328fe6e8a7a
@@ -92,9 +113,9 @@ Este semestre la nota mínima para irse a examen es 3.0.
 |          | Ponderación | Nota | Nota ponderada |
 |----------+-------------+------+----------------|
 | Teórica  |         0.7 |  3.6 |           2.52 |
-| Práctica |         0.3 | 4.05 |          1.215 |
+| Práctica |         0.3 |  4.6 |           1.38 |
 |----------+-------------+------+----------------|
-| Promedio |           - |    - |          3.735 |
+| Promedio |           - |    - |            3.9 |
 #+TBLFM: @2$3=remote([[id:7d28dc6c-3440-4961-b738-c8b48838dfbe][Teórica 70%]],@>$>) :: @3$3=remote([[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]],@>$>) :: $4=$2*$3 :: @4$4=vsum(@I..II)
 ** Proba
 *** Teórica 80% :test:
@@ -102,32 +123,27 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :ID:       b1b84ff7-ab97-4ede-85b2-2bff9f206454
 :END:
 #+NAME:[[id:b1b84ff7-ab97-4ede-85b2-2bff9f206454][Teórica 80%]]
-|          | 4 |
-|          |   |
-|          |   |
-|----------+---|
-| Promedio | 4 |
+| prueba1  | 3.7 |
+|----------+-----|
+| Promedio | 3.7 |
 #+TBLFM: $>=vmean(@<..@>>)
+**** TODO [#A] Comparar pauta con desarrollo
 *** Práctica 20% :workshop:
 :PROPERTIES:
 :ID:       899b9d78-f009-40bb-8ce1-6a3777fd93e3
 :END:
 #+NAME:[[id:899b9d78-f009-40bb-8ce1-6a3777fd93e3][Práctica 20%]]
-| taller1  |   3 |
-| taller2  |   4 |
-| taller3  |     |
-| taller4  |     |
-| taller5  |     |
-| taller6  |     |
-|----------+-----|
-| Promedio | 3.5 |
+| taller1  |   |
+| taller2  | 4 |
+| taller3  | 6 |
+| taller4  |   |
+| taller5  |   |
+| taller6  |   |
+|----------+---|
+| Promedio | 5 |
 #+TBLFM: $>=vmean(@<..@>>)
-**** Total
-|          |           |
-| taller2  |           |
-|----------+-----------|
-| Promedio | vmean([]) |
-#+TBLFM: $>=vmean(@<..@>>)
+**** TODO [#A] Preguntar si eliminan taller mas malo
+DEADLINE: <2021-06-14 Mon 10:50 -0d>
 *** Total
 :PROPERTIES:
 :ID:       ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4
@@ -135,11 +151,11 @@ Este semestre la nota mínima para irse a examen es 3.0.
 #+NAME:[[id:ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4][Total]]
 |          | Ponderación | Nota | Nota ponderada |
 |----------+-------------+------+----------------|
-| Teórica  |         0.7 |    4 |            2.8 |
-| Práctica |         0.3 |  3.5 |           1.05 |
+| Teórica  |         0.7 |  3.7 |           2.59 |
+| Práctica |         0.3 |    5 |            1.5 |
 |----------+-------------+------+----------------|
-| Promedio |           - |    - |           3.85 |
-#+TBLFM: @2$3=remote([[id:b1b84ff7-ab97-4ede-85b2-2bff9f206454][Teórica 80%]],@>$>) :: @3$3=remote([[id:899b9d78-f009-40bb-8ce1-6a3777fd93e3][Práctica 20%]],@>$>) :: $4=$2*$3 :: @4$4=vsum(@I..II)
+| Promedio |           - |    - |           4.09 |
+#+TBLFM: @2$3=remote([[id:b1b84ff7-ab97-4ede-85b2-2bff9f206454][Teórica 80%]],@>$>) :: @3$3=remote([[id:899b9d78-f009-40bb-8ce1-6a3777fd93e3][Práctica 20%]],@>$>) :: $4=$2*$3 :: @>$>=vsum(@I..II)
 ** Electivo
 ** Total
 :PROPERTIES:
@@ -150,11 +166,11 @@ Este semestre la nota mínima para irse a examen es 3.0.
 | Subject     |     Grade |
 |-------------+-----------|
 | Resistencia |      3.51 |
-| IO          |     3.735 |
-| Proba       |      3.85 |
+| IO          |       3.9 |
+| Proba       |      4.09 |
 | Electivo    |           |
 |-------------+-----------|
-| Promedio    | 3.6983333 |
+| Promedio    | 3.8333333 |
 |-------------+-----------|
 #+TBLFM: @2$2=remote([[id:785fc36a-3d61-4318-9ac7-bc588d5b3fb1][Total]],@>$>) :: @3$2=remote([[id:777f9be8-cedb-484d-aacc-1328fe6e8a7a][Total]],@>$>) :: @4$2=remote([[id:ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4][Total]],@>$>) :: @6$2=vsum(@II..III)/3
 
