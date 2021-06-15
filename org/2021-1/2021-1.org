@@ -142,7 +142,7 @@ Este semestre la nota mínima para irse a examen es 3.0.
 |----------+---|
 | Promedio | 5 |
 #+TBLFM: $>=vmean(@<..@>>)
-**** TODO [#A] Preguntar si eliminan taller mas malo
+**** TODO [#A] En ayudantía: preguntar si eliminan taller mas malo
 DEADLINE: <2021-06-14 Mon 10:50 -0d>
 *** Total
 :PROPERTIES:

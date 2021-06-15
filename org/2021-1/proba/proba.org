@@ -13,7 +13,7 @@
 - [[#contenido][Contenido]]
 - [[#contacto][Contacto]]
 - [[#evaluación][Evaluación]]
-  - [[#plan-de-vuelo][Plan de Vuelo]]
+  - [[#plan-de-vuelo][Plan de vuelo]]
   - [[#teórica-80][Teórica 80%]]
     - [[#prueba1][prueba1]]
     - [[#prueba2][prueba2]]
@@ -67,6 +67,9 @@ SCHEDULED: <2021-05-31 Mon 10:50-11:55>
 SCHEDULED: <2021-06-07 Mon 10:50-11:55>
 ****** TODO Clase proba
 SCHEDULED: <2021-06-14 Mon 10:50-11:55>
+:CLOCKBOOK:
+CLOCK: [2021-06-14 Mon 12:03]--[2021-06-14 Mon 12:06] =>  0:03
+:END:
 ****** TODO Clase proba
 SCHEDULED: <2021-06-21 Mon 10:50-11:55>
 ****** TODO Clase proba
@@ -193,6 +196,21 @@ Pasos para EMV.
 La mejor forma de evaluar un estimador es el sesgo.
 **** TODO Ayudantía proba
 SCHEDULED: <2021-06-14 Mon 12:00-13:00>
+:CLOCKBOOK:
+CLOCK: [2021-06-14 Mon 12:06]--[2021-06-14 Mon 13:02] =>  0:56
+:END:
+- En el taller:
+  - Propiedades de estimadores , EMV (estimador máxima verosimilitud)
+    + Todo sobre estimadores, estimacion puntual
+    + Consistencia
+  - Chi-cuadrado y T-student no entra
+
+
+- Ayudantía próxima semana intervalos de confianza
+- Sesgo
+  + Sacar esperanza
+  + Y la esperanza de un logaritmo natural?
+
 **** TODO Ayudantía proba
 SCHEDULED: <2021-06-21 Mon 12:00-13:00>
 **** TODO Ayudantía proba
@@ -212,7 +230,7 @@ Apuntes del libro de los profesores mas las clases.
 - Sonia Salvo
   - sonia.salvo@ufrontera.cl
 * Evaluación :grade:
-** Plan de Vuelo
+** Plan de vuelo
 :PROPERTIES:
 :ID:       613bf14e-048d-46fc-b2b5-549819da469f
 :END:
@@ -395,7 +413,7 @@ p(x)=\frac
   - \(\lambda\)
 
 *** TODO Taller 4
-DEADLINE: <2021-06-14 Mon -0d>
+DEADLINE: <2021-06-16 Wed 10:50 -0d>
 :PROPERTIES:
 :ID:       bb0a91f9-382e-461d-9d00-cd8503833893
 :END:
@@ -414,6 +432,9 @@ DEADLINE: <2021-06-14 Mon -0d>
   + EMV encontrar y estudiar propiedades
     - Ensigamiento?
     - Cota rau?
+
+
+
 *** TODO Taller 5
 DEADLINE: <2021-07-05 Mon -0d>
 *** TODO Taller 6

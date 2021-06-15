@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       35c4778b-3086-4e81-91ef-8ea885837f6a
+:END:
 #+TITLE: Apuntes
 #+FILETAGS: :university:notes:
 #+OPTIONS: toc:3
@@ -12,6 +15,10 @@
   - [[#taller2-listo-enviar-hoy][taller2: listo, enviar hoy.]]
   - [[#canceled-taller3][CANCELED taller3]]
 - [[#2021-1][2021-1]]
+  - [[#2021-04-22-thu-clase-5][[2021-04-22 Thu] Clase 5]]
+  - [[#2021-04-27-tue-clase-6][[2021-04-27 Tue] Clase 6]]
+  - [[#2021-04-29-thu-clase-7][[2021-04-29 Thu] Clase 7]]
+  - [[#2021-05-04-tue-clase-8][[2021-05-04 Tue] Clase 8]]
   - [[#2021-05-06-thu-clase-9][[2021-05-06 Thu] Clase 9]]
   - [[#2021-05-11-tue-clase-10][[2021-05-11 Tue] Clase 10]]
   - [[#2021-05-13-thu-clase-11][[2021-05-13 Thu] Clase 11]]
@@ -20,6 +27,7 @@
   - [[#2021-05-20-thu-clase-13][[2021-05-20 Thu] Clase 13]]
   - [[#2021-06-01-tue-clase-14][[2021-06-01 Tue] Clase 14]]
   - [[#2021-06-03-thu-clase-15][[2021-06-03 Thu] Clase 15]]
+  - [[#resumen-prueba2][Resumen prueba2]]
   - [[#2021-06-08-tue-clase-16][[2021-06-08 Tue] Clase 16]]
   - [[#2021-06-10-thu-clase-17][[2021-06-10 Thu] Clase 17]]
 - [[#footnotes][Footnotes]]
@@ -218,6 +226,197 @@ CLOSED: [2021-05-06 Thu 17:23]
 <2021-01-27 Wed 08:30>
 Opcional, pero mejor darlo igual.
 * 2021-1
+** [2021-04-22 Thu] Clase 5
+:PROPERTIES:
+:ID:       e41ad016-10f1-4566-9fe4-39a122ff0c96
+:END:
+- [[id:b2146caf-8871-48fc-b5d2-40756308b7cb][log]]
+- Clase 5: Esfuerzo
+*** Intro
+Clase anterior:
+- Concepto de fuerza interna.
+- Método de las secciones
+*** Esfuerzo
+**** Esfuerzo normal
+
+#+begin_quote
+"la intensidad de la fuerza, o la fuerza por unidad de área, actuando normal a
+\(\Delta A\), se define como esfuerzo normal, \(\sigma\) (sigma).
+Matemáticamente puede expresarse como:"
+#+end_quote
+
+\[
+\sigma = \lim_{\Delta A \to 0} \frac{\Delta F_n}{\Delta A}
+\]
+
+**** Esfuerzo cortante
+
+#+begin_quote
+"la intensidad de la fuerza, o fuerza por unidad de área, actuando tangente a
+\(\Delta A\), se define como esfuerzo cortante, \(\tau\) (tau).
+Matemáticamente puede expresarse como:"
+#+end_quote
+
+\[
+\tau = \lim_{\Delta A \to 0} \frac{\Delta F_t}{\Delta A}
+\]
+
+**** Esfuerzo normal promedio
+\[
+\sigma = \frac{P}{A}
+\]
+|    <c>     | <l>                            |
+|------------+--------------------------------|
+|  Símbolo   | Significado                    |
+|------------+--------------------------------|
+| \(\sigma\) | Esfuerzo normal                |
+|   \(P\)    | Fuerza interna resultante      |
+|   \(A\)    | Área de la sección transversal |
+|------------+--------------------------------|
+** [2021-04-27 Tue] Clase 6
+:PROPERTIES:
+:ID:       4bcbac27-2180-4942-bbb6-3ae1c2ce07dd
+:END:
+- [[id:99949742-36bf-4bad-afed-5af3ad00fcda][log]]
+- Clase 6: Esfuerzo cortante
+
+*** Esfuerzo cortante
+\[
+\tau = \frac{V}{A}
+\]
+
+
+|   <c>    | <l>                                |
+|----------+------------------------------------|
+| Símbolo  | Significado                        |
+|----------+------------------------------------|
+| \(\tau\) | Esfuerzo cortante                  |
+|  \(V\)   | Fuerza cortante interna resultante |
+|  \(A\)   | Área de la sección transversal     |
+|----------+------------------------------------|
+
+** [2021-04-29 Thu] Clase 7
+:PROPERTIES:
+:ID:       4002a7ee-b774-4925-a244-24212f50c31d
+:END:
+- [[id:501f3f90-2498-4d0d-bb2c-5f735bb4e3ad][log]]
+- Clase 7: Esfuerzo
+- Clase grabada:
+  + https://www.youtube.com/watch?v=Dnpvi4dxD44
+
+*** Esfuerzo admisible: Factor de Seguridad (F.S.)
+\[
+F.S.=\frac{\sigma_{falla}}{\sigma_{admisible}}
+\qquad
+F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
+\]
+
+#+begin_quote
+"Con el objetivo de evitar una posible falla se escoge un factor de seguridad
+mayor a 1. El valor especifico depende del tipo de material a utilizar y la
+finalidad prevista para la estructura o máquina. Por ejemplo, el factor de
+seguridad utilizado en el diseño de componentes de aeronaves puede ser
+cercano a 1 a fin de reducir el pose del vehículo. Por otra parte, en el caso
+de una planta nuclear, es probable que el factor de seguridad de los
+componentes sea muy elevando (cercano a 3), ya que puede existir una alta
+incertidumbre en el comportamiento de las cargas externas o del material.
+
+En general, los factores de seguridad y por lo tanto los esfuerzos permisibles,
+han sido estandarizados y sus valores se encuentran en códigos de diseño y
+manuales de ingeniaría y siempre buscan encontrar un balance entre la
+seguridad ambiental y para el público junto con una solución económica
+razonable para le diseño".
+#+end_quote
+
+** [2021-05-04 Tue] Clase 8
+:PROPERTIES:
+:ID:       c6926df3-1d1b-49f5-a7bd-5bc961aefc1e
+:END:
+- [[id:146af7e4-9f74-4072-91b4-dc78e8d5a2a0][log]]
+- Clase 8: Deformación
+- Clase grabada:
+  + https://www.youtube.com/watch?v=6cTg3f6Kq6s
+
+
+*** Intro
+En clases anteriores:
+- Esfuerzo normal
+- Esfuerzo cortante
+- Diseño
+
+
+Deformación y esfuerzo: conceptos fundamentales en Resistencia de Materiales
+y Mecánica de Materiales.
+
+Hoy: Deformación.
+
+*** Deformación unitaria normal promedio
+
+
+\[
+\epsilon_{promedio}=
+\frac
+{\Delta s' - \Delta s}
+{\Delta s}
+\]
+
+
+|           <c>            | <l>                   |
+|--------------------------+-----------------------|
+|         Símbolo          | Significado           |
+|--------------------------+-----------------------|
+|       \(\epsilon\)       | Deformación           |
+|       \(\Delta s\)       | Longitud original     |
+|      \(\Delta s'\)       | Longitud final        |
+| \(\Delta s' - \Delta s\) | Variación de longitud |
+|--------------------------+-----------------------|
+
+*** Ejemplo
+
+La deformación unitaria es a-dimensional, pero usualmente se representa 
+en variaciones de una unidad de longitud sobre ella misma. Ejemplo:
+\[\epsilon_{promedio}=0,25 \frac{mm}{mm}\]
+significa una deformación unitaria de 0,25 milímetros por cada milímetro
+que mide el objeto originalmente. Si una barra mide 1 metro (1000 milimetros)
+y si experimenta una deformacion unitaria de 0,25 \(\frac{[mm]}{[mm]}\)
+finalmente terminará midiendo \(1000 * 0.25 + 1000 = 1250 [mm] = 1.25 [m]\)
+
+Así, podemos decir también que:
+
+\[
+\Delta s'=(1+\epsilon) \cdot \Delta s
+\]
+
+*** Deformación unitaria cortante
+Análogamente a la deformación normal, podemos definir la deformación unitaria
+cortante como:
+
+\[
+\gamma=\frac {\pi} {2} - \theta'
+\]
+
+
+|        <c>        | <l>                             |
+|-------------------+---------------------------------|
+|      Símbolo      | Significado                     |
+|-------------------+---------------------------------|
+|    \(\gamma\)     | Variación de ángulo en radianes |
+| \(\frac{\pi}{2}\) | Ángulo original                 |
+|    \(\theta'\)    | Ángulo final                    |
+|-------------------+---------------------------------|
+
+
+- Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
+- Si el ángulo se abre \( \rightarrow \gamma < 0 \)
+
+*** Deformación Normal y cortante
+
+#+begin_quote
+"En general se puede afirmar que las deformaciones unitarias normales
+causan un cambio en el volumen de un cuerpo, mientras que las deformaciones
+unitarias cortantes causan un cambio en su forma."
+#+end_quote
+
 ** [2021-05-06 Thu] Clase 9
 :PROPERTIES:
 :ID:       a86b24d7-98f8-4c69-aee3-017e67f0d6ca
@@ -226,6 +425,7 @@ Opcional, pero mejor darlo igual.
 - Clase 9: Propiedades Mecánicas de los Materiales (1/3)
 - Clase grabada
   + https://www.youtube.com/watch?v=fGwQ7GkAIuU
+- Como se relacionan los conceptos de Deformación y Esfuerzo.
 
 *** Repaso
 2:00-11:30
@@ -406,9 +606,9 @@ Luego:
 \tau = G \cdot \gamma
 \]
 
-| G          | Módulo de elasticidad cortante |
-| \(\tau\)   | Esfuerzo cortante              |
-| \(\gamma\) | Deformación unitaria cortante  |
+| G          | Módulo de elasticidad cortante           |
+| \(\tau\)   | Esfuerzo cortante                        |
+| \(\gamma\) | Deformación unitaria cortante (radianes) |
 
 Así, tenemos:
 
@@ -443,7 +643,7 @@ Esto ocurre cuando se supera el esfuerzo límite de elasticidad[fn:1].
 - La deformacion es permanente.
 
 
-#+CAPTION: Diagrama deformación elástica y plástica.
+#+CAPTION: Diagrama deformación elástica y plástica
 #+NAME: [[id:528227c3-9b77-4990-bc24-85b3a1469ff0][Hoy: región plástica.1]]
 #+ATTR_HTML: :alt Diagrama deformación elástica y plástica. :align center :width 80%
 [[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 22-31-09.png]]
@@ -451,7 +651,7 @@ Esto ocurre cuando se supera el esfuerzo límite de elasticidad[fn:1].
 Una vez que el cuerpo ha sido deformado de forma permanente, su gráfico
 de esfuerzo-deformación unitaria se representa de la siguiente forma:
 
-#+CAPTION: Diagrama deformación plástica.
+#+CAPTION: Diagrama deformación plástica
 #+NAME: [[id:528227c3-9b77-4990-bc24-85b3a1469ff0][Hoy: región plástica.2]]
 #+ATTR_HTML: :alt Diagrama deformación plástica. :align center :width 50%
 [[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 22-37-34.png]]
@@ -611,24 +811,83 @@ daño permanente: resiliencia. Es el área de un triángulo.
 
 - Clase de hoy: carga axial.
 
-  - Inicio cerca de [2021-05-18 Tue 08:40]
+*** Resumen
+- Inicio cerca de [2021-05-18 Tue 08:40]
 
-  - [2021-05-18 Tue 08:44] La clase anterior se vio esfuerzo y deformación
-    -> propiedades relacionadas.
-    + Ley de Hook
-    + Razón de Poisson
+- [2021-05-18 Tue 08:44] La clase anterior se vio esfuerzo y deformación
+  -> propiedades relacionadas.
+  + Ley de Hook
+  + Razón de Poisson
 
-  - [2021-05-18 Tue 08:46] Clase de hoy: fuerza normal: aka carga axial.
-  - [2021-05-18 Tue 08:46] Al final torsor (4-6 clases) Moment flector y fuerza
-    cortante.
-  - *_[2021-05-18 Tue 08:53-08:56] Ecuación de deformación !!_*: presentación y
-    análisis.
-  - [2021-05-18 Tue 08:56-09:00] Cosas a considerar respecto de la ecuación.
-  - *_[2021-05-18 Tue 09:05-09:35] Ejemplo._*
-    + [2021-05-18 Tue 09:35-09:37] Recap
-    + [2021-05-18 Tue 09:37] Gráfico de fuerzas
-  - *_[2021-05-18 Tue 09:46-10:00] Ejemplo2_*
-  - [2021-05-18 Tue 10:02]Comentarios finales y fin.
+- [2021-05-18 Tue 08:46] Clase de hoy: fuerza normal: aka carga axial.
+- [2021-05-18 Tue 08:46] Al final torsor (4-6 clases) Momento flector y
+  fuerza cortante.
+- *_[2021-05-18 Tue 08:53-08:56] Ecuación de deformación !!_*: presentación y
+  análisis.
+- [2021-05-18 Tue 08:56-09:00] Cosas a considerar respecto de la ecuación.
+- *_[2021-05-18 Tue 09:05-09:35] Ejemplo._*
+  + [2021-05-18 Tue 09:35-09:37] Recap
+  + [2021-05-18 Tue 09:37] Gráfico de fuerzas
+- *_[2021-05-18 Tue 09:46-10:00] Ejemplo2_*
+- [2021-05-18 Tue 10:02]Comentarios finales y fin.
+*** Detalles
+Tenemos:
+
+- Esfuerzo normal
+\[
+\sigma = \frac{P}{A}
+\]
+
+
+Por otro lado tenemos la deformación unitaria:
+\[
+\epsilon=\frac{\delta}{L}
+\]
+
+#+begin_quote
+"Si estas cantidades no exceden el límite proporcional, podemos relacionarlas
+por medio de la Ley de Hooke":
+#+end_quote
+
+\[
+\sigma = E \cdot \epsilon
+\]
+
+\[
+\frac{P}{A}=E \cdot \frac{\delta}{L}
+\]
+
+
+Y despejando \(\delta\) obtenemos:
+
+\[
+\delta=\frac{PL}{AE}
+\]
+
+|    <c>     | <l>                                               |
+|------------+---------------------------------------------------|
+|  Símbolo   | Significado                                       |
+|------------+---------------------------------------------------|
+| \(\delta\) | Desplazamiento de un punto en la barra relativo a |
+|            | otro punto.                                       |
+|------------+---------------------------------------------------|
+|   \(L\)    | Distancia inicial entre los puntos en cuestión.   |
+|------------+---------------------------------------------------|
+|   \(P\)    | Fuerza axial interna en la sección entre los dos  |
+|            | puntos en cuestión.                               |
+|------------+---------------------------------------------------|
+|   \(A\)    | Área de la sección transversal entre los puntos.  |
+|------------+---------------------------------------------------|
+|   \(E\)    | Modulo de elasticidad del material de la sección  |
+|            | entre los puntos.                                 |
+|------------+---------------------------------------------------|
+
+-----
+
+|----------------+--------------|
+| \(\delta > 0\) | alargamiento |
+| \(\delta < 0\) | contracción  |
+|----------------+--------------|
 
 ** [2021-05-20 Thu] Clase 13
 :PROPERTIES:
@@ -636,7 +895,7 @@ daño permanente: resiliencia. Es el área de un triángulo.
 :END:
 - [[id:6e02076a-7184-451c-967a-0234f86c82d8][log]]
 
-
+*** Resumen
 - *_[2021-05-20 Thu 17:05] Inicio_*
 - [2021-05-20 Thu 17:07] Elemento cargado axialmente estáticamente
   indeterminado.
@@ -658,6 +917,24 @@ daño permanente: resiliencia. Es el área de un triángulo.
   + [2021-05-20 Thu 17:43] Faltan ecuaciones nuevamente.
   + [2021-05-20 Thu 17:44] Mismo procedimiento.
     - [2021-05-20 Thu 17:47] Usa triángulos semejantes para obtener ecuación.
+*** Detalles
+
+No se presentan nuevas ecuaciones, pero se hace referencia a que todas estas
+clases se ha venido trabajando con deformaciones. Y existe un caso donde los
+extremos de las barras están fijos, por lo que no existe deformación a pesar
+de existir fuerzas que obligarían al material a deformarse si no fuese por los
+empotramientos.
+
+Por lo que la incógnita en estos casos son las fuerzas de reacción de los
+empotramientos que impiden la deformación.
+
+Por lo que se trabaja con la siguiente ecuación:
+
+\[
+\delta_{AB}=0
+\]
+
+De ahí se resuelve. Detalles en la presentación de la clase 13, semana 8.
 
 ** [2021-06-01 Tue] Clase 14
 :PROPERTIES:
@@ -667,6 +944,7 @@ daño permanente: resiliencia. Es el área de un triángulo.
 
 Timer start time set to 09:08:36, current value is 0:00:00
 
+*** Resumen
 - 0:00:28 :: Esfuerzo térmico : \(\delta_T\)
 - 0:00:59 :: Ejemplo rejas, dilatación y contracción durante el día y noche.
 - 0:02:45 :: Cada material tiene su propio coeficiente de dilatacion
@@ -698,6 +976,51 @@ Timer start time set to 09:08:36, current value is 0:00:00
 - 0:30:51 :: Se calculan los totales?
 - 0:32:40 :: [2021-06-01 Tue 09:41]
 - 0:34:17 :: Recap
+*** Detalles
+**** Esfuerzo térmico
+:PROPERTIES:
+:ID:       ff60d1db-22fd-4f76-91c0-30b970c9c539
+:END:
+\[
+\delta_T=\alpha \cdot \Delta T \cdot L
+\]
+
+
+#+CAPTION: Esfuerzo Térmico
+#+NAME: [[id:ff60d1db-22fd-4f76-91c0-30b970c9c539][Esfuerzo térmico]]
+#+ATTR_HTML: :alt Esfuerzo Térmico image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-13 15-38-26.png]]
+
+
+|     <c>      | <l>                                       |
+|--------------+-------------------------------------------|
+|   Símbolo    | Significado                               |
+|--------------+-------------------------------------------|
+|  \(\alpha\)  | Coeficiente lineal de dilatación térmica. |
+| \(\Delta T\) | Cambio de temperatura.                    |
+|    \(L\)     | Longitud inicial del segmento.            |
+| \(\delta_T\) | Cambio en la longitud del objeto.         |
+|--------------+-------------------------------------------|
+
+**** Acerca de \(\alpha\)
+
+#+begin_quote
+"\(\alpha\): Propiedad del material llamada coeficiente lineal de dilatación
+térmica. Las unidades miden deformación unitaria por grado de temperatura.
+Ellas son \(1/^{\circ}F\) en el sistema inglés y \(1/^{\circ} C\) o
+\(1/K\) en el sistema internacional".
+#+end_quote
+
+Combinando ecuaciones:
+\[
+P=A \cdot E \cdot \alpha \cdot \Delta T
+\]
+
+Calculando para esfuerzo:
+
+\[
+\sigma = \frac{P}{A} = E \cdot \alpha \cdot \Delta T
+\]
 
 ** [2021-06-03 Thu] Clase 15
 :PROPERTIES:
@@ -710,7 +1033,8 @@ Timer start time set to 16:59:35, current value is 0:00:00
 
 #+transclude: t [[id:bebe7eb7-70d0-4864-85fe-6331134196ef][Intro]]
 
-*** Concentración de esfuerzos.
+*** Resumen
+**** Concentración de esfuerzos.
 Como intro para materia y ejercicios.
 - 0:08:54 :: Teoría de la elasticidad
 - 0:09:23 :: A que distancia desde el extremo para este fenómeno deje de
@@ -726,7 +1050,7 @@ Como intro para materia y ejercicios.
 - 0:17:50 :: \[K=\frac{\sigma_{max}}{\sigma_{promedio}}\]
 - 0:19:14 :: \[\sigma_{max}=K \cdot \frac{P}{A}\]
 
-*** Para distintas geometrías
+**** Para distintas geometrías
 *Gráfico del profe*
 - 0:20:31 ::
   \[
@@ -738,16 +1062,419 @@ Como intro para materia y ejercicios.
   \sigma_{prom}=
   \frac{P}{(w-2r)\cdot t}
   \]
-*** Ejemplo
+**** Ejemplo
 - 0:28:43 :: Barra con dos cambios de sección transversal
 - 0:29:05 :: Se le dice filete al cambio por curva suave en sección.
 - 0:30:38 :: Se ocupan las tablas.
 - 0:31:50 :: Siempre es mejor sobredimensionar que subdimensionar.
-*** Ejemplo2
+**** Ejemplo2
 - 0:36:28 :: Solo un cambio, resuelto en pizarra.
 - 0:43:05 :: Clase de factor de seguridad?
-*** Fin
+**** Fin
 - 0:53:20 :: Fin
+
+*** Detalles
+**** Concentración de Esfuerzo
+:PROPERTIES:
+:ID:       2569a027-5bf8-4a80-be21-193dd1188514
+:END:
+
+***** Distancia mínima para esfuerzo uniforme
+
+En estricto rigor, el esfuerzo no se distribuye de forma equitativa en un
+cuerpo, sobre todo cuando empezamos a medir el esfuerzo cerca de los bordes
+del objeto. Sin embargo, como regla general, se puede decir que el esfuerzo
+se vuelve uniforme si nos alejamos lo suficiente del punto de acción de la
+fuerza.
+
+La distancia necesaria para que esto ocurra, por regla general, es mayor
+o igual a la mayor dimensión de la sección transversal sobre la que actúa
+la carga.
+
+#+CAPTION: Distancia mínima para esfuerzo uniforme
+#+NAME: Distancia minima para esfuerzo uniforme
+#+ATTR_HTML: :alt Distancia minima para esfuerzo uniforme  image :align center :width 80%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-14 18-37-34.png]]
+
+Suponiendo que el objeto es un rectángulo de largo infinito y ancho \(c\),
+el esfuerzo se vuelve uniforme a una distancia \(c\) del punto de aplicación
+de la fuerza.
+
+***** Factor de Concentración de Esfuerzo
+
+\[
+K=\text{factor de concentración de esfuerzo}=
+\frac{\sigma_{máximo}}{\sigma_{promedio}}
+\]
+
+#+CAPTION: Concentración de Esfuerzo
+#+NAME: [[id:2569a027-5bf8-4a80-be21-193dd1188514][Concentración de Esfuerzo]]
+#+ATTR_HTML: :alt Concentración de Esfuerzo image :align center :width 80%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-13 16-14-32.png]]
+
+** Resumen prueba2
+:PROPERTIES:
+:ID:       f866745f-5555-4198-8be1-353e9f14dd26
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-06-14 Mon 17:51]--[2021-06-14 Mon 22:02] =>  4:11
+:END:
+- Desde clase 8 a clase 15
+
+*** Esfuerzo
+**** Normal
+
+\[
+\sigma = \frac{P}{A}
+\]
+
+
+|    <c>     | <l>                            |
+|------------+--------------------------------|
+|  Símbolo   | Significado                    |
+|------------+--------------------------------|
+| \(\sigma\) | Esfuerzo normal                |
+|   \(P\)    | Fuerza interna resultante      |
+|   \(A\)    | Área de la sección transversal |
+|------------+--------------------------------|
+
+**** Cortante
+
+\[
+\tau = \frac{V}{A}
+\]
+
+|   <c>    | <l>                                |
+|----------+------------------------------------|
+| Símbolo  | Significado                        |
+|----------+------------------------------------|
+| \(\tau\) | Esfuerzo cortante                  |
+|  \(V\)   | Fuerza cortante interna resultante |
+|  \(A\)   | Área de la sección transversal     |
+|----------+------------------------------------|
+
+**** Esfuerzo admisible: Factor de Seguridad (F.S.)
+
+\[
+F.S.=\frac{\sigma_{falla}}{\sigma_{admisible}}
+\qquad
+F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
+\]
+
+*** Deformación
+**** Normal
+\[
+\epsilon_{promedio}=\frac{\Delta s' - \Delta s}{\Delta s}
+\]
+
+\[
+\Delta s'=(1+\epsilon) \cdot \Delta s
+\]
+
+
+|           <c>            | <l>                   |
+|--------------------------+-----------------------|
+|         Símbolo          | Significado           |
+|--------------------------+-----------------------|
+|       \(\epsilon\)       | Deformación           |
+|       \(\Delta s\)       | Longitud original     |
+|      \(\Delta s'\)       | Longitud final        |
+| \(\Delta s' - \Delta s\) | Variación de longitud |
+|--------------------------+-----------------------|
+
+**** Caso cortante
+\[
+\gamma = \frac{\pi}{2} - \theta'
+\]
+
+
+|        <c>        | <l>                             |
+|-------------------+---------------------------------|
+|      Símbolo      | Significado                     |
+|-------------------+---------------------------------|
+|    \(\gamma\)     | Variación de ángulo en radianes |
+| \(\frac{\pi}{2}\) | Ángulo original                 |
+|    \(\theta'\)    | Ángulo final                    |
+|-------------------+---------------------------------|
+
+
+- Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
+- Si el ángulo se abre \( \rightarrow \gamma < 0 \)
+
+**** Diagrama esfuerzo vs deformación unitaria.
+:PROPERTIES:
+:ID:       79a5f244-581a-4c00-96dc-ab6516de4da0
+:END:
+
+\[
+\frac {\sigma} {\epsilon}
+=
+\frac {\text{Esfuerzo}} {\text{Deformación}}
+=
+\frac {P/A} {\delta / L_o}
+=
+\frac {P/A}
+{\frac {\Delta s' - \Delta s} {\Delta s}
+}
+=
+\frac
+{\text{Carga}/\text{Área de la sección transversal}}
+{\frac {\text{Variacion de longitud}}
+{\text{Longitud inicial}}
+}
+\]
+
+#+CAPTION: Esfuerzo vs Deformación Unitaria
+#+NAME: Esfuerzo vs Deformación Unitaria
+#+ATTR_HTML: :alt Esfuerzo vs Deformación Unitaria image :align center :width 70%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 13-40-09.png]]
+
+|       <c>       | <l>                                                        |
+|-----------------+------------------------------------------------------------|
+| Punto o Sección | Característica                                             |
+|-----------------+------------------------------------------------------------|
+|      ( 1 )      | Deformación elástica: vuelve a la forma original cuando se |
+|                 | quita la carga.                                            |
+|                 | - La primera sección del gráfico se aproxima lineal.       |
+|-----------------+------------------------------------------------------------|
+|    ( 2,3,4 )    | Deformación plástica: permanente.                          |
+|-----------------+------------------------------------------------------------|
+|      ( 3 )      | Endurecimiento por deformacion                             |
+|-----------------+------------------------------------------------------------|
+|  \(\sigma_u\)   | Esfuerzo último.                                           |
+|-----------------+------------------------------------------------------------|
+|  \(\sigma_Y\)   | Limite de elasticidad.                                     |
+|                 | - Pasado este límite, el objeto se empieza a deformar      |
+|                 | de forma permanente.                                       |
+|-----------------+------------------------------------------------------------|
+
+**** Estriccion
+#+CAPTION: Estricción
+#+ATTR_HTML: :alt Estricción image :align center :width 70%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 14-24-06.png]]
+- \(\sigma_f\): Esfuerzo de fractura.
+
+**** Ley de Hooke
+\[
+\sigma=E \cdot \epsilon
+\]
+
+**** Razon de Poisson
+
+\[
+\nu= - \, \frac
+{\epsilon_\text{lateral}}
+{\epsilon_\text{longitudinal}}
+= - \frac
+{\delta_{r}}
+{r}
+= - \frac
+{\epsilon_r}
+{\epsilon_x}
+\]
+***** Caso cortante
+
+\[
+G = \frac
+{\tau}
+{\gamma}
+\]
+
+| G          | Módulo de elasticidad cortante           |
+| \(\tau\)   | Esfuerzo cortante                        |
+| \(\gamma\) | Deformación unitaria cortante (radianes) |
+
+**** Deformación plástica
+
+#+CAPTION: Diagrama deformación elástica y plástica
+#+NAME:  Diagrama deformación elástica y plástica.
+#+ATTR_HTML: :alt Diagrama deformación elástica y plástica. :align center :width 80%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 22-31-09.png]]
+
+*** Energía de deformación unitaria
+
+#+begin_center
+\[
+\Delta U = \frac{1}{2}\sigma \epsilon \Delta V
+\]
+\(\Delta V\): variación de volumen.
+#+end_center
+
+**** Densidad de energía de deformación unitaria
+
+\[
+u=\frac
+{\Delta U}
+{\Delta V}
+=
+\frac{1}{2} \sigma \epsilon
+\]
+
+Si estamos debajo del límite de elasticidad podemos aplicar Ley de Hooke:
+
+#+begin_center
+\[
+u=\frac{1}{2} \cdot \frac{\sigma^2}{E}
+\]
+; \(\sigma=E\epsilon\)
+#+end_center
+**** Resiliencia
+
+\[
+u_r=\frac{1}{2}\sigma_{lp}\epsilon_{lp}=
+\frac{1}{2} \cdot \frac{\sigma^{2}_{lp}}{E}
+\]
+
+#+CAPTION: Módulo de resiliencia
+#+NAME: Módulo de resiliencia
+#+ATTR_HTML: :alt Módulo de resiliencia :align center :width 40%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 23-14-22.png]]
+
+\(u_r\) representa la capacidad de un cuerpo de absorber energía sin ningún
+daño permanente: resiliencia. Es el área de un triángulo.
+
+**** Módulo de tenacidad
+
+\(u_t\), la energía que puede absorber un material antes de que se rompa.
+
+#+CAPTION: Módulo de tenacidad
+#+NAME: Módulo de tenacidad
+#+ATTR_HTML: :alt Módulo de tenacidad :align center :width 40%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 23-24-18.png]]
+
+*** Carga axial
+Tenemos:
+
+- Esfuerzo normal
+\[
+\sigma = \frac{P}{A}
+\]
+
+
+- Deformación unitaria
+\[
+\epsilon=\frac{\delta}{L}
+\]
+
+#+begin_quote
+"Si estas cantidades no exceden el límite proporcional, podemos relacionarlas
+por medio de la Ley de Hooke":
+#+end_quote
+
+\[
+\sigma = E \cdot \epsilon
+\]
+
+\[
+\frac{P}{A}=E \cdot \frac{\delta}{L}
+\]
+
+
+Y despejando \(\delta\) obtenemos:
+
+\[
+\delta=\frac{PL}{AE}
+\]
+
+|    <c>     | <l>                                               |
+|------------+---------------------------------------------------|
+|  Símbolo   | Significado                                       |
+|------------+---------------------------------------------------|
+| \(\delta\) | Desplazamiento de un punto en la barra relativo a |
+|            | otro punto.                                       |
+|------------+---------------------------------------------------|
+|   \(L\)    | Distancia inicial entre los puntos en cuestión.   |
+|------------+---------------------------------------------------|
+|   \(P\)    | Fuerza axial interna en la sección entre los dos  |
+|            | puntos en cuestión.                               |
+|------------+---------------------------------------------------|
+|   \(A\)    | Área de la sección transversal entre los puntos.  |
+|------------+---------------------------------------------------|
+|   \(E\)    | Modulo de elasticidad del material de la sección  |
+|            | entre los puntos.                                 |
+|------------+---------------------------------------------------|
+
+-----
+
+|----------------+--------------|
+| \(\delta > 0\) | alargamiento |
+| \(\delta < 0\) | contracción  |
+|----------------+--------------|
+*** Esfuerzo térmico
+**** Esfuerzo térmico
+
+\[
+\delta_T=\alpha \cdot \Delta T \cdot L
+\]
+
+
+#+CAPTION: Esfuerzo Térmico
+#+NAME: Esfuerzo Térmico
+#+ATTR_HTML: :alt Esfuerzo Térmico image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-13 15-38-26.png]]
+
+
+|     <c>      | <l>                                       |
+|--------------+-------------------------------------------|
+|   Símbolo    | Significado                               |
+|--------------+-------------------------------------------|
+|  \(\alpha\)  | Coeficiente lineal de dilatación térmica. |
+| \(\Delta T\) | Cambio de temperatura.                    |
+|    \(L\)     | Longitud inicial del segmento.            |
+| \(\delta_T\) | Cambio en la longitud del objeto.         |
+|--------------+-------------------------------------------|
+
+**** Acerca de \(\alpha\)
+
+#+begin_quote
+"\(\alpha\): Propiedad del material llamada coeficiente lineal de dilatación
+térmica. Las unidades miden deformación unitaria por grado de temperatura.
+Ellas son \(1/^{\circ}F\) en el sistema inglés y \(1/^{\circ} C\) o
+\(1/K\) en el sistema internacional".
+#+end_quote
+
+Combinando ecuaciones:
+\[
+P=A \cdot E \cdot \alpha \cdot \Delta T
+\]
+
+Calculando para esfuerzo:
+
+\[
+\sigma = \frac{P}{A} = E \cdot \alpha \cdot \Delta T
+\]
+
+*** Concentración de esfuerzo
+***** Distancia mínima para esfuerzo uniforme
+#+CAPTION: Distancia mínima para esfuerzo uniforme
+#+NAME: Distancia minima para esfuerzo uniforme
+#+ATTR_HTML: :alt Distancia minima para esfuerzo uniforme  image :align center :width 80%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-14 18-37-34.png]]
+
+Suponiendo que el objeto es un rectángulo de largo infinito y ancho \(c\),
+el esfuerzo se vuelve uniforme a una distancia \(c\) del punto de aplicación
+de la fuerza.
+
+***** Factor de Concentración de Esfuerzo
+
+\[
+K=\text{factor de concentración de esfuerzo}=
+\frac{\sigma_{máximo}}{\sigma_{promedio}}
+\]
+
+#+CAPTION: Concentración de Esfuerzo
+#+NAME: Concentración de Esfuerzo
+#+ATTR_HTML: :alt Concentración de Esfuerzo image :align center :width 100%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-13 16-14-32.png]]
+
+  \[
+  \sigma_{prom}=
+  \frac{P}{ht}
+  \qquad
+  \qquad
+  \sigma_{prom}=
+  \frac{P}{(w-2r)\cdot t}
+  \]
 ** [2021-06-08 Tue] Clase 16
 :PROPERTIES:
 :ID:       a93ce8cf-acd5-4ed4-9562-895cd1b1049d

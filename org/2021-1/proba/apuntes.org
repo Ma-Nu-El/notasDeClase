@@ -33,6 +33,7 @@
 - [[#stats-youtube-channel][Stats youtube channel.]]
 - [[#clases][Clases]]
   - [[#2021-06-09-wed-clase][[2021-06-09 Wed] Clase]]
+  - [[#resumen-para-taller4][Resumen para taller4]]
 
 * Apuntes de Libro "Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias" para curso de Probabilidad y Estadistica para Ingenieros Civiles Industriales
   - Sonia Salvo
@@ -565,6 +566,15 @@ Timer start time set to 11:02:58, current value is 0:00:00
   + 0:15:56 :: Cuando no?
 *** Ejemplo
 - 0:23:00 :: Ejemplo
+** Resumen para taller4
+*** Temario
+- Se evaluará Unidad 4: DISTRIBUCIONES MUESTRALES
+  - https://campusvirtual.ufro.cl/course/view.php?id=2308&section=5
+- Material de estudio
+  - [[file:~/myDrive/uni/2021-1/proba/prueba2/U4/][file:/home/ma/myDrive/uni/2021-1/proba/prueba2/U4/]]
+- Estimación de parámetros
+- Inferencia estadística
+*** Apuntes
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

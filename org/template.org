@@ -1,8 +1,10 @@
 #+TITLE: Title
 #+OPTIONS: toc:2
 #+FILETAGS: :university:
+
 * TOC :TOC_2:noexport:
 - [[#programa][Programa]]
+  - [[#horario][Horario]]
 - [[#calendar-example][Calendar (example)]]
 - [[#evaluación][Evaluación]]
   - [[#teórico-ab][Teórico ab%]]
@@ -17,6 +19,7 @@
 * Programa
 - link to subject's sillabus.
   + must be located in ~/myDrive/uni/202*-*/SUBJECT/programa.pdf
+** Horario
 * Calendar (example)
 |  <c>  |       <c>        |        |                                         |  <c>   |  <c>   |   <c>    |
 |-------+------------------+--------+-----------------------------------------+--------+--------+----------|

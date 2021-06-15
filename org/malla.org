@@ -1,16 +1,90 @@
 #+title: Malla
 
-#+CAPTION: malla-requisitos.pdf
-* Semestre
-** 1
-** 2
-** 3
-** 4
-** 5
-** 6
-** 7
-** 8
-** 9
-** 10
-** 11
-** 12
+* pdf
+[[file:~/myDrive/uni/malla-requisitos.pdf][file:~/myDrive/uni/malla-requisitos.pdf]]
+* Malla [4/12] [33%]
+** DONE 1 [4/4] [100%]
+*** DONE Fundamentos de Matemática
+*** DONE Fundamentos de Matemática
+*** DONE Fundamentos de Matemática
+*** DONE Competencias para la Vida Universitaria
+** DONE 2 [5/5] [100%]
+*** DONE Cálculo de una Variable
+**** Requisitos
+*** DONE Física I
+**** Requisitos
+*** DONE Álgebra Lineal
+**** Requisitos
+*** DONE Electivo de Ingeniería I
+*** DONE Herramientas de Comunicación
+** DONE 3 [5/5] [100%]
+*** DONE Cálculo Multivariable
+*** DONE Física II
+*** DONE Ecuaciones Diferenciales
+*** DONE Electivo de Ingeniería II
+*** DONE Programación de Computadores
+** TODO 4 [5/6] [83%]
+*** TODO Probabilidades y Estadística
+*** DONE Matemáticas Discretas
+*** DONE Laboratorio de Física
+*** DONE Microeconomía
+*** DONE Laboratorio de Programación I
+*** DONE Electivo de Formación General
+** DONE 5 [5/5] [100%]
+*** DONE Optimización
+*** DONE Macroeconomía
+*** DONE Termodinámica
+*** DONE Laboratorio de Programación II
+*** DONE Base de Datos
+** TODO 6 [2/6] [33%]
+*** TODO Investigación Operacional
+*** DONE Organización y Conducta Empresarial
+*** TODO Resistencia de Materiales
+*** TODO Complejidad Computacional
+*** DONE Mecánica de Fluidos
+*** TODO Electivo de Formación General II
+** TODO 7 [0/5] [0%]
+*** TODO Sistemas Estocásticos
+**** De Investigación Operacional
+- [2021-06-14 Mon 10:26]
+- Probabilidad total
+- Bayes
+- Distr Poisson
+- Cadena de Markov
+*** TODO Gestión Comercial
+*** TODO Comunicación de Datos
+*** TODO Arquitectura de Computadores
+*** TODO Contabilidad Financiera
+** TODO 8 [0/6] [0%]
+*** TODO Ingeniería Industrial
+*** TODO Procesos de Manufactura
+*** TODO Gestión de Recursos Humanos
+*** TODO Ingeniería Económica
+*** TODO Tecnología y Servicios de Internet
+*** TODO Electivo de Formación General III
+** TODO 9 [0/5] [0%]
+*** TODO Gestión de Operaciones
+*** TODO Ingeniería y Medio Ambiente
+*** TODO Ingeniería de Software
+*** TODO Gestión Estratégica
+*** TODO Electivo de Especialidad
+** TODO 10 [0/6] [0%]
+*** TODO Logística y Distribución
+*** TODO Sistemas de Gestión de Calidad
+*** TODO Taller de Ingeniería de Software
+*** TODO Preparación y Evaluación de Proyectos
+*** TODO Electivo de Especialidad II
+*** TODO Electivo de Formación General IV
+** TODO 11 [0/5] [0%]
+*** TODO Automatización de Procesos Productivos
+*** TODO Gestión de Proyectos Informáticos
+*** TODO Taller de Juegos de Negocios
+*** TODO Taller de Gestión Empresarial
+*** TODO Electivo de Especialidad III
+** TODO 12 [0/1] [0%]
+*** TODO Trabajo de Título
+* Tabla
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
