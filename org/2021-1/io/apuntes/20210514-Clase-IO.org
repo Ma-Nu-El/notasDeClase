@@ -17,7 +17,6 @@
     - [[#nodos][Nodos]]
     - [[#procedimiento][Procedimiento]]
       - [[#método][Método]]
-        - [[#next-wait-for-this-lecture-to-be-uploaded][NEXT Wait for this lecture to be uploaded]]
   - [[#pert][PERT]]
 
 * Desarrollo
@@ -151,8 +150,6 @@ Luego, se empieza a rellenar de adelante hacia atras.
 3) aoeu
 #+end_center
 
-***** NEXT Wait for this lecture to be uploaded
-- [2021-06-07 Mon]
 ** PERT
 - [2021-06-07 Mon 10:06]
 - Probabilístico

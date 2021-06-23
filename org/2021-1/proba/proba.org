@@ -19,13 +19,13 @@
     - [[#prueba2][prueba2]]
   - [[#práctica-20][Práctica 20%]]
     - [[#apuntes][apuntes]]
-    - [[#taller-1][Taller 1]]
-    - [[#taller-2][Taller 2]]
-    - [[#canceled-taller-3][CANCELED Taller 3]]
-    - [[#taller-3][Taller 3]]
-    - [[#taller-4][Taller 4]]
-    - [[#taller-5][Taller 5]]
-    - [[#taller-6][Taller 6]]
+    - [[#taller1][taller1]]
+    - [[#taller2][taller2]]
+    - [[#canceled-taller3][CANCELED taller3]]
+    - [[#taller3][taller3]]
+    - [[#canceled-taller4][CANCELED taller4]]
+    - [[#next-taller5][NEXT taller5]]
+    - [[#taller6][taller6]]
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
     - [[#unidad-2-en-campus][Unidad 2 en campus]]
 - [[#links][Links]]
@@ -269,13 +269,13 @@ es actitudinal por actividad en campus virtual.
 - 14 junio
 - 5 julio
 - 19 julio
-*** DONE Taller 1
+*** DONE taller1
 CLOSED: [2021-04-14 Wed 11:46] DEADLINE: <2021-04-12 Mon -21d>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-04-14 Wed 11:46] \\
   Study moreeeeee
 :END:
-*** DONE Taller 2
+*** DONE taller2
 CLOSED: [2021-05-26 Wed 17:29] DEADLINE: <2021-05-03 Mon 12:00 -21d>
 :PROPERTIES:
 :ID:       3263d6b2-2c4b-4779-bb5c-f3225033e33a
@@ -319,7 +319,7 @@ CLOSED: [2021-05-26 Wed 17:27] SCHEDULED: <2021-05-25 Tue>
 - Solo me equivoqué en evaluar una parte de la integral pero costó mucho
   puntaje. Creo que se puede rescatar algo.
 - [[mu4e:msgid:CAEViGxt_ODAN2jNiSBzBpFe1mTF1XbCQJ2QhcaHV=dDkxd9B8A@mail.gmail.com][mail preguntando]]
-*** CANCELED Taller 3
+*** CANCELED taller3
 CLOSED: [2021-05-10 Mon 12:41] DEADLINE: <2021-05-17 Mon -0d>
 :PROPERTIES:
 :ID:       5d515dc6-fa91-448d-9f72-075ecdd622e0
@@ -328,7 +328,7 @@ CLOSED: [2021-05-10 Mon 12:41] DEADLINE: <2021-05-17 Mon -0d>
 - State "CANCELED"   from "TODO"       [2021-05-10 Mon 12:41]
 :END:
 - Era esta fecha, pero lo corrieron para el [[id:a3a5e3be-c56d-481e-a8d2-868c618a1f4a][jueves]].
-*** DONE Taller 3
+*** DONE taller3
 CLOSED: [2021-05-20 Thu 11:47] DEADLINE: <2021-05-20 Thu 11:00 -0d>
 :PROPERTIES:
 :ID:       a3a5e3be-c56d-481e-a8d2-868c618a1f4a
@@ -412,7 +412,7 @@ p(x)=\frac
 - Varianza (\(\sigma^2\))
   - \(\lambda\)
 
-*** TODO Taller 4
+*** CANCELED taller4
 DEADLINE: <2021-06-16 Wed 10:50 -0d>
 :PROPERTIES:
 :ID:       bb0a91f9-382e-461d-9d00-cd8503833893
@@ -433,11 +433,9 @@ DEADLINE: <2021-06-16 Wed 10:50 -0d>
     - Ensigamiento?
     - Cota rau?
 
-
-
-*** TODO Taller 5
+*** NEXT taller5
 DEADLINE: <2021-07-05 Mon -0d>
-*** TODO Taller 6
+*** TODO taller6
 DEADLINE: <2021-07-19 Mon -0d>
 *** DONE Unidad 1 en campus
 CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>

@@ -64,10 +64,13 @@ CLOSED: [2021-05-07 Fri 10:51] DEADLINE: <2021-05-04 Tue 08:30 -3w>
 :END:
 - Materia hasta martes [2021-04-27 Tue] correspodiente a clase 7.
 - Solo me falta ver clase 6.
-*** TODO prueba2 33%
-DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
+*** DONE prueba2 33%
+CLOSED: [2021-06-18 Fri 10:55] DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
 :PROPERTIES:
 :ID:       7a13c1ce-b542-4b35-95af-96ca078987cb
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-18 Fri 10:55]
 :END:
 - Supongo que desde la clase 8 en adelante? Confirmado.
 - Hasta una semana antes.
@@ -86,7 +89,7 @@ DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
 - 24 horas para entregar
 - 1 semana de anticipación de aviso mínimo
 - Son 3 oficiales + 1 recuperativo
-**** DONE taller 1
+**** DONE taller1
 CLOSED: [2021-04-29 Thu 12:41] DEADLINE: <2021-04-28 Wed -3w>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-04-29 Thu 12:41]
@@ -114,6 +117,10 @@ CLOSED: [2021-06-10 Thu 01:24] SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021
     - [X] 9
     - [X] 10
     - [X] 11
+**** NEXT taller3
+DEADLINE: <2021-06-30 Wed 08:30>--<2021-07-01 Thu 08:30 -0d>
+**** TODO taller4 (opcional)
+DEADLINE: <2021-07-07 Wed 08:30>--<2021-07-08 Thu 08:30 -0d>
 * Links
 :PROPERTIES:
 :ID:       2516d471-5920-4ef2-9034-77bf16fa722e
@@ -370,32 +377,51 @@ CLOCK: [2021-06-10 Thu 16:45]--[2021-06-10 Thu 17:43] =>  0:58
 - [[id:04023b0b-a864-486b-a3a4-62f7c9fb73ff][apuntes.org]]
 - Esta clase no entra en la prueba 2, al igual que la clase 16.
 ***** TODO Clase 18 resistencia
-SCHEDULED: <2021-06-15 Tue 08:30-10:40>
-***** TODO Clase 19 resistencia
 SCHEDULED: <2021-06-17 Thu 16:50-19:00>
-***** TODO Clase 20 resistencia
+:PROPERTIES:
+:ID:       af97d879-e716-4dde-8144-bc28672c5a69
+:END:
+:CLOCKBOOK:
+CLOCK: [2021-06-20 Sun 09:43]--[2021-06-20 Sun 09:53] =>  0:10
+CLOCK: [2021-06-18 Fri 11:00]--[2021-06-18 Fri 11:01] =>  0:01
+:END:
+- [[id:345b31d1-5cbb-4cbe-834d-5312c7ca670e][apuntes.org]]
+***** TODO Clase 19 resistencia
 SCHEDULED: <2021-06-22 Tue 08:30-10:40>
-***** TODO Clase 21 resistencia
+:PROPERTIES:
+:ID:       773b7dc8-f7c8-40e4-86fb-e504ed55c8f7
+:END:
+- [[id:32d7e961-f6a2-4cfb-a97f-6e7144a66ba0][apuntes.org]]
+
+
+Próxima semana ultimo taller.
+4 optativo es subsiguiente semana.
+28 de julio última prueba.
+
+Tarea con décimas para la prueba 3.
+- Enviar ésta semana.
+
+***** TODO Clase 20 resistencia
 SCHEDULED: <2021-06-24 Thu 16:50-19:00>
-***** TODO Clase 22 resistencia
+***** TODO Clase 21 resistencia
 SCHEDULED: <2021-06-29 Tue 08:30-10:40>
-***** TODO Clase 23 resistencia
+***** TODO Clase 22 resistencia
 SCHEDULED: <2021-07-01 Thu 16:50-19:00>
-***** TODO Clase 24 resistencia
+***** TODO Clase 23 resistencia
 SCHEDULED: <2021-07-06 Tue 08:30-10:40>
-***** TODO Clase 25 resistencia
+***** TODO Clase 24 resistencia
 SCHEDULED: <2021-07-08 Thu 16:50-19:00>
-***** TODO Clase 26 resistencia
+***** TODO Clase 25 resistencia
 SCHEDULED: <2021-07-13 Tue 08:30-10:40>
-***** TODO Clase 27 resistencia
+***** TODO Clase 26 resistencia
 SCHEDULED: <2021-07-15 Thu 16:50-19:00>
-***** TODO Clase 28 resistencia
+***** TODO Clase 27 resistencia
 SCHEDULED: <2021-07-20 Tue 08:30-10:40>
-***** TODO Clase 29 resistencia
+***** TODO Clase 28 resistencia
 SCHEDULED: <2021-07-22 Thu 16:50-19:00>
-***** TODO Clase 30 resistencia
+***** TODO Clase 29 resistencia
 SCHEDULED: <2021-07-27 Tue 08:30-10:40>
-***** TODO Clase 31 resistencia
+***** TODO Clase 30 resistencia
 SCHEDULED: <2021-07-29 Thu 16:50-19:00>
 ** Ayudantía
 - Cada 2 semanas empezando el 16 de abril.

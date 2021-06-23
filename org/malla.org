@@ -83,7 +83,7 @@
 *** TODO Electivo de Especialidad III
 ** TODO 12 [0/1] [0%]
 *** TODO Trabajo de Título
-* Tabla
+* Tabla de notas
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

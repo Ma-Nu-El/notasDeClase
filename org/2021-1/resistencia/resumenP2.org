@@ -3,9 +3,6 @@
 #+author: Manuel Fuica Morales
 
 ** Resumen prueba2
-:CLOCKBOOK:
-CLOCK: [2021-06-14 Mon 17:51]
-:END:
 - Desde clase 8 a clase 15
 
 *** Esfuerzo

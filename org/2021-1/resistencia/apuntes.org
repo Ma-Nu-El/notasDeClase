@@ -30,6 +30,8 @@
   - [[#resumen-prueba2][Resumen prueba2]]
   - [[#2021-06-08-tue-clase-16][[2021-06-08 Tue] Clase 16]]
   - [[#2021-06-10-thu-clase-17][[2021-06-10 Thu] Clase 17]]
+  - [[#2021-06-17-thu-clase-18][[2021-06-17 Thu] Clase 18]]
+  - [[#2021-06-22-tue-clase][[2021-06-22 Tue] Clase]]
 - [[#footnotes][Footnotes]]
 
 * 2020-2
@@ -1558,6 +1560,26 @@ Timer start time set to 17:05:53, current value is 0:00:00
 *** Repaso
 - Repaso de clase 16
 *** Ejemplos para complementar materia de clase 16
+** [2021-06-17 Thu] Clase 18
+:PROPERTIES:
+:ID:       345b31d1-5cbb-4cbe-834d-5312c7ca670e
+:END:
+- [[id:af97d879-e716-4dde-8144-bc28672c5a69][log]]
+- Clase 18: Torsión
+- Clase grabada
+  + https://www.youtube.com/watch?v=SsA8M01RsUI
+
+
+
+
+** [2021-06-22 Tue] Clase
+:PROPERTIES:
+:ID:       32d7e961-f6a2-4cfb-a97f-6e7144a66ba0
+:END:
+- [[id:773b7dc8-f7c8-40e4-86fb-e504ed55c8f7][log]]
+
+
+
 * Footnotes
 [fn:1][[id:0dc24c96-f18f-4f91-9a1b-05aaab5e8169][Diagrama esfuerzo vs deformación unitaria.]]
 * Local variables :noexport:

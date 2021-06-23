@@ -48,7 +48,7 @@ CLOSED: [2021-05-07 Fri 11:27] SCHEDULED: <2021-04-26 Mon 08:00-10:45>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-05-07 Fri 11:27]
 :END:
-*** TODO Clase IO
+*** CANCELED Clase IO
 SCHEDULED: <2021-05-03 Mon 08:00-10:45>
 :PROPERTIES:
 :ID:       41f4f922-b788-477b-86fa-a7d5637e268d
@@ -76,7 +76,7 @@ CLOSED: [2021-05-10 Mon 12:34] SCHEDULED: <2021-05-10 Mon 08:00-10:45>
 :END:
 - [[id:d08d23b3-c035-46fd-bff9-40d9a80b13a2][apuntes.org]]
 - Transporte, min cos, stepping stone etc.
-*** TODO Clase IO
+*** CANCELED Clase IO
 SCHEDULED: <2021-05-17 Mon 08:00-10:45>
 :PROPERTIES:
 :ID:       b6af4c7b-2726-4f5b-b4ff-0edf3c05e2eb
@@ -84,7 +84,7 @@ SCHEDULED: <2021-05-17 Mon 08:00-10:45>
 - [[id:e1c1cead-6598-47a9-812f-b6f7e7be0e5f][apuntes.org]]
 - Networks
 - Seen from 08:00 to 09:00 to study for test.
-*** TODO Clase IO
+*** CANCELED Clase IO
 SCHEDULED: <2021-05-31 Mon 08:00-10:45>
 :PROPERTIES:
 :ID:       ce7e6601-518d-4605-bf80-802484946074
@@ -98,7 +98,7 @@ CLOCK: [2021-06-03 Thu 18:15]--[2021-06-03 Thu 18:46] =>  0:31
 - [[id:b383d416-bc5b-4308-8e49-0ffbd0bf3619][apuntes.org]]
 - This week we don't have workshop so this one replaces the one from following
   friday.
-*** TODO Clase IO
+*** CANCELED Clase IO
 SCHEDULED: <2021-06-07 Mon 08:00-10:45>
 :PROPERTIES:
 :ID:       930919c9-a45e-4f51-bd79-fcf2876ade4f
@@ -125,12 +125,8 @@ CLOCK: [2021-06-14 Mon 08:05]--[2021-06-14 Mon 09:26] =>  1:21
 - [[id:3f6be649-d11d-4189-a287-d94362bf3855][apuntes.org]]
 - Para el test de este próximo sábado: CPM, PERT y flujo máximo de redes.
 
-*** TODO Clase IO
-SCHEDULED: <2021-06-21 Mon 08:00-10:45>
-*** TODO Clase IO
-SCHEDULED: <2021-06-28 Mon 08:00-10:45>
 ** Ayudantía
-*** TODO Ayudantía 2 IO
+*** CANCELED Ayudantía 2 IO
 SCHEDULED: <2021-04-30 Fri 14:30-15:30>
 :PROPERTIES:
 :ID:       2152beef-422b-4eb3-bb09-e027921aa4e1
@@ -141,7 +137,7 @@ SCHEDULED: <2021-04-30 Fri 14:30-15:30>
   pues el profe le dijo al ayudante que siga con la materia.
 - [[id:85c7df83-20a9-46ec-8e3d-c29a234f7a1d][apuntes.org]]
 
-*** TODO Ayudantía 3 IO
+*** CANCELED Ayudantía 3 IO
 SCHEDULED: <2021-05-07 Fri 14:30-15:30>
 *** DONE Ayudantía 4 IO
 CLOSED: [2021-05-14 Fri 15:27] SCHEDULED: <2021-05-14 Fri 14:30-15:30>
@@ -155,7 +151,7 @@ CLOSED: [2021-05-14 Fri 15:27] SCHEDULED: <2021-05-14 Fri 14:30-15:30>
 CLOCK: [2021-05-14 Fri 15:18]--[2021-05-14 Fri 15:26] =>  0:08
 :END:
 - [[id:061f1d1b-43af-4ab0-bc84-6427f441914e][apuntes.org]]
-*** TODO Ayudantía 5 IO
+*** CANCELED Ayudantía 5 IO
 SCHEDULED: <2021-05-21 Fri 14:30-15:30>
 - No la he visto por ayudar a pato con mudanza
 *** CANCELED Ayudantía 6 IO
@@ -170,18 +166,10 @@ CLOSED: [2021-06-11 Fri 15:33] SCHEDULED: <2021-06-11 Fri 14:30-15:30>
 - State "DONE"       from "TODO"       [2021-06-11 Fri 15:33]
 :END:
 - apuntes.org
-*** TODO Ayudantía 8 IO
+*** CANCELED Ayudantía 8 IO
 SCHEDULED: <2021-06-18 Fri 14:30-15:30>
 *** TODO Ayudantía 9 IO
 SCHEDULED: <2021-06-25 Fri 14:30-15:30>
-*** TODO Ayudantía 10 IO
-SCHEDULED: <2021-07-02 Fri 14:30-15:30>
-*** TODO Ayudantía 11 IO
-SCHEDULED: <2021-07-09 Fri 14:30-15:30>
-*** TODO Ayudantía 12 IO
-SCHEDULED: <2021-07-16 Fri 14:30-15:30>
-*** TODO Ayudantía 13 IO
-SCHEDULED: <2021-07-23 Fri 14:30-15:30>
 * Contacto
 - RICARDO ENRIQUE SEPULVEDA CONCHA
   - [[mailto:ricardo.sepulveda@ufrontera.cl][ricardo.sepulveda@ufrontera.cl]]
@@ -211,8 +199,8 @@ CLOSED: [2021-05-10 Mon 12:34] DEADLINE: <2021-05-08 Sat -0d>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-05-10 Mon 12:34]
 :END:
-*** TODO prueba2
-DEADLINE: <2021-06-26 Sat -0d>
+*** NEXT prueba2
+DEADLINE: <2021-06-26 Sat 10:00-12:00 -0d>
 - CPM, PERT
 - Transporte y transbordo
 - Dijkstra, arbol de min expansion, y demases.
@@ -240,8 +228,11 @@ CLOSED: [2021-06-05 Sat 17:32] DEADLINE: <2021-06-05 Sat 09:00 -0d>
 :END:
 - Problemas de transporte y transbordo
 - Problemas de redes
-*** TODO Taller4
-DEADLINE: <2021-06-19 Sat 10:00 -0d>
+*** DONE Taller4
+CLOSED: [2021-06-19 Sat 17:43] DEADLINE: <2021-06-19 Sat 10:00 -0d>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-19 Sat 17:43]
+:END:
 - En intranet aparece para el 19-06?
 * Local variables :noexport:
 # Local Variables:
