@@ -45,7 +45,7 @@ CLOSED: [2021-05-07 Fri 10:43]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-05-07 Fri 10:43]
 :END:
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-05-03 Mon 10:50-11:55>
 - Esta tengo que ver.
 - No la vi x estudiar para [[id:3263d6b2-2c4b-4779-bb5c-f3225033e33a][Taller 2 de proba.]]
@@ -61,26 +61,26 @@ CLOSED: [2021-05-13 Thu 13:31] SCHEDULED: <2021-05-17 Mon 10:50-11:55>
 - State "CANCELED"   from "TODO"       [2021-05-13 Thu 13:31] \\
   Tenemos prueba.
 :END:
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-05-31 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-07 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-14 Mon 10:50-11:55>
 :CLOCKBOOK:
 CLOCK: [2021-06-14 Mon 12:03]--[2021-06-14 Mon 12:06] =>  0:03
 :END:
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-21 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-28 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-05 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-12 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-19 Mon 10:50-11:55>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-26 Mon 10:50-11:55>
 ***** Miércoles
 ****** DONE <2021-04-28 Wed 10:50-13:00> Clase proba
@@ -110,7 +110,7 @@ CLOSED: [2021-05-19 Wed 13:48] SCHEDULED: <2021-05-19 Wed 10:50-13:00>
 - State "CANCELED"   from "TODO"       [2021-05-19 Wed 13:48] \\
   Don't know, maybe because of university break?
 :END:
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-02 Wed 10:50-13:00>
 - Did it but didn't get it. Have to review.
 ****** DONE Clase proba
@@ -127,15 +127,15 @@ CLOCK: [2021-06-09 Wed 11:40]--[2021-06-09 Wed 11:46] =>  0:06
 CLOCK: [2021-06-09 Wed 11:00]--[2021-06-09 Wed 11:39] =>  0:39
 :END:
 - [[id:02f56033-8a4c-4ce8-8826-0a02d6fa285b][apuntes.org]]
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-16 Wed 10:50-13:00>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-23 Wed 10:50-13:00>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-06-30 Wed 10:50-13:00>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-07 Wed 10:50-13:00>
-****** TODO Clase proba
+****** DONE Clase proba
 SCHEDULED: <2021-07-14 Wed 10:50-13:00>
 ****** CANCELED Clase proba
 CLOSED: [2021-05-13 Thu 13:34] SCHEDULED: <2021-07-21 Wed 10:50-13:00>
@@ -182,9 +182,9 @@ CLOSED: [2021-05-13 Thu 13:31] SCHEDULED: <2021-05-17 Mon 12:00-13:00>
 - State "CANCELED"   from "TODO"       [2021-05-13 Thu 13:31] \\
   Tenemos prueba.
 :END:
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-05-31 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-06-07 Mon 12:00-13:00>
 Pasos para EMV.
 1) Sacar función de verosimilitud L
@@ -194,7 +194,7 @@ Pasos para EMV.
 
 
 La mejor forma de evaluar un estimador es el sesgo.
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-06-14 Mon 12:00-13:00>
 :CLOCKBOOK:
 CLOCK: [2021-06-14 Mon 12:06]--[2021-06-14 Mon 13:02] =>  0:56
@@ -211,17 +211,17 @@ CLOCK: [2021-06-14 Mon 12:06]--[2021-06-14 Mon 13:02] =>  0:56
   + Sacar esperanza
   + Y la esperanza de un logaritmo natural?
 
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-06-21 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-06-28 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-07-05 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-07-12 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-07-19 Mon 12:00-13:00>
-**** TODO Ayudantía proba
+**** DONE Ayudantía proba
 SCHEDULED: <2021-07-26 Mon 12:00-13:00>
 * Contenido
 Apuntes del libro de los profesores mas las clases.

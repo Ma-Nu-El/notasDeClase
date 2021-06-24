@@ -63,6 +63,7 @@ CLOCK: [2021-06-03 Thu 14:21]--[2021-06-03 Thu 14:23] =>  0:02
 - Ver esta.
 - No la vi x estudiar para [[id:3263d6b2-2c4b-4779-bb5c-f3225033e33a][Taller 2 de proba.]]
 - https://drive.google.com/drive/folders/15i2ifq3RYAVlxlKzM-XIrveBHZdUUMkf
+- [[file:~/Downloads/Clase Teorica 03.05.2021.mp4][file:~/Downloads/Clase Teorica 03.05.2021.mp4]]
 
 
 - Los primeros 10-15 son modelación de un problema PLE.
