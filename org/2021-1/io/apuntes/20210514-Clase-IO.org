@@ -14,9 +14,6 @@
     - [[#por-nodos][Por nodos]]
   - [[#cpm-método-ruta-critica][CPM: Método Ruta Critica]]
     - [[#intro-2][Intro]]
-    - [[#nodos][Nodos]]
-    - [[#procedimiento][Procedimiento]]
-      - [[#método][Método]]
   - [[#pert][PERT]]
 
 * Desarrollo
@@ -69,14 +66,14 @@ Pausa entre 9:25 y 9:47
   - Este método no requiere del uso de actividades ficticias.
 ** CPM: Método Ruta Critica
 *** Intro
-    - 0:23:26 :: Que tan temprano o tarde puede comenzar o terminar una actividad,
-      sin que afecte la duración del proyecto?
-      + 0:25:48 :: ES: Early start
-      + 0:26:01 :: EF: Early finish
-      + 0:26:10 :: LF: Last finish
-      + 0:26:15 :: FS: Last start
-      + 0:27:57 :: D: Duration
-      + 0:31:36 :: Tabla
+- 0:23:26 :: Que tan temprano o tarde puede comenzar o terminar una actividad,
+  sin que afecte la duración del proyecto?
+  + 0:25:48 :: ES: Early start
+  + 0:26:01 :: EF: Early finish
+  + 0:26:10 :: LF: Last finish
+  + 0:26:15 :: FS: Last start
+  + 0:27:57 :: D: Duration
+  + 0:31:36 :: Tabla
 
 
 #+begin_center
@@ -96,59 +93,17 @@ Se rellenan en orden
 2) ES
 3) EF
 4) LF
-5)
-6)
-7)
 #+end_center
 
 
-    - 0:41:02 :: Problema página 68 (excel)
-      + 0:43:12 :: CMM Arcos
-      + 0:47:45 :: CMM Nodos
-*** TODO [#A] Nodos
 
-#+begin_center
-| <c> |  <c>   | <c> |
-|-----+--------+-----|
-|  -  | Nombre |  -  |
-|-----+--------+-----|
-| ES  |   D    | EF  |
-|-----+--------+-----|
-| LS  |   H    | LF  |
-|-----+--------+-----|
-- H: Holgura
-  + Si H=0 -> Actividad Critica, \(H \geq 0\)
+- 0:41:02 :: Problema página 68 (excel)
+  + 0:43:12 :: CMM Arcos
+  + 0:47:45 :: CMM Nodos
 
 
-- Actividad Inicio y Fin tienen duración 0
-
-#+end_center
-
-*** TODO Procedimiento
-**** TODO Método
-
-#+begin_center
-Se rellenan en orden:
-1) D: vienen dado en los enunciados
-   - \(ES_{Inicio}=D=0\)
-2) ES
-   - Rellenar en actividades iniciales
-3) EF=ES+D
-   - Rellenar en actividades iniciales
-   - Luego la siguientes actividades, si tienen dependencias:
-   - \(ES_{actividad a rellenar} = max(EF_1,...,EF_n) de las dependencias\)
-4) Se llega al final: donde en la actividad Fin:
-   1) \(ES_{Última actividad}=EF_{Fin}\)
-      2)
 
 
-Luego, se empieza a rellenar de adelante hacia atras.
-
-
-1) aoeu
-2) aoeu
-3) aoeu
-#+end_center
 
 ** PERT
 - [2021-06-07 Mon 10:06]

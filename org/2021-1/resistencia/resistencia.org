@@ -117,7 +117,7 @@ CLOSED: [2021-06-10 Thu 01:24] SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021
     - [X] 9
     - [X] 10
     - [X] 11
-**** NEXT taller3
+**** NEXT [#A] taller3
 DEADLINE: <2021-06-30 Wed 08:30 -0d>--<2021-07-01 Thu 08:30 -0d>
 **** TODO taller4 (opcional)
 DEADLINE: <2021-07-07 Wed 08:30 -0d>--<2021-07-08 Thu 08:30 -0d>

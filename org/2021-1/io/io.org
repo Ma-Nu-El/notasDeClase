@@ -188,6 +188,7 @@ SCHEDULED: <2021-06-25 Fri 14:30-15:30>
 - https://reuna.zoom.us/j/85217593690?pwd=NnBGcnhGNHF3bFoxQkVVTDJpOVZnQT09
 ** Viernes 1430-Ayudantia
 - https://reuna.zoom.us/j/85651312970
+- https://reuna.zoom.us/j/83134519812 (nuevo)
 ** Clases grabadas
 - https://drive.google.com/drive/u/1/folders/15i2ifq3RYAVlxlKzM-XIrveBHZdUUMkf
 * Evaluación :grade:
@@ -200,8 +201,11 @@ CLOSED: [2021-05-10 Mon 12:34] DEADLINE: <2021-05-08 Sat -0d>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-05-10 Mon 12:34]
 :END:
-*** NEXT prueba2
-DEADLINE: <2021-06-26 Sat 10:00-12:00 -0d>
+*** DONE [#A] prueba2
+CLOSED: [2021-06-26 Sat 13:00] DEADLINE: <2021-06-26 Sat 10:00-12:00 -0d>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-06-26 Sat 13:00]
+:END:
 - CPM, PERT
 - Transporte y transbordo
 - Dijkstra, arbol de min expansion, y demases.

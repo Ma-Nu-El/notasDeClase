@@ -1,7 +1,7 @@
 #+title: Malla
 
 * pdf
-[[file:~/myDrive/uni/malla-requisitos.pdf][file:~/myDrive/uni/malla-requisitos.pdf]]
+- [[file:~/myDrive/uni/malla-requisitos.pdf][file:~/myDrive/uni/malla-requisitos.pdf]]
 * Malla [4/12] [33%]
 ** DONE 1 [4/4] [100%]
 *** DONE Fundamentos de Matemática
@@ -23,8 +23,8 @@
 *** DONE Ecuaciones Diferenciales
 *** DONE Electivo de Ingeniería II
 *** DONE Programación de Computadores
-** TODO 4 [5/6] [83%]
-*** TODO Probabilidades y Estadística
+** SOMEDAY 4 [5/6] [83%]
+*** SOMEDAY Probabilidades y Estadística
 *** DONE Matemáticas Discretas
 *** DONE Laboratorio de Física
 *** DONE Microeconomía
@@ -36,53 +36,53 @@
 *** DONE Termodinámica
 *** DONE Laboratorio de Programación II
 *** DONE Base de Datos
-** TODO 6 [2/6] [33%]
-*** TODO Investigación Operacional
+** SOMEDAY 6 [2/6] [33%]
+*** SOMEDAY Investigación Operacional
 *** DONE Organización y Conducta Empresarial
-*** TODO Resistencia de Materiales
-*** TODO Complejidad Computacional
+*** SOMEDAY Resistencia de Materiales
+*** SOMEDAY Complejidad Computacional
 *** DONE Mecánica de Fluidos
-*** TODO Electivo de Formación General II
-** TODO 7 [0/5] [0%]
-*** TODO Sistemas Estocásticos
+*** SOMEDAY Electivo de Formación General II
+** SOMEDAY 7 [0/5] [0%]
+*** SOMEDAY Sistemas Estocásticos
 **** De Investigación Operacional
 - [2021-06-14 Mon 10:26]
 - Probabilidad total
 - Bayes
 - Distr Poisson
 - Cadena de Markov
-*** TODO Gestión Comercial
-*** TODO Comunicación de Datos
-*** TODO Arquitectura de Computadores
-*** TODO Contabilidad Financiera
-** TODO 8 [0/6] [0%]
-*** TODO Ingeniería Industrial
-*** TODO Procesos de Manufactura
-*** TODO Gestión de Recursos Humanos
-*** TODO Ingeniería Económica
-*** TODO Tecnología y Servicios de Internet
-*** TODO Electivo de Formación General III
-** TODO 9 [0/5] [0%]
-*** TODO Gestión de Operaciones
-*** TODO Ingeniería y Medio Ambiente
-*** TODO Ingeniería de Software
-*** TODO Gestión Estratégica
-*** TODO Electivo de Especialidad
-** TODO 10 [0/6] [0%]
-*** TODO Logística y Distribución
-*** TODO Sistemas de Gestión de Calidad
-*** TODO Taller de Ingeniería de Software
-*** TODO Preparación y Evaluación de Proyectos
-*** TODO Electivo de Especialidad II
-*** TODO Electivo de Formación General IV
-** TODO 11 [0/5] [0%]
-*** TODO Automatización de Procesos Productivos
-*** TODO Gestión de Proyectos Informáticos
-*** TODO Taller de Juegos de Negocios
-*** TODO Taller de Gestión Empresarial
-*** TODO Electivo de Especialidad III
-** TODO 12 [0/1] [0%]
-*** TODO Trabajo de Título
+*** SOMEDAY Gestión Comercial
+*** SOMEDAY Comunicación de Datos
+*** SOMEDAY Arquitectura de Computadores
+*** SOMEDAY Contabilidad Financiera
+** SOMEDAY 8 [0/6] [0%]
+*** SOMEDAY Ingeniería Industrial
+*** SOMEDAY Procesos de Manufactura
+*** SOMEDAY Gestión de Recursos Humanos
+*** SOMEDAY Ingeniería Económica
+*** SOMEDAY Tecnología y Servicios de Internet
+*** SOMEDAY Electivo de Formación General III
+** SOMEDAY 9 [0/5] [0%]
+*** SOMEDAY Gestión de Operaciones
+*** SOMEDAY Ingeniería y Medio Ambiente
+*** SOMEDAY Ingeniería de Software
+*** SOMEDAY Gestión Estratégica
+*** SOMEDAY Electivo de Especialidad
+** SOMEDAY 10 [0/6] [0%]
+*** SOMEDAY Logística y Distribución
+*** SOMEDAY Sistemas de Gestión de Calidad
+*** SOMEDAY Taller de Ingeniería de Software
+*** SOMEDAY Preparación y Evaluación de Proyectos
+*** SOMEDAY Electivo de Especialidad II
+*** SOMEDAY Electivo de Formación General IV
+** SOMEDAY 11 [0/5] [0%]
+*** SOMEDAY Automatización de Procesos Productivos
+*** SOMEDAY Gestión de Proyectos Informáticos
+*** SOMEDAY Taller de Juegos de Negocios
+*** SOMEDAY Taller de Gestión Empresarial
+*** SOMEDAY Electivo de Especialidad III
+** SOMEDAY 12 [0/1] [0%]
+*** SOMEDAY Trabajo de Título
 * Tabla de notas
 * Local variables :noexport:
 # Local Variables:

@@ -10,10 +10,10 @@
 * Drive: shared with me
 - https://drive.google.com/drive/shared-with-me
 * Electivo
-#+transclude: t [[id:2efe99f0-c937-4cb9-8801-7a94a62e20c9][Links]]
+#+transclude: [[id:2efe99f0-c937-4cb9-8801-7a94a62e20c9][Links]]
 * IO
-#+transclude: t [[id:e923e674-f884-4aa1-ab4c-84beb6611c53][Links]]
+#+transclude: [[id:e923e674-f884-4aa1-ab4c-84beb6611c53][Links]]
 * Resis
-#+transclude: t [[id:2516d471-5920-4ef2-9034-77bf16fa722e][Links]]
+#+transclude: [[id:2516d471-5920-4ef2-9034-77bf16fa722e][Links]]
 * Proba
-#+transclude: t [[id:03be17f8-14ef-4ff2-8958-294dce42a6e3][Links]]
+#+transclude: [[id:03be17f8-14ef-4ff2-8958-294dce42a6e3][Links]]
