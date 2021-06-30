@@ -52,8 +52,14 @@
 |  14   | [2021-06-01 Tue] |      9 | Carga Axial                             |   2    |   x    |
 |  15   | [2021-06-03 Thu] |      9 | Carga Axial                             |   2    |   x    |
 |-------+------------------+--------+-----------------------------------------+--------+--------|
-|  16   | [2021-06-08 Tue] |     10 | Torsión                                 |   3    |        |
-|  17   | [2021-06-10 Thu] |     10 | Torsión                                 |   3    |        |
+|  16   | [2021-06-08 Tue] |     10 | Torsión                                 |   3    |   3    |
+|  17   | [2021-06-10 Thu] |     10 | Torsión                                 |   3    |   3    |
+|-------+------------------+--------+-----------------------------------------+--------+--------|
+|  18   | [2021-06-15 Tue] |     11 | Torsión                                 |   3    |   3    |
+|-------+------------------+--------+-----------------------------------------+--------+--------|
+|  19   | [2021-06-22 Tue] |     12 | Torsión                                 |   3    |   3    |
+|-------+------------------+--------+-----------------------------------------+--------+--------|
+|  20   | [2021-06-29 Tue] |     13 | Torsión                                 |   3    |   3    |
 |-------+------------------+--------+-----------------------------------------+--------+--------|
 * Evaluación :grade:
 ** Teórico 80%
@@ -119,6 +125,7 @@ CLOSED: [2021-06-10 Thu 01:24] SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021
     - [X] 11
 **** NEXT [#A] taller3
 DEADLINE: <2021-06-30 Wed 08:30 -0d>--<2021-07-01 Thu 08:30 -0d>
+- Materia a evaluar: Esfuerzo por torsión y ángulo de torsión
 **** TODO taller4 (opcional)
 DEADLINE: <2021-07-07 Wed 08:30 -0d>--<2021-07-08 Thu 08:30 -0d>
 * Links
@@ -394,7 +401,7 @@ SCHEDULED: <2021-06-22 Tue 08:30-10:40>
 - [[id:32d7e961-f6a2-4cfb-a97f-6e7144a66ba0][apuntes.org]]
 
 
-Próxima semana ultimo taller.
+Próxima semana último taller.
 4 optativo es subsiguiente semana.
 28 de julio última prueba.
 
@@ -402,26 +409,24 @@ Tarea con décimas para la prueba 3.
 - Enviar ésta semana.
 
 ***** TODO Clase 20 resistencia
-SCHEDULED: <2021-06-24 Thu 16:50-19:00>
-***** TODO Clase 21 resistencia
 SCHEDULED: <2021-06-29 Tue 08:30-10:40>
-***** TODO Clase 22 resistencia
+***** CANCELED Clase 21 resistencia
 SCHEDULED: <2021-07-01 Thu 16:50-19:00>
-***** TODO Clase 23 resistencia
+***** TODO Clase 21 resistencia
 SCHEDULED: <2021-07-06 Tue 08:30-10:40>
-***** TODO Clase 24 resistencia
+***** TODO Clase 22 resistencia
 SCHEDULED: <2021-07-08 Thu 16:50-19:00>
-***** TODO Clase 25 resistencia
+***** TODO Clase 23 resistencia
 SCHEDULED: <2021-07-13 Tue 08:30-10:40>
-***** TODO Clase 26 resistencia
+***** TODO Clase 24 resistencia
 SCHEDULED: <2021-07-15 Thu 16:50-19:00>
-***** TODO Clase 27 resistencia
+***** TODO Clase 25 resistencia
 SCHEDULED: <2021-07-20 Tue 08:30-10:40>
-***** TODO Clase 28 resistencia
+***** TODO Clase 26 resistencia
 SCHEDULED: <2021-07-22 Thu 16:50-19:00>
-***** TODO Clase 29 resistencia
+***** TODO Clase 27 resistencia
 SCHEDULED: <2021-07-27 Tue 08:30-10:40>
-***** TODO Clase 30 resistencia
+***** TODO Clase 28 resistencia
 SCHEDULED: <2021-07-29 Thu 16:50-19:00>
 ** Ayudantía
 - Cada 2 semanas empezando el 16 de abril.
@@ -431,7 +436,7 @@ CLOSED: [2021-05-07 Fri 13:32] SCHEDULED: <2021-04-16 Fri 19:10-20:10>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-05-07 Fri 13:32]
 :END:
-*** TODO Ayudantía 2 resistancia
+*** CANCELED 2 resistancia
 SCHEDULED: <2021-04-30 Fri 19:10-20:10>
 - Esta tengo que ver
 *** DONE Ayudantía 3 resistancia

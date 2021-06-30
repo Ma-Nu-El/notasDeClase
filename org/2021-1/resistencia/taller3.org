@@ -1,0 +1,28 @@
+#+TITLE: Resumen Taller 3
+#+subtitle: Resistencia de Materiales 2021-1
+#+author: Manuel Fuica Morales
+#+author: \\
+#+author: _[[mailto:m.fuica01@ufromail.cl][m.fuica01@ufromail.cl]]_
+#+LANGUAGE: es
+#+DATE: Junio 2021
+
+* TOC :TOC_2:noexport:
+- [[#materia-a-evaluar][Materia a evaluar:]]
+- [[#clase-16][Clase 16]]
+  - [[#deformación-por-torsión-en-un-eje-circular][Deformación por torsión en un eje circular]]
+  - [[#esfuerzo-por-torsión-en-un-eje-circular][Esfuerzo por torsión en un eje circular]]
+- [[#clase-17][Clase 17]]
+- [[#clase-18][Clase 18]]
+- [[#clase-19][Clase 19]]
+- [[#clase-20][Clase 20]]
+
+* Materia a evaluar:
+- Esfuerzo por torsión y ángulo de torsión
+- Desde clase 16 a 20
+* Clase 16
+** Deformación por torsión en un eje circular
+** Esfuerzo por torsión en un eje circular
+* Clase 17
+* Clase 18
+* Clase 19
+* Clase 20

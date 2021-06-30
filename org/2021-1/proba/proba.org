@@ -24,13 +24,14 @@
     - [[#canceled-taller3][CANCELED taller3]]
     - [[#taller3][taller3]]
     - [[#canceled-taller4][CANCELED taller4]]
-    - [[#next-taller5][NEXT taller5]]
+    - [[#next-a-taller5][NEXT [#A] taller5]]
     - [[#taller6][taller6]]
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
     - [[#unidad-2-en-campus][Unidad 2 en campus]]
 - [[#links][Links]]
   - [[#lunes-y-miercoles-1050-1][Lunes y Miercoles 1050]]
   - [[#clases-grabadas][Clases grabadas]]
+- [[#encuesta-proba-por-decimas-][Encuesta proba por decimas !!]]
 - [[#footnotes][Footnotes]]
 
 * Cátedras
@@ -435,6 +436,7 @@ DEADLINE: <2021-06-16 Wed 10:50 -0d>
 
 *** NEXT [#A] taller5
 DEADLINE: <2021-07-05 Mon -0d>
+- intervalos
 *** TODO taller6
 DEADLINE: <2021-07-19 Mon -0d>
 *** DONE Unidad 1 en campus
@@ -454,6 +456,10 @@ DEADLINE: <2021-05-09 Sun -0d>
 - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 ** Clases grabadas
 - https://drive.google.com/drive/folders/1D_lYyjUuGMIp241fPY-xjdEqAis9u6o9?usp=sharing
+* TODO [#A] Encuesta proba por decimas !!
+SCHEDULED: <2021-07-02 Fri 10:00>
+- Estudiantes
+- https://redessocialeseinternet.questionpro.com/
 * Footnotes
 [fn:1] file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
 * Local variables :noexport:

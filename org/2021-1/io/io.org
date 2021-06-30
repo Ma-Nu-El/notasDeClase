@@ -24,6 +24,7 @@
   - [[#viernes-1430-ayudantia][Viernes 1430-Ayudantia]]
   - [[#clases-grabadas][Clases grabadas]]
 - [[#evaluación][Evaluación]]
+  - [[#canceled-encuesta-io][CANCELED encuesta io]]
   - [[#teórico-70][Teórico 70%]]
   - [[#práctico-30][Práctico 30%]]
 
@@ -169,7 +170,7 @@ CLOSED: [2021-06-11 Fri 15:33] SCHEDULED: <2021-06-11 Fri 14:30-15:30>
 - apuntes.org
 *** CANCELED Ayudantía 8 IO
 SCHEDULED: <2021-06-18 Fri 14:30-15:30>
-*** TODO Ayudantía 9 IO
+*** CANCELED Ayudantía 9 IO
 SCHEDULED: <2021-06-25 Fri 14:30-15:30>
 * Contacto
 - RICARDO ENRIQUE SEPULVEDA CONCHA
@@ -192,6 +193,14 @@ SCHEDULED: <2021-06-25 Fri 14:30-15:30>
 ** Clases grabadas
 - https://drive.google.com/drive/u/1/folders/15i2ifq3RYAVlxlKzM-XIrveBHZdUUMkf
 * Evaluación :grade:
+** CANCELED encuesta io
+SCHEDULED: <2021-05-03 Mon>
+:LOGBOOK:
+- State "WAIT"       from              [2021-05-03 Mon 18:03] \\
+  Resp wasap
+:END:
+- Tal vez esta?
+  - https://campusvirtual.ufro.cl/mod/assign/view.php?id=1158513
 ** Teórico 70%
 *** DONE prueba1
 CLOSED: [2021-05-10 Mon 12:34] DEADLINE: <2021-05-08 Sat -0d>

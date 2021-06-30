@@ -32,6 +32,7 @@
   - [[#2021-06-10-thu-clase-17][[2021-06-10 Thu] Clase 17]]
   - [[#2021-06-17-thu-clase-18][[2021-06-17 Thu] Clase 18]]
   - [[#2021-06-22-tue-clase][[2021-06-22 Tue] Clase]]
+  - [[#resumen-taller-3][Resumen taller 3:]]
 - [[#footnotes][Footnotes]]
 
 * 2020-2
@@ -408,8 +409,8 @@ cortante como:
 |-------------------+---------------------------------|
 
 
-- Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
-- Si el ángulo se abre \( \rightarrow \gamma < 0 \)
+- Si el ángulo se cierra \( \rightarrow \gamma \) > \( 0 \)
+- Si el ángulo se abre \( \rightarrow \gamma \) < \( 0 \)
 
 *** Deformación Normal y cortante
 
@@ -887,8 +888,8 @@ Y despejando \(\delta\) obtenemos:
 -----
 
 |----------------+--------------|
-| \(\delta > 0\) | alargamiento |
-| \(\delta < 0\) | contracción  |
+| \(\delta \) > \( 0\) | alargamiento |
+| \(\delta \) < \( 0\) | contracción  |
 |----------------+--------------|
 
 ** [2021-05-20 Thu] Clase 13
@@ -1196,12 +1197,12 @@ F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 |-------------------+---------------------------------|
 |    \(\gamma\)     | Variación de ángulo en radianes |
 | \(\frac{\pi}{2}\) | Ángulo original                 |
-|    \(\theta'\)    | Ángulo final                    |
+|    \(\theta\)    | Ángulo final                    |
 |-------------------+---------------------------------|
 
 
-- Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
-- Si el ángulo se abre \( \rightarrow \gamma < 0 \)
+- Si el ángulo se cierra -> \( \gamma \) > \(0 \)
+- Si el ángulo se abre -> \( \gamma \) < \(\) 0 \)
 
 **** Diagrama esfuerzo vs deformación unitaria.
 :PROPERTIES:
@@ -1297,7 +1298,7 @@ G = \frac
 
 #+begin_center
 \[
-\Delta U = \frac{1}{2}\sigma \epsilon \Delta V
+\Delta U = \frac{1}{2} \sigma \epsilon \Delta V
 \]
 \(\Delta V\): variación de volumen.
 #+end_center
@@ -1372,36 +1373,36 @@ por medio de la Ley de Hooke":
 \]
 
 
-Y despejando \(\delta\) obtenemos:
+Y despejando \( \delta \) obtenemos:
 
 \[
 \delta=\frac{PL}{AE}
 \]
 
-|    <c>     | <l>                                               |
-|------------+---------------------------------------------------|
-|  Símbolo   | Significado                                       |
-|------------+---------------------------------------------------|
-| \(\delta\) | Desplazamiento de un punto en la barra relativo a |
-|            | otro punto.                                       |
-|------------+---------------------------------------------------|
-|   \(L\)    | Distancia inicial entre los puntos en cuestión.   |
-|------------+---------------------------------------------------|
-|   \(P\)    | Fuerza axial interna en la sección entre los dos  |
-|            | puntos en cuestión.                               |
-|------------+---------------------------------------------------|
-|   \(A\)    | Área de la sección transversal entre los puntos.  |
-|------------+---------------------------------------------------|
-|   \(E\)    | Modulo de elasticidad del material de la sección  |
-|            | entre los puntos.                                 |
-|------------+---------------------------------------------------|
+|     <c>      | <l>                                               |
+|--------------+---------------------------------------------------|
+|   Símbolo    | Significado                                       |
+|--------------+---------------------------------------------------|
+| \( \delta \) | Desplazamiento de un punto en la barra relativo a |
+|              | otro punto.                                       |
+|--------------+---------------------------------------------------|
+|   \( L \)    | Distancia inicial entre los puntos en cuestión.   |
+|--------------+---------------------------------------------------|
+|   \( P \)    | Fuerza axial interna en la sección entre los dos  |
+|              | puntos en cuestión.                               |
+|--------------+---------------------------------------------------|
+|   \( A \)    | Área de la sección transversal entre los puntos.  |
+|--------------+---------------------------------------------------|
+|   \( E \)    | Modulo de elasticidad del material de la sección  |
+|              | entre los puntos.                                 |
+|--------------+---------------------------------------------------|
 
------
 
-|----------------+--------------|
-| \(\delta > 0\) | alargamiento |
-| \(\delta < 0\) | contracción  |
-|----------------+--------------|
+|------------------------+--------------|
+| \( \delta \) > \( 0 \) | alargamiento |
+| \( \delta \) < \( 0 \) | contracción  |
+|------------------------+--------------|
+
 *** Esfuerzo térmico
 **** Esfuerzo térmico
 
@@ -1571,13 +1572,11 @@ Timer start time set to 17:05:53, current value is 0:00:00
 
 
 
-
 ** [2021-06-22 Tue] Clase
 :PROPERTIES:
 :ID:       32d7e961-f6a2-4cfb-a97f-6e7144a66ba0
 :END:
 - [[id:773b7dc8-f7c8-40e4-86fb-e504ed55c8f7][log]]
-
 
 
 * Footnotes
