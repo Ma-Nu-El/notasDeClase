@@ -123,11 +123,17 @@ CLOSED: [2021-06-10 Thu 01:24] SCHEDULED: <2021-06-09 Wed 08:30> DEADLINE: <2021
     - [X] 9
     - [X] 10
     - [X] 11
-**** NEXT [#A] taller3
-DEADLINE: <2021-06-30 Wed 08:30 -0d>--<2021-07-01 Thu 08:30 -0d>
+**** DONE [#A] taller3
+CLOSED: [2021-07-01 Thu 04:41] DEADLINE: <2021-06-30 Wed 08:30 -0d>--<2021-07-01 Thu 08:30 -0d>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-07-01 Thu 04:41]
+:END:
 - Materia a evaluar: Esfuerzo por torsión y ángulo de torsión
-**** TODO taller4 (opcional)
+**** NEXT [#A] taller4 (opcional)
 DEADLINE: <2021-07-07 Wed 08:30 -0d>--<2021-07-08 Thu 08:30 -0d>
+:LOGBOOK:
+- State "NEXT"       from "TODO"       [2021-07-01 Thu 04:41]
+:END:
 * Links
 :PROPERTIES:
 :ID:       2516d471-5920-4ef2-9034-77bf16fa722e
@@ -383,7 +389,7 @@ CLOCK: [2021-06-10 Thu 16:45]--[2021-06-10 Thu 17:43] =>  0:58
 :END:
 - [[id:04023b0b-a864-486b-a3a4-62f7c9fb73ff][apuntes.org]]
 - Esta clase no entra en la prueba 2, al igual que la clase 16.
-***** TODO Clase 18 resistencia
+***** CANCELED Clase 18 resistencia
 SCHEDULED: <2021-06-17 Thu 16:50-19:00>
 :PROPERTIES:
 :ID:       af97d879-e716-4dde-8144-bc28672c5a69
@@ -393,7 +399,7 @@ CLOCK: [2021-06-20 Sun 09:43]--[2021-06-20 Sun 09:53] =>  0:10
 CLOCK: [2021-06-18 Fri 11:00]--[2021-06-18 Fri 11:01] =>  0:01
 :END:
 - [[id:345b31d1-5cbb-4cbe-834d-5312c7ca670e][apuntes.org]]
-***** TODO Clase 19 resistencia
+***** CANCELED Clase 19 resistencia
 SCHEDULED: <2021-06-22 Tue 08:30-10:40>
 :PROPERTIES:
 :ID:       773b7dc8-f7c8-40e4-86fb-e504ed55c8f7
@@ -408,7 +414,7 @@ Próxima semana último taller.
 Tarea con décimas para la prueba 3.
 - Enviar ésta semana.
 
-***** TODO Clase 20 resistencia
+***** CANCELED Clase 20 resistencia
 SCHEDULED: <2021-06-29 Tue 08:30-10:40>
 ***** CANCELED Clase 21 resistencia
 SCHEDULED: <2021-07-01 Thu 16:50-19:00>
@@ -451,16 +457,16 @@ CLOSED: [2021-05-15 Sat 11:00] SCHEDULED: <2021-05-14 Fri 19:10-20:10>
 CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
 :END:
 - [[id:245afd7e-df50-4e2c-aa91-be01fe9ebd0d][apuntes.org]]
-*** TODO Ayudantía 4 resistancia
+*** CANCELED Ayudantía 4 resistancia
 SCHEDULED: <2021-06-11 Fri 19:10>
-*** TODO Ayudantía 5 resistancia
+*** CANCELED Ayudantía 5 resistancia
 SCHEDULED: <2021-06-25 Fri 19:10>
 *** TODO Ayudantía 6 resistancia
-SCHEDULED: <2021-07-09 Fri 19:10>
+SCHEDULED: <2021-07-02 Fri 19:10>
 *** TODO Ayudantía 7 resistancia
-SCHEDULED: <2021-07-23 Fri 19:10>
+SCHEDULED: <2021-07-16 Fri 19:10>
 *** TODO Ayudantía 8 resistancia
-SCHEDULED: <2021-08-06 Fri 19:10>
+SCHEDULED: <2021-07-30 Fri 19:10>
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

@@ -32,7 +32,6 @@
   - [[#2021-06-10-thu-clase-17][[2021-06-10 Thu] Clase 17]]
   - [[#2021-06-17-thu-clase-18][[2021-06-17 Thu] Clase 18]]
   - [[#2021-06-22-tue-clase][[2021-06-22 Tue] Clase]]
-  - [[#resumen-taller-3][Resumen taller 3:]]
 - [[#footnotes][Footnotes]]
 
 * 2020-2
@@ -1571,13 +1570,11 @@ Timer start time set to 17:05:53, current value is 0:00:00
   + https://www.youtube.com/watch?v=SsA8M01RsUI
 
 
-
 ** [2021-06-22 Tue] Clase
 :PROPERTIES:
 :ID:       32d7e961-f6a2-4cfb-a97f-6e7144a66ba0
 :END:
 - [[id:773b7dc8-f7c8-40e4-86fb-e504ed55c8f7][log]]
-
 
 * Footnotes
 [fn:1][[id:0dc24c96-f18f-4f91-9a1b-05aaab5e8169][Diagrama esfuerzo vs deformación unitaria.]]

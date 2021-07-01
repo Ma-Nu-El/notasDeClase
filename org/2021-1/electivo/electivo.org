@@ -58,21 +58,21 @@
 - State "CANCELED"   from "TODO"       [2021-06-02 Wed 06:55] \\
   Professor ladder fall injury.
 :END:
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-06-07 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-06-14 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-06-21 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-06-28 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-07-05 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-07-12 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-07-19 Mon 16:50-19:00>
-** TODO Clase Electivo
+** CANCELED Clase Electivo
    SCHEDULED: <2021-07-26 Mon 16:50-19:00>
 * Links
 :PROPERTIES:

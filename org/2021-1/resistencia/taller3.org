@@ -5,24 +5,169 @@
 #+author: _[[mailto:m.fuica01@ufromail.cl][m.fuica01@ufromail.cl]]_
 #+LANGUAGE: es
 #+DATE: Junio 2021
+#+OPTIONS: toc:3
 
-* TOC :TOC_2:noexport:
+* TOC :TOC_3:noexport:
 - [[#materia-a-evaluar][Materia a evaluar:]]
 - [[#clase-16][Clase 16]]
   - [[#deformación-por-torsión-en-un-eje-circular][Deformación por torsión en un eje circular]]
   - [[#esfuerzo-por-torsión-en-un-eje-circular][Esfuerzo por torsión en un eje circular]]
+  - [[#esfuerzo-por-torsión-en-un-eje-circular-con-un-agujero-interior][Esfuerzo por torsión en un eje circular con un agujero interior]]
+  - [[#esfuerzo-en-función-del-momento-de-inercia-polar-𝐽-respecto-del-centro][Esfuerzo en función del momento de inercia polar \(𝐽\) respecto del centro]]
+  - [[#momentos-de-inercia-polar-para-geometrías-afines][Momentos de inercia polar para geometrías afines]]
+    - [[#eje-tubular-sólido][Eje tubular sólido]]
+    - [[#eje-tubular-con-agujero-interior][Eje tubular con agujero interior]]
 - [[#clase-17][Clase 17]]
 - [[#clase-18][Clase 18]]
+  - [[#ángulo-de-torsión][Ángulo de torsión]]
+  - [[#convención-de-signos][Convención de signos]]
 - [[#clase-19][Clase 19]]
+  - [[#elemento-cargado-con-torsión-estáticamente-indeterminado][Elemento cargado con torsión estáticamente indeterminado]]
 - [[#clase-20][Clase 20]]
+  - [[#transmisión-de-potencia][Transmisión de potencia]]
 
 * Materia a evaluar:
 - Esfuerzo por torsión y ángulo de torsión
 - Desde clase 16 a 20
 * Clase 16
 ** Deformación por torsión en un eje circular
+:PROPERTIES:
+:ID:       29e891e4-4c91-40df-8568-891950590354
+:END:
+Si tenemos:
+
+#+CAPTION: Deformación por torsión en un eje circular
+#+NAME: [[id:29e891e4-4c91-40df-8568-891950590354][Deformación por torsión en un eje circular]]
+#+ATTR_HTML: :alt Deformación por torsión en un eje circular image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-24-50.png]]
+
+podemos definir la deformación por torsión \(\gamma\) como:
+
+#+begin_center
+\[
+\gamma = \frac{\rho \, \phi}{L}
+\]
+; \(\rho\) y \(\phi\) medidos en radianes.
+#+end_center
+
+y la ecuación para cualquier deformación dentro del cuerpo para un radio máximo
+de \(c\):
+
+#+CAPTION: Deformación por torsión en un eje circular 2
+#+NAME: [[id:29e891e4-4c91-40df-8568-891950590354][Deformación por torsión en un eje circular2]]
+#+ATTR_HTML: :alt Deformación por torsión en un eje circular 2 image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-33-10.png]]
+
+\[
+\gamma = \frac{\rho}{c}\cdot \gamma_{\text{máximo}}
+\]
+
 ** Esfuerzo por torsión en un eje circular
+:PROPERTIES:
+:ID:       35de61b3-191b-4733-814f-a643d868e42a
+:END:
+
+#+CAPTION: Esfuerzo por torsión en un eje circular
+#+NAME: [[id:35de61b3-191b-4733-814f-a643d868e42a][Esfuerzo por torsión en un eje circular]]
+#+ATTR_HTML: :alt Esfuerzo por torsión en un eje circular image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-46-37.png]]
+
+
+#+begin_center
+\[
+G \, \gamma = \tau
+\quad
+;
+\quad
+\tau=\frac{\rho}{c}\cdot \tau_{\text{máximo}}
+\]
+; donde \(G\) es el módulo de rigidez o módulo de corte del material.
+#+end_center
+
+** Esfuerzo por torsión en un eje circular con un agujero interior
+:PROPERTIES:
+:ID:       d39154aa-21f3-4901-9720-65aeff1c6cb4
+:END:
+
+#+CAPTION: Esfuerzo por torsión en un eje circular con un agujero interior
+#+NAME: [[id:d39154aa-21f3-4901-9720-65aeff1c6cb4][Esfuerzo por torsión en un eje circular con un agujero interior]]
+#+ATTR_HTML: :alt Esfuerzo por torsión en un eje circular con un agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-55-05.png]]
+
+
+\[
+\tau_{\text{mínimo}}=\frac{c_1}{c_2}\cdot \tau_{\text{máximo}}
+\]
+
+** Esfuerzo en función del momento de inercia polar \(𝐽\) respecto del centro
+
+\[
+\tau=\frac{T \cdot \rho}{𝐽}
+\quad
+;
+\quad
+\tau_{\text{máximo}}=\frac{T \cdot c}{𝐽}
+\]
+
+** Momentos de inercia polar para geometrías afines
+
+La dimensión del momento de inercia es de /longitud a la cuarta potencia/.
+
+*** Eje tubular sólido
+:PROPERTIES:
+:ID:       2627229d-10ef-42e7-aacf-3a62e9882849
+:END:
+
+#+CAPTION: Eje tubular sólido
+#+NAME: [[id:2627229d-10ef-42e7-aacf-3a62e9882849][Eje tubular sólido]]
+#+ATTR_HTML: :alt Eje tubular sólido image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-14-47.png]]
+
+\[
+𝐽=\frac{\pi}{2} \cdot c^4
+\]
+*** Eje tubular con agujero interior
+:PROPERTIES:
+:ID:       5420d97f-bfcb-4dc3-9bc5-06c77770353f
+:END:
+
+#+CAPTION: Eje tubular con agujero interior
+#+NAME: [[id:5420d97f-bfcb-4dc3-9bc5-06c77770353f][Eje tubular con agujero interior]]
+#+ATTR_HTML: :alt Eje tubular con agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-10-39.png]]
+
+\[
+𝐽=\frac{\pi}{2} \cdot (c_2^4-c_1^4)
+\]
+
 * Clase 17
+- Ejemplos para reforzar la clase 16.
 * Clase 18
+** Ángulo de torsión
+
+\[
+\gamma_{\text{máximo}}=\frac{\tau_{\text{máximo}}}{G}
+=
+\frac{T \cdot c}{𝐽 \cdot G}
+\]
+
+igualando con \(\gamma_\text{máximo} = \frac{c \cdot \phi}{L}\) y despejando
+\(\phi\) tenemos:
+
+\[
+\phi=\frac{T \cdot L}{𝐽 \cdot G}
+\]
+
+
+
+
+
+** Convención de signos
 * Clase 19
+** Elemento cargado con torsión estáticamente indeterminado
 * Clase 20
+** Transmisión de potencia
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
