@@ -70,9 +70,9 @@ Este semestre la nota mínima para irse a examen es 3.0.
 | Item     | Nota |
 |----------+------|
 | prueba1  |  3.6 |
-| prueba2  |      |
+| prueba2  |  6.0 |
 |----------+------|
-| Promedio |  3.6 |
+| Promedio |  4.8 |
 #+TBLFM: @>$>=vmean(@I..II)
 **** 2020-2
 |----------+-----|
@@ -86,14 +86,14 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :ID:       30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad
 :END:
 #+NAME:[[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]]
-| Item     |      Nota |
-|----------+-----------|
-| taller1  |       5.1 |
-| taller2  |       3.0 |
-| taller3  |       5.2 |
-| taller4  |           |
-|----------+-----------|
-| Promedio | 4.4333333 |
+| Item     |  Nota |
+|----------+-------|
+| taller1  |   5.1 |
+| taller2  |   3.0 |
+| taller3  |   5.2 |
+| taller4  |   6.0 |
+|----------+-------|
+| Promedio | 4.825 |
 #+TBLFM: @>$>=vmean(@I..II)
 **** 2020-2
 |----------+------|
@@ -109,12 +109,12 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :ID:       777f9be8-cedb-484d-aacc-1328fe6e8a7a
 :END:
 #+NAME:[[id:777f9be8-cedb-484d-aacc-1328fe6e8a7a][Total]]
-|          | Ponderación |      Nota | Nota ponderada |
-|----------+-------------+-----------+----------------|
-| Teórica  |         0.7 |       3.6 |           2.52 |
-| Práctica |         0.3 | 4.4333333 |      1.3300000 |
-|----------+-------------+-----------+----------------|
-| Promedio |           - |         - |           3.85 |
+|          | Ponderación |  Nota | Nota ponderada |
+|----------+-------------+-------+----------------|
+| Teórica  |         0.7 |   4.8 |           3.36 |
+| Práctica |         0.3 | 4.825 |         1.4475 |
+|----------+-------------+-------+----------------|
+| Promedio |           - |     - |         4.8075 |
 #+TBLFM: @2$3=remote([[id:7d28dc6c-3440-4961-b738-c8b48838dfbe][Teórica 70%]],@>$>) :: @3$3=remote([[id:30340cb3-edeb-4c80-8ad6-cdc7f3acf7ad][Práctica 30%]],@>$>) :: $4=$2*$3 :: @4$4=vsum(@I..II)
 ** Proba
 *** Teórica 80% :test:
@@ -160,16 +160,16 @@ SCHEDULED: <2021-07-02 Fri 10:00>
 :ID:       26adc432-204a-456d-806c-a6f43abae767
 :END:
 #+NAME:[[id:26adc432-204a-456d-806c-a6f43abae767][Total]]
-|-------------+-----------|
-| Subject     |     Grade |
-|-------------+-----------|
-| Resistencia |     4.105 |
-| IO          |      3.85 |
-| Proba       |      3.89 |
-| Electivo    |           |
-|-------------+-----------|
-| Promedio    | 3.9483333 |
-|-------------+-----------|
+|-------------+--------|
+| Subject     |  Grade |
+|-------------+--------|
+| Resistencia |  4.105 |
+| IO          | 4.8075 |
+| Proba       |   3.89 |
+| Electivo    |        |
+|-------------+--------|
+| Promedio    | 4.2675 |
+|-------------+--------|
 #+TBLFM: @2$2=remote([[id:785fc36a-3d61-4318-9ac7-bc588d5b3fb1][Total]],@>$>) :: @3$2=remote([[id:777f9be8-cedb-484d-aacc-1328fe6e8a7a][Total]],@>$>) :: @4$2=remote([[id:ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4][Total]],@>$>) :: @6$2=vsum(@II..III)/3
 
 @5$2=remote(,@>$>) (Electivo)

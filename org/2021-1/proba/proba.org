@@ -260,6 +260,16 @@ DEADLINE: <2021-07-21 Wed 10:50-13:00 -0d>
   | 5 | Intervalos de Confianza    |
   | 6 | Pruebas de Hipótesis       |
   |---+----------------------------|
+
+
+- [X] Clase 14
+- [ ] Clase 15
+- [ ] Clase 16
+- [ ] Clase 17
+- [ ] Clase 18
+- [ ] Clase 19
+- [ ] Clase 20
+- [ ] Clase 21
 ** Práctica 20% :workshop:
 *** apuntes
 6 pruebas cortas no recuperables. Se borra las más baja al final. La 6ta nota
@@ -435,7 +445,7 @@ DEADLINE: <2021-06-16 Wed 10:50 -0d>
     - Cota rau?
 
 *** NEXT [#A] taller5
-DEADLINE: <2021-07-05 Mon -0d>
+DEADLINE: <2021-07-08 Thu -0d>
 - intervalos
 *** TODO taller6
 DEADLINE: <2021-07-19 Mon -0d>

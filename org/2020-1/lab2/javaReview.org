@@ -207,7 +207,7 @@ This is done with
 
 #+begin_example shell
 $ java src/com.codingisawesome/Main.class
-Hello World!
+Fuck You World!
 #+end_example
 The ~.class~ extension is optional: ~$ java~ won't execute a ~.java~
 file.

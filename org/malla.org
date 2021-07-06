@@ -36,8 +36,8 @@
 *** DONE Termodinámica
 *** DONE Laboratorio de Programación II
 *** DONE Base de Datos
-** SOMEDAY 6 [2/6] [33%]
-*** SOMEDAY Investigación Operacional
+** SOMEDAY 6 [3/6] [50%]
+*** DONE Investigación Operacional
 *** DONE Organización y Conducta Empresarial
 *** SOMEDAY Resistencia de Materiales
 *** SOMEDAY Complejidad Computacional

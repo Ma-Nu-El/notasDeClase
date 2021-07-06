@@ -2,7 +2,9 @@
 :ID:       b97e8bdd-ee04-493f-acf5-a5af9f98819f
 :END:
 #+TITLE: Proba
+#+SUBTITLE: Apuntes 2021-1
 #+FILETAGS: :university:probability:statistics:notes:
+#+OPTIONS: toc:2
 # Latex preamble
 # for probability definition
 \[
@@ -34,6 +36,7 @@
 - [[#clases][Clases]]
   - [[#2021-06-09-wed-clase][[2021-06-09 Wed] Clase]]
   - [[#resumen-para-taller4][Resumen para taller4]]
+  - [[#resumen-para-prueba2][Resumen para prueba2]]
 
 * Apuntes de Libro "Probabilidad y Estadística con Aplicaciones a Ingeniería y Ciencias" para curso de Probabilidad y Estadistica para Ingenieros Civiles Industriales
 - Sonia Salvo
@@ -592,105 +595,6 @@ demostraciones correspondientes.
 - En multivariable la varianza es en realidad /covarianza/.
 *** Coeficiente de relación
 ** Capítulo 5: Inferencia estadística
-*** [2021-05-31 Mon] Clase 14
-- La clase dura desde 0:00 hasta los 50:00 aprox. El resto es ayudantía.
-- Me falta repasar los primeros minutos que son medios caóticos y luego
-  ver la ayudantía donde ensenan a ocupar las tablas para t-student y
-  chi-cuadrado.
-
-- Intervalos de confianza.
-- Pruebas de hipótesis.
-
-
-Si \(\sigma\) es desconocido:
-- \(n \geq 30\)
-  + Reemplaza \(\sigma^2\) por \(S^2\)
-- \(n \leq 30\)
-  + Se define una nueva v.a.
-
-
-\[
-Y= \frac {(n-1)-S^2}{\sigma^2} ~ X^2 (n-1)
-\]
-- Ji-cuadrado: \(n-1\) son los grados de libertad, se denotan por
-  \(\nu=(n-1)\)
-
-
-La distribución de probabilididad de esta nueva v.a. \(Y\) está tabulada.
-- Chi-cuadrado.
-- Se utiliza para contestar cosas con respecto a la varianza, ya sea
-  poblaciónal o muestral.
-
-- Si se quiere conocer cosas respecto de \(\mu\)(media)
-- Se presenta la T-Student
-- \(n<30 \rightarrow \sim\)T-Student
-- \(n>30 \rightarrow \sim\)N
-- Para \(n<30\), t-Student es más precisa.
-- Para \(n>30\), t-Student converge con Normal.
-- Por eso los software's estadísticos solo la t-Student.
-  + \(n>30 \rightarrow Z \approx t\)
-
-
-
-#+begin_quote
-/Si la inquietud como ingeniero es analizar "cosas" con respecto a \(\mu\)
-o \(f(\mu)\) sabiendo que \(X_1,X_2,\cdots,X_n \sim N(\mu,\sigma^2)\)/
-#+end_quote
-
-Primero uno se pregunta:
-- Cómo es el \(n\)?
-  + Si \(n \geq 30\) entonces
-    - si \(\sigma^2\) es conocido entonces
-      #+begin_center
-      \[
-      Z=\frac
-      {\bar{X}-\mu}
-      {
-      \frac{\sigma}{\sqrt{{n}}}
-      }
-      \]
-      ;donde \(\sigma\) es la desviación estándar de la población.
-      #+end_center
-    - si \(\sigma^2\) /no/ es conocido entonces
-      #+begin_center
-      \[
-      Z=\frac
-      {\bar{X}-\mu}
-      {
-      \frac{S}{\sqrt{{n}}}
-      }
-      \]
-      ;donde \(S\) es la desviación estándar de la muestra:
-      \(\sigma^2 \rightarrow S^2\).
-      #+end_center
-  + Si \(n < 30\) entonces
-      #+begin_center
-      \[
-      T=\frac
-      {\bar{X}-\mu}
-      {
-      \frac{S}{\sqrt{{n}}}
-      }
-      \sim t(n-1)
-      \]
-      #+end_center
-
-
-
-#+begin_quote
-/Si la inquietud como ingeniero es analizar "cosas" con respecto a la varianza
-\(\sigma^2\) o \(S^2\), utilizo la distribución "Ji-cuadrado"./
-#+end_quote
-
-\[
-Y=\frac
-{(n-1)S^2}
-{\sigma^2}
-\sim X^2(n-1)
-\]
-
-
-
 ** Capítulo 6:
 * Stats youtube channel
 - https://www.youtube.com/channel/UCiHi6xXLzi9FMr9B0zgoHqA
@@ -738,6 +642,152 @@ Timer start time set to 11:02:58, current value is 0:00:00
 - Estimación de parámetros
 - Inferencia estadística
 *** Apuntes
+** Resumen para prueba2
+*** [2021-05-31 Mon] Clase 14
+**** Notas y resumen del resto del ramo
+- La clase dura desde 0:00 hasta los 50:00 aprox. El resto es ayudantía.
+- Me falta repasar los primeros minutos que son medios caóticos y luego
+  ver la ayudantía donde enseñan a ocupar las tablas para t-student y
+  chi-cuadrado.
+
+- Intervalos de confianza.
+- Pruebas de hipótesis.
+
+
+
+Si \(\sigma\) es desconocido:
+- \(n \geq 30\)
+  + Reemplaza \(\sigma^2\) por \(S^2\)
+- \(n \leq 30\)
+  + Se define una nueva v.a.
+
+
+\[
+Y= \frac {(n-1)-S^2}{\sigma^2} ~ X^2 (n-1)
+\]
+- Ji-cuadrado: \(n-1\) son los grados de libertad, se denotan por
+  \(\nu=(n-1)\)
+
+
+La distribución de probabilididad de esta nueva /v.a./ \(Y\) está tabulada.
+- Chi-cuadrado.
+- Se utiliza para contestar cosas con respecto a la varianza, ya sea
+  poblaciónal o muestral.
+
+- Si se quiere conocer cosas respecto de \(\mu\)(media)
+- Se presenta la T-Student
+- \(n<30 \rightarrow \sim\)T-Student
+- \(n>30 \rightarrow \sim\)N
+- Para \(n<30\), t-Student es más precisa.
+- Para \(n>30\), t-Student converge con Normal.
+- Por eso los software's estadísticos solo la t-Student.
+  + \(n>30 \rightarrow Z \approx t\)
+
+**** Materia
+***** Respecto de \(\mu\)
+#+begin_quote
+/Si la inquietud como ingeniero es analizar "cosas" con respecto a \(\mu\)
+o \(f(\mu)\) sabiendo que \(X_1,X_2,\cdots,X_n \sim N(\mu,\sigma^2)\)/
+#+end_quote
+
+Primero uno se pregunta:
+- Cómo es el \(n\)?
+  + Si \(n \geq 30\) entonces
+    - si \(\sigma^2\) es conocido entonces
+      #+begin_center
+      \[
+      Z=\frac
+      {\bar{X}-\mu}
+      {
+      \frac{\sigma}{\sqrt{{n}}}
+      }
+      \]
+      ;donde \(\sigma\) es la desviación estándar de la población.
+      #+end_center
+    - si \(\sigma^2\) /no/ es conocido entonces
+      #+begin_center
+      \[
+      Z=\frac
+      {\bar{X}-\mu}
+      {
+      \frac{S}{\sqrt{{n}}}
+      }
+      \]
+      ;donde \(S\) es la desviación estándar de la muestra:
+      \(\sigma^2 \rightarrow S^2\).
+      #+end_center
+  + Si \(n < 30\) entonces
+    #+begin_center
+    \[
+    T=\frac
+    {\bar{X}-\mu}
+    {
+    \frac{S}{\sqrt{{n}}}
+    }
+    \sim t(n-1)
+    \]
+    #+end_center
+
+***** Respecto de \(\sigma\) o \(S^2\)
+
+
+#+begin_quote
+/Si la inquietud como ingeniero es analizar "cosas" con respecto a la varianza
+\(\sigma^2\) o \(S^2\), utilizo la distribución "Ji-cuadrado"./
+#+end_quote
+
+\[
+Y=\frac
+{(n-1)S^2}
+{\sigma^2}
+\sim X^2(n-1)
+\]
+
+*** [2021-06-02 Wed] Clase 15
+**** Resumen clase anterior
+***** Es \(\sigma^2\) conocido?
+a. Sí
+   - Si \(n \geq 30\) entonces
+     #+begin_center
+     \[
+     Z=\frac
+     {\bar{X}-\mu}
+     {
+     \frac{\sigma}{\sqrt{{n}}}
+     }
+     \]
+     ;donde \(\sigma\) es la desviación estándar de la población.
+     #+end_center
+   - \(n < 30\) entonces
+     #+begin_center
+     \[
+     T=\frac
+     {\bar{X}-\mu}
+     {
+     \frac{S}{\sqrt{{n}}}
+     }
+     \sim t(n-1)
+     \]
+     #+end_center
+b. No
+   #+begin_center
+   \[
+   Z=\frac
+   {\bar{X}-\mu}
+   {
+   \frac{S}{\sqrt{{n}}}
+   }
+   \]
+   ;donde \(S\) es la desviación estándar de la muestra:
+   \(\sigma^2 \rightarrow S^2\).
+   #+end_center
+
+
+**** Materia de la clase
+- Encontrar estimadores de el/los parámetros desconocidos:
+  \(\theta \in R^p\).
+
+
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"
