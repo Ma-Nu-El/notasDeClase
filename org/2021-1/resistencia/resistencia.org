@@ -22,6 +22,8 @@
 - [[#apuntes][Apuntes]]
   - [[#clase][Clase]]
   - [[#ayudantía][Ayudantía]]
+- [[#extras][Extras]]
+  - [[#tarea-para-este-fin-de-semana-][tarea para este fin de semana !]]
 
 * Programa
 - [[file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf][file:~/myDrive/uni/2021-1/resis/Clase 0 Estructura de la Asignatura.pdf]]
@@ -134,6 +136,8 @@ DEADLINE: <2021-07-15 Thu 08:30 -0d>--<2021-07-14 Wed 08:30 -0d>
 :LOGBOOK:
 - State "NEXT"       from "TODO"       [2021-07-01 Thu 04:41]
 :END:
+- transmission de potencia.
+
 * Links
 :PROPERTIES:
 :ID:       2516d471-5920-4ef2-9034-77bf16fa722e
@@ -418,8 +422,11 @@ Tarea con décimas para la prueba 3.
 SCHEDULED: <2021-06-29 Tue 08:30-10:40>
 ***** CANCELED Clase 21 resistencia
 SCHEDULED: <2021-07-01 Thu 16:50-19:00>
-***** TODO Clase 21 resistencia
-SCHEDULED: <2021-07-06 Tue 08:30-10:40>
+***** DONE Clase 21 resistencia
+CLOSED: [2021-07-06 Tue 15:20] SCHEDULED: <2021-07-06 Tue 08:30-10:40>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-06 Tue 15:20]
+:END:
 ***** TODO Clase 22 resistencia
 SCHEDULED: <2021-07-08 Thu 16:50-19:00>
 ***** TODO Clase 23 resistencia
@@ -467,6 +474,9 @@ SCHEDULED: <2021-07-02 Fri 19:10>
 SCHEDULED: <2021-07-16 Fri 19:10>
 *** TODO Ayudantía 8 resistancia
 SCHEDULED: <2021-07-30 Fri 19:10>
+* Extras
+** TODO [#A] tarea para este fin de semana !
+SCHEDULED: <2021-07-09 Fri>
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"
