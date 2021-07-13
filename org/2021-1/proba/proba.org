@@ -2,7 +2,6 @@
 :ID:       032976d7-fa81-4afe-860c-706bd06ab639
 :END:
 #+TITLE: Probabilidad y Estadística
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:probabilidadYEstadistica:20211:
 * TOC :TOC_3:noexport:
 - [[#cátedras][Cátedras]]
@@ -24,8 +23,8 @@
     - [[#canceled-taller3][CANCELED taller3]]
     - [[#taller3][taller3]]
     - [[#canceled-taller4][CANCELED taller4]]
-    - [[#next-a-taller5][NEXT [#A] taller5]]
-    - [[#taller6][taller6]]
+    - [[#canceled-a-taller5][CANCELED [#A] taller5]]
+    - [[#next-a-taller6][NEXT [#A] taller6]]
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
     - [[#unidad-2-en-campus][Unidad 2 en campus]]
 - [[#links][Links]]
@@ -444,10 +443,17 @@ DEADLINE: <2021-06-16 Wed 10:50 -0d>
     - Ensigamiento?
     - Cota rau?
 
-*** NEXT [#A] taller5
-DEADLINE: <2021-07-08 Thu -0d>
-- intervalos
-*** TODO taller6
+*** CANCELED [#A] taller5
+CLOSED: [2021-07-08 Thu 11:16] DEADLINE: <2021-07-08 Thu -0d>
+:LOGBOOK:
+- State "CANCELED"   from "DONE"       [2021-07-08 Thu 11:17]
+:END:
+- Intervalos de confianza
+
+- ver las ayudantías
+  + 9 y 10
+
+*** NEXT [#A] taller6
 DEADLINE: <2021-07-19 Mon -0d>
 *** DONE Unidad 1 en campus
 CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
@@ -466,8 +472,14 @@ DEADLINE: <2021-05-09 Sun -0d>
 - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
 ** Clases grabadas
 - https://drive.google.com/drive/folders/1D_lYyjUuGMIp241fPY-xjdEqAis9u6o9?usp=sharing
-* TODO [#A] Encuesta proba por decimas !!
-SCHEDULED: <2021-07-02 Fri 10:00>
+* DONE [#A] Encuesta proba por decimas !!
+CLOSED: [2021-07-10 Sat 00:16] SCHEDULED: <2021-07-02 Fri 10:00>
+:PROPERTIES:
+:ID:       d217f63b-1b32-47f5-a9c4-874c5a669b6c
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-10 Sat 00:16]
+:END:
 - Estudiantes
 - https://redessocialeseinternet.questionpro.com/
 * Footnotes

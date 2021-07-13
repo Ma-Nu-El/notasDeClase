@@ -148,6 +148,8 @@ DEADLINE: <2021-07-15 Thu 08:30 -0d>--<2021-07-14 Wed 08:30 -0d>
 - https://meet.google.com/rhh-yzvc-rgc?hs=224
 ** Clases grabadas
 - En campus mismo
+- O YouTube
+  + https://www.youtube.com/playlist?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY
 * Contacto
 - Ignacio Ríos
 - ignacio.rios@ufrontera.cl
@@ -427,10 +429,16 @@ CLOSED: [2021-07-06 Tue 15:20] SCHEDULED: <2021-07-06 Tue 08:30-10:40>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-07-06 Tue 15:20]
 :END:
-***** TODO Clase 22 resistencia
-SCHEDULED: <2021-07-08 Thu 16:50-19:00>
-***** TODO Clase 23 resistencia
-SCHEDULED: <2021-07-13 Tue 08:30-10:40>
+***** DONE Clase 22 resistencia
+CLOSED: [2021-07-10 Sat 00:16] SCHEDULED: <2021-07-08 Thu 16:50-19:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-10 Sat 00:16]
+:END:
+***** DONE Clase 23 resistencia
+CLOSED: [2021-07-13 Tue 10:22] SCHEDULED: <2021-07-13 Tue 08:30-10:40>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-13 Tue 10:22]
+:END:
 ***** TODO Clase 24 resistencia
 SCHEDULED: <2021-07-15 Thu 16:50-19:00>
 ***** TODO Clase 25 resistencia
@@ -468,8 +476,11 @@ CLOCK: [2021-05-14 Fri 19:17]--[2021-05-15 Sat 10:59] => 15:42
 SCHEDULED: <2021-06-11 Fri 19:10>
 *** CANCELED Ayudantía 5 resistancia
 SCHEDULED: <2021-06-25 Fri 19:10>
-*** TODO Ayudantía 6 resistancia
-SCHEDULED: <2021-07-02 Fri 19:10>
+*** CANCELED Ayudantía 6 resistancia
+CLOSED: [2021-07-09 Fri 11:55] SCHEDULED: <2021-07-02 Fri 19:10>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-07-09 Fri 11:55]
+:END:
 *** TODO Ayudantía 7 resistancia
 SCHEDULED: <2021-07-16 Fri 19:10>
 *** TODO Ayudantía 8 resistancia

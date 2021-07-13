@@ -1,0 +1,107 @@
+#+TITLE: Taller4
+#+subtitle: Resistencia de Materiales 2021-1
+#+author: Manuel Fuica Morales
+#+author: \\
+#+author: _[[mailto:m.fuica01@ufromail.cl][m.fuica01@ufromail.cl]]_
+#+LANGUAGE: es
+#+DATE: Julio 2021
+#+OPTIONS: toc:3
+
+* TOC :TOC_3:noexport:
+- [[#materia-a-evaluar][Materia a evaluar]]
+- [[#clase-20][Clase 20]]
+  - [[#transmisión-de-potencia][Transmisión de potencia]]
+
+* Materia a evaluar
+- Transmisión de potencia.
+
+#+begin_example
+  Clase 16
+ * Introducción
+ * Deformación por torsión en un eje circular
+ * Esfuerzos por torsión en un eje circular
+  Clase 17
+ * Ejemplos
+  Clase 18
+ * Ángulo de torsión
+ * Convención de signos
+ * Ejemplos
+  Clase 19
+ * Elemento cargado con torsión estáticamente indeterminado
+ * Ejemplos
+  Clase 20
+ **  *Transmisión de potencia*
+ ** Ejemplos
+#+end_example
+
+Específicamente la clase 20.
+
+* Clase 20
+** Transmisión de potencia
+:PROPERTIES:
+:ID:       b0e74160-232d-4cd1-843f-d1fc3a550d2d
+:END:
+- [[https://www.youtube.com/watch?v=b-v3qikJHm8&list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&index=22][Clase grabada disponible en YouTube]]
+
+#+CAPTION: Potencia
+#+NAME: [[id:b0e74160-232d-4cd1-843f-d1fc3a550d2d][Transmisión de potencia]]
+#+ATTR_HTML: :alt Potencia image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-12 20-25-06.png]]
+
+- Por un lado
+  \[
+  P=\frac{W}{d}=\frac{F \cdot d}{t}=F \cdot v
+  \]
+
+  #+begin_center
+  Con relación entre velocidad angular y lineal como
+  \[
+  v=\omega \cdot r
+  \]
+  tenemos:
+  #+end_center
+
+  \[
+  P=F \cdot \omega \cdot r
+  \]
+
+
+- Por otro lado
+  \[
+  P= T \cdot \omega
+  \]
+  #+begin_center
+  y para términos prácticos también es conveniente saber que
+  #+end_center
+  \[
+  P= 2 \pi \cdot f \cdot T
+  \]
+
+
+- De las dos ecuaciones podemos deducir que
+
+
+\[
+T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
+\]
+
+
+|   <c>   | <l>                    | <l>                                |
+| Símbolo | Significado            | Comentario                         |
+|---------+------------------------+------------------------------------|
+|    T    | Momento de torsión     | hp: /horse power/                  |
+|         |                        | \(1 hp=550 \frac{ft \cdot lb}{s}\) |
+|         |                        | \(= 6600 \frac{in \cdot lb}{s}\)   |
+|---------+------------------------+------------------------------------|
+|    P    | Potencia               |                                    |
+|    w    | Velocidad angular      |                                    |
+|    f    | Frecuencia de rotación |                                    |
+|    T    | Momento de torsión     |                                    |
+|---------+------------------------+------------------------------------|
+
+
+
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

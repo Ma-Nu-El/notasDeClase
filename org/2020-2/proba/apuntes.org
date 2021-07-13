@@ -1,7 +1,7 @@
 #+TITLE: Proba
-#+SETUPFILE: ~/Downloads/org-html-themes/org/theme-readtheorg-local.setup
-#+EXCLUDE_TAGS: noexport
-#+FILETAGS: :university:probability:statistics:notes:
+#+subtitle: apuntes
+#+date: 2020-2
+#+FILETAGS: :university:
 # Sources for latex math notation:
 # https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject
 # https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols

@@ -1,0 +1,32 @@
+#+TITLE: Prueba3
+#+subtitle: Resumen
+#+OPTIONS: toc:3
+
+
+* TOC :TOC_2:noexport:
+- [[#temario][Temario]]
+  - [[#clase-16][Clase 16]]
+  - [[#clase-17][Clase 17]]
+  - [[#clase-18][Clase 18]]
+  - [[#clase-19][Clase 19]]
+  - [[#clase-20][Clase 20]]
+  - [[#clase-21][Clase 21]]
+  - [[#clase-22][Clase 22]]
+
+* Temario
+- Desde la clase 16 (semana 10) hasta la última clase.
+** Clase 16
+** Clase 17
+** Clase 18
+** Clase 19
+** Clase 20
+** Clase 21
+** Clase 22
+
+
+
+
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
