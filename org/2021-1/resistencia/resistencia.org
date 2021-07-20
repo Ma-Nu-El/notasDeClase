@@ -131,9 +131,10 @@ CLOSED: [2021-07-01 Thu 04:41] DEADLINE: <2021-06-30 Wed 08:30 -0d>--<2021-07-01
 - State "DONE"       from "NEXT"       [2021-07-01 Thu 04:41]
 :END:
 - Materia a evaluar: Esfuerzo por torsión y ángulo de torsión
-**** NEXT [#A] taller4 (opcional)
-DEADLINE: <2021-07-15 Thu 08:30 -0d>--<2021-07-14 Wed 08:30 -0d>
+**** DONE [#A] taller4 (opcional)
+CLOSED: [2021-07-15 Thu 01:42] SCHEDULED: <2021-07-15 Thu 08:30 -0d>--<2021-07-14 Wed 08:30 -0d>
 :LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-07-15 Thu 01:42]
 - State "NEXT"       from "TODO"       [2021-07-01 Thu 04:41]
 :END:
 - transmission de potencia.
@@ -439,16 +440,15 @@ CLOSED: [2021-07-13 Tue 10:22] SCHEDULED: <2021-07-13 Tue 08:30-10:40>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-07-13 Tue 10:22]
 :END:
-***** TODO Clase 24 resistencia
-SCHEDULED: <2021-07-15 Thu 16:50-19:00>
+***** DONE Clase 24 resistencia
+CLOSED: [2021-07-15 Thu 18:11] SCHEDULED: <2021-07-15 Thu 16:50-19:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-15 Thu 18:11]
+:END:
 ***** TODO Clase 25 resistencia
 SCHEDULED: <2021-07-20 Tue 08:30-10:40>
 ***** TODO Clase 26 resistencia
 SCHEDULED: <2021-07-22 Thu 16:50-19:00>
-***** TODO Clase 27 resistencia
-SCHEDULED: <2021-07-27 Tue 08:30-10:40>
-***** TODO Clase 28 resistencia
-SCHEDULED: <2021-07-29 Thu 16:50-19:00>
 ** Ayudantía
 - Cada 2 semanas empezando el 16 de abril.
 - Ayudantia 4 se corre una semana por receso.
@@ -481,8 +481,12 @@ CLOSED: [2021-07-09 Fri 11:55] SCHEDULED: <2021-07-02 Fri 19:10>
 :LOGBOOK:
 - State "CANCELED"   from "TODO"       [2021-07-09 Fri 11:55]
 :END:
-*** TODO Ayudantía 7 resistancia
-SCHEDULED: <2021-07-16 Fri 19:10>
+*** CANCELED Ayudantía 7 resistancia
+CLOSED: [2021-07-16 Fri 19:35] SCHEDULED: <2021-07-16 Fri 19:10>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-07-16 Fri 19:35] \\
+  Feriado.
+:END:
 *** TODO Ayudantía 8 resistancia
 SCHEDULED: <2021-07-30 Fri 19:10>
 * Extras

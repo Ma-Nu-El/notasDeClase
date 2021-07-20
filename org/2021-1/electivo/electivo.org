@@ -2,7 +2,6 @@
 :ID:       0cf4c4d9-f578-4fb3-a317-a6e1cfcded72
 :END:
 #+TITLE: Estrategias Comunicativas para el Mundo Laboral
-#+EXCLUDE_TAGS: noexport
 #+FILETAGS: :university:electivo:
 
 * Contenido

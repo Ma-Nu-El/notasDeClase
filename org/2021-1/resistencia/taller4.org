@@ -11,6 +11,7 @@
 - [[#materia-a-evaluar][Materia a evaluar]]
 - [[#clase-20][Clase 20]]
   - [[#transmisión-de-potencia][Transmisión de potencia]]
+  - [[#radio-mínimo-necesario-para-aguantar-cierta-potencia][Radio mínimo necesario para aguantar cierta potencia]]
 
 * Materia a evaluar
 - Transmisión de potencia.
@@ -99,8 +100,8 @@ T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
 |    T    | Momento de torsión     |                                    |
 |---------+------------------------+------------------------------------|
 
-
-
+** Radio mínimo necesario para aguantar cierta potencia
+- [[https://youtu.be/b-v3qikJHm8?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1294][Radio mínimo necesario para aguantar cierta potencia]]
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

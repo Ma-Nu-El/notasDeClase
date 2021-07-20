@@ -37,7 +37,7 @@
 ** Lunes y Miercoles 1050
 - Lunes primera hora de clases y segunda hora de ayudantía.
 - https://reuna.zoom.us/j/85026728638?pwd=YmJJQThhVVZEY29NbS8wSmIxdWpnZz09
-* Horario :lecture:
+* Horario
 *** Clase
 ***** Lunes
 ****** DONE <2021-04-26 Mon 10:50-11:55> Clase proba
@@ -229,12 +229,15 @@ Apuntes del libro de los profesores mas las clases.
 * Contacto
 - Sonia Salvo
   - sonia.salvo@ufrontera.cl
-* Evaluación :grade:
+* Evaluación
 ** Plan de vuelo
 :PROPERTIES:
 :ID:       613bf14e-048d-46fc-b2b5-549819da469f
 :END:
-- file:~/myDrive/uni/2021-1/proba/plan-proba.pdf
+- Des-actualizado
+  + [[file:~/myDrive/uni/2021-1/proba/plan-proba.pdf]]
+- Actual
+  + [[file:~/myDrive/uni/2021-1/proba/plan-proba2.pdf]]
 ** Teórica 80% :test:
 *** DONE prueba1
 CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
@@ -246,7 +249,7 @@ CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
   + El pasa lo mismo con la otra prueba y un taller.
 - Unidad 1-3
 *** TODO prueba2
-DEADLINE: <2021-07-21 Wed 10:50-13:00 -0d>
+SCHEDULED: <2021-07-28 Wed -0d>
 - Unidad 4-6
   |   | <l>                        |
   |---+----------------------------|
@@ -454,7 +457,10 @@ CLOSED: [2021-07-08 Thu 11:16] DEADLINE: <2021-07-08 Thu -0d>
   + 9 y 10
 
 *** NEXT [#A] taller6
-DEADLINE: <2021-07-19 Mon -0d>
+SCHEDULED: <2021-07-26 Mon -0d>
+:PROPERTIES:
+:ID:       7dd9f203-9f12-4463-9b8f-8789e8b57aef
+:END:
 *** DONE Unidad 1 en campus
 CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
 :LOGBOOK:
@@ -462,7 +468,7 @@ CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
   nailed it
 :END:
 *** TODO Unidad 2 en campus
-DEADLINE: <2021-05-09 Sun -0d>
+SCHEDULED: <2021-05-09 Sun -0d>
 * Links
 :PROPERTIES:
 :ID:       03be17f8-14ef-4ff2-8958-294dce42a6e3

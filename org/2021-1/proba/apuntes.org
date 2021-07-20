@@ -82,19 +82,25 @@ Un resultado especifico se puede denotar por \omega.
 **** Relación entre eventos
 ***** Unión
 Ocurre A o B.
+
 \[
 A \cup B
 \]
+
 ***** Intersección
 Ocurre A y B.
+
 \[
 A \intersection B
 \]
+
 ***** Subconjunto
 B contiene a A; A está contenido dentro de B, A es subconjunto de B.
+
 \[
 A \subset B
 \]
+
 Cabe decir que si ocurre A, entonces ocurre B, pero no viceversa.
 *** Evento aleatorio
 - Evento asociado a un experimento aleatorio.
@@ -204,6 +210,7 @@ que pueden ser útiles:
      
 **** del subconjunto
 # https://tex.stackexchange.com/questions/47063/rightarrow-vs-implies-and-does-not-imply-symbol
+
 \[
 A \subset B \implies \PP(A) \leq \PP(B).
 \]
@@ -212,11 +219,13 @@ Si A es subconjunto de B, entonces la ocurrencia de A implica la ocurrencia de
 B, pero no viceversa.
 
 **** de la unión de varios
+
 \[
 \PP(A \union B \union C)=\PP(A) + \PP(B) + \PP(C) - \PP(A \intersection B)
-- \PP(A \intersection C) - \PP(B \intersection C)
-  + \PP(A \intersection B \intersection C)
+-\PP(A \intersection C) - \PP(B \intersection C)
+  +\PP(A \intersection B \intersection C)
 \]
+
 **** otros arreglos algebraicos
 \begin{align*}
 \PP(A^{c} \union B^{c})&=\PP[(A \intersection B)^{c}]=1-\PP(A \intersection B)\\
@@ -782,11 +791,63 @@ b. No
    \(\sigma^2 \rightarrow S^2\).
    #+end_center
 
-
 **** Materia de la clase
 - Encontrar estimadores de el/los parámetros desconocidos:
   \(\theta \in R^p\).
 
+***** Función de verosimilitud \(\mathcal{L}\)
+
+La función de verosimilitud de \(\theta\) de una muestra aleatoria de
+tamaño \(n\) proveniente de la población \(X\) con función de densidad de
+probabilidad viene dada por
+
+\[
+\mathcal{L} = \mathcal{L}(\theta)=\mathcal{L}(\theta/x_i)=
+\mathcal{L}(\theta,x_i)=
+\prod_{i=1}^{n} f(x_i, \theta);
+\quad \theta \in \Theta
+\]
+
+Lo que significa que la información que entrega la muestra aleatoria (/m.a./)
+\(x_1, \cdots, x_n\) acerca del parámetro \(\theta\) está representada en
+la función de verosimilitud.
+
+***** Estadístico \(T\)
+
+Teniendo una muestra aleatoria (/m.a./), se define el estadístico \(T\) por
+
+1. \(T\) es una función de la /m.a./: \(T = T(x)\) por lo tanto \(T\) es una
+   variable aleatoria /v.a./.
+2. \(T: \mathbb{R}^n \rightarrow \mathbb{R} \)
+
+
+La particularidad de \(T\) es que es una función de la muestra aleatoria que
+no depende de otros parámetros de interés.
+
+Ejemplos de un estadístico:
+- Mediana
+- Media
+- Moda
+
+
+Cualquier función que inventemos a partir de la muestra aleatoria mientras
+no dependa de uno de los parámetros de interés será un estadístico \(T\).
+
+***** Estimación puntual
+
+Se basa en la información de una variable aleatoria a través de una muestra
+aleatoria de tamaño \(n\) tomada de ésta población.
+
+- ¿Cómo obtener estimaciones puntuales?
+
+  Un método para encontrar estas estimaciones es el Método de Máxima
+  Verosimilitud. En este curso solo se verá este pero existen varios más:
+  /"Método de Mínimo Cuadrado Ordinario, Método de los Momentos,
+  Método Bayesiano por nombrar algunos"/. "/Y todos con el mismo objetivo:
+  obtener una estimación del parámetro de interés./"
+
+
+****** Método de Máxima Verosimilitud.
 
 * Local variables :noexport:
 # Local Variables:

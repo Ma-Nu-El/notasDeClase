@@ -1,0 +1,334 @@
+:PROPERTIES:
+:ID:       59cfde58-4256-47ae-ba6d-bd3ffd0930d4
+:END:
+#+TITLE: Resumen Prueba 2
+#+SUBTITLE: Probabilidad y Estadistica 2021-1
+#+FILETAGS: :university:probability:statistics:notes:
+#+OPTIONS: toc:3
+
+:LATEX_PREAMBLE:
+# Latex preamble :noexport:
+# for probability definition
+# Probability P
+\[
+\def\PP{\mathbb P}
+\]
+# Real numbers R
+\[
+\def\RR{\mathbb R}
+\]
+# Likelihood L
+\[
+\def\LL{\mathcal L}
+\]
+\[
+\def\emptyset{\varnothing}
+\def\union{\ \cup\ }
+\def\intersection{\ \cap\ }
+\]
+# given that
+# https://tex.stackexchange.com/questions/141570/sizing-for-given-that-symbol-vertical-bar
+\[
+\newcommand\given[1][]{\:#1\vert\:}
+\]
+:END:
+
+:MACROS:
+#+MACRO: MMV Método de Máxima Verosimilitud
+#+MACRO: FFVV Función de Verosimilitud
+#+MACRO: MMAA Muestra Aleatoria
+#+MACRO: VVAA Variable Aleatoria
+:END:
+
+* TOC :TOC_2:noexport:
+- [[#2021-05-31-mon-clase-14][[2021-05-31 Mon] Clase 14]]
+  - [[#notas-y-resumen-del-resto-del-ramo][Notas y resumen del resto del ramo]]
+  - [[#materia][Materia]]
+- [[#2021-06-02-wed-clase-15][[2021-06-02 Wed] Clase 15]]
+  - [[#resumen-clase-anterior][Resumen clase anterior]]
+  - [[#clase-de-hoy][Clase de hoy]]
+  - [[#ffvv-mathcal-l][{{{FFVV}}} \(\mathcal L\)]]
+  - [[#estadístico-t][Estadístico \(T\)]]
+  - [[#estimación-puntual][Estimación puntual]]
+  - [[#mmv][{{{MMV}}}]]
+
+* [2021-05-31 Mon] Clase 14
+** Notas y resumen del resto del ramo
+- La clase dura desde 0:00 hasta los 50:00 aprox. El resto es ayudantía.
+- Me falta repasar los primeros minutos que son medios caóticos y luego
+  ver la ayudantía donde enseñan a ocupar las tablas para t-student y
+  chi-cuadrado.
+
+- Intervalos de confianza.
+- Pruebas de hipótesis.
+
+
+
+Si \(\sigma\) es desconocido:
+- \(n \geq 30\)
+  + Reemplaza \(\sigma^2\) por \(S^2\)
+- \(n \leq 30\)
+  + Se define una nueva v.a.
+
+
+\[
+Y= \frac {(n-1)-S^2}{\sigma^2} ~ X^2 (n-1)
+\]
+- Ji-cuadrado: \(n-1\) son los grados de libertad, se denotan por
+  \(\nu=(n-1)\)
+
+
+La distribución de probabilididad de esta nueva /v.a./ \(Y\) está tabulada.
+- Chi-cuadrado.
+- Se utiliza para contestar cosas con respecto a la varianza, ya sea
+  poblaciónal o muestral.
+
+- Si se quiere conocer cosas respecto de \(\mu\)(media)
+- Se presenta la T-Student
+- \(n<30 \rightarrow \sim\)T-Student
+- \(n>30 \rightarrow \sim\)N
+- Para \(n<30\), t-Student es más precisa.
+- Para \(n>30\), t-Student converge con Normal.
+- Por eso los software's estadísticos solo la t-Student.
+  + \(n>30 \rightarrow Z \approx t\)
+
+** Materia
+*** Respecto de \(\mu\)
+#+begin_quote
+/Si la inquietud como ingeniero es analizar "cosas" con respecto a \(\mu\)
+o \(f(\mu)\) sabiendo que \(X_1,X_2,\cdots,X_n \sim N(\mu,\sigma^2)\)/
+#+end_quote
+
+Primero uno se pregunta:
+- Cómo es el \(n\)?
+  + Si \(n \geq 30\) entonces
+    - si \(\sigma^2\) es conocido entonces
+      #+begin_center
+      \[
+      Z=\frac
+      {\bar{X}-\mu}
+      {
+      \frac{\sigma}{\sqrt{{n}}}
+      }
+      \]
+      ;donde \(\sigma\) es la desviación estándar de la población.
+      #+end_center
+    - si \(\sigma^2\) /no/ es conocido entonces
+      #+begin_center
+      \[
+      Z=\frac
+      {\bar{X}-\mu}
+      {
+      \frac{S}{\sqrt{{n}}}
+      }
+      \]
+      ;donde \(S\) es la desviación estándar de la muestra:
+      \(\sigma^2 \rightarrow S^2\).
+      #+end_center
+  + Si \(n < 30\) entonces
+    #+begin_center
+    \[
+    T=\frac
+    {\bar{X}-\mu}
+    {
+    \frac{S}{\sqrt{{n}}}
+    }
+    \sim t(n-1)
+    \]
+    #+end_center
+
+*** Respecto de \(\sigma\) o \(S^2\)
+
+
+#+begin_quote
+/Si la inquietud como ingeniero es analizar "cosas" con respecto a la varianza
+\(\sigma^2\) o \(S^2\), utilizo la distribución "Ji-cuadrado"./
+#+end_quote
+
+\[
+Y=\frac
+{(n-1)S^2}
+{\sigma^2}
+\sim X^2(n-1)
+\]
+
+* [2021-06-02 Wed] Clase 15
+** Resumen clase anterior
+*** Es \(\sigma^2\) conocido?
+a. Sí
+   - Si \(n \geq 30\) entonces
+     #+begin_center
+     \[
+     Z=\frac
+     {\bar{X}-\mu}
+     {
+     \frac{\sigma}{\sqrt{{n}}}
+     }
+     \]
+     ;donde \(\sigma\) es la desviación estándar de la población.
+     #+end_center
+   - \(n < 30\) entonces
+     #+begin_center
+     \[
+     T=\frac
+     {\bar{X}-\mu}
+     {
+     \frac{S}{\sqrt{{n}}}
+     }
+     \sim t(n-1)
+     \]
+     #+end_center
+b. No
+   #+begin_center
+   \[
+   Z=\frac
+   {\bar{X}-\mu}
+   {
+   \frac{S}{\sqrt{{n}}}
+   }
+   \]
+   ;donde \(S\) es la desviación estándar de la muestra:
+   \(\sigma^2 \rightarrow S^2\).
+   #+end_center
+
+** Clase de hoy
+- Encontrar estimadores de el/los parámetros desconocidos:
+  \(\theta \in R^p\).
+
+** {{{FFVV}}} \(\mathcal L\)
+
+La {{{FFVV}}}  de \(\theta\) de una {{{MMAA}}} de
+tamaño \(n\) proveniente de la población \(X\) con función de densidad de
+probabilidad viene dada por
+
+\[
+\LL = \LL(\theta)=\LL(\theta/x_i)=
+\LL(\theta,x_i)=
+\prod_{i=1}^{n} f(x_i, \theta)
+\quad \theta \in \Theta
+\]
+
+Lo que significa que la información que entrega la {{{MMAA}}}
+\(x_1, \cdots, x_n\) acerca del parámetro \(\theta\) está representada en
+la {{{FFVV}}}.
+
+** Estadístico \(T\)
+
+Teniendo una {{{MMAA}}}, se define el estadístico \(T\) por
+
+1. \(T\) es una función de la {{{MMAA}}}: \(T = T(x)\) por lo tanto \(T\) es
+   {{{VVAA}}}.
+
+2. \(T: \RR^n \rightarrow \RR \)
+
+
+La particularidad de \(T\) es que es una función de la muestra aleatoria que
+no depende de otros parámetros de interés.
+
+Ejemplos de un estadístico:
+- Mediana
+- Media
+- Moda
+
+
+Cualquier función que inventemos a partir de la muestra aleatoria mientras
+no dependa de uno de los parámetros de interés será un estadístico \(T\).
+
+** Estimación puntual
+
+Se basa en la información de una {{{VVAA}}} a través de una {{{MMAA}}}
+de tamaño \(n\) tomada de ésta población.
+
+- ¿Cómo obtener estimaciones puntuales?
+
+  Un método para encontrar estas estimaciones es el {{{MMV}}}.
+  En este curso solo se verá este pero existen varios más:
+  /"Método de Mínimo Cuadrado Ordinario, Método de los Momentos,
+  Método Bayesiano por nombrar algunos"/. "/Y todos con el mismo objetivo:
+  obtener una estimación del parámetro de interés./"
+
+** {{{MMV}}}
+:PROPERTIES:
+:ID:       e256e703-2660-4354-adb3-a6698e8a81d5
+:END:
+- ¿En qué consiste el {{{MMV}}}?
+
+  Se basa en maximizar la {{{FFVV}}} respecto de el (o los) parámetro de
+  interés. Procedimiento que entrega funciones de la {{{MMAA}}} como
+  estimadores de los parámetros (o sea, que no dependen de ningún otro
+  parámetro).
+  + O sea, el {{{MMV}}} es una función que recibe una {{{FFVV}}} y entrega un
+    Estadístico.
+
+
+   #+NAME: e256e703-2660-4354-adb3-a6698e8a81d5-1
+   \begin{equation}
+    \overbrace{
+    \frac
+    {\partial
+    \overbrace{
+    \, (ln
+    \overbrace{
+    \, (\LL
+    \, ( \,
+    \overbrace{
+    f(x_i,\theta)
+    }
+    \, )
+    \, )
+    }
+    \, )
+    }
+    }
+    {\partial \, \theta}
+    }^{\substack{
+    \text{Derivada Parcial} \\
+    \text{(Logaritmo Natural)} \\
+    \text{((Función de Verosimilitud))} \\
+    \text{(((Función de Distribución)))}
+    }}
+    = 0
+    \,
+    \Bigg{|}_{\, \theta=\hat{\theta}} % (1)
+   \end{equation}
+
+# (1)
+# \right |_{\, \theta=\hat{\theta}}
+# era demasiado grande pues abarcaba los brackets horizontales.
+# La solución del \Big{|} no es recomendable en general pues es
+# de tamaño fijo, siendo menos flexible. Pero para este caso particular
+# no se me ocurre otra opción.
+# https://tex.stackexchange.com/questions/241585/writing-limits-of-integration/241621
+
+# Aun así, no logro solucionar el espaciado entre los paréntesis normales,
+# pero puedo vivir con eso.
+
+  + De la misma forma, se cumple que si la segunda derivada del {{{MMV}}}
+    es menor que cero, o sea:
+
+    \[
+    \frac
+    {\partial ^2
+    \, (ln
+    \, (\LL
+    \, ( \,
+    f(x_i,\theta)
+    \, )
+    \, )
+    \, )
+    }
+    {\partial \, \theta ^2}
+    < 0
+    \,
+    \Bigg{|}_{\, \theta=\hat{\theta}} % (1)
+    \]
+
+    entonces la ecuación
+    [[e256e703-2660-4354-adb3-a6698e8a81d5-1]]
+    verdaderamente entrega los estimadores (o estadísticos) máximos verosímiles
+    de los parámetros de interés .
+
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
