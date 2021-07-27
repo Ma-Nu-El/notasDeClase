@@ -1,31 +1,424 @@
 #+TITLE: Prueba3
-#+subtitle: Resumen
-#+OPTIONS: toc:3
+#+subtitle: Resumen para prueba3 de Resistencia de Materiales
+#+date: Julio 2021
+#+author: [[mailto:m.fuica01@ufromail.cl][m.fuica01@ufromail.cl]]
+#+OPTIONS: toc:4
+#+language: es
 
 
-* TOC :TOC_2:noexport:
+* TOC :TOC_4:noexport:
 - [[#temario][Temario]]
-  - [[#clase-16][Clase 16]]
-  - [[#clase-17][Clase 17]]
-  - [[#clase-18][Clase 18]]
-  - [[#clase-19][Clase 19]]
-  - [[#clase-20][Clase 20]]
-  - [[#clase-21][Clase 21]]
-  - [[#clase-22][Clase 22]]
+- [[#clases-grabadas][Clases grabadas]]
+- [[#clase-16][Clase 16]]
+  - [[#deformación-gamma-por-torsión-en-un-eje-circular][Deformación \(\gamma\) por torsión en un eje circular]]
+  - [[#esfuerzo-tau-por-torsión-en-un-eje-circular][Esfuerzo \(\tau\) por torsión en un eje circular]]
+    - [[#sólido][sólido]]
+    - [[#con-agujero-interior][con agujero interior]]
+  - [[#esfuerzo-tau-en-función-del-momento-de-inercia-polar-𝐽-respecto-del-centro][Esfuerzo \(\tau\) en función del momento de inercia polar \(𝐽\) respecto del centro]]
+  - [[#momentos-de-inercia-polar-𝐽-para-un-eje-tubular][Momentos de inercia polar \(𝐽\) para un eje tubular]]
+    - [[#sólido-1][sólido]]
+    - [[#con-agujero-interior-1][con agujero interior]]
+- [[#clase-17][Clase 17]]
+- [[#clase-18][Clase 18]]
+  - [[#ángulo-de-torsión][Ángulo de torsión]]
+  - [[#convención-de-signos][Convención de signos]]
+- [[#clase-19][Clase 19]]
+- [[#clase-20][Clase 20]]
+  - [[#transmisión-de-potencia][Transmisión de potencia]]
+  - [[#radio-mínimo-necesario-para-aguantar-cierta-potencia][Radio mínimo necesario para aguantar cierta potencia]]
+- [[#clase-21][Clase 21]]
+- [[#clase-22][Clase 22]]
+  - [[#centroides-de-formas-comunes][Centroides de formas comunes]]
+    - [[#rectángulo][Rectángulo]]
+    - [[#triángulo-rectángulo][Triángulo rectángulo]]
+  - [[#momento-de-inercia-de-formas-comunes][Momento de inercia de formas comunes]]
+    - [[#rectángulo-1][Rectángulo]]
+  - [[#teorema-de-los-ejes-paralelos][Teorema de los ejes paralelos]]
+- [[#clase-23][Clase 23]]
+  - [[#esfuerzo-flexor][Esfuerzo flexor]]
+- [[#clase-24][Clase 24]]
+- [[#resumen-del-resumen][Resumen del resumen]]
+  - [[#torsión-clase-16-20][Torsión (clase 16-20)]]
+    - [[#deformación-gamma-por-torsión-en-un-eje-circular-1][Deformación \(\gamma\) por torsión en un eje circular]]
+    - [[#relación-entre-esfuerzo-y-deformación][Relación entre esfuerzo y deformación]]
+    - [[#esfuerzo-tau-por-torsión-en-un-eje-circular-1][Esfuerzo \(\tau\) por torsión en un eje circular]]
+    - [[#esfuerzo-tau-en-función-del-momento-de-inercia-polar-𝐽][Esfuerzo \(\tau\) en función del momento de inercia polar \(𝐽\)]]
+    - [[#momentos-de-inercia-polar-𝐽-de-un-eje-tubular][Momentos de inercia polar \(𝐽\) de un eje tubular]]
+    - [[#ángulo-de-torsión-1][Ángulo de torsión]]
+    - [[#torque-o-momento-torsor-por-transmisión-de-potencia][Torque (o momento torsor) por transmisión de potencia]]
+  - [[#flexión][Flexión]]
 
 * Temario
-- Desde la clase 16 (semana 10) hasta la última clase.
-** Clase 16
-** Clase 17
-** Clase 18
-** Clase 19
-** Clase 20
-** Clase 21
-** Clase 22
+- Desde la clase 16 hasta la clase 24.
+|  <c>  |  <c>   |              <c>              |
+|-------+--------+-------------------------------|
+| Clase | Semana |            Tópico             |
+|-------+--------+-------------------------------|
+|  16   |   10   |            Torsión            |
+|-------+--------+-------------------------------|
+|  17   |   10   |            Torsión            |
+|-------+--------+-------------------------------|
+|  18   |   11   |            Torsión            |
+|-------+--------+-------------------------------|
+|  19   |   12   |            Torsión            |
+|-------+--------+-------------------------------|
+|  20   |   13   |            Torsión            |
+|-------+--------+-------------------------------|
+|  21   |   14   |            Flexión            |
+|-------+--------+-------------------------------|
+|  22   |   14   |            Flexión            |
+|-------+--------+-------------------------------|
+|  23   |   15   |        Torsión Flexión        |
+|-------+--------+-------------------------------|
+|  24   |   15   | Esfuerzo Cortante Transversal |
+|-------+--------+-------------------------------|
+* Calendario de clases :noexport:
+- [[id:d0bc647c-b38e-43b3-a2c5-7f55b8ae16c3][Calendario]]
+* pdf's :noexport:
+- [[file:~/Downloads/2021-1/resistencia/][file:/home/ma/Downloads/2021-1/resistencia/]]
+* Clases grabadas
+- [[https://www.youtube.com/playlist?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY]]
+* Clase 16
+** Deformación \(\gamma\) por torsión en un eje circular
+Si tenemos:
+
+#+CAPTION: Deformación \(\gamma\) por torsión en un eje circular
+#+NAME: Deformación por torsión en un eje circular
+#+ATTR_HTML: :alt Deformación \(\gamma\) por torsión en un eje circular image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-24-50.png]]
+
+podemos definir la deformación por torsión \(\gamma\) como:
+
+#+begin_center
+\[
+\gamma = \frac{\rho \, \phi}{L}
+\]
+; \(\gamma\) y \(\phi\) medidos en radianes.
+#+end_center
+
+y la ecuación para cualquier deformación dentro del cuerpo para un radio máximo
+de \(c\):
+
+#+CAPTION: Deformación por torsión en un eje circular 2
+#+NAME: Deformación por torsión en un eje circular2
+#+ATTR_HTML: :alt Deformación por torsión en un eje circular 2 image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-33-10.png]]
+
+\[
+\gamma = \frac{\rho}{c}\cdot \gamma_{\text{máximo}}
+\]
+
+** Esfuerzo \(\tau\) por torsión en un eje circular
+*** sólido
+
+#+CAPTION: Esfuerzo \(\tau\) por torsión en un eje circular sólido
+#+NAME: Esfuerzo por torsión en un eje circular sólido
+#+ATTR_HTML: :alt Esfuerzo \(\tau\) por torsión en un eje circular sólido image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-46-37.png]]
 
 
+#+begin_center
+\[
+G \, \gamma = \tau
+\quad
+;
+\quad
+\tau=\frac{\rho}{c}\cdot \tau_{\text{máximo}}
+\]
+; donde \(G\) es el módulo de rigidez o módulo de corte del material.
+#+end_center
+
+*** con agujero interior
+
+#+CAPTION: Esfuerzo por torsión en un eje circular con un agujero interior
+#+NAME: Esfuerzo por torsión en un eje circular con un agujero interior
+#+ATTR_HTML: :alt Esfuerzo por torsión en un eje circular con un agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-55-05.png]]
 
 
+\[
+\tau_{\text{mínimo}}=\frac{c_1}{c_2}\cdot \tau_{\text{máximo}}
+\]
+
+** Esfuerzo \(\tau\) en función del momento de inercia polar \(𝐽\) respecto del centro
+
+#+begin_center
+\[
+\tau=\frac{T \cdot \rho}{𝐽}
+\quad
+;
+\quad
+\tau_{\text{máximo}}=\frac{T \cdot c}{𝐽}
+\]
+; \(T\): momento torsor, torque.
+#+end_center
+
+** Momentos de inercia polar \(𝐽\) para un eje tubular
+
+La dimensión del momento de inercia es de /longitud a la cuarta potencia/.
+
+*** sólido
+
+#+CAPTION: Eje tubular sólido
+#+NAME: Eje tubular sólido
+#+ATTR_HTML: :alt Eje tubular sólido image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-14-47.png]]
+
+\[
+𝐽=\frac{\pi}{2} \cdot c^4
+\]
+*** con agujero interior
+
+#+CAPTION: Eje tubular con agujero interior
+#+NAME: Eje tubular con agujero interior
+#+ATTR_HTML: :alt Eje tubular con agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-10-39.png]]
+
+\[
+𝐽=\frac{\pi}{2} \cdot (c_2^4-c_1^4)
+\]
+
+* Clase 17
+- Ejemplos para reforzar la clase 16.
+* Clase 18
+** Ángulo de torsión
+
+\[
+\gamma_{\text{máximo}}=\frac{\tau_{\text{máximo}}}{G}
+=
+\frac{T \cdot c}{𝐽 \cdot G}
+\]
+
+igualando con \(\gamma_\text{máximo} = \frac{c \cdot \phi}{L}\) y despejando
+\(\phi\) tenemos:
+
+\[
+\phi=\frac{T \cdot L}{𝐽 \cdot G}
+\]
+** Convención de signos
+* Clase 19
+- Problemas estáticamente indeterminados
+
+
+- Eje tubular compuesto de diferentes materiales
+  - https://youtu.be/kYGmVnWMFgQ?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2310
+* Clase 20
+** Transmisión de potencia
+
+#+CAPTION: Potencia
+#+NAME: Transmisión de potencia
+#+ATTR_HTML: :alt Potencia image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-12 20-25-06.png]]
+
+- Por un lado
+  \[
+  P=\frac{W}{d}=\frac{F \cdot d}{t}=F \cdot v
+  \]
+
+  #+begin_center
+  Con relación entre velocidad angular y lineal como
+  \[
+  v=\omega \cdot r
+  \]
+  tenemos:
+  #+end_center
+
+  \[
+  P=F \cdot \omega \cdot r
+  \]
+
+
+- Por otro lado
+  \[
+  P= T \cdot \omega
+  \]
+  #+begin_center
+  y para términos prácticos también es conveniente saber que
+  #+end_center
+  \[
+  P= 2 \pi \cdot f \cdot T
+  \]
+
+
+- De las dos ecuaciones podemos deducir que
+
+
+\[
+T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
+\]
+
+
+|   <c>   | <l>                         | <l>                                |
+| Símbolo | Significado                 | Comentario                         |
+|---------+-----------------------------+------------------------------------|
+|    T    | Momento de torsión, torque. | hp: /horse power/                  |
+|         |                             | \(1 hp=550 \frac{ft \cdot lb}{s}\) |
+|         |                             | \(= 6600 \frac{in \cdot lb}{s}\)   |
+|---------+-----------------------------+------------------------------------|
+|    P    | Potencia                    |                                    |
+|    w    | Velocidad angular           |                                    |
+|    f    | Frecuencia de rotación      |                                    |
+|    T    | Momento de torsión          |                                    |
+|---------+-----------------------------+------------------------------------|
+
+** Radio mínimo necesario para aguantar cierta potencia
+- [[https://youtu.be/b-v3qikJHm8?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1294][Radio mínimo necesario para aguantar cierta potencia]]
+* Clase 21
+* Clase 22
+:PROPERTIES:
+:ID:       a6c5d47f-3b20-4c30-baf1-c0e3b2f2834a
+:END:
+
+|   |                      <r> | <l>                |
+| / |                        > |                    |
+|---+--------------------------+--------------------|
+|   |  Primer momento del area | Centroide          |
+|   | Segundo momento del area | Momento de inercia |
+|---+--------------------------+--------------------|
+
+-----
+
+|   | Momento | Representación matemática |
+| / | >       |                           |
+|---+---------+---------------------------|
+|   | Primero | \(\int x \, dA\)          |
+|   | Segundo | \(\int x^2 \, dA\)        |
+|---+---------+---------------------------|
+
+
+** Centroides de formas comunes
+*** Rectángulo
+#+CAPTION: Centroide de un rectángulo
+#+NAME: Centroide de un rectángulo
+#+ATTR_HTML: :alt Centroide de un rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 22-27-59.png]]
+*** Triángulo rectángulo
+#+CAPTION: Centroide de un triángulo rectángulo
+#+NAME: Centroide de un triángulo rectángulo
+#+ATTR_HTML: :alt Centroide de un triángulo rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 22-28-10.png]]
+
+** Momento de inercia de formas comunes
+*** Rectángulo
+#+CAPTION: Momento de inercia de un rectángulo
+#+NAME: Momento de inercia de un rectángulo
+#+ATTR_HTML: :alt Momento de inercia de un rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-17-19.png]]
+
+** Teorema de los ejes paralelos
+#+CAPTION: Teorema de los ejes paralelos
+#+NAME: Teorema de los ejes paralelos
+#+ATTR_HTML: :alt Teorema de los ejes paralelos image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-36-49.png]]
+
+#+CAPTION: Teorema de los ejes paralelos - leyenda
+#+NAME: Teorema de los ejes paralelos - leyenda
+#+ATTR_HTML: :alt Teorema de los ejes paralelos - leyenda image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-44-54.png]]
+
+* Clase 23
+** Esfuerzo flexor
+\[
+\sigma= - \frac{M \cdot y}{I}
+\]
+
+|    <c>     |                       <c>                       |
+|  Símbolo   |                   Significado                   |
+|------------+-------------------------------------------------|
+| \(\sigma\) |              Esfuerzo por flexión               |
+|   \(M\)    |           Momento interno resultante            |
+|   \(y\)    | Distancia perpendicular del punto al eje neutro |
+|   \(I\)    |  Momento de inercia de la sección transversal   |
+|------------+-------------------------------------------------|
+
+El esfuerzo máximo \(\sigma_{\text{máximo}}\) se obtiene cuando \(y=c\).
+
+* Clase 24
+\[
+\tau = \frac{V \cdot Q}{I \cdot t}
+\]
+
+\(\tau\): esfuerzo cortante
+V: fuerza cortante
+Q: primer momento del área
+t: Ancho de la sección transversal
+I: Momento de inercia de la sección transversal
+
+
+- Figura común 1
+  + https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1587
+- Figura común 2
+  + https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2036
+
+
+- Ejemplo
+  + https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2215
+
+* Resumen del resumen
+** Torsión (clase 16-20)
+- \(\rho\) se refiere a un radio interior variable.
+- \(c\) se refiere al radio máximo \(\rightarrow\)
+  \(\rho_{máximo}=c\)
+*** Deformación \(\gamma\) por torsión en un eje circular
+#+begin_center
+\[
+\gamma = \frac{\rho \, \phi}{L}
+\]
+; \(\gamma\) y \(\phi\) medidos en radianes.
+#+end_center
+
+*** Relación entre esfuerzo y deformación
+
+\[
+G = \frac{\tau}{\gamma}
+\]
+
+|    <c>     |             <c>             |
+|  Símbolo   |         Significado         |
+|------------+-----------------------------|
+|  \(\tau\)  |          Esfuerzo           |
+| \(\gamma\) |         Deformación         |
+|     G      | Módulo de rigidez (o corte) |
+|------------+-----------------------------|
+
+*** Esfuerzo \(\tau\) por torsión en un eje circular
+
+\[
+\tau=\tau (\rho) = \frac{\rho}{c}\cdot \tau_{\text{máximo}}
+\]
+
+*** Esfuerzo \(\tau\) en función del momento de inercia polar \(𝐽\)
+
+#+begin_center
+\[
+\tau=\frac{T \cdot \rho}{𝐽}
+\]
+; \(T\): momento torsor, torque.
+#+end_center
+
+*** Momentos de inercia polar \(𝐽\) de un eje tubular
+- Si es un eje sólido \(\rightarrow \; c_\text{interior} = 0 \)
+
+
+\[
+𝐽=\frac{\pi}{2} \cdot (c^{4}_{\text{exterior}}-c^{4}_{\text{interior}})
+\]
+
+*** Ángulo de torsión
+
+\[
+\phi=\frac{T \cdot L}{𝐽 \cdot G}
+\]
+
+*** Torque (o momento torsor) por transmisión de potencia
+\[
+T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
+\]
+#+begin_center
+\(1 hp = 550 \frac{ft \cdot lb}{s} = 6600 \frac{in \cdot lb}{s} \)
+#+end_center
+
+** Flexión
 * Local variables :noexport:
 # Local Variables:
 # ispell-local-dictionary: "espanol"

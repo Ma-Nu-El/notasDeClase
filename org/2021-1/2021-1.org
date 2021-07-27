@@ -44,11 +44,14 @@ Este semestre la nota mínima para irse a examen es 3.0.
 :END:
 - Se elimina el taller más malo.
 #+NAME:[[id:b1ab3d23-8cee-475a-83e2-a41ec6fb6292][Práctica 20%]]
-| taller1  |  6.1 |
-| taller2  |  6.8 |
-|----------+------|
-| Promedio | 6.45 |
+| taller1  | 6.1 |
+| taller2  | 6.8 |
+| taller4  | 5.4 |
+|----------+-----|
+| Promedio | 6.1 |
 #+TBLFM: $>=vmean(@<..@>>)
+
+Nota en el taller 3 fue un 3.2.
 *** Total
 :PROPERTIES:
 :ID:       785fc36a-3d61-4318-9ac7-bc588d5b3fb1
@@ -57,9 +60,9 @@ Este semestre la nota mínima para irse a examen es 3.0.
 |          | Ponderación | Nota | Nota ponderada |
 |----------+-------------+------+----------------|
 | Teórica  |         0.7 |  3.1 |           2.17 |
-| Práctica |         0.3 | 6.45 |          1.935 |
+| Práctica |         0.3 |  6.1 |           1.83 |
 |----------+-------------+------+----------------|
-| Promedio |           - |    - |          4.105 |
+| Promedio |           - |    - |             4. |
 #+TBLFM: @2$3=remote([[id:a592c03c-8a02-44de-896c-03f9e86039b3][Teórica 80%]],@>$>) :: @3$3=remote([[id:b1ab3d23-8cee-475a-83e2-a41ec6fb6292][Práctica 20%]],@>$>) :: $4=$2*$3 :: @4$4=vsum(@I..II)
 ** IO
 *** Teórica 70%
@@ -126,8 +129,11 @@ Este semestre la nota mínima para irse a examen es 3.0.
 |----------+-----|
 | Promedio | 3.7 |
 #+TBLFM: $>=vmean(@<..@>>)
-**** TODO [#A] Comparar pauta con desarrollo
-SCHEDULED: <2021-07-02 Fri 10:00>
+**** CANCELED [#A] Comparar pauta con desarrollo
+CLOSED: [2021-07-21 Wed 17:36] SCHEDULED: <2021-07-02 Fri 10:00>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-07-21 Wed 17:36]
+:END:
 *** Práctica 20% :workshop:
 :PROPERTIES:
 :ID:       899b9d78-f009-40bb-8ce1-6a3777fd93e3
@@ -163,12 +169,12 @@ SCHEDULED: <2021-07-02 Fri 10:00>
 |-------------+--------|
 | Subject     |  Grade |
 |-------------+--------|
-| Resistencia |  4.105 |
+| Resistencia |     4. |
 | IO          | 4.8075 |
 | Proba       |   3.89 |
 | Electivo    |        |
 |-------------+--------|
-| Promedio    | 4.2675 |
+| Promedio    | 4.2325 |
 |-------------+--------|
 #+TBLFM: @2$2=remote([[id:785fc36a-3d61-4318-9ac7-bc588d5b3fb1][Total]],@>$>) :: @3$2=remote([[id:777f9be8-cedb-484d-aacc-1328fe6e8a7a][Total]],@>$>) :: @4$2=remote([[id:ad1cf9b9-e0e6-4ea0-b9ce-7e3e0f18c6f4][Total]],@>$>) :: @6$2=vsum(@II..III)/3
 

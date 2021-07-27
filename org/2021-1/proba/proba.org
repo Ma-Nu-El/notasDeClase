@@ -15,7 +15,7 @@
   - [[#plan-de-vuelo][Plan de vuelo]]
   - [[#teórica-80][Teórica 80%]]
     - [[#prueba1][prueba1]]
-    - [[#prueba2][prueba2]]
+    - [[#canceled-prueba2][CANCELED prueba2]]
   - [[#práctica-20][Práctica 20%]]
     - [[#apuntes][apuntes]]
     - [[#taller1][taller1]]
@@ -24,9 +24,9 @@
     - [[#taller3][taller3]]
     - [[#canceled-taller4][CANCELED taller4]]
     - [[#canceled-a-taller5][CANCELED [#A] taller5]]
-    - [[#next-a-taller6][NEXT [#A] taller6]]
+    - [[#canceled-a-taller6][CANCELED [#A] taller6]]
     - [[#unidad-1-en-campus][Unidad 1 en campus]]
-    - [[#unidad-2-en-campus][Unidad 2 en campus]]
+    - [[#canceled-unidad-2-en-campus][CANCELED Unidad 2 en campus]]
 - [[#links][Links]]
   - [[#lunes-y-miercoles-1050-1][Lunes y Miercoles 1050]]
   - [[#clases-grabadas][Clases grabadas]]
@@ -248,8 +248,11 @@ CLOSED: [2021-05-17 Mon 13:18] DEADLINE: <2021-05-17 Mon 10:50-13:00 -0d>
 - Era el miércoles 19 pero los de física tenían topón.
   + El pasa lo mismo con la otra prueba y un taller.
 - Unidad 1-3
-*** TODO prueba2
-SCHEDULED: <2021-07-28 Wed -0d>
+*** CANCELED prueba2
+CLOSED: [2021-07-26 Mon 17:37] SCHEDULED: <2021-07-28 Wed -0d>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-07-26 Mon 17:37]
+:END:
 - Unidad 4-6
   |   | <l>                        |
   |---+----------------------------|
@@ -456,10 +459,14 @@ CLOSED: [2021-07-08 Thu 11:16] DEADLINE: <2021-07-08 Thu -0d>
 - ver las ayudantías
   + 9 y 10
 
-*** NEXT [#A] taller6
-SCHEDULED: <2021-07-26 Mon -0d>
+*** CANCELED [#A] taller6
+CLOSED: [2021-07-26 Mon 17:34] SCHEDULED: <2021-07-26 Mon -0d>
 :PROPERTIES:
 :ID:       7dd9f203-9f12-4463-9b8f-8789e8b57aef
+:END:
+:LOGBOOK:
+- State "CANCELED"   from "NEXT"       [2021-07-26 Mon 17:34] \\
+  F
 :END:
 *** DONE Unidad 1 en campus
 CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
@@ -467,8 +474,12 @@ CLOSED: [2021-04-19 Mon 22:53] DEADLINE: <2021-04-18 Sun -7d>
 - State "DONE"       from "TODO"       [2021-04-19 Mon 22:53] \\
   nailed it
 :END:
-*** TODO Unidad 2 en campus
-SCHEDULED: <2021-05-09 Sun -0d>
+*** CANCELED Unidad 2 en campus
+CLOSED: [2021-07-21 Wed 17:36] SCHEDULED: <2021-05-09 Sun -0d>
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2021-07-21 Wed 17:36] \\
+  F
+:END:
 * Links
 :PROPERTIES:
 :ID:       03be17f8-14ef-4ff2-8958-294dce42a6e3

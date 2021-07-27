@@ -10,6 +10,11 @@
 # Latex preamble :noexport:
 # for probability definition
 # Probability P
+# "Distributed as Normal/Ber..."
+\[
+\def\distributed{\sim}
+\]
+
 \[
 \def\PP{\mathbb P}
 \]
@@ -31,28 +36,61 @@
 \[
 \newcommand\given[1][]{\:#1\vert\:}
 \]
+
 :END:
 
 :MACROS:
-#+MACRO: MMV Método de Máxima Verosimilitud
-#+MACRO: FFVV Función de Verosimilitud
+# Probabilidad
+#+MACRO: FDP Función de Probabilidad
+
+# Muestra Aleatoria
 #+MACRO: MMAA Muestra Aleatoria
+#+MACRO: MMAAs Muestras Aleatorias
+
+# Variable Aleatoria
 #+MACRO: VVAA Variable Aleatoria
+#+MACRO: VVAAs Variables Aleatorias
+
+#+MACRO: PDI Parámetro de Interés
+#+MACRO: PDIs Parámetros de Interés
+
+# Verosimilitud
+#+MACRO: FFVV Función de Verosimilitud
+#+MACRO: FFVVs Funciones de Verosimilitud
+
+#+MACRO: MMV Método de Máxima Verosimilitud
+#+MACRO: MMVs Métodos de Máxima Verosimilitud
+
+#+MACRO: EMV Estimador Máximo Verosímil
+#+MACRO: EMVs Estimadores Máximos Verosímiles
+
+
+# Sesgo
+#+MACRO: EEII Estimador Insesgado
+
+
+# Otros
+#+MACRO: entonces \(\rightarrow\)
+#+MACRO: por-lo-tanto \(\therefore\)
+#+MACRO: X_1n \(X_1, \cdots, X_n\)
 :END:
 
 * TOC :TOC_2:noexport:
-- [[#2021-05-31-mon-clase-14][[2021-05-31 Mon] Clase 14]]
+- [[#clase-14][Clase 14]]
   - [[#notas-y-resumen-del-resto-del-ramo][Notas y resumen del resto del ramo]]
   - [[#materia][Materia]]
-- [[#2021-06-02-wed-clase-15][[2021-06-02 Wed] Clase 15]]
+- [[#clase-15][Clase 15]]
   - [[#resumen-clase-anterior][Resumen clase anterior]]
   - [[#clase-de-hoy][Clase de hoy]]
   - [[#ffvv-mathcal-l][{{{FFVV}}} \(\mathcal L\)]]
   - [[#estadístico-t][Estadístico \(T\)]]
   - [[#estimación-puntual][Estimación puntual]]
   - [[#mmv][{{{MMV}}}]]
+  - [[#varianza-de-los-emvs][Varianza de los {{{EMVs}}}]]
+  - [[#sesgo-de-los-emvs][Sesgo de los {{{EMVs}}}]]
+- [[#clase-16][Clase 16]]
 
-* [2021-05-31 Mon] Clase 14
+* Clase 14
 ** Notas y resumen del resto del ramo
 - La clase dura desde 0:00 hasta los 50:00 aprox. El resto es ayudantía.
 - Me falta repasar los primeros minutos que son medios caóticos y luego
@@ -152,7 +190,7 @@ Y=\frac
 \sim X^2(n-1)
 \]
 
-* [2021-06-02 Wed] Clase 15
+* Clase 15
 ** Resumen clase anterior
 *** Es \(\sigma^2\) conocido?
 a. Sí
@@ -251,82 +289,187 @@ de tamaño \(n\) tomada de ésta población.
 :PROPERTIES:
 :ID:       e256e703-2660-4354-adb3-a6698e8a81d5
 :END:
-- ¿En qué consiste el {{{MMV}}}?
+*** ¿En qué consiste el {{{MMV}}}?
 
-  Se basa en maximizar la {{{FFVV}}} respecto de el (o los) parámetro de
-  interés. Procedimiento que entrega funciones de la {{{MMAA}}} como
-  estimadores de los parámetros (o sea, que no dependen de ningún otro
-  parámetro).
-  + O sea, el {{{MMV}}} es una función que recibe una {{{FFVV}}} y entrega un
-    Estadístico.
+Se basa en maximizar la {{{FFVV}}} respecto de el (o los) parámetro de
+interés. Procedimiento que entrega funciones de la {{{MMAA}}} como
+estimadores de los parámetros (o sea, que no dependen de ningún otro
+parámetro).
++ O sea, el {{{MMV}}} es una función que recibe una {{{FFVV}}} y entrega un
+  Estadístico.
 
-
-   #+NAME: e256e703-2660-4354-adb3-a6698e8a81d5-1
-   \begin{equation}
+  #+NAME: e256e703-2660-4354-adb3-a6698e8a81d5-1
+  #+begin_latex
+  \begin{equation}
     \overbrace{
-    \frac
-    {\partial
-    \overbrace{
-    \, (ln
-    \overbrace{
-    \, (\LL
-    \, ( \,
-    \overbrace{
-    f(x_i,\theta)
-    }
-    \, )
-    \, )
-    }
-    \, )
-    }
-    }
-    {\partial \, \theta}
+      \frac
+      {\partial
+        \overbrace{
+          \, (ln
+          \overbrace{
+            \, (\LL
+            \, ( \,
+            \overbrace{
+              f(x_i,\theta)
+            }
+            \, )
+            \, )
+          }
+          \, )
+        }
+      }
+      {\partial \, \theta}
     }^{\substack{
-    \text{Derivada Parcial} \\
-    \text{(Logaritmo Natural)} \\
-    \text{((Función de Verosimilitud))} \\
-    \text{(((Función de Distribución)))}
-    }}
+        \text{Derivada Parcial} \\
+        \text{(Logaritmo Natural)} \\
+        \text{((Función de Verosimilitud))} \\
+        \text{(((Función de Probabilidad)))}
+      }}
     = 0
     \,
     \Bigg{|}_{\, \theta=\hat{\theta}} % (1)
-   \end{equation}
+  \end{equation}
+  #+end_latex
 
-# (1)
-# \right |_{\, \theta=\hat{\theta}}
-# era demasiado grande pues abarcaba los brackets horizontales.
-# La solución del \Big{|} no es recomendable en general pues es
-# de tamaño fijo, siendo menos flexible. Pero para este caso particular
-# no se me ocurre otra opción.
-# https://tex.stackexchange.com/questions/241585/writing-limits-of-integration/241621
+  # (1)
+  # \right |_{\, \theta=\hat{\theta}}
+  # era demasiado grande pues abarcaba los brackets horizontales.
+  # La solución del \Big{|} no es recomendable en general pues es
+  # de tamaño fijo, siendo menos flexible. Pero para este caso particular
+  # no se me ocurre otra opción.
+  # https://tex.stackexchange.com/questions/241585/writing-limits-of-integration/241621
 
-# Aun así, no logro solucionar el espaciado entre los paréntesis normales,
-# pero puedo vivir con eso.
 
   + De la misma forma, se cumple que si la segunda derivada del {{{MMV}}}
     es menor que cero, o sea:
 
+    #+begin_latex
     \[
-    \frac
-    {\partial ^2
-    \, (ln
-    \, (\LL
-    \, ( \,
-    f(x_i,\theta)
-    \, )
-    \, )
-    \, )
-    }
-    {\partial \, \theta ^2}
-    < 0
-    \,
-    \Bigg{|}_{\, \theta=\hat{\theta}} % (1)
+      \frac
+      {\partial ^2
+        \, (ln
+        \, (\LL
+        \, ( \,
+        f(x_i,\theta)
+        \, )
+        \, )
+        \, )
+      }
+      {\partial \, \theta ^2}
+      < 0
+      \,
+      \Bigg{|}_{\, \theta=\hat{\theta}} % (1)
     \]
+    #+end_latex
 
     entonces la ecuación
-    [[e256e703-2660-4354-adb3-a6698e8a81d5-1]]
+    ([[e256e703-2660-4354-adb3-a6698e8a81d5-1]])
     verdaderamente entrega los estimadores (o estadísticos) máximos verosímiles
-    de los parámetros de interés .
+    de los parámetros de interés; también conocidos como {{{EMVs}}}.
+
+** Varianza de los {{{EMVs}}}
+
+Sean \(X_1, \cdots, X_n\) una {{{MMAA}}} con {{{FDP}}} conocida. Sea
+\(\hat{\theta}\) el {{{EMV}}} de \(\theta\), entonces
+\(g(\hat{\theta})\) es el {{{EMV}}} de \(g(\theta)\) cuando \(g(\theta)\) es
+inyectiva.
+
+*** Ejemplo
+Sea {{{X_1n}}} una {{{MMAA}}} con \(X\) \(\distributed\) \(Ber(\theta)\).
+Obtenga el {{{EMV}}} para \(g(\theta) = \theta - \theta^2 \).
+
+
+#+begin_center
+\(\hat{\theta}\) es el {{{EMV}}} de \(\theta\) entonces {{{entonces}}} por
+proposición de invarianza tenemos
+
+\[
+\widehat{g(\theta)} = g(\hat{\theta}) = \hat{\theta} - \hat{\theta}^2
+\]
+#+end_center
+
+Además, se nos da que la {{{FDP}}} de una distribución \(Ber(\theta)\) es:
+\[
+X \distributed Ber(\theta) = p(x) = \theta ^x \, (1-\theta)^{1-x}
+\]
+
+Así, calculamos el {{{EMV}}} --- que significa ocupar el {{{MMV}}} --- para
+\(f(x_i,\theta)\)
+
+#+begin_latex
+\[
+\frac
+{
+\partial
+\, (ln
+\, (\LL
+\, \, (\theta ^x \, (1-\theta)^{1-x})
+\: )
+\: )
+}
+{\partial \theta}
+\,
+\Bigg{|}_{\, \theta=\hat{\theta}}
+\iff
+\frac
+{\sum x_i}
+{\hat{\theta}}
+-\frac
+{(n-\sum x_i)}
+{1-\hat{\theta}}
+=0
+\]
+#+end_latex
+
+obteniendo:
+
+\[
+\hat{\theta}=\frac{\sum X_i}{n}=\overline{X}
+\]
+
+{{{por-lo-tanto}}}
+
+\[
+g(\hat{\theta})=\hat{\theta} - \hat\theta ^2
+=
+\overline X - \overline X^2 = \overline X (1- \overline X)
+\]
+
+** Sesgo de los {{{EMVs}}}
+
+Cuando \(E(\hat\theta)=\theta\) se dice que \(\hat\theta\) es un
+Estimador Insesgado. En caso contrario, se dice que \(\hat\theta\) es un
+Estimador Sesgado.
+
+Cuantificación del sesgo:
+
+\[
+\text{Sesgo} = B = E(\hat\theta) - \theta
+\]
+
+* Clase 16
+
+El {{{MMV}}} es /uno/ de los métodos disponibles para obtener Estimadores
+de los {{{PDIs}}} de una {{{MMAA}}}. También puede ocurrir que por distintos
+métodos obtengamos distintos Estimadores para una misma {{{MMAA}}}.
+
+Ahora se estudiaran formas para comparar distintos Estimadores y decidir
+cuál es mejor que otro.
+
+Los parámetros usados para determinar la calidad de un Estimador son:
+
+|     <c>      |              <c>               | <l>                           |
+|  Parámetro   |   Representación matemática    | Comportamiento                |
+|--------------+--------------------------------+-------------------------------|
+|    Sesgo     |   \(E[\hat\theta] - \theta\)   | \(\to 0 \iff\) menor sesgo.   |
+|--------------+--------------------------------+-------------------------------|
+|  Precisión   |      \(Var[\hat\theta]\)       | \(\to 0 \iff\) más precisión. |
+|--------------+--------------------------------+-------------------------------|
+|   Certeza    | \(E[(\hat\theta - \theta)^2]\) | \(\to 0 \iff\) más eficacia.  |
+| (eficiencia) |                                |                               |
+|--------------+--------------------------------+-------------------------------|
+
+
 
 * Local variables :noexport:
 # Local Variables:

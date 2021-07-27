@@ -157,11 +157,6 @@ igualando con \(\gamma_\text{máximo} = \frac{c \cdot \phi}{L}\) y despejando
 \[
 \phi=\frac{T \cdot L}{𝐽 \cdot G}
 \]
-
-
-
-
-
 ** Convención de signos
 * Clase 19
 ** Elemento cargado con torsión estáticamente indeterminado
