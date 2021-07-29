@@ -102,8 +102,11 @@ CLOSED: [2021-06-18 Fri 10:55] DEADLINE: <2021-06-15 Tue 08:30-11:00 -0d>
     - Deformación
     - Propiedades mecánicas de materiales
     - Carga axial
-*** TODO prueba3 34%
-DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
+*** DONE prueba3 34%
+CLOSED: [2021-07-27 Tue 15:31] DEADLINE: <2021-07-27 Tue 08:30-11:00 -0d>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-07-27 Tue 15:31]
+:END:
 ** Práctico 20%
 - 3 a 5 talleres
 - Tentativamente los viernes
