@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       92824512-8cb4-4379-9463-2d8859b46617
+:END:
 #+title: Malla
 
 * pdf
@@ -36,10 +39,14 @@
 *** DONE Termodinámica
 *** DONE Laboratorio de Programación II
 *** DONE Base de Datos
-** SOMEDAY 6 [3/6] [50%]
+** SOMEDAY 6 [4/6] [66%]
 *** DONE Investigación Operacional
 *** DONE Organización y Conducta Empresarial
-*** SOMEDAY Resistencia de Materiales
+*** DONE Resistencia de Materiales
+CLOSED: [2021-08-04 Wed 10:51]
+:LOGBOOK:
+- State "DONE"       from "SOMEDAY"    [2021-08-04 Wed 10:51]
+:END:
 *** SOMEDAY Complejidad Computacional
 *** DONE Mecánica de Fluidos
 *** SOMEDAY Electivo de Formación General II

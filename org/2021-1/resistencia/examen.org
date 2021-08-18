@@ -1,0 +1,899 @@
+:PROPERTIES:
+:ID:       89989bea-bdec-4a8b-8e13-7556c4c4031b
+:END:
+#+TITLE: Examen
+#+subtitle: Resumen para Examen de Resistencia de Materiales 2021-1
+#+date: 03 Agosto 2021
+#+author: [[mailto:m.fuica01@ufromail.cl][m.fuica01@ufromail.cl]]
+#+OPTIONS: toc:3
+#+language: es
+
+:HTML_SETTINGS:
+#+HTML_HEAD: <base target="_blank">
+:END:
+:LATEX_HEADERS:
+#+LATEX_HEADER: \usepackage{unicode-math}
+:END:
+
+* TOC :TOC_3:noexport:
+- [[#clases-grabadas][Clases grabadas]]
+- [[#temario][Temario]]
+- [[#resumen-previo-a-clase-12][Resumen previo a clase 12]]
+  - [[#esfuerzo-sigma-tau-][Esfuerzo \(\sigma\ ,\tau \)]]
+    - [[#normal-sigma][Normal \(\sigma\)]]
+    - [[#cortante-tau][Cortante \(\tau\)]]
+  - [[#esfuerzo-admisible-factor-de-seguridad-fs][Esfuerzo admisible: Factor de Seguridad (F.S.)]]
+  - [[#deformación-epsilon-gamma-][Deformación \(\epsilon\ ,\gamma \)]]
+    - [[#normal-epsilon][Normal \(\epsilon\)]]
+    - [[#cortante-gamma][Cortante \(\gamma\)]]
+    - [[#diagrama-esfuerzo-vs-deformación-unitaria][Diagrama esfuerzo vs deformación unitaria.]]
+    - [[#ley-de-hooke][Ley de Hooke]]
+    - [[#razon-de-poisson][Razon de Poisson]]
+    - [[#deformación-plástica][Deformación plástica]]
+  - [[#energía-de-deformación-unitaria-u][Energía de deformación unitaria \(U\)]]
+    - [[#densidad-de-energía-de-deformación-unitaria][Densidad de energía de deformación unitaria]]
+    - [[#resiliencia][Resiliencia]]
+    - [[#módulo-de-tenacidad][Módulo de tenacidad]]
+- [[#carga-axial-12-15][Carga Axial (12-15)]]
+  - [[#12][12]]
+    - [[#esfuerzo-sigma-y-deformación-epsilon-elástica-en-un-miembro-cargado-axialmente][Esfuerzo \(\sigma\) y deformación \(\epsilon\) elástica en un miembro cargado axialmente]]
+    - [[#despejando-el-desplazamiento-delta][Despejando el desplazamiento \(\delta\)]]
+  - [[#13][13]]
+    - [[#elemento-cargado-axialmente-estáticamente-indeterminado][Elemento cargado axialmente estáticamente indeterminado]]
+  - [[#14][14]]
+    - [[#esfuerzo-térmico][Esfuerzo térmico]]
+  - [[#15][15]]
+    - [[#factor-de-concentración-de-esfuerzos-k][Factor de concentración de esfuerzos \(K\)]]
+- [[#torsión-16-20][Torsión (16-20)]]
+  - [[#clase-16][Clase 16]]
+    - [[#deformación-gamma-por-torsión-en-un-eje-circular][Deformación \(\gamma\) por torsión en un eje circular]]
+    - [[#esfuerzo-tau-por-torsión-en-un-eje-circular][Esfuerzo \(\tau\) por torsión en un eje circular]]
+    - [[#esfuerzo-tau-en-función-del-momento-de-inercia-polar-j-respecto-del-centro][Esfuerzo \(\tau\) en función del momento de inercia polar \(J\) respecto del centro]]
+    - [[#momentos-de-inercia-polar-j-para-un-eje-tubular][Momentos de inercia polar \(J\) para un eje tubular]]
+  - [[#clase-17][Clase 17]]
+  - [[#clase-18][Clase 18]]
+    - [[#ángulo-de-torsión][Ángulo de torsión]]
+    - [[#convención-de-signos][Convención de signos]]
+  - [[#clase-19][Clase 19]]
+  - [[#clase-20][Clase 20]]
+    - [[#transmisión-de-potencia][Transmisión de potencia]]
+    - [[#radio-mínimo-necesario-para-aguantar-cierta-potencia][Radio mínimo necesario para aguantar cierta potencia]]
+- [[#flexión-21-23][Flexión (21-23)]]
+  - [[#clase-21-convención-de-signos][Clase 21: Convención de signos]]
+    - [[#fuerza-cortante-interna][Fuerza cortante interna]]
+    - [[#momento-flexor-interno][Momento flexor interno]]
+  - [[#clase-22][Clase 22]]
+    - [[#centroides-de-formas-comunes][Centroides de formas comunes]]
+    - [[#momento-de-inercia-de-formas-comunes][Momento de inercia de formas comunes]]
+    - [[#teorema-de-los-ejes-paralelos][Teorema de los ejes paralelos]]
+  - [[#clase-23][Clase 23]]
+    - [[#esfuerzo-flexor-sigma][Esfuerzo flexor \(\sigma\)]]
+- [[#clase-24][Clase 24]]
+  - [[#esfuerzo-cortante-transversal][Esfuerzo Cortante Transversal]]
+    - [[#viga-de-sección-transversal-rectangular][Viga de sección transversal rectangular]]
+    - [[#viga-de-sección-transversal-en-forma-de-h][Viga de sección transversal en forma de H]]
+- [[#resumen-del-resumen][Resumen del resumen]]
+  - [[#carga-axial-clase-12-15][Carga axial (clase 12-15)]]
+  - [[#torsión-clase-16-20][Torsión (clase 16-20)]]
+    - [[#deformación-gamma-por-torsión-en-un-eje-circular-1][Deformación \(\gamma\) por torsión en un eje circular]]
+    - [[#relación-entre-esfuerzo-y-deformación][Relación entre esfuerzo y deformación]]
+    - [[#esfuerzo-tau-por-torsión-en-un-eje-circular-1][Esfuerzo \(\tau\) por torsión en un eje circular]]
+    - [[#esfuerzo-tau-en-función-del-momento-de-inercia-polar-j][Esfuerzo \(\tau\) en función del momento de inercia polar \(J\)]]
+    - [[#momentos-de-inercia-polar-j-de-un-eje-tubular][Momentos de inercia polar \(J\) de un eje tubular]]
+    - [[#ángulo-de-torsión-1][Ángulo de torsión]]
+    - [[#torque-o-momento-torsor-por-transmisión-de-potencia][Torque (o momento torsor) por transmisión de potencia]]
+  - [[#flexión-clase-21-23][Flexión (clase 21-23)]]
+    - [[#datos-para-diferentes-distribuciones-de-fuerza-y-geometrías-transversales][Datos para diferentes distribuciones de fuerza y geometrías transversales]]
+- [[#clase-25-ejercicios-2-de-flexión-y-1-de-esfuerzo-cortante-transversal][Clase 25: ejercicios (2 de flexión y 1 de esfuerzo cortante transversal)]]
+
+* Calendario de clases :noexport:
+- [[id:d0bc647c-b38e-43b3-a2c5-7f55b8ae16c3][Calendario]]
+* Clases grabadas
+- https://www.youtube.com/playlist?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY
+* Temario
+| Unidad      | Clase |
+|-------------+-------|
+| Carga axial | 12-15 |
+| Torsión     | 16-20 |
+| Flexión     | 21-23 |
+|-------------+-------|
+* Resumen previo a clase 12
+** Esfuerzo \(\sigma\ ,\tau \)
+*** Normal \(\sigma\)
+
+\[
+\sigma = \frac{P}{A}
+\]
+
+
+|    <c>     | <l>                            |
+|------------+--------------------------------|
+|  Símbolo   | Significado                    |
+|------------+--------------------------------|
+| \(\sigma\) | Esfuerzo normal                |
+|   \(P\)    | Fuerza interna resultante      |
+|   \(A\)    | Área de la sección transversal |
+|------------+--------------------------------|
+
+*** Cortante \(\tau\)
+
+\[
+\tau = \frac{V}{A}
+\]
+
+|   <c>    | <l>                                |
+|----------+------------------------------------|
+| Símbolo  | Significado                        |
+|----------+------------------------------------|
+| \(\tau\) | Esfuerzo cortante                  |
+|  \(V\)   | Fuerza cortante interna resultante |
+|  \(A\)   | Área de la sección transversal     |
+|----------+------------------------------------|
+
+** Esfuerzo admisible: Factor de Seguridad (F.S.)
+
+\[
+F.S.=\frac{\sigma_{falla}}{\sigma_{admisible}}
+\qquad
+F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
+\]
+
+** Deformación \(\epsilon\ ,\gamma \)
+*** Normal \(\epsilon\)
+\[
+\epsilon_{promedio}=\frac{\Delta s' - \Delta s}{\Delta s}
+\]
+
+\[
+\Delta s'=(1+\epsilon) \cdot \Delta s
+\]
+
+
+|           <c>            | <l>                   |
+|--------------------------+-----------------------|
+|         Símbolo          | Significado           |
+|--------------------------+-----------------------|
+|       \(\epsilon\)       | Deformación           |
+|       \(\Delta s\)       | Longitud original     |
+|      \(\Delta s'\)       | Longitud final        |
+| \(\Delta s' - \Delta s\) | Variación de longitud |
+|--------------------------+-----------------------|
+
+*** Cortante \(\gamma\)
+\[
+\gamma = \frac{\pi}{2} - \theta'
+\]
+
+
+|        <c>        | <l>                             |
+|-------------------+---------------------------------|
+|      Símbolo      | Significado                     |
+|-------------------+---------------------------------|
+|    \(\gamma\)     | Variación de ángulo en radianes |
+| \(\frac{\pi}{2}\) | Ángulo original                 |
+|    \(\theta'\)    | Ángulo final                    |
+|-------------------+---------------------------------|
+
+
+- Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
+- Si el ángulo se abre \( \rightarrow \gamma < 0 \)
+
+*** Diagrama esfuerzo vs deformación unitaria.
+\[
+\frac {\sigma} {\epsilon}
+=
+\frac {\text{Esfuerzo}} {\text{Deformación}}
+=
+\frac {P/A} {\delta / L_o}
+=
+\frac {P/A}
+{\frac {\Delta s' - \Delta s} {\Delta s}
+}
+=
+\frac
+{\text{Carga}/\text{Área de la sección transversal}}
+{\frac {\text{Variacion de longitud}}
+{\text{Longitud inicial}}
+}
+\]
+
+#+caption: Esfuerzo vs Deformación Unitaria
+#+name: Esfuerzo vs Deformación Unitaria
+#+attr_html: :alt Esfuerzo vs Deformación Unitaria image :align center :width 70%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 13-40-09.png]]
+
+|       <c>       | <l>                                                        |
+|-----------------+------------------------------------------------------------|
+| Punto o Sección | Característica                                             |
+|-----------------+------------------------------------------------------------|
+|      ( 1 )      | Deformación elástica: vuelve a la forma original cuando se |
+|                 | quita la carga.                                            |
+|                 | - La primera sección del gráfico se aproxima lineal.       |
+|-----------------+------------------------------------------------------------|
+|    ( 2,3,4 )    | Deformación plástica: permanente.                          |
+|-----------------+------------------------------------------------------------|
+|      ( 3 )      | Endurecimiento por deformacion                             |
+|-----------------+------------------------------------------------------------|
+|  \(\sigma_u\)   | Esfuerzo último.                                           |
+|-----------------+------------------------------------------------------------|
+|  \(\sigma_Y\)   | Limite de elasticidad.                                     |
+|                 | - Pasado este límite, el objeto se empieza a deformar      |
+|                 | de forma permanente.                                       |
+|-----------------+------------------------------------------------------------|
+
+**** Estricción
+#+caption: Estricción
+#+attr_html: :alt Estricción image :align center :width 70%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 14-24-06.png]]
+- \(\sigma_f\): Esfuerzo de fractura.
+
+*** Ley de Hooke
+\[
+\sigma=E \cdot \epsilon
+\]
+
+*** Razon de Poisson
+**** Normal
+\[
+\nu= - \, \frac
+{\epsilon_\text{lateral}}
+{\epsilon_\text{longitudinal}}
+= - \frac
+{\delta_{r}}
+{r}
+= - \frac
+{\epsilon_r}
+{\epsilon_x}
+\]
+
+**** Cortante
+
+\[
+G = \frac
+{\tau}
+{\gamma}
+\]
+
+| G          | Módulo de elasticidad cortante           |
+| \(\tau\)   | Esfuerzo cortante                        |
+| \(\gamma\) | Deformación unitaria cortante (radianes) |
+
+*** Deformación plástica
+
+#+caption: Diagrama deformación elástica y plástica
+#+name: Diagrama deformación elástica y plástica.
+#+attr_html: :alt Diagrama deformación elástica y plástica. :align center :width 80%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 22-31-09.png]]
+
+** Energía de deformación unitaria \(U\)
+
+#+begin_center
+\[
+\Delta U = \frac{1}{2}\sigma \epsilon \Delta V
+\]
+\(\Delta V\): variación de volumen.
+#+end_center
+
+*** Densidad de energía de deformación unitaria
+
+\[
+u=\frac
+{\Delta U}
+{\Delta V}
+=
+\frac{1}{2} \sigma \epsilon
+\]
+
+Si estamos debajo del límite de elasticidad podemos aplicar Ley de Hooke:
+
+#+begin_center
+\[
+u=\frac{1}{2} \cdot \frac{\sigma^2}{E}
+\]
+; \(\sigma=E\epsilon\)
+#+end_center
+
+*** Resiliencia
+
+\[
+u_r=\frac{1}{2}\sigma_{lp}\epsilon_{lp}=
+\frac{1}{2} \cdot \frac{\sigma^{2}_{lp}}{E}
+\]
+
+#+caption: Módulo de resiliencia
+#+name: Módulo de resiliencia
+#+attr_html: :alt Módulo de resiliencia :align center :width 40%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 23-14-22.png]]
+
+\(u_r\) representa la capacidad de un cuerpo de absorber energía sin ningún
+daño permanente: resiliencia. Es el área de un triángulo.
+
+*** Módulo de tenacidad
+
+\(u_t\), la energía que puede absorber un material antes de que se rompa.
+
+#+caption: Módulo de tenacidad
+#+name: Módulo de tenacidad
+#+attr_html: :alt Módulo de tenacidad :align center :width 40%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 23-24-18.png]]
+
+* Carga Axial (12-15)
+** 12
+:PROPERTIES:
+:ID:       7672c17a-d700-4bb2-ac6e-9c904cb58195
+:END:
+*** Esfuerzo \(\sigma\) y deformación \(\epsilon\) elástica en un miembro cargado axialmente
+\[
+\sigma = \frac{P}{A}
+\qquad
+\qquad
+\epsilon = \frac{\delta}{L}
+\]
+
+|     <c>      |      <c>       |
+|--------------+----------------|
+|   Símbolo    |  Significado   |
+|--------------+----------------|
+|  \(\sigma\)  |    Esfuerzo    |
+|      P       |     Fuerza     |
+|      A       |      Área      |
+|--------------+----------------|
+| \(\epsilon\) |  Deformación   |
+|  \(\delta\)  | Desplazamiento |
+|      L       |   Distancia    |
+|--------------+----------------|
+
+*** Despejando el desplazamiento \(\delta\)
+- \(\sigma = E \cdot \epsilon \)
+- \(\frac{P}{A}=E \cdot \frac{\delta}{L} \)
+
+
+
+\[
+\delta=\frac{P \cdot L}{A \cdot E}
+\]
+
+|   <c>   |          <c>          |
+|---------+-----------------------|
+| Símbolo |      Significado      |
+|---------+-----------------------|
+|    E    | Módulo de elasticidad |
+|---------+-----------------------|
+
+** 13
+*** Elemento cargado axialmente estáticamente indeterminado
+:PROPERTIES:
+:ID:       ad754726-f91c-4d93-808d-b4472eca0fa6
+:END:
+- Las ecuaciones de la clase 12 se igualan a 0. Una segunda ecuación
+  aparece de las ecuaciones de equilibrio del problema.
+  + Clase 12
+    - [[id:7672c17a-d700-4bb2-ac6e-9c904cb58195]]
+** 14
+*** Esfuerzo térmico
+\[
+\delta_T= \alpha \cdot \Delta\ T \cdot L
+\]
+
+|      <c>      |                         <c>                          |
+|---------------+------------------------------------------------------|
+|    Símbolo    |                     Significado                      |
+|---------------+------------------------------------------------------|
+| \(\delta_T\)  | Cambio en la longitud del miembro por efecto térmico |
+|  \(\alpha\)   |          Coeficiente de dilatación térmica           |
+|               |           \([\alpha]=\frac{1}{C^{\circ}}\)           |
+| \(\Delta\ T\) |                Cambio de temperatura                 |
+|     \(L\)     |            Longitud inicial del elemento             |
+|---------------+------------------------------------------------------|
+
+Así, tenemos:
+
+\[
+\sigma = E \cdot \alpha \cdot \Delta\ T
+\]
+
+** 15
+*** Factor de concentración de esfuerzos \(K\)
+\[
+K = \frac
+{\sigma_{\text{máximo}}}
+{\sigma_{\text{promedio}}}
+\]
+* Torsión (16-20)
+** Clase 16
+*** Deformación \(\gamma\) por torsión en un eje circular
+Si tenemos:
+
+#+CAPTION: Deformación \(\gamma\) por torsión en un eje circular
+#+NAME: Deformación por torsión en un eje circular
+#+ATTR_HTML: :alt Deformación \(\gamma\) por torsión en un eje circular image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-24-50.png]]
+
+podemos definir la deformación por torsión \(\gamma\) como:
+
+#+begin_center
+\[
+\gamma = \frac{\rho \, \phi}{L}
+\]
+; \(\gamma\) y \(\phi\) medidos en radianes.
+#+end_center
+
+y la ecuación para cualquier deformación dentro del cuerpo para un radio máximo
+de \(c\):
+
+#+CAPTION: Deformación por torsión en un eje circular 2
+#+NAME: Deformación por torsión en un eje circular2
+#+ATTR_HTML: :alt Deformación por torsión en un eje circular 2 image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-33-10.png]]
+
+\[
+\gamma = \frac{\rho}{c}\cdot \gamma_{\text{máximo}}
+\]
+
+*** Esfuerzo \(\tau\) por torsión en un eje circular
+**** sólido
+
+#+CAPTION: Esfuerzo \(\tau\) por torsión en un eje circular sólido
+#+NAME: Esfuerzo por torsión en un eje circular sólido
+#+ATTR_HTML: :alt Esfuerzo \(\tau\) por torsión en un eje circular sólido image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-46-37.png]]
+
+
+#+begin_center
+\[
+G \, \gamma = \tau
+\quad
+;
+\quad
+\tau=\frac{\rho}{c}\cdot \tau_{\text{máximo}}
+\]
+; donde \(G\) es el módulo de rigidez o módulo de corte del material.
+#+end_center
+
+**** con agujero interior
+
+#+CAPTION: Esfuerzo por torsión en un eje circular con un agujero interior
+#+NAME: Esfuerzo por torsión en un eje circular con un agujero interior
+#+ATTR_HTML: :alt Esfuerzo por torsión en un eje circular con un agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 22-55-05.png]]
+
+
+\[
+\tau_{\text{mínimo}}=\frac{c_1}{c_2}\cdot \tau_{\text{máximo}}
+\]
+
+*** Esfuerzo \(\tau\) en función del momento de inercia polar \(J\) respecto del centro
+
+#+begin_center
+\[
+\tau=\frac{T \cdot \rho}{J}
+\quad
+;
+\quad
+\tau_{\text{máximo}}=\frac{T \cdot c}{J}
+\]
+; \(T\): momento torsor, torque.
+#+end_center
+
+*** Momentos de inercia polar \(J\) para un eje tubular
+
+La dimensión del momento de inercia es de /longitud a la cuarta potencia/.
+
+**** sólido
+
+#+CAPTION: Eje tubular sólido
+#+NAME: Eje tubular sólido
+#+ATTR_HTML: :alt Eje tubular sólido image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-14-47.png]]
+
+\[
+J=\frac{\pi}{2} \cdot c^4
+\]
+**** con agujero interior
+
+#+CAPTION: Eje tubular con agujero interior
+#+NAME: Eje tubular con agujero interior
+#+ATTR_HTML: :alt Eje tubular con agujero interior image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-30 23-10-39.png]]
+
+\[
+J=\frac{\pi}{2} \cdot (c_2^4-c_1^4)
+\]
+
+** Clase 17
+- Ejemplos para reforzar la clase 16.
+** Clase 18
+*** Ángulo de torsión
+
+\[
+\gamma_{\text{máximo}}=\frac{\tau_{\text{máximo}}}{G}
+=
+\frac{T \cdot c}{J \cdot G}
+\]
+
+igualando con \(\gamma_\text{máximo} = \frac{c \cdot \phi}{L}\) y despejando
+\(\phi\) tenemos:
+
+\[
+\phi=\frac{T \cdot L}{J \cdot G}
+\]
+*** Convención de signos
+** Clase 19
+- Problemas estáticamente indeterminados
+  + Misma analogía que clase 13
+    - [[id:ad754726-f91c-4d93-808d-b4472eca0fa6]]
+
+
+- Eje tubular compuesto de diferentes materiales
+  - https://youtu.be/kYGmVnWMFgQ?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2310
+** Clase 20
+*** Transmisión de potencia
+
+#+CAPTION: Potencia
+#+NAME: Transmisión de potencia
+#+ATTR_HTML: :alt Potencia image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-12 20-25-06.png]]
+
+- Por un lado
+  \[
+  P=\frac{W}{d}=\frac{F \cdot d}{t}=F \cdot v
+  \]
+
+  #+begin_center
+  Con relación entre velocidad angular y lineal como
+  \[
+  v=\omega \cdot r
+  \]
+  tenemos:
+  #+end_center
+
+  \[
+  P=F \cdot \omega \cdot r
+  \]
+
+
+- Por otro lado
+  \[
+  P= T \cdot \omega
+  \]
+  #+begin_center
+  y para términos prácticos también es conveniente saber que
+  #+end_center
+  \[
+  P= 2 \pi \cdot f \cdot T
+  \]
+
+
+- De las dos ecuaciones podemos deducir que
+
+
+\[
+T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
+\]
+
+
+|   <c>   | <l>                         | <l>                                |
+| Símbolo | Significado                 | Comentario                         |
+|---------+-----------------------------+------------------------------------|
+|    T    | Momento de torsión, torque. | hp: /horse power/                  |
+|         |                             | \(1 hp=550 \frac{ft \cdot lb}{s}\) |
+|         |                             | \(= 6600 \frac{in \cdot lb}{s}\)   |
+|---------+-----------------------------+------------------------------------|
+|    P    | Potencia                    |                                    |
+|    w    | Velocidad angular           |                                    |
+|    f    | Frecuencia de rotación      |                                    |
+|    T    | Momento de torsión          |                                    |
+|---------+-----------------------------+------------------------------------|
+
+*** Radio mínimo necesario para aguantar cierta potencia
+- [[https://youtu.be/b-v3qikJHm8?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1294][Radio mínimo necesario para aguantar cierta potencia]]
+* Flexión (21-23)
+** Clase 21: Convención de signos
+*** Fuerza cortante interna
+#+CAPTION: Convención de signos de Fuerza cortante interna
+#+NAME: Convención de signos de Fuerza cortante interna
+#+ATTR_HTML: :alt Convención de signos de Fuerza cortante interna image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-31 23-02-39.png]]
+*** Momento flexor interno
+#+CAPTION: Convención de signos de Momento flexor interno
+#+NAME: Convención de signos de Momento flexor interno
+#+ATTR_HTML: :alt Convención de signos de Momento flexor interno image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-31 23-03-53.png]]
+** Clase 22
+:PROPERTIES:
+:ID:       a6c5d47f-3b20-4c30-baf1-c0e3b2f2834a
+:END:
+
+|   |                      <r> | <l>                |
+| / |                        > |                    |
+|---+--------------------------+--------------------|
+|   |  Primer momento del area | Centroide          |
+|   | Segundo momento del area | Momento de inercia |
+|---+--------------------------+--------------------|
+
+-----
+
+|   | Momento | Representación matemática |
+| / | >       |                           |
+|---+---------+---------------------------|
+|   | Primero | \(\int x \, dA\)          |
+|   | Segundo | \(\int x^2 \, dA\)        |
+|---+---------+---------------------------|
+
+*** Centroides de formas comunes
+**** Rectángulo
+#+CAPTION: Centroide de un rectángulo
+#+NAME: Centroide de un rectángulo
+#+ATTR_HTML: :alt Centroide de un rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 22-27-59.png]]
+**** Triángulo rectángulo
+#+CAPTION: Centroide de un triángulo rectángulo
+#+NAME: Centroide de un triángulo rectángulo
+#+ATTR_HTML: :alt Centroide de un triángulo rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 22-28-10.png]]
+
+*** Momento de inercia de formas comunes
+**** Rectángulo
+#+CAPTION: Momento de inercia de un rectángulo
+#+NAME: Momento de inercia de un rectángulo
+#+ATTR_HTML: :alt Momento de inercia de un rectángulo image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-17-19.png]]
+
+*** Teorema de los ejes paralelos
+#+CAPTION: Teorema de los ejes paralelos
+#+NAME: Teorema de los ejes paralelos
+#+ATTR_HTML: :alt Teorema de los ejes paralelos image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-36-49.png]]
+
+#+CAPTION: Teorema de los ejes paralelos - leyenda
+#+NAME: Teorema de los ejes paralelos - leyenda
+#+ATTR_HTML: :alt Teorema de los ejes paralelos - leyenda image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-07-26 23-44-54.png]]
+
+** Clase 23
+*** Esfuerzo flexor \(\sigma\)
+\[
+\sigma= - \frac{M \cdot y}{I}
+\]
+
+|    <c>     |                       <c>                       |
+|  Símbolo   |                   Significado                   |
+|------------+-------------------------------------------------|
+| \(\sigma\) |              Esfuerzo por flexión               |
+|   \(M\)    |           Momento interno resultante            |
+|   \(y\)    | Distancia perpendicular del punto al eje neutro |
+|   \(I\)    |  Momento de inercia de la sección transversal   |
+|------------+-------------------------------------------------|
+
+El esfuerzo máximo \(\sigma_{\text{máximo}}\) se obtiene cuando \(y=c\).
+
+Obsérvese que:
+
+\[
+\frac{d\ I}{dx}=\frac{d\ (\int x^2 \ dA)}{dx} \\
+\text{luego} \\
+\frac{d\ I}{dx}=\int x\ dA
+\]
+
+combinando esto con la materia recién presentada tenemos que:
+
+\[
+\frac{d\ M(x)}{dx}=V(x)
+\]
+
+se entiende: "La derivada del momento flexor es igual a la fuerza cortante",
+que se puede comprobar gráficamente en los gráficos de clases siguientes.
+- Diagramas de fuerza cortante y momento flexor para diferentes distribuciones
+  + [[id:01c50caf-3ca6-4031-b33d-0f2f0f85d9a8]]
+
+* Clase 24
+** Esfuerzo Cortante Transversal
+- Clase 24: Esfuerzo Cortante Transversal
+  + 23:18
+    - https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1388
+
+
+\[
+\tau=
+\frac
+{V \cdot Q}
+{I \cdot t}
+\]
+
+|   <c>    |                              <c>                               |
+| Símbolo  |                          Significado                           |
+|----------+----------------------------------------------------------------|
+| \(\tau\) |                 Esfuerzo cortante transversal                  |
+|  \(V\)   |               Fuerza cortante interna resultante               |
+|  \(Q\)   |                        \(\int y \ dA\)                         |
+|  \(I\)   |          Momento de inercia de la sección transversal          |
+|  \(t\)   | Ancho de sección transversal donde se quiere calcular \(\tau\) |
+|----------+----------------------------------------------------------------|
+
+
+*** Viga de sección transversal rectangular
+- https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1592
+
+
+
+#+caption: Viga de sección transversal rectangular
+#+name: Viga de sección transversal rectangular
+#+attr_html: :alt Viga de sección transversal rectangular image :align center :width 30%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-02-59.png]]
+
+\[
+Q = \frac{1}{2}
+\left(
+\frac{h^2}{4}-y^2
+\right)
+\cdot b
+\]
+
+|   <c>   |                             <c>                              |
+| Símbolo |                         Significado                          |
+|---------+--------------------------------------------------------------|
+|  \(b\)  |               Ancho de la sección transversal                |
+|  \(h\)  |               Altura de la sección transversal               |
+|  \(y\)  |  Distancia medida desde el eje neutro hasta donde se quiere  |
+|         |                        calcular \(Q\)                        |
+|         | (Si se calcula en el centroide entonces \(\rightarrow y=0\)) |
+|---------+--------------------------------------------------------------|
+
+Así, tenemos:
+\[
+\tau = \frac{6V}{bh^3}
+\left(
+\frac{h^2}{4}-y^2
+\right)
+\]
+
+Y el \(\tau_{\text{máximo}}\) ocurre cuando \(y=\frac{h}{2}\) por lo tanto
+\(\rightarrow\)
+
+\[
+\tau_{\text{máximo}}=1.5 \frac{V}{A}
+\]
+
+#+caption: Esfuerzo de viga de sección transversal rectangular
+#+name: Esfuerzo de viga de sección transversal rectangular
+#+attr_html: :alt Esfuerzo de viga de sección transversal rectangular image :align center :width 30%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 06-57-50.png]]
+
+*** Viga de sección transversal en forma de H
+- https://youtu.be/JEMftQdE7K4?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2047
+
+
+
+#+caption: Viga de sección transversal en forma de H
+#+name: Viga de sección transversal en forma de H
+#+attr_html: :alt Viga de sección transversal en forma de H image :align center :width 30%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-07-29.png]]
+
+#+caption: Esfuerzo de viga de sección transversal en forma de H
+#+name: Esfuerzo de viga de sección transversal en forma de H
+#+attr_html: :alt Esfuerzo de viga de sección transversal en forma de H image :align center :width 30%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-09-45.png]]
+
+* Resumen del resumen
+** Carga axial (clase 12-15)
+** Torsión (clase 16-20)
+- \(\rho\) se refiere a un radio interior variable.
+- \(c\) se refiere al radio máximo \(\rightarrow\)
+  \(\rho_{\text{máximo}}=c\)
+*** Deformación \(\gamma\) por torsión en un eje circular
+#+begin_center
+\[
+\gamma = \frac{\rho \, \phi}{L}
+\]
+; \(\gamma\) y \(\phi\) medidos en radianes.
+#+end_center
+
+*** Relación entre esfuerzo y deformación
+
+\[
+G = \frac{\tau}{\gamma}
+\]
+
+|    <c>     |             <c>             |
+|  Símbolo   |         Significado         |
+|------------+-----------------------------|
+|  \(\tau\)  |          Esfuerzo           |
+| \(\gamma\) |         Deformación         |
+|     G      | Módulo de rigidez (o corte) |
+|------------+-----------------------------|
+
+*** Esfuerzo \(\tau\) por torsión en un eje circular
+
+\[
+\tau=\tau (\rho) = \frac{\rho}{c}\cdot \tau_{\text{máximo}}
+\]
+
+*** Esfuerzo \(\tau\) en función del momento de inercia polar \(J\)
+
+#+begin_center
+\[
+\tau=\frac{T \cdot \rho}{J}
+\]
+; \(T\): momento torsor, torque.
+#+end_center
+
+*** Momentos de inercia polar \(J\) de un eje tubular
+- Si es un eje sólido \(\rightarrow \; c_\text{interior} = 0 \)
+
+
+\[
+J=\frac{\pi}{2} \cdot (c^{4}_{\text{exterior}}-c^{4}_{\text{interior}})
+\]
+
+*** Ángulo de torsión
+
+\[
+\phi=\frac{T \cdot L}{J \cdot G}
+\]
+
+*** Torque (o momento torsor) por transmisión de potencia
+\[
+T=\frac{P}{\omega}=\frac{P}{2\pi \cdot f}
+\]
+#+begin_center
+\(1 hp = 550 \frac{ft \cdot lb}{s} = 6600 \frac{in \cdot lb}{s} \)
+#+end_center
+
+** Flexión (clase 21-23)
+*** Datos para diferentes distribuciones de fuerza y geometrías transversales
+:PROPERTIES:
+:ID:       01c50caf-3ca6-4031-b33d-0f2f0f85d9a8
+:END:
+**** Viga con carga puntual
+- https://youtu.be/HQsVGpOyOOI?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=1087
+
+
+#+caption: Viga cor carga puntual
+#+name: Viga cor carga puntual
+#+attr_html: :alt Viga cor carga puntual image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-22-01.png]]
+
+***** Diagramas de fuerza cortante y momento flexor
+#+caption: Diagramas de fuerza cortante y momento flexor
+#+name: Diagramas de fuerza cortante y momento flexor
+#+attr_html: :alt Diagramas de fuerza cortante y momento flexor image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-27-57.png]]
+
+\[
+V_{\text{máxima}}=\frac{P}{2} \rightarrow 0\ \leq\ x \leq\ L
+\]
+
+\[
+M_{\text{máximo}}=\frac{PL}{4} \rightarrow x=L/2
+\]
+
+**** Viga con carga distribuida
+- https://youtu.be/HQsVGpOyOOI?list=PL42VjjVQrato8I__VEBOLETDnPKK_EMaY&t=2668
+
+
+#+caption: Viga cor carga distribuida
+#+name: Viga cor carga distribuida
+#+attr_html: :alt Viga cor carga distribuida image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-34-27.png]]
+
+***** Diagramas de fuerza cortante y momento flexor
+
+#+caption: Diagramas de fuerza cortante y momento flexor
+#+name: Diagramas de fuerza cortante y momento flexor
+#+attr_html: :alt Diagramas de fuerza cortante y momento flexor image :align center :width 50%
+[[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-08-03 07-37-46.png]]
+
+\[
+V_{\text{máxima}}=\frac{wL}{2} \ \text{en}\ x=0\ \&\ x=L
+\]
+
+\[
+M_{\text{máximo}}=\frac{wL^{2}}{8} \ \text{en}\ L/2
+\]
+
+* Clase 25: ejercicios (2 de flexión y 1 de esfuerzo cortante transversal)
+- https://youtu.be/6x5tSRXhkMc
+* Local variables :noexport:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:

@@ -2,11 +2,35 @@
 #+date: [2021-06-14 Mon]
 #+author: Manuel Fuica Morales
 
-** Resumen prueba2
+* TOC :TOC_2:noexport:
+- [[#resumen-prueba2][Resumen prueba2]]
+- [[#esfuerzo][Esfuerzo]]
+  - [[#normal][Normal]]
+  - [[#cortante][Cortante]]
+  - [[#esfuerzo-admisible-factor-de-seguridad-fs][Esfuerzo admisible: Factor de Seguridad (F.S.)]]
+- [[#deformación][Deformación]]
+  - [[#normal-1][Normal]]
+  - [[#cortante-1][Cortante]]
+  - [[#diagrama-esfuerzo-vs-deformación-unitaria][Diagrama esfuerzo vs deformación unitaria.]]
+  - [[#restriction][Restriction]]
+  - [[#ley-de-hooke][Ley de Hooke]]
+  - [[#razon-de-poisson][Razon de Poisson]]
+  - [[#deformación-plástica][Deformación plástica]]
+- [[#energía-de-deformación-unitaria][Energía de deformación unitaria]]
+  - [[#densidad-de-energía-de-deformación-unitaria][Densidad de energía de deformación unitaria]]
+  - [[#resiliencia][Resiliencia]]
+  - [[#módulo-de-tenacidad][Módulo de tenacidad]]
+- [[#carga-axial][Carga axial]]
+- [[#esfuerzo-térmico][Esfuerzo térmico]]
+  - [[#esfuerzo-térmico-1][Esfuerzo térmico]]
+  - [[#acerca-de-alpha][Acerca de \(\alpha\)]]
+- [[#concentración-de-esfuerzo][Concentración de esfuerzo]]
+
+* Resumen prueba2
 - Desde clase 8 a clase 15
 
-*** Esfuerzo
-**** Normal
+* Esfuerzo
+** Normal
 
 \[
 \sigma = \frac{P}{A}
@@ -22,7 +46,7 @@
 |   \(A\)    | Área de la sección transversal |
 |------------+--------------------------------|
 
-**** Cortante
+** Cortante
 
 \[
 \tau = \frac{V}{A}
@@ -37,7 +61,7 @@
 |  \(A\)   | Área de la sección transversal     |
 |----------+------------------------------------|
 
-**** Esfuerzo admisible: Factor de Seguridad (F.S.)
+** Esfuerzo admisible: Factor de Seguridad (F.S.)
 
 \[
 F.S.=\frac{\sigma_{falla}}{\sigma_{admisible}}
@@ -45,8 +69,8 @@ F.S.=\frac{\sigma_{falla}}{\sigma_{admisible}}
 F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 \]
 
-*** Deformación
-**** Normal
+* Deformación
+** Normal
 \[
 \epsilon_{promedio}=\frac{\Delta s' - \Delta s}{\Delta s}
 \]
@@ -66,7 +90,7 @@ F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 | \(\Delta s' - \Delta s\) | Variación de longitud |
 |--------------------------+-----------------------|
 
-**** Caso cortante
+** Cortante
 \[
 \gamma = \frac{\pi}{2} - \theta'
 \]
@@ -85,7 +109,7 @@ F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 - Si el ángulo se cierra \( \rightarrow \gamma > 0 \)
 - Si el ángulo se abre \( \rightarrow \gamma < 0 \)
 
-**** Diagrama esfuerzo vs deformación unitaria.
+** Diagrama esfuerzo vs deformación unitaria.
 \[
 \frac {\sigma} {\epsilon}
 =
@@ -128,18 +152,18 @@ F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 |                 | de forma permanente.                                       |
 |-----------------+------------------------------------------------------------|
 
-**** Estriccion
+** Restriction
 #+caption: Estricción
 #+attr_html: :alt Estricción image :align center :width 70%
 [[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 14-24-06.png]]
 - \(\sigma_f\): Esfuerzo de fractura.
 
-**** Ley de Hooke
+** Ley de Hooke
 \[
 \sigma=E \cdot \epsilon
 \]
 
-**** Razon de Poisson
+** Razon de Poisson
 
 \[
 \nu= - \, \frac
@@ -152,7 +176,8 @@ F.S.=\frac{\tau_{falla}}{\tau_{admisible}}
 {\epsilon_r}
 {\epsilon_x}
 \]
-***** Caso cortante
+
+*** Caso cortante
 
 \[
 G = \frac
@@ -164,14 +189,14 @@ G = \frac
 | \(\tau\)   | Esfuerzo cortante                        |
 | \(\gamma\) | Deformación unitaria cortante (radianes) |
 
-**** Deformación plástica
+** Deformación plástica
 
 #+caption: Diagrama deformación elástica y plástica
 #+name: Diagrama deformación elástica y plástica.
 #+attr_html: :alt Diagrama deformación elástica y plástica. :align center :width 80%
 [[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 22-31-09.png]]
 
-*** Energía de deformación unitaria
+* Energía de deformación unitaria
 
 #+begin_center
 \[
@@ -180,7 +205,7 @@ G = \frac
 \(\Delta V\): variación de volumen.
 #+end_center
 
-**** Densidad de energía de deformación unitaria
+** Densidad de energía de deformación unitaria
 
 \[
 u=\frac
@@ -198,7 +223,7 @@ u=\frac{1}{2} \cdot \frac{\sigma^2}{E}
 \]
 ; \(\sigma=E\epsilon\)
 #+end_center
-**** Resiliencia
+** Resiliencia
 
 \[
 u_r=\frac{1}{2}\sigma_{lp}\epsilon_{lp}=
@@ -213,7 +238,7 @@ u_r=\frac{1}{2}\sigma_{lp}\epsilon_{lp}=
 \(u_r\) representa la capacidad de un cuerpo de absorber energía sin ningún
 daño permanente: resiliencia. Es el área de un triángulo.
 
-**** Módulo de tenacidad
+** Módulo de tenacidad
 
 \(u_t\), la energía que puede absorber un material antes de que se rompa.
 
@@ -222,7 +247,7 @@ daño permanente: resiliencia. Es el área de un triángulo.
 #+attr_html: :alt Módulo de tenacidad :align center :width 40%
 [[file:~/myDrive/uni/2021-1/resis/Screenshot from 2021-06-09 23-24-18.png]]
 
-*** Carga axial
+* Carga axial
 Tenemos:
 
 - Esfuerzo normal
@@ -280,8 +305,8 @@ Y despejando \(\delta\) obtenemos:
 | \(\delta > 0\) | alargamiento |
 | \(\delta < 0\) | contracción  |
 |----------------+--------------|
-*** Esfuerzo térmico
-**** Esfuerzo térmico
+* Esfuerzo térmico
+** Esfuerzo térmico
 
 \[
 \delta_T=\alpha \cdot \Delta T \cdot L
@@ -304,7 +329,7 @@ Y despejando \(\delta\) obtenemos:
 | \(\delta_T\) | Cambio en la longitud del objeto.         |
 |--------------+-------------------------------------------|
 
-**** Acerca de \(\alpha\)
+** Acerca de \(\alpha\)
 
 #+begin_quote
 "\(\alpha\): Propiedad del material llamada coeficiente lineal de dilatación
@@ -324,8 +349,8 @@ Calculando para esfuerzo:
 \sigma = \frac{P}{A} = E \cdot \alpha \cdot \Delta T
 \]
 
-*** Concentración de esfuerzo
-***** Distancia mínima para esfuerzo uniforme
+* Concentración de esfuerzo
+*** Distancia mínima para esfuerzo uniforme
 #+caption: Distancia mínima para esfuerzo uniforme
 #+name: Distancia minima para esfuerzo uniforme
 #+attr_html: :alt Distancia minima para esfuerzo uniforme  image :align center :width 80%
@@ -335,7 +360,7 @@ Suponiendo que el objeto es un rectángulo de largo infinito y ancho \(c\),
 el esfuerzo se vuelve uniforme a una distancia \(c\) del punto de aplicación
 de la fuerza.
 
-***** Factor de Concentración de Esfuerzo
+*** Factor de Concentración de Esfuerzo
 
 \[
 K=\text{factor de concentración de esfuerzo}=
